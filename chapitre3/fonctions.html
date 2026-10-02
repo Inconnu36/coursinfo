@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Les fonctions prédéfinies</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V. Fonctions prédéfinies (ou intégrées) en Python — Chapitre 3 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre3/exceptions.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre3.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="V. Fonctions prédéfinies (ou intégrées) en Python. NB: Certaines fonctions ( sum(), range(), sorted() et bool() ) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="V. Fonctions prédéfinies (ou intégrées) en Python — Chapitre 3 — Cours d’informatique">
+<meta name="twitter:description" content="V. Fonctions prédéfinies (ou intégrées) en Python. NB: Certaines fonctions ( sum(), range(), sorted() et bool() ) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les">
+<meta property="og:title" content="V. Fonctions prédéfinies (ou intégrées) en Python — Chapitre 3 — Cours d’informatique">
+<meta property="og:description" content="V. Fonctions prédéfinies (ou intégrées) en Python. NB: Certaines fonctions ( sum(), range(), sorted() et bool() ) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les">
+<meta property="og:type" content="website">
+<link rel="canonical" href="fonctions.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre3/fonctions.html">
 </head>
-<body>
+<body data-style="chapitre3-exceptions">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<table align="center" >
-    <tr text-decoration = "underline">
-      <td align="center" > <a href="structures.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="exceptions.html"> <u>Suivant</u> </a></td>
-    </tr>
-  </table>
 </center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Langages de programmation (Python)</option>
-  <option value="introduction.html">I. Introduction</option>
-  <option value="variables.html">II. les variables</option>
-  <option value="instruction.html">III. Les instructions de base</option>
-  <option value="structures.html">IV. Structures de contrôle de base</option>
-  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
-  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-  <p><center><a href="docpdf/fonctions.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+  <p></p>
+<center>
+<a href="docpdf/fonctions.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
   <hr>
 
 
@@ -56,10 +54,12 @@
 
 
 
- <h2>V. <span class="highlight">Fonctions prédéfinies (ou intégrées) en Python</span></h2>
-  <h3>1. <span class="section-title">Fonctions utilitaires générales</span></h3>
+ <h1 class="page-title">V. <span class="highlight">Fonctions prédéfinies (ou intégrées) en Python</span>
+</h1>
+  <h3>1. <span class="section-title">Fonctions utilitaires générales</span>
+</h3>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
@@ -125,7 +125,7 @@ len("Python")<br><br>
 tupe(3.14)<br>
     </td>
     <td>
-<'float'><br>
+&lt;'float'&gt;<br>
     </td>
   </tr>
 
@@ -240,7 +240,7 @@ max(12,14,10,8,16,11)
     <td>
   pow(a,b)
      </td>
-      <td >
+      <td>
 Élève a à la puissance b
     </td>
       <td>
@@ -337,21 +337,22 @@ True
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">NB: </span> Certaines fonctions (<span style="font-weight: bold; color:red;text-decoration: green wavy ;">sum(), range(), sorted() et bool()</span>) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les élèves à leur utilité dans la programmation en Python.
-</p>
+</span></p>
 
 
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<h3>2. <span class="section-title">Fonctions nécessitant l'importation de modules</span></h3>
-<P>Certaines fonctions ne sont pas disponibles directement dans Python. Il faut importer un module externe pour pouvoir les utiliser.</P>
+<h3>2. <span class="section-title">Fonctions nécessitant l'importation de modules</span>
+</h3>
+<p>Certaines fonctions ne sont pas disponibles directement dans Python. Il faut importer un module externe pour pouvoir les utiliser.</p>
 
 <span class="sous-title">a- Module math </span>
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 2px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">À importer: </span> <span style="font-weight: bold; color:navy;text-decoration: green wavy ;">import math ou from math import *</span>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
@@ -511,13 +512,13 @@ log10(5)
 </table>
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">NB: </span> Certaines fonctions (<span style="font-weight: bold; color:red;text-decoration: green wavy ;">factorial(), log() et log10()) </span>) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les élèves à leur utilité dans la programmation en Python.
-</p>
+</span></p>
 <!--------------------------------------------------------------------------------------------------------------------------------->
 <span class="sous-title">b- Module random – Génération de nombres aléatoires </span>
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 2px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">À importer: </span> <span style="font-weight: bold; color:navy;text-decoration: green wavy ;">import random ou from random import*</span>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
@@ -583,7 +584,7 @@ shuffle(liste)
 </table>
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">NB: </span> Certaines fonctions (<span style="font-weight: bold; color:red;text-decoration: green wavy ;">choice(liste) et shuffle(liste) ) </span>) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les élèves à leur utilité dans la programmation en Python.
-</p>
+</span></p>
 
 
 
@@ -598,7 +599,7 @@ shuffle(liste)
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 2px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">À importer: </span> <span style="font-weight: bold; color:navy;text-decoration: green wavy ;">import datetime</span>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
@@ -648,8 +649,8 @@ date = datetime.strptime(d, "%d-%m-%Y")
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </span></p></span></p></span></p>
+</div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

@@ -1,0 +1,513 @@
+[
+  {
+    "path": "chapitre1/cartemere.html",
+    "title": "IV- La carte mère",
+    "chapter": "chapitre1",
+    "description": "IV- La carte mère. La carte mère est une plaque électronique qui sert à connecter entre eux les composants de l’ordinateur (processeur, RAM, carte graphique, etc.) et assure leur communication ainsi ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/corr1.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre1",
+    "description": "Correction — Correction. Correction N°1 1- Combien d’informations sont représentées par 8 bits ? 256 informations 2- Qu’est-ce qu’une information binaire ? Une information binaire est un groupement des ‘0’",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/corr2.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre1",
+    "description": "Correction — Correction. Correction N°2 1- Compléter le schéma suivant : 1- unité centrale 2- les organes périphériques 3- la mémoire centrale 4- unité de commande 5- unité arithmétique et logique 6- périp",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/definitions.html",
+    "title": "I- Notions et Définition",
+    "chapter": "chapitre1",
+    "description": "I- Notions et Définition. L’information est le support formel d’un élément de connaissance humaine susceptible d’être représentée à l’aide de conventions (codages) afin d’être conservée, traitée ou communiq",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/eval1.html",
+    "title": "évaluations",
+    "chapter": "chapitre1",
+    "description": "évaluations. Évaluation N°1 1- Combien d’informations sont représentées par 8 bits ? 2- Qu’est-ce qu’une information binaire ? 3- Qu’est-ce qu’une mémoire vive ? 4- Citer les caractéristiques p",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/eval2.html",
+    "title": "évaluations",
+    "chapter": "chapitre1",
+    "description": "évaluations. Évaluation N°2 1- Compléter le schéma suivant : 2- Combien de bits sont-ils nécessaires pour 512 informations ? 3- Qu’est-ce qu’un microprocesseur ? 4- Citer les composants princip",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/evaluations.html",
+    "title": "évaluations",
+    "chapter": "chapitre1",
+    "description": "évaluations. ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/logiciels.html",
+    "title": "V- Types des logiciels",
+    "chapter": "chapitre1",
+    "description": "V- Types des logiciels. Un logiciel de base est un programme indispensable au bon fonctionnement d’un système informatique, il sert comme interface entre le matériel et l’utilisateur. Les principaux types",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/quiz/quiz1/quizpresentation.html",
+    "title": "Représentation",
+    "chapter": "chapitre1",
+    "description": "Questionnaire interactif : Représentation. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre1/quiz/quiz2/quizuct.html",
+    "title": "Quiz: UCT",
+    "chapter": "chapitre1",
+    "description": "Questionnaire interactif : Quiz: UCT. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre1/quiz/quiz3/quizmemoire.html",
+    "title": "Quiz: Mémoire centrale",
+    "chapter": "chapitre1",
+    "description": "Questionnaire interactif : Quiz: Mémoire centrale. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre1/quiz/quiz4/quizperipherique.html",
+    "title": "quiz:peripherique",
+    "chapter": "chapitre1",
+    "description": "Questionnaire interactif : quiz:peripherique. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre1/quiz/quiz5/quizcartemere.html",
+    "title": "Quiz: La carte-mère",
+    "chapter": "chapitre1",
+    "description": "Questionnaire interactif : Quiz: La carte-mère. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre1/quiz/quiz6/quizlogiciels.html",
+    "title": "Quiz: Types des logiciels",
+    "chapter": "chapitre1",
+    "description": "Questionnaire interactif : Quiz: Types des logiciels. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre1/representation.html",
+    "title": "II- Représentation de l'information dans un système informatique",
+    "chapter": "chapitre1",
+    "description": "II- Représentation de l'information dans un système informatique. ■ C’est quoi un code binaire ? ■ Pourquoi coder de l'information ■ Comment représenter les informations pour les mettre dans l'ordinateur Les ordinateurs sont des machines électron",
+    "quiz": false
+  },
+  {
+    "path": "chapitre1/structure.html",
+    "title": "III- Structure de base d'un système informatique",
+    "chapter": "chapitre1",
+    "description": "III- Structure de base d'un système informatique. L’UCT appelée aussi Processeur ou Microprocesseur est le cerveau de l’ordinateur. Elle sert à : - Unité arithmétique et logique : Effectue des opérations arithmétiques (+, - , X , ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/correction1.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre2",
+    "description": "Correction — Correction. Correction (Série N°1)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/correction2.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre2",
+    "description": "Correction — Correction. Correction (Série N°2)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/correction3.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre2",
+    "description": "Correction — Correction. Correction (Série N°3)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/correction4.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre2",
+    "description": "Correction — Correction. Correction (Série N°4)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/definitions.html",
+    "title": "I. Qu’est-ce qu’un algorithme ?",
+    "chapter": "chapitre2",
+    "description": "I. Qu’est-ce qu’un algorithme ?. ■ Choisis un nombre entre 1 et 10. ■ Multiplie ce nombre par 2. ■ Ajoute 4 au résultat. ■ Multiplie le résultat par 3. ■ Soustrais 6. a. Donne-moi le résultat final. b. Trouve le n",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/donnees.html",
+    "title": "II. Notions de données",
+    "chapter": "chapitre2",
+    "description": "II. Notions de données. Les données sont des informations nécessaires au déroulement d’un algorithme. On distingue deux catégories : les constantes et les variables. Une variable est un objet dont le cont",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/evaluations.html",
+    "title": "évaluations",
+    "chapter": "chapitre2",
+    "description": "évaluations. ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/instruction.html",
+    "title": "IV. Les instructions de base",
+    "chapter": "chapitre2",
+    "description": "IV. Les instructions de base. L’affectation consiste à donner une valeur à une variable. Elle est souvent représentée par une flèche orientée vers la gauche ← Exercice d’application: Quelles seront les valeurs ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/serie1.html",
+    "title": "Série 1 — évaluations",
+    "chapter": "chapitre2",
+    "description": "Série 1 — évaluations. Série d'exercices N°1 Quelles seront les valeurs des variables A, B,C et D après exécution des instructions suivantes ? Ecrire un algorithme qui demande à l'utilisateur de saisir s",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/serie2.html",
+    "title": "Série 2 — évaluations",
+    "chapter": "chapitre2",
+    "description": "Série 2 — évaluations. Série d'exercices N°2",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/serie3.html",
+    "title": "Série 3 — évaluations",
+    "chapter": "chapitre2",
+    "description": "Série 3 — évaluations. Série d'exercices N°3",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/serie4.html",
+    "title": "Série 4 — évaluations",
+    "chapter": "chapitre2",
+    "description": "Série 4 — évaluations. Série d'exercices N°4 Écrire un algorithme qui permet d’afficher le jour de la semaine correspondant à un chiffre allant de 1 à 7, saisi au clavier. Écrire un algorithme qui demand",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/structurealgo.html",
+    "title": "III. Structure d’un algorithme",
+    "chapter": "chapitre2",
+    "description": "III. Structure d’un algorithme. Chaque algorithme est structuré de la manière suivante : Constitué du mot Algorithme , suivi d’un nom identifiant l’algorithme Elle comprend la liste des variables et des constante",
+    "quiz": false
+  },
+  {
+    "path": "chapitre2/structures.html",
+    "title": "V. Structures de contrôle de base",
+    "chapter": "chapitre2",
+    "description": "V. Structures de contrôle de base. La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie). Exercice d’application: Écrire un algorithme qui demande à l'utilisa",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/correction1.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre3",
+    "description": "Correction — Correction. Correction (Série N°1)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/correction2.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre3",
+    "description": "Correction — Correction. Correction (Série N°2)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/correction3.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre3",
+    "description": "Correction — Correction. Correction (Série N°3)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/correction4.html",
+    "title": "Correction — Correction",
+    "chapter": "chapitre3",
+    "description": "Correction — Correction. Correction (Série N°4)",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/evaluations.html",
+    "title": "évaluations",
+    "chapter": "chapitre3",
+    "description": "évaluations. ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/exceptions.html",
+    "title": "VI. Gestions des exceptions en Python",
+    "chapter": "chapitre3",
+    "description": "VI. Gestions des exceptions en Python. Lors de l'écriture d'un programme, nous rencontrons très souvent des erreurs. ✔ Erreur de syntaxe: Erreur due au non-respect de la structure ( syntaxe ) du langage ✔ Erreur d’exécu",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/fonctions.html",
+    "title": "V. Fonctions prédéfinies (ou intégrées) en Python",
+    "chapter": "chapitre3",
+    "description": "V. Fonctions prédéfinies (ou intégrées) en Python. NB: Certaines fonctions ( sum(), range(), sorted() et bool() ) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/instruction.html",
+    "title": "III. Les instructions de base",
+    "chapter": "chapitre3",
+    "description": "III. Les instructions de base. L’affectation consiste à donner une valeur à une variable à l’aide du symbole = Syntaxe: Exemple: !! Attention: le symbole = n’a pas le même sens ici que dans une égalité mathémati",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/introduction.html",
+    "title": "I. Introduction",
+    "chapter": "chapitre3",
+    "description": "I. Introduction. Les données sont des informations nécessaires au déroulement d’un algorithme. On distingue deux catégories : les constantes et les variables. Programme informatique est un ensemble",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/serie1.html",
+    "title": "Série 1 — évaluations",
+    "chapter": "chapitre3",
+    "description": "Série 1 — évaluations. Série d'exercices N°1 Ecrire un Programme Python qui demande à l'utilisateur de saisir son nom et de lui afficher son nom avec un message de bienvenue ! Écrire un Programme Python ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/serie2.html",
+    "title": "Série 2 — évaluations",
+    "chapter": "chapitre3",
+    "description": "Série 2 — évaluations. Série d'exercices N°2",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/serie3.html",
+    "title": "Série 3 — évaluations",
+    "chapter": "chapitre3",
+    "description": "Série 3 — évaluations. Série d'exercices N°3",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/serie4.html",
+    "title": "Série 4 — évaluations",
+    "chapter": "chapitre3",
+    "description": "Série 4 — évaluations. Série d'exercices N°4 Écrire un Programme python qui permet d’afficher le jour de la semaine correspondant à un chiffre allant de 1 à 7, saisi au clavier. Écrire un Programme pytho",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/structures.html",
+    "title": "V. Structures de contrôle de base",
+    "chapter": "chapitre3",
+    "description": "V. Structures de contrôle de base. La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie). Exercice d’application: Écrire un Programme python qui demande à l'u",
+    "quiz": false
+  },
+  {
+    "path": "chapitre3/variables.html",
+    "title": "II. Les variables",
+    "chapter": "chapitre3",
+    "description": "II. Les variables. Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée. - En python, pas de déclaration de variables : une variable est créée lors de son init",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/evaluations.html",
+    "title": "évaluations",
+    "chapter": "chapitre4",
+    "description": "évaluations. ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/fenetre.html",
+    "title": "I) La fenêtre de l’application",
+    "chapter": "chapitre4",
+    "description": "I) La fenêtre de l’application. Par défaut contient trois icônes : Enregistrer Enregistrer le document en cours d'édition Annuler Annuler la ou les dernières actions Répéter Répéter la ou les dernières actions Le",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/les formes.html",
+    "title": "IV) Insérer une forme, une image, un objet WordArt et un objet SmartArt",
+    "chapter": "chapitre4",
+    "description": "IV) Insérer une forme, une image, un objet WordArt et un objet SmartArt. ✔ Dans l’onglet «Insertion» cliquer sur «Formes» ✔ Cliquez sur la forme souhaitée puis glisser la souris pour délimiter la forme. ✔ tapez un texte dans votre forme. Ajouter un styl",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/mise_en_forme.html",
+    "title": "II) La mise en forme",
+    "chapter": "chapitre4",
+    "description": "II) La mise en forme. Exemples des formes d'un texte : G (Gras) , I (Italique) , S (Souligner) , taille de police, Couleur de police, Type de police, Indice, Exposant ... Pour mettre un texte en forme :",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/mise_en_page.html",
+    "title": "V) Insérer une lettrine, des puces et numéros, Symbole et équation",
+    "chapter": "chapitre4",
+    "description": "V) Insérer une lettrine, des puces et numéros, Symbole et équation. Une lettrine est une lettre de grande taille utilisée comme élément décoratif au début d’un paragraphe ou d’une section. La taille d’une lettrine est généralement au moins deux lig",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/mise_en_page2.html",
+    "title": "VI) Mise en page, Arrière-plan de la page, Entête et pied de page",
+    "chapter": "chapitre4",
+    "description": "VI) Mise en page, Arrière-plan de la page, Entête et pied de page. a. Présenter du texte en colonnes ✔ Sélectionnez le texte à mettre en colonnes. ✔ Dans le groupe «mise en page» de l’onglet «Disposition» cliquez sur: «Colonne » ✔ Choisissez l'opt",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/qcm/1/qcm1.html",
+    "title": "quiz1",
+    "chapter": "chapitre4",
+    "description": "Questionnaire interactif : quiz1. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre4/qcm/2/qcm2.html",
+    "title": "quiz2",
+    "chapter": "chapitre4",
+    "description": "Questionnaire interactif : quiz2. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre4/qcm/3/qcm3.html",
+    "title": "quiz3",
+    "chapter": "chapitre4",
+    "description": "Questionnaire interactif : quiz3. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre4/qcm/4/qcm4.html",
+    "title": "quiz4",
+    "chapter": "chapitre4",
+    "description": "Questionnaire interactif : quiz4. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre4/qcm/5/qcm5.html",
+    "title": "quiz5",
+    "chapter": "chapitre4",
+    "description": "Questionnaire interactif : quiz5. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre4/qcm/6/qcm6.html",
+    "title": "quiz6",
+    "chapter": "chapitre4",
+    "description": "Questionnaire interactif : quiz6. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre4/table des matieres.html",
+    "title": "VII) Styles et table des matières",
+    "chapter": "chapitre4",
+    "description": "VII) Styles et table des matières. Un style est un outil qui permet d'enregistrer une mise en forme et de l'appliquer à un ou plusieurs éléments de texte. Si vous modifiez un style, tous les paragraphes rattachés à ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre4/tableau.html",
+    "title": "III) Création des tableaux",
+    "chapter": "chapitre4",
+    "description": "III) Création des tableaux. ✔ Cliquez à l'emplacement où vous souhaitez insérer un tableau. ✔ Dans le groupe «Tableaux» de l’onglet «Insertion» , cliquez sur «Tableau» ✔ Sélectionnez le modèle souhaité. ✔ Sél",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/definitions.html",
+    "title": "I) Définitions",
+    "chapter": "chapitre5",
+    "description": "I) Définitions. Un tableur est un logiciel qui permet d’effectuer des calculs sur des nombres organisés dans des tableaux et de créer facilement des représentations graphiques. Un classeur est un ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/evaluations.html",
+    "title": "évaluations",
+    "chapter": "chapitre5",
+    "description": "évaluations. ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/fonction.html",
+    "title": "VI) Les fonctions",
+    "chapter": "chapitre5",
+    "description": "VI) Les fonctions. ✔ Cliquez sur la cellule dans laquelle vous voulez entrer la fonction. ✔ Cliquer sur: ✔ Entrez les arguments nécessaires puis appuyez sur Entrée. fonctions Math et trigo SOMME Calc",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/format_cellule.html",
+    "title": "IV) Mise en forme des cellules:",
+    "chapter": "chapitre5",
+    "description": "IV) Mise en forme des cellules:. ✔ Sélectionnez une ou plusieurs cellules ✔ sur l’onglet «Accuil» , choisissez la (ou les) forme(s) désirée(s). Remarque : Les autres formes sont également disponibles dans une boit",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/formules.html",
+    "title": "V) Les formules et les références:",
+    "chapter": "chapitre5",
+    "description": "V) Les formules et les références:. Les formules sont des expressions qui permettent d’effectuer des calculs, de renvoyer des informations, de manipuler le contenu des cellules, etc. Une formule commence toujours par",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/gestion_feuil.html",
+    "title": "II) Gestion d’une feuille de calcul",
+    "chapter": "chapitre5",
+    "description": "II) Gestion d’une feuille de calcul. ✔ Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur Insérer ✔ Sélectionner Feuille et cliquer sur Ok Remarque : Vous pouvez aussi cliquer sur le signe + à ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/gestion_lignes.html",
+    "title": "III) Gestion des lignes et des colonnes",
+    "chapter": "chapitre5",
+    "description": "III) Gestion des lignes et des colonnes. Insérer une ligne entière : ✔ Sélectionnez une cellule à l’endroit où la ligne entière doit être insérée. ✔ Dans le groupe «Cellules» de l’onglet «Accuil» , cliquez sur «Insérer» p",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/graphe.html",
+    "title": "VII) Création de graphiques",
+    "chapter": "chapitre5",
+    "description": "VII) Création de graphiques. Excel permet de créer des graphiques à partir de données saisies au niveau d’une plage de cellules. Il suffit de sélectionner la plage souhaitée, puis de choisir une commande dans ",
+    "quiz": false
+  },
+  {
+    "path": "chapitre5/qcm/1/qcm1.html",
+    "title": "Quiz Excel",
+    "chapter": "chapitre5",
+    "description": "Questionnaire interactif : Quiz Excel. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre5/qcm/2/qcm2.html",
+    "title": "Quiz Excel",
+    "chapter": "chapitre5",
+    "description": "Questionnaire interactif : Quiz Excel. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre5/qcm/3/qcm3.html",
+    "title": "Quiz Excel",
+    "chapter": "chapitre5",
+    "description": "Questionnaire interactif : Quiz Excel. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre5/qcm/4/qcm4.html",
+    "title": "Quiz Excel",
+    "chapter": "chapitre5",
+    "description": "Questionnaire interactif : Quiz Excel. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "chapitre5/qcm/5/qcm5.html",
+    "title": "Quiz Excel",
+    "chapter": "chapitre5",
+    "description": "Questionnaire interactif : Quiz Excel. Évaluez vos connaissances et consultez votre score.",
+    "quiz": true
+  },
+  {
+    "path": "index.html",
+    "title": "Bienvenue sur notre site web",
+    "chapter": null,
+    "description": "Bienvenue sur notre site web. Vous y trouverez des leçons, des exercices et des travaux pratiques liés au programme de tronc commun lettre, science et technologie. Apporter les connaissances de base relatives à",
+    "quiz": false
+  }
+]

@@ -1,0 +1,10 @@
+@page { margin: 15mm; }
+body { background: white !important; color: black !important; margin: 0 !important; }
+nav, .site-tools, .site-search, select, footer, .skip-link, .accordion-button { display: none !important; }
+.content, .retrait, .retrait2, .lesson-summary { background: white !important; color: black !important; border-color: #555; }
+.accordion-content { display: block !important; }
+table, tr, pre, figure, img { break-inside: avoid; }
+h1, h2, h3 { break-after: avoid; }
+a { color: black !important; }
+main a[href$=".pdf"]::after, main a[href$=".docx"]::after, main a[href$=".xlsx"]::after { content: " (" attr(href) ")"; font-size: .8em; font-weight: normal; }
+video { display: none; }

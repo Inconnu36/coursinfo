@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Correction</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correction — Correction — Chapitre 2 — Fiche 2 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre2/correction1.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre2.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="Correction — Correction. Correction (Série N°2)">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Correction — Correction — Chapitre 2 — Fiche 2 — Cours d’informatique">
+<meta name="twitter:description" content="Correction — Correction. Correction (Série N°2)">
+<meta property="og:title" content="Correction — Correction — Chapitre 2 — Fiche 2 — Cours d’informatique">
+<meta property="og:description" content="Correction — Correction. Correction (Série N°2)">
+<meta property="og:type" content="website">
+<link rel="canonical" href="correction2.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre2/correction2.html">
 </head>
-<body>
+<body data-style="chapitre2-correction1">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 
 
 
-<table align="center" >
-    <tr text-decoration = "underline">
-      <td align="center" > <a href="serie1.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="serie3.html"> <u>Suivant</u></a> </td>
-    </tr>
-  </table>
-
+<h1 class="page-title">Correction — Correction</h1>
 <br>
 
 
-<script src="../js/nav.js"></script>
-
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Algorithmique</option>
-  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
-  <option value="donnees.html">II. Notions de données</option>
-  <option value="structurealgo.html">III. Structure d’un algorithme</option>
-  <option value="instruction.html">IV. Les instructions de base</option>
-  <option value="structures.html">V. Structures de contrôle de base</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 
@@ -45,25 +40,33 @@
 
  <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 <p>
-    <center><a href="docpdf/correction2.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
-<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  
-<p style ="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°2)</span>
+    </p>
+<center>
+<a href="docpdf/correction2.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
 
-<hr><br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  
+<p style="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°2)</span>
+
+</p>
+<hr>
+<br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td><span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br></div></span><br> Ecrire un <strong>algorithme</strong> qui demande un nombre entier à l’utilisateur, puis calcule et affiche la racine carrée de ce nombre
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui demande un nombre entier à l’utilisateur, puis calcule et affiche la racine carrée de ce nombre
 </td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
+ <tr bgcolor="#B0F2B6">
     
-  <td style =" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
+  <td style=" width=" 50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
 
 Algorithme <span style="color:purple; font-weight:bold;">racine_carree</span><br>
     variables<br>
@@ -72,7 +75,7 @@ Algorithme <span style="color:purple; font-weight:bold;">racine_carree</span><br
 Début<br>
 Ecrire(<span style="color:purple; font-weight:bold;">" taper un nombre"</span>)<br>
 Lire(<span style="color:purple; font-weight:bold;">x)</span><br>
-si x<0 alors<br>
+si x&lt;0 alors<br>
        <span style="margin-left: 20px;">Ecrire(<span style="color:purple; font-weight:bold;">" Le nombre doit être positif "</span>)</span><br>
 sinon<br>
 <span style="margin-left: 20px;">y←racine(x)</span><br>
@@ -92,15 +95,18 @@ Fin.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br></div></span> <br>Ecrire un <strong>algorithme</strong> qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est pair ou impair</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br>
+</div></span> <br>Ecrire un <strong>algorithme</strong> qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est pair ou impair</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 Algorithme <span style="color:purple; font-weight:bold;">pair_impair</span><br>
 Variables<br>
@@ -124,15 +130,18 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br></div></span> <br>Ecrire un <strong>algorithme</strong> qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est positif ou négatif (on laisse de côté le cas où le nombre vaut zéro)</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br>
+</div></span> <br>Ecrire un <strong>algorithme</strong> qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est positif ou négatif (on laisse de côté le cas où le nombre vaut zéro)</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
 
 Algorithme <span style="color:purple; font-weight:bold;">positif_negatif</span><br>
 Variables<br>
@@ -140,7 +149,7 @@ Variables<br>
 Début<br>
 Ecrire(<span style="color:purple; font-weight:bold;">" taper un nombre "</span>)<br>
 Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
-si x <0 alors<br>
+si x &lt;0 alors<br>
       <span style="margin-left: 20px;">Ecrire(<span style="color:purple; font-weight:bold;">" ce nombre est négatif "</span>)</span><br>
 sinon<br>
       <span style="margin-left: 20px;">Ecrire(<span style="color:purple; font-weight:bold;">" ce nombre est positif "</span>)</span><br>
@@ -152,15 +161,18 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br></div></span><br> Ecrire un <strong>algorithme</strong> qui demande trois nombres à l’utilisateur et l’informe ensuite s’ils sont rangés ou non dans l’ordre croissant consécutif.</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui demande trois nombres à l’utilisateur et l’informe ensuite s’ils sont rangés ou non dans l’ordre croissant consécutif.</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 Algorithme <span style="color:purple; font-weight:bold;">croissant_consécutif</span><br>
 Variables<br>
 <span style="color:purple; font-weight:bold;">A, B, C</span>: réel<br>
@@ -183,19 +195,22 @@ Fin.
  </tr>
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°4<br></div></span><br> Ecrire un <strong>algorithme</strong> qui lit le nom et les deux notes d’un élève, puis il affiche :<br>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°4<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui lit le nom et les deux notes d’un élève, puis il affiche :<br>
 – Bonjour élève<br>
 – Votre moyenne est: moyenne<br>
 – Vous avez réussi si la moyenne est supérieure ou égale à 10<br>
 – Vous avez échoué si la moyenne est inférieure à 10</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 Algorithme <span style="color:purple; font-weight:bold;">moyenne</span><br>
 Variables<br>
@@ -228,15 +243,18 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br></div></span><br> Ecrire un <strong>algorithme</strong> qui demande à l'utilisateur de saisir deux nombres entiers a et b et de lui afficher leur maximum</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui demande à l'utilisateur de saisir deux nombres entiers a et b et de lui afficher leur maximum</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 Algorithme <span style="color:purple; font-weight:bold;">maximum</span><br>
 Variables<br>
@@ -246,7 +264,7 @@ Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</spa
 Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
 Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre2 : "</span>)<br>
 Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
-si x>y alors<br>
+si x&gt;y alors<br>
     <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"Le nombre maximal est "</span>, x)</span><br>
 sinon<br>
     <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"Le nombre maximal est "</span>, y)</span><br>
@@ -261,15 +279,18 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex7">exercice N°7<br></div></span><br> Ecrire un <strong>algorithme</strong> qui demande à l'utilisateur de saisir deux nombres entiers et de lui afficher leur minimum</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex7">exercice N°7<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui demande à l'utilisateur de saisir deux nombres entiers et de lui afficher leur minimum</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 Algorithme <span style="color:purple; font-weight:bold;">minimum</span><br>
 Variables<br>
 <span style="color:purple; font-weight:bold;">x,y</span>: entier<br>
@@ -278,7 +299,7 @@ Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</spa
 Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
 Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre2 : "</span>)<br>
 Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
-si x < y alors<br>
+si x &lt; y alors<br>
     <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"Le nombre minimal est "</span>, x)</span><br>
 sinon<br>
     <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"Le nombre minimal est "</span>, y)</span><br>
@@ -291,15 +312,18 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex8">exercice N°8<br></div></span><br> Ecrire un <strong>algorithme</strong> qui demande à l'utilisateur de saisir son âge et de lui afficher le message <br>- « vous êtes Majeur ! » si l’âge tapé est supérieur ou égale à 18 <br>- « vous êtes mineur ! » si l’âge tapé est inférieur à 18</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex8">exercice N°8<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui demande à l'utilisateur de saisir son âge et de lui afficher le message <br>- « vous êtes Majeur ! » si l’âge tapé est supérieur ou égale à 18 <br>- « vous êtes mineur ! » si l’âge tapé est inférieur à 18</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
 Algorithme <span style="color:purple; font-weight:bold;">mineur_majeur</span><br>
 Variable<br>
 <span style="color:purple; font-weight:bold;">age</span>: entier<br>
@@ -320,17 +344,20 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex9">exercice N°9<br></div></span><br> Ecrire un <strong>algorithme</strong> qui demande deux entiers (x,y) à l’utilisateur et affiche :<br>
-- La somme de ces deux nombres : si x>y<br>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex9">exercice N°9<br>
+</div></span><br> Ecrire un <strong>algorithme</strong> qui demande deux entiers (x,y) à l’utilisateur et affiche :<br>
+- La somme de ces deux nombres : si x&gt;y<br>
 - Le produit de ces deux nombres : dans le cas contraire</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 Algorithme <span style="color:purple; font-weight:bold;">calcule</span><br>
 Variables<br>
 <span style="color:purple; font-weight:bold;">x,y</span>: réel<br>
@@ -342,7 +369,7 @@ Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre y : " </s
 Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
 s←x+y<br>
 p←x*y<br>
-si x>y alors<br>
+si x&gt;y alors<br>
     <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"la somme de x et y est "</span>, s)</span><br>
 sinon<br>
     <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le produit de x et y est "</span>, p)</span><br>
@@ -358,15 +385,18 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex10">exercice N°10<br></div></span><br> Écrire un algorithme qui demander à l'utilisateur de saisir les longueurs et largeurs d'un rectangle, afficher sa surface.</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex10">exercice N°10<br>
+</div></span><br> Écrire un algorithme qui demander à l'utilisateur de saisir les longueurs et largeurs d'un rectangle, afficher sa surface.</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 Algorithme <span style="color:purple; font-weight:bold;">SURFACE</span><br>
 Variables<br>
@@ -388,17 +418,20 @@ Fin.
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex11">exercice N°11<br></div></span><br> Écrire un algorithme qui permet d’effectuer une permutation circulaire des valeurs de trois Variables A, B, C (la valeur de y dans x, la valeur de z dans y et la valeur de x dans z).<br>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex11">exercice N°11<br>
+</div></span><br> Écrire un algorithme qui permet d’effectuer une permutation circulaire des valeurs de trois Variables A, B, C (la valeur de y dans x, la valeur de z dans y et la valeur de x dans z).<br>
 N B: L’affichage se fait après l’échange (Permutation)
 </td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 Algorithme <span style="color:purple; font-weight:bold;">permutation</span><br>
 Variables<br>
 <span style="color:purple; font-weight:bold;">A,B,C , Z</span>: entier<br>
@@ -421,17 +454,21 @@ Fin.
     </td>
 
  
+</tr>
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex12">exercice N°12<br></div></span><br> Ecrire un algorithme qui demande un nombre entier à l’utilisateur, puis affiche la valeur absolue de ce nombre</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex12">exercice N°12<br>
+</div></span><br> Ecrire un algorithme qui demande un nombre entier à l’utilisateur, puis affiche la valeur absolue de ce nombre</td>
  </tr>
 
- <tr bgcolor="#B0F2B6" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#B0F2B6">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 Algorithme <span style="color:purple; font-weight:bold;">valeur_absolue</span><br>
 Variable<br>
 <span style="color:purple; font-weight:bold;">x,y</span>: entier<br>
@@ -451,7 +488,7 @@ Fin.
 
 
 
-<BR>
+<br>
 
 <hr>
 
@@ -460,8 +497,7 @@ Fin.
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

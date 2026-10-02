@@ -1,77 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Correction</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correction — Correction — Chapitre 3 — Fiche 3 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre3/correction1.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre3.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="Correction — Correction. Correction (Série N°3)">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Correction — Correction — Chapitre 3 — Fiche 3 — Cours d’informatique">
+<meta name="twitter:description" content="Correction — Correction. Correction (Série N°3)">
+<meta property="og:title" content="Correction — Correction — Chapitre 3 — Fiche 3 — Cours d’informatique">
+<meta property="og:description" content="Correction — Correction. Correction (Série N°3)">
+<meta property="og:type" content="website">
+<link rel="canonical" href="correction3.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre3/correction3.html">
 </head>
-<body>
+<body data-style="chapitre3-correction1">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 
 
 
-<table align="center" >
-    <tr text-decoration = "underline">
-      <td align="center" > <a href="serie2.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="serie4.html"> <u>Suivant</u></a> </td>
-    </tr>
-  </table>
-
+<h1 class="page-title">Correction — Correction</h1>
 <br>
 
 
-<script src="../js/nav.js"></script>
-
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Langages de programmation (Python)</option>
-  <option value="introduction.html">I. Introduction</option>
-  <option value="variables.html">II. les variables</option>
-  <option value="instruction.html">III. Les instructions de base</option>
-  <option value="structures.html">IV. Structures de contrôle de base</option>
-  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
-  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 
 
  <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 <p>
-    <center><a href="docpdf/correction3.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
-<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  <p style ="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°3)</span>
+    </p>
+<center>
+<a href="docpdf/correction3.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
 
-<hr><br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  <p style="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°3)</span>
+
+</p>
+<hr>
+<br>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td><span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de calculer la moyenne de deux notes d’un élève et d’afficher son résultat et son appréciation :<br>
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de calculer la moyenne de deux notes d’un élève et d’afficher son résultat et son appréciation :<br>
 – Réussir : si la moyenne est supérieure ou égal 10<br>
 – Rattrapage : si la moyenne est comprise entre 8 et10<br>
 – Echoué : si la moyenne est inférieure à 10
 </td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
+ <tr bgcolor="#f9e79f">
     
-  <td style =" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
+  <td style=" width=" 50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
 
 x=float(input(<span style="color:purple; font-weight:bold;">"taper la première note: "</span>))<br>
 y=float(input(<span style="color:purple; font-weight:bold;">"taper la deuxième note: "</span>))<br>
 m=(x+y)/2<br>
 print(f <span style="color:purple; font-weight:bold;">" la moyenne est {m} "</span>)<br>
-if m>=10:<br>
+if m&gt;=10:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Réussir "</span>)</span><br>
-elif m>=8 and m<10:<br>
+elif m&gt;=8 and m&lt;10:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" rattrapage "</span>)</span><br>
 else:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" échoué "</span>)</span><br>
@@ -87,23 +89,26 @@ else:<br>
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br></div></span> <br>Ecrire un <strong><strong>Programme python</strong></strong> et programme Python qui donne l’état de l’eau selon sa température :<br>
-- Si T < 0 : état solide.<br>
-- Si 0 < T < 100 : état liquide.<br>
-- Si T > 100 : état gazeux.</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br>
+</div></span> <br>Ecrire un <strong><strong>Programme python</strong></strong> et programme Python qui donne l’état de l’eau selon sa température :<br>
+- Si T &lt; 0 : état solide.<br>
+- Si 0 &lt; T &lt; 100 : état liquide.<br>
+- Si T &gt; 100 : état gazeux.</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 T=float(input(<span style="color:purple; font-weight:bold;">" taper la valeur de la température: "</span>))<br>
-if T<0:<br>
+if T&lt;0:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" état solide "</span>)</span><br>
-elif T>=0 and T<=100:<br>
+elif T&gt;=0 and T&lt;=100:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" état liquide "</span>)</span><br>
 else:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" état gazeux "</span>)</span>
@@ -117,24 +122,27 @@ else:<br>
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br></div></span> <br>Ecrire un <strong><strong>Programme python</strong></strong> qui permet d’afficher le maximum de trois nombres réels</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br>
+</div></span> <br>Ecrire un <strong><strong>Programme python</strong></strong> qui permet d’afficher le maximum de trois nombres réels</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
 
 x=float(input(<span style="color:purple; font-weight:bold;">"taper le nombre1 : "</span>))<br>
 y=float(input(<span style="color:purple; font-weight:bold;">"taper le nombre2 : "</span>))<br>
 z=float(input(<span style="color:purple; font-weight:bold;">"taper le nombre3 : "</span>))<br>
-if x>=y and x>=z:<br>
+if x&gt;=y and x&gt;=z:<br>
         <span style="margin-left: 20px;">print(f <span style="color:purple; font-weight:bold;">"le nombre maximal est {x} "</span>)</span><br>
-if y>=x and y>=z:<br>
+if y&gt;=x and y&gt;=z:<br>
         <span style="margin-left: 20px;">print(f <span style="color:purple; font-weight:bold;">"le nombre maximal est {y} "</span>)</span><br>
-if z>=x and z>=y:<br>
+if z&gt;=x and z&gt;=y:<br>
         <span style="margin-left: 20px;">print(f <span style="color:purple; font-weight:bold;">"le nombre maximal est {z} "</span>)</span>
      </td>
 
@@ -142,23 +150,26 @@ if z>=x and z>=y:<br>
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet d’afficher le minimum de trois nombres réels</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet d’afficher le minimum de trois nombres réels</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 x=float(input(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</span>))<br>
 y=float(input(<span style="color:purple; font-weight:bold;">" taper le nombre2 : "</span>))<br>
 z=float(input(<span style="color:purple; font-weight:bold;">" taper le nombre3 : "</span>))<br>
-if x<=y and x<=z:<br>
+if x&lt;=y and x&lt;=z:<br>
         <span style="margin-left: 20px;">print(f <span style="color:purple; font-weight:bold;">"le nombre minimal est: {x} "</span>)</span><br>
-if y<=x and y<=z:<br>
+if y&lt;=x and y&lt;=z:<br>
         <span style="margin-left: 20px;">print(f <span style="color:purple; font-weight:bold;">"le nombre minimal est: {y} "</span>)</span><br>
-if z<=x and z<=y:<br>
+if z&lt;=x and z&lt;=y:<br>
         <span style="margin-left: 20px;">print(f <span style="color:purple; font-weight:bold;">"le nombre minimal est: {z} "</span>)</span>
 </td>
 
@@ -166,23 +177,26 @@ if z<=x and z<=y:<br>
  </tr>
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°5<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de tester si la somme de deux nombres est positive, négative, ou nulle</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°5<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de tester si la somme de deux nombres est positive, négative, ou nulle</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 a=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</span>))<br>
 b=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre2 : "</span>))<br>
 s=a+b<br>
 print(f <span style="color:purple; font-weight:bold;">" la somme est: {s} "</span>)<br>
-if s>0:<br>
+if s&gt;0:<br>
         <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" la somme est positive "</span>)</span><br>
-elif s<0:<br>
+elif s&lt;0:<br>
         <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" la somme est négative "</span>)</span><br>
 else:<br>
         <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" la somme est nulle "</span>)</span>
@@ -196,15 +210,18 @@ else:<br>
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de résoudre l’équation 1ère degré (ax+ b= 0)</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de résoudre l’équation 1ère degré (ax+ b= 0)</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 a=float(input(<span style="color:purple; font-weight:bold;">" donner le nombre a: "</span> ))<br>
 b=float(input(<span style="color:purple; font-weight:bold;">" donner le nombre b: "</span> ))<br>
@@ -225,18 +242,21 @@ else:<br>
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
 
 
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex7">exercice N°7<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de résoudre l’équation de second degré (ax<sup>2</sup> + bx + c = 0)</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex7">exercice N°7<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet de résoudre l’équation de second degré (ax<sup>2</sup> + bx + c = 0)</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 <span style="color:purple; font-weight:bold;">from math import *</span><br>
 a=float(input(<span style="color:purple; font-weight:bold;">" taper le nombre a: "</span>))<br>
 b=float(input(<span style="color:purple; font-weight:bold;">" taper le nombre b: "</span>))<br>
@@ -245,7 +265,7 @@ delta = b*b- 4*a*c<br>
 if a==0:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Ce n'est pas une équation du second degré " </span>)</span><br>
 else:<br>  
-<span style="margin-left: 20px;">if delta > 0:</span><br>
+<span style="margin-left: 20px;">if delta &gt; 0:</span><br>
     <span style="margin-left: 40px;">x1 = (- b-sqrt(delta))/(2*a)</span><br>
     <span style="margin-left: 40px;">x2 = (- b+sqrt(delta))/(2*a)</span><br>
     <span style="margin-left: 40px;">print( f <span style="color:purple; font-weight:bold;">"deux solutions : {x1} et {x2} "</span>)</span><br>
@@ -266,21 +286,24 @@ else:<br>
 
 
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex8">exercice N°8<br></div></span><br> On veut calculer le montant des impôts d’un salarie. La grille à utiliser est la suivante :<br>
-<conteneur> <img src="image/ex8.png" ></conteneur>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex8">exercice N°8<br>
+</div></span><br> On veut calculer le montant des impôts d’un salarie. La grille à utiliser est la suivante :<br>
+<conteneur> <img src="image/ex8.png" width="330" height="100" decoding="async" loading="lazy" alt="Tableau des taux d’impôt selon le salaire brut"></conteneur>
 <br>Ecrire un <strong><strong>Programme python</strong></strong> qui lit le salaire brut et affiche le montant des impôts et le salaire net</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
 sb=float(input(<span style="color:purple; font-weight:bold;">" donner le salaire brut : "</span>))<br>
-if (sb<1000):<br>
+if (sb&lt;1000):<br>
      <span style="margin-left: 20px;">m = (sb*5)/100</span><br>
-elif (sb>=1000) and (sb<=2000):<br>
+elif (sb&gt;=1000) and (sb&lt;=2000):<br>
      <span style="margin-left: 20px;">m =(sb*10)/100</span><br>
 else:<br>
      <span style="margin-left: 20px;">m =(sb*20)/100</span><br>
@@ -295,31 +318,34 @@ print(f <span style="color:purple; font-weight:bold;">" le salair net est {sn} "
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex9">exercice N°9<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet classer 3 nombres d’une manière croissante </td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex9">exercice N°9<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet classer 3 nombres d’une manière croissante </td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 a=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</span>))<br>
 b=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre2 : "</span>))<br>
 c=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre3 : "</span>))<br>
-if a>b:<br>
+if a&gt;b:<br>
     <span style="margin-left: 20px;">m=b</span><br>
     <span style="margin-left: 20px;">b=a</span><br>
     <span style="margin-left: 20px;">a=m</span><br>
-if b>c:<br>
+if b&gt;c:<br>
     <span style="margin-left: 20px;">m=c</span><br>
     <span style="margin-left: 20px;">c=b</span><br>
     <span style="margin-left: 20px;">b=m</span><br>
-if a>b:<br>
+if a&gt;b:<br>
     <span style="margin-left: 20px;">m=b</span><br>
     <span style="margin-left: 20px;">b=a</span><br>
     <span style="margin-left: 20px;">a=m </span><br>  
-print(f " {a} <span style="color:purple; font-weight:bold;"> < </span> {b} <span style="color:purple; font-weight:bold;"> < </span> {c} "</span>)
+print(f " {a} <span style="color:purple; font-weight:bold;"> &lt; </span> {b} <span style="color:purple; font-weight:bold;"> &lt; </span> {c} ")
 
 
     </td>
@@ -330,21 +356,24 @@ print(f " {a} <span style="color:purple; font-weight:bold;"> < </span> {b} <span
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex10">exercice N°10<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet d’afficher le signe du produit de deux entiers sans faire la multiplication</td>
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex10">exercice N°10<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> qui permet d’afficher le signe du produit de deux entiers sans faire la multiplication</td>
  </tr>
 
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 a=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</span>))<br>
 b=int(input(<span style="color:purple; font-weight:bold;">" taper le nombre2 : "</span>))<br>
-if a>0 and b>0:<br>
+if a&gt;0 and b&gt;0:<br>
        <span style="margin-left: 20px;"> print(<span style="color:purple; font-weight:bold;">" le produit est positif "</span>)</span><br>
-elif a<0 and b<0:<br>
+elif a&lt;0 and b&lt;0:<br>
         <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" le produit est positif "</span>)</span><br>
 elif a==0 or b==0:<br>
         <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" le produit est nul "</span>)</span><br>
@@ -358,54 +387,57 @@ else:<br>
  
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
-</table>
 
-<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
-<tr >
-   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex11">exercice N°11<br></div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> et programme Python qui donne la mention selon la moyenne générale obtenue par un élève :<br>
-- Si 0 ≤ moyenne < 4    : très faible<br>
-- Si 4 ≤ moyenne < 8    : faible<br>
-- Si 8 ≤ moyenne < 10    : insuffisant<br>
-- Si 10 ≤ moyenne < 12    : Passable<br>
-- Si 12  ≤  moyenne < 14    : Assez bien<br>
-- Si 14  ≤  moyenne < 16    : Bien<br>
-- Si 16  ≤  moyenne < 18    : Très bien<br>
-- Si 18  ≤  moyenne < 20    : Excellent
+
+<table align="center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr>
+   <td>
+<span style="color:red;text-decoration: green wavy underline;"><div id="ex11">exercice N°11<br>
+</div></span><br> Ecrire un <strong><strong>Programme python</strong></strong> et programme Python qui donne la mention selon la moyenne générale obtenue par un élève :<br>
+- Si 0 ≤ moyenne &lt; 4    : très faible<br>
+- Si 4 ≤ moyenne &lt; 8    : faible<br>
+- Si 8 ≤ moyenne &lt; 10    : insuffisant<br>
+- Si 10 ≤ moyenne &lt; 12    : Passable<br>
+- Si 12  ≤  moyenne &lt; 14    : Assez bien<br>
+- Si 14  ≤  moyenne &lt; 16    : Bien<br>
+- Si 16  ≤  moyenne &lt; 18    : Très bien<br>
+- Si 18  ≤  moyenne &lt; 20    : Excellent
 
 </td>
  </tr>
- <tr bgcolor="#f9e79f" >
-    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+ <tr bgcolor="#f9e79f">
+    <td style=";" width="50%">
+<span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
 
 x=float(input(<span style="color:purple; font-weight:bold;">" taper la première note: "</span>))<br>
 y=float(input(<span style="color:purple; font-weight:bold;">" taper la deuxième note: "</span>))<br>
 m=(x+y)/2<br>
 print(f <span style="color:purple; font-weight:bold;">" votre moyenne est {m} "</span>)<br>
-if m>=0 and m<4:<br>
+if m&gt;=0 and m&lt;4:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" très faible "</span>)</span><br>
-elif m>=4 and m<8:<br>
+elif m&gt;=4 and m&lt;8:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" faible "</span>)</span><br>
-elif  m>=8 and m<10:<br>
+elif  m&gt;=8 and m&lt;10:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" insuffisant "</span>)</span><br>
-elif m>=10 and m<12:<br>
+elif m&gt;=10 and m&lt;12:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Passable "</span>)</span><br>
-elif m>=12 and m<14:<br>
+elif m&gt;=12 and m&lt;14:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Assez bien "</span>)</span><br>
-elif m>=14 and m<16:<br>
+elif m&gt;=14 and m&lt;16:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Bien "</span>)</span><br>
-elif m>=16 and m<18:<br>
+elif m&gt;=16 and m&lt;18:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Très bien "</span>)</span><br>
-elif m>=18 and m<=20:<br>
+elif m&gt;=18 and m&lt;=20:<br>
     <span style="margin-left: 20px;">print(<span style="color:purple; font-weight:bold;">" Excellent "</span>)</span><br>
 else:<br>
-   <span style="margin-left: 20px;"> print(<span style="color:purple; font-weight:bold;">" non valide "</span></span>)</span>
+   <span style="margin-left: 20px;"> print(<span style="color:purple; font-weight:bold;">" non valide "</span></span>)
     </td>
 
  </tr>
 </table>
 <!--------------------------------------------------------------------------------------------------------------------->
 
-<BR>
+<br>
 
 <hr>
 
@@ -414,8 +446,7 @@ else:<br>
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Structure d’un algorithme</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>III. Structure d’un algorithme — Chapitre 2 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre2/structurealgo.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre2.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="III. Structure d’un algorithme. Chaque algorithme est structuré de la manière suivante : Constitué du mot Algorithme , suivi d’un nom identifiant l’algorithme Elle comprend la liste des variables et des constante">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="III. Structure d’un algorithme — Chapitre 2 — Cours d’informatique">
+<meta name="twitter:description" content="III. Structure d’un algorithme. Chaque algorithme est structuré de la manière suivante : Constitué du mot Algorithme , suivi d’un nom identifiant l’algorithme Elle comprend la liste des variables et des constante">
+<meta property="og:title" content="III. Structure d’un algorithme — Chapitre 2 — Cours d’informatique">
+<meta property="og:description" content="III. Structure d’un algorithme. Chaque algorithme est structuré de la manière suivante : Constitué du mot Algorithme , suivi d’un nom identifiant l’algorithme Elle comprend la liste des variables et des constante">
+<meta property="og:type" content="website">
+<link rel="canonical" href="structurealgo.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre2/structurealgo.html">
 </head>
-<body>
+<body data-style="chapitre2-structurealgo">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<table align="center" >
-    <tr text-decoration = "underline">
-      <td align="center" > <a href="donnees.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="instruction.html"> <u>Suivant</u> </a></td>
-    </tr>
-  </table>
 </center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Algorithmique</option>
-  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
-  <option value="donnees.html">II. Notions de données</option>
-  <option value="structurealgo.html">III. Structure d’un algorithme</option>
-  <option value="instruction.html">IV. Les instructions de base</option>
-  <option value="structures.html">V. Structures de contrôle de base</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<p>    <center><a href="docpdf/structurealgo.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
+<p>    </p>
+<center>
+<a href="docpdf/structurealgo.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
+
     <hr>
 
 
@@ -52,17 +51,19 @@
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-    <h2>III. <span class="highlight">Structure d’un algorithme</span></h2>
+    <h1 class="page-title">III. <span class="highlight">Structure d’un algorithme</span>
+</h1>
 
-<P>Chaque algorithme est structuré de la manière suivante :</P>
+<p>Chaque algorithme est structuré de la manière suivante :</p>
 
-<center><img src="image/structure.png" ></center>
- <h3>1. <span class="section-title">L’en-tête</span></h3>
-<P>Constitué du mot <strong>Algorithme</strong>, suivi d’un <STRONG>nom</STRONG> identifiant l’algorithme</P>
+<center><img src="image/structure.png" width="547" height="271" decoding="async" loading="lazy" alt="Structure d’un algorithme : en-tête, déclarations et corps"></center>
+ <h3>1. <span class="section-title">L’en-tête</span>
+</h3>
+<p>Constitué du mot <strong>Algorithme</strong>, suivi d’un <strong>nom</strong> identifiant l’algorithme</p>
 
 
 
-<table border="2" width="90%" border="2" bgcolor="#fff0ae" class="ret">
+<table border="2" width="90%" bgcolor="#fff0ae" class="ret">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
@@ -74,10 +75,13 @@
 
 </table>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
- <h3>2. <span class="section-title">La partie déclarative</span></h3>
-<p>Elle comprend la liste des variables et des constantes utilisées dans le corps de l’algorithme<p>
+ <h3>2. <span class="section-title">La partie déclarative</span>
+</h3>
+<p>Elle comprend la liste des variables et des constantes utilisées dans le corps de l’algorithme</p>
+<p>
 
-<table border="2" width="90%" border="2" bgcolor="#fff0ae" class="ret">
+</p>
+<table border="2" width="90%" bgcolor="#fff0ae" class="ret">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
@@ -119,12 +123,13 @@ R : Booléen<br>
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">A retenir.</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 Un identificateur commence toujours par une lettre (et non par un chiffre ou un symbole
 
-</DIV>
+</div>
 
-<h3>3. <span class="section-title">Le corps de l'algorithme</span></h3>
+<h3>3. <span class="section-title">Le corps de l'algorithme</span>
+</h3>
  
 <p>Dans cette partie sont placées les tâches (instructions, opérations, etc.) à exécuter. Ces instructions sont délimitées par « <strong>début</strong> » et « <strong>fin</strong> »</p>
 
@@ -134,8 +139,7 @@ Un identificateur commence toujours par une lettre (et non par un chiffre ou un 
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

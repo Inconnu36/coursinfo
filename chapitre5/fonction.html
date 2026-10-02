@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tableur</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VI) Les fonctions — Chapitre 5 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre5/fonction.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre5.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="VI) Les fonctions. ✔ Cliquez sur la cellule dans laquelle vous voulez entrer la fonction. ✔ Cliquer sur: ✔ Entrez les arguments nécessaires puis appuyez sur Entrée. fonctions Math et trigo SOMME Calc">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="VI) Les fonctions — Chapitre 5 — Cours d’informatique">
+<meta name="twitter:description" content="VI) Les fonctions. ✔ Cliquez sur la cellule dans laquelle vous voulez entrer la fonction. ✔ Cliquer sur: ✔ Entrez les arguments nécessaires puis appuyez sur Entrée. fonctions Math et trigo SOMME Calc">
+<meta property="og:title" content="VI) Les fonctions — Chapitre 5 — Cours d’informatique">
+<meta property="og:description" content="VI) Les fonctions. ✔ Cliquez sur la cellule dans laquelle vous voulez entrer la fonction. ✔ Cliquer sur: ✔ Entrez les arguments nécessaires puis appuyez sur Entrée. fonctions Math et trigo SOMME Calc">
+<meta property="og:type" content="website">
+<link rel="canonical" href="fonction.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre5/fonction.html">
 </head>
-<body>
+<body data-style="chapitre5-fonction">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<table align="center" >
-    <tr text-decoration = "underline" style="height: 26px">
-      <td align="center" > <a href="formules.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="graphe.html"> <u>Suivant</u> </a></td>
-    </tr>
-  </table>
 </center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <center><option value="sousmenu">Tableur (MS EXCEL 2016)</option></center>
-  <option value="definitions.html">Définitions</option>
-  <option value="gestion_feuil.html">Gestion d’une feuille de calcul</option>
-  <option value="gestion_lignes.html">Gestion des lignes et des colonnes</option>
-  <option value="format_cellule.html">Mise en forme des cellules</option>
-  <option value="formules.html">Formules et les références des cellules</option>
-  <option value="fonction.html">Les fontions</option>
-  <option value="graphe.html">Les graphiques</option>
-  <option value="evaluations.html">Évaluations</option>
-
-</select>
 </center>
 
 
@@ -47,8 +40,11 @@
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<p>    <center><a href="docpdf/fonction.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
+<p>    </p>
+<center>
+<a href="docpdf/fonction.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
+
  <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center><a href="qcm/4/qcm4.html" target="_blank"><button onclick="showPage('page1')">quiz4: Les fonctions </button></a></center>
@@ -62,11 +58,12 @@
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
     <center>
-<video width="85%" height="50%" controls>
-      <source src="video/tp5.mp4" > 
+<video width="85%" height="50%" controls preload="metadata" poster="video/tp5.jpg">
+      <source src="video/tp5.mp4"> 
   
-    </video>
-   </center>
+    </source></video>
+   <p><a href="../transcripts/chapitre5-tp5.txt">Aide textuelle de la vidéo (brouillon)</a></p>
+</center>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->   
 <hr>
   <div class="content">
@@ -74,7 +71,7 @@
 
 
 
-<h3><strong><span style="text-decoration:underline;"><span style="color:#000080;">VI) Les fonctions</span></span></strong></h3>
+<h1 class="page-title"><strong><span style="text-decoration:underline;"><span style="color:#000080;">VI) Les fonctions</span></span></strong></h1>
 
 
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">1. L'assistant fonction</span></span></strong></h3>
@@ -85,7 +82,7 @@
 
 <p class="retrait">
 <span style="color: red;">✔</span> Cliquez sur la cellule dans laquelle vous voulez entrer la fonction.
-<span style="color: red;">✔</span> Cliquer sur: <img src="image/fonction.png" >
+<span style="color: red;">✔</span> Cliquer sur: <img src="image/fonction.png" width="114" height="33" decoding="async" loading="lazy" alt="Bouton Insérer une fonction à côté de la barre de formule">
 <span style="color: red;">✔</span> Entrez les arguments nécessaires puis appuyez sur Entrée.<br>
 </p>
 
@@ -95,104 +92,145 @@
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">2. Catégories des fonctions</span></span></strong></h3>
 
 
-<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions Math et trigo</p><br>
+<p class="retrait200" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions Math et trigo</p>
+<br>
 <!-------------------------------------------------------------------------------------------->
-<table align = "center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
 
  <tr>
-    <th width="25%" > <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
-  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span></th>
-  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th width="25%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span>
+</th>
+  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span>
+</th>
+  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span>
+</th>
 
  </tr>
   <tr>
-    <td ><p style="font-family: Roboto; font-size: 0.9em;">SOMME</p>  </td>
- <td ><p style="text-align:justify; font-family: Roboto; font-size: 0.9em;">Calcule la somme d'une série de valeurs.</p></td>
-  <td ><p style="font-family: Roboto; font-size: 0.9em;">=SOMME (A1:A5)</p>  </td>
+    <td>
+<p style="font-family: Roboto; font-size: 0.9em;">SOMME</p>  </td>
+ <td><p style="text-align:justify; font-family: Roboto; font-size: 0.9em;">Calcule la somme d'une série de valeurs.</p></td>
+  <td>
+<p style="font-family: Roboto; font-size: 0.9em;">=SOMME (A1:A5)</p>  </td>
    
 
  </tr>
 
 
   <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">PRODUIT</p> </td>
-    <td ><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le produit d'une série de valeurs.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=PRODUIT (A1:A5)</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">PRODUIT</p> </td>
+    <td>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le produit d'une série de valeurs.</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=PRODUIT (A1:A5)</p> </td>
  </tr>
    <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">SOMME.SI</p> </td>
-    <td ><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule la somme d'une série de valeurs.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=SOMME.SI (A1:A5; "<10")</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">SOMME.SI</p> </td>
+    <td>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule la somme d'une série de valeurs.</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=SOMME.SI (A1:A5; "&lt;10")</p> </td>
  </tr>
 
 </table>
 
 
-<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions statistiques</p><br>
+<p class="retrait200" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions statistiques</p>
+<br>
 <!-------------------------------------------------------------------------------------------->
-<table align = "center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
 
  <tr>
-    <th width="25%" > <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
-  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span></th>
-  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th width="25%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span>
+</th>
+  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span>
+</th>
+  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span>
+</th>
  </tr>
  
   <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">MAX</p>  </td>
-    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Renvoie la plus grande valeur.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=MAX (A1:A5)</p>  </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">MAX</p>  </td>
+    <td><center>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Renvoie la plus grande valeur.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=MAX (A1:A5)</p>  </td>
  </tr>
 
 
   <tr>
-    <td ><p ont-family: Roboto; font-size: 0.9em;">MIN</p> </td>
-    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Renvoie la plus petite valeur.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=MIN (A1:A5)</p> </td>
+    <td>
+<p ont-family: roboto; font-size: 0.9em;">MIN</p> </td>
+    <td><center>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Renvoie la plus petite valeur.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=MIN (A1:A5)</p> </td>
  </tr>
    <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">MOYENNE</p> </td>
-    <td ><center><p style="text-align:justify; ont-family: Roboto; font-size: 0.9em;">Effectue la moyenne d'une série de valeurs.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=MOYENNE (A1:A5)</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">MOYENNE</p> </td>
+    <td><center>
+<p style="text-align:justify; ont-family: Roboto; font-size: 0.9em;">Effectue la moyenne d'une série de valeurs.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=MOYENNE (A1:A5)</p> </td>
  </tr>
 
    <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">NB</p> </td>
-    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le nombre de cellules contenant des nombres.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=NB(A1:A5)</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">NB</p> </td>
+    <td><center>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le nombre de cellules contenant des nombres.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=NB(A1:A5)</p> </td>
  </tr>
 
     <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">NB.SI</p> </td>
-    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le nombre de cellules contenant une valeur déterminée.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=NB.SI (A1:A5; "<10")</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">NB.SI</p> </td>
+    <td><center>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le nombre de cellules contenant une valeur déterminée.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=NB.SI (A1:A5; "&lt;10")</p> </td>
  </tr>
 
      <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">RANG</p> </td>
-    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Attribue un classement à une valeur en fonction d'une série de valeurs.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=RANG (A1;A1: A5;0)</p> </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">RANG</p> </td>
+    <td><center>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Attribue un classement à une valeur en fonction d'une série de valeurs.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=RANG (A1;A1: A5;0)</p> </td>
  </tr>
 </table>
 
 
-<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions Logique</p><br>
+<p class="retrait200" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions Logique</p>
+<br>
 <!-------------------------------------------------------------------------------------------->
 
 <!-------------------------------------------------------------------------------------------->
-<table align = "center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
 
  <tr>
-    <th width="25%" > <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
-  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span></th>
-  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th width="25%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span>
+</th>
+  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span>
+</th>
+  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span>
+</th>
 
  </tr>
  
   <tr>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">SI</p>  </td>
-    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Effectue des actions en fonction d'une condition.</p> </center></td>
-    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=SI (A1>=10; "Réussi"; "échoué")</p>  </td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">SI</p>  </td>
+    <td><center>
+<p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Effectue des actions en fonction d'une condition.</p> </center></td>
+    <td>
+<p style="ont-family: Roboto; font-size: 0.9em;">=SI (A1&gt;=10; "Réussi"; "échoué")</p>  </td>
  </tr>
 
 
@@ -210,26 +248,26 @@
 
 
 <p class="retrait">
-   <conteneur> <img src="image/tableau.png" ></conteneur>
-  <span style="color: red;">✔</span> Cliquez sur la cellule dans laquelle vous souhaitez voir apparaître le résultat  et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+   <conteneur> <img src="image/tableau.png" width="351" height="64" decoding="async" loading="lazy" alt="Tableau de notes utilisé pour les fonctions Excel"></conteneur>
+  <span style="color: red;">✔</span> Cliquez sur la cellule dans laquelle vous souhaitez voir apparaître le résultat  et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" width="114" height="33" decoding="async" loading="lazy" alt="Bouton Insérer une fonction à côté de la barre de formule">
  
 
 
 
 
 <span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«SOMME»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
-<conteneur> <img src="image/choisir.png" ></conteneur>
+<conteneur> <img src="image/choisir.png" width="422" height="369" decoding="async" loading="lazy" alt="Choix d’une fonction dans la boîte de dialogue Insérer une fonction"></conteneur>
 
 
 
 <span style="color: red;">✔</span> Sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
 
-<conteneur> <img src="image/resultat.png" ></conteneur>
+<conteneur> <img src="image/resultat.png" width="450" height="263" decoding="async" loading="lazy" alt="Arguments et résultat de la fonction SOMME"></conteneur>
 
 </p>
 
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -244,23 +282,23 @@ Même étapes pour les fonctions : produit, max, min, moyenne et Nb</p>
 
 
 <p class="retrait">
-   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le résultat et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le résultat et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" width="114" height="33" decoding="async" loading="lazy" alt="Bouton Insérer une fonction à côté de la barre de formule">
   
 
 
 
 
 <span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«SOMME.SI»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
-<conteneur> <img src="image/sommesi.png" ></conteneur>
+<conteneur> <img src="image/sommesi.png" width="408" height="375" decoding="async" loading="lazy" alt="Sélection de la fonction SOMME.SI"></conteneur>
 
 
 
-<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«plage»</span> sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Critère»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«<10» </span>
+<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«plage»</span> sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Critère»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«&lt;10» </span>
 
-<conteneur> <img src="image/resultatsommesi.png" ></conteneur>
+<conteneur> <img src="image/resultatsommesi.png" width="546" height="292" decoding="async" loading="lazy" alt="Arguments et résultat de la fonction SOMME.SI"></conteneur>
 <span style="color: red;">✔</span>Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
 </p>
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -274,20 +312,20 @@ Même étapes pour la fonction NB.SI</p>
 
 
 <p class="retrait">
-   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le Rang et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le Rang et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" width="114" height="33" decoding="async" loading="lazy" alt="Bouton Insérer une fonction à côté de la barre de formule">
   
 
 
 
 
 <span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«RANG»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
-<conteneur> <img src="image/rang.png" ></conteneur>
+<conteneur> <img src="image/rang.png" width="421" height="370" decoding="async" loading="lazy" alt="Sélection de la fonction RANG"></conteneur>
 
 
 
 <span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Nombre»</span> Sélectionnez le nombre dont vous voulez connaitre le rang, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Référence»</span> Sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Ordre»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«0» </span> pour afficher le rang dans la liste triée par ordre décroissant 
 
-<conteneur> <img src="image/resultatrang.png" ></conteneur>
+<conteneur> <img src="image/resultatrang.png" width="450" height="233" decoding="async" loading="lazy" alt="Arguments et résultat de la fonction RANG"></conteneur>
 <span style="color: red;">✔</span>Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
 </p>
 
@@ -298,20 +336,20 @@ Même étapes pour la fonction NB.SI</p>
 
 
 <p class="retrait">
-   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le résultat et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le résultat et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" width="114" height="33" decoding="async" loading="lazy" alt="Bouton Insérer une fonction à côté de la barre de formule">
   
 
 
 
 
 <span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«SI»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
-<conteneur> <img src="image/si.png" ></conteneur>
+<conteneur> <img src="image/si.png" width="422" height="376" decoding="async" loading="lazy" alt="Sélection de la fonction SI"></conteneur>
 
 
 
-<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Test_logique»</span> Taper (par exemple) <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2>=10»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">Valeur_si_vrai</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Réussi»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Valeur_si_faux»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«échoué» </span> 
+<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Test_logique»</span> Taper (par exemple) <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2&gt;=10»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">Valeur_si_vrai</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Réussi»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Valeur_si_faux»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«échoué» </span> 
 
-<conteneur> <img src="image/resultatsi.png" ></conteneur>
+<conteneur> <img src="image/resultatsi.png" width="450" height="234" decoding="async" loading="lazy" alt="Arguments et résultat de la fonction SI"></conteneur>
 <span style="color: red;">✔</span>Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
 </p>
 
@@ -333,8 +371,8 @@ Même étapes pour la fonction NB.SI</p>
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
     </div>
+</div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

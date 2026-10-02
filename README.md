@@ -1,107 +1,41 @@
-# coursinfo — cours d'informatique (français)
+# Cours d’informatique
 
-A French computer-science course site: 5 chapters, 73 pages, fully static.
-Every page is a plain HTML file with its own stylesheet and a small shared
-script. No build step, no framework, no server-side code.
-
-All personal and institutional identifiers have been replaced with the
-placeholders `[Auteur du cours]` and `[Établissement]`. To re-brand the site,
-find and replace those two placeholders across the `.html` files (they appear
-once per page, in the footer).
-
----
-
-## How to run
+## Lancer le site
 
 ```bash
-node server.js          # http://localhost:8080
-node server.js 3000     # or pick another port
+node server.js 8080
 ```
 
-`start.sh` / `start.bat` do the same thing if you prefer double-clicking.
-No install step, no dependencies — Node.js 18+ only.
+Ouvrir `http://localhost:8080/`. `start.sh` et `start.bat` démarrent aussi le serveur. Node.js 18 ou plus suffit : aucune installation, aucune compilation et aucune dépendance de production.
 
----
+Les pages et la recherche locale peuvent aussi s’ouvrir directement depuis les fichiers. Les quiz iSpring et le moteur Python facultatif sont à utiliser via le serveur local.
 
-## Where the pages are
+## Pages
 
-```
-index.html                     home, chapter accordion
-chapitre1/ … chapitre5/        one folder per chapter, one .html per page
-  <page>.html
-  evaluations.html             index of the chapter exercises / PDFs / videos
-  quiz/…  qcm/…               self-contained iSpring quizzes (own runtime)
-css/<chapter>/<page>.css       stylesheets (see below)
-js/                            shared scripts
-```
+`index.html` présente les cinq chapitres et le catalogue complet. Les 73 pages originales restent dans `chapitre1/` à `chapitre5/`, avec leurs chemins et noms conservés. Six pages ont été ajoutées : `recherche.html`, `syllabus.html`, `glossaire.html`, `fiches-de-revision.html`, `erreurs-courantes.html` et `atelier.html`.
 
-73 pages. A page lives at the same path on the server as it does in this
-folder: `chapitre3/variables.html` is served as
-`http://localhost:8080/chapitre3/variables.html`.
+## CSS
 
----
+`style.css` conserve le style de l’accueil. `css/base.css` et `css/chapitre1.css` à `css/chapitre5.css` regroupent les styles des cours. `css/theme.css` ajoute les règles de lisibilité et d’accessibilité, `css/print.css` prépare l’impression. `css/quiz-chrome.css` ne concerne que les repères ajoutés autour des quiz. Les anciens chemins CSS restent des alias de compatibilité ; les styles internes iSpring restent inchangés.
 
-## Where the CSS is
+## JavaScript
 
-| file | used by |
-|---|---|
-| `style.css` | `index.html` |
-| `style2.css`, `style4.css` | unreferenced leftovers of the original site, kept as-is |
-| `chapitre1/style5.css` | `chapitre1/definitions.html` (the original already linked it externally) |
-| `css/chapitre1/*.css` | 6 files |
-| `css/chapitre2/*.css` | 6 files |
-| `css/chapitre3/*.css` | 6 files |
-| `css/chapitre4/*.css` | 4 files |
-| `css/chapitre5/*.css` | 3 files |
+`js/nav.js` contient l’identité `SITE`, la carte `COURSE_CHROME` et le rendu partagé. Pour changer l’auteur et l’établissement, modifier uniquement `SITE.auteur` et `SITE.etablissement` au début de ce fichier.
 
-25 files in `css/` — one per page that had its own inline stylesheet, named
-after the page.
-On the original the same CSS was inlined in each page; it is now external and
-linked at exactly the same place in `<head>`. Full page → stylesheet table in
-`SITE-MAP.md`.
+`js/home.js` gère l’accordéon, `js/search.js` filtre l’index local. `js/atelier.js` et `js/python-worker.js` activent le moteur Python facultatif uniquement sur clic ; son premier chargement nécessite Internet. Le reste du cours n’effectue aucune requête externe.
 
----
+## Documents et médias
 
-## Where the JS is
+Les images, PDF, documents Word et classeurs Excel restent dans leurs dossiers d’origine. Les MP4 restent dans `chapitreN/video/` ; des posters JPG ont été ajoutés sans modifier les vidéos. `transcripts/` contient douze aides textuelles issues des leçons, explicitement marquées brouillons. Les vidéos de substitution et les corrections indisponibles sont documentées dans `SITE-MAP.md` et `CHANGELOG.md`.
 
-| file | used by |
-|---|---|
-| `js/home.js` | `index.html` — the accordion |
-| `js/nav.js` | every chapter page — `redirigerVersLien()` (chapter drop-down) and `showPage()` (QUIZ buttons) |
+## Données et outils facultatifs
 
-Both were inline `<script>` blocks in the original (55 pages for `nav.js`);
-they are now one file each, loaded from the same position in the document.
-The iSpring quizzes keep their own bundled runtime under `…/data/*.js` —
-those are third-party and were **not** touched.
+`data/search-index.json` et `js/search-index.js` contiennent l’index livré ; `data/image-descriptions.json` documente les textes alternatifs. Il n’y a aucune donnée personnelle de visiteur ni stockage de progression.
 
----
+`tools/verify.js`, `tools/check.js` et `tools/verify-preservation.js` vérifient les liens, les régressions et les fichiers protégés. `tools/http-smoke.js` vérifie les réponses du serveur déjà lancé. `tools/build-search-index.js` régénère la recherche ; `tools/build-seo.js --origin=https://votre-domaine/` régénère le sitemap et les URL sociales pour le domaine choisi. Le domaine livré est celui du serveur local ; ces outils ne sont pas nécessaires pour utiliser le site.
 
-## Where the assets are
+L’audit PDF/Office de maintenance `tools/audit-documents.py` nécessite PyMuPDF et Pillow. Ces outils ne sont pas utilisés par les pages ni par le serveur.
 
-They stay exactly where the pages expect them, one folder per chapter:
+## Backend
 
-```
-chapitreN/image/*.png     screenshots of the lessons
-chapitreN/docpdf/*.pdf    printable version of each lesson
-chapitreN/tp/             exercises: .docx / .xlsx / .pdf
-chapitreN/video/*.mp4     the practical-work videos
-chapitreN/quiz|N/qcm/N/   iSpring quiz: <page>.html + data/ (player + content + fonts + images)
-```
-
----
-
-## Where the data is
-
-There is no database and no data directory. Everything the site displays is
-hard-coded in the HTML (lessons, exercises, answers). The only dynamic content
-is the iSpring quiz payload, which is a base64 blob embedded in each quiz page
-and decoded by its own bundled player.
-
----
-
-## Backend / database
-
-**None — nothing was rewritten.** The site runs on plain static files: no PHP,
-no API, no XHR/fetch calls, no forms, no cookies, no localStorage.
-`server.js` is only a static file server added so the project can be opened
-locally.
+Aucun backend métier, aucune base de données, aucun framework et aucun compte utilisateur. `server.js` sert uniquement les fichiers statiques.

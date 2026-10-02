@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>représentation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>II- Représentation de l'information dans un système informatique — Chapitre 1 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre1/representation.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre1.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="II- Représentation de l'information dans un système informatique. ■ C’est quoi un code binaire ? ■ Pourquoi coder de l'information ■ Comment représenter les informations pour les mettre dans l'ordinateur Les ordinateurs sont des machines électron">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="II- Représentation de l'information dans un système informatique — Chapitre 1 — Cours d’informatique">
+<meta name="twitter:description" content="II- Représentation de l'information dans un système informatique. ■ C’est quoi un code binaire ? ■ Pourquoi coder de l'information ■ Comment représenter les informations pour les mettre dans l'ordinateur Les ordinateurs sont des machines électron">
+<meta property="og:title" content="II- Représentation de l'information dans un système informatique — Chapitre 1 — Cours d’informatique">
+<meta property="og:description" content="II- Représentation de l'information dans un système informatique. ■ C’est quoi un code binaire ? ■ Pourquoi coder de l'information ■ Comment représenter les informations pour les mettre dans l'ordinateur Les ordinateurs sont des machines électron">
+<meta property="og:type" content="website">
+<link rel="canonical" href="representation.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre1/representation.html">
 </head>
-<body>
+<body data-style="chapitre1-representation">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 
 
-<table>
-    <tr>
-      <td><a href="definitions.html"> Précédent </a></td>
-      <td><a href="../index.html"> Accueil </a></td>
-      <td><a href="structure.html"> Suivant </a></td>
-    </tr>
-  </table>
 <br>
 
 
-<script src="../js/nav.js"></script>
-
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Généralités sur les systèmes informatiques</option>
-  <option value="definitions.html">I. Notions et définitions</option>
-  <option value="representation.html">II. Représentation de l’information dans un système informatique</option>
-  <option value="structure.html">III. Structure de base d'un système informatique</option>
-  <option value="cartemere.html">IV. La carte mère</option>
-  <option value="logiciels.html">V. Types des logiciels</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 
@@ -43,11 +38,15 @@
 
   <div class="content">
    
-    <center><a href="docpdf/representations.pdf"><img src="image/TEL.png" ></a><a href="evaluations.html"><img src="image/eval.png" ></a></center>
+    <center>
+<a href="docpdf/representations.pdf"><img src="image/TEL.png" width="250" height="42" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval.png" width="216" height="42" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
 
-    <h2>II- <span class="highlight">Représentation de l'information dans un système informatique</span></h2>
+    <h1 class="page-title">II- <span class="highlight">Représentation de l'information dans un système informatique</span>
+</h1>
 
-  <h3>1. <span class="section-title">Codage de l’information</span></h3>  
+  <h3>1. <span class="section-title">Codage de l’information</span>
+</h3>  
 
 <!-- paragraphe -->
 
@@ -74,13 +73,15 @@
 <p>L’information traitée par un système informatique ne peut donc être qu’une suite de ‘0’ et de ‘1’, dite information binaire </p>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-<h3>2. <span class="section-title">Les unités de mesures</span></h3> 
-<center><img src="image/unite.png" ></center>
+<h3>2. <span class="section-title">Les unités de mesures</span>
+</h3> 
+<center><img src="image/unite.png" width="548" height="221" decoding="async" loading="lazy" alt="Unités de mesure de l’information, du bit au zettaoctet"></center>
 
 
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-<h3>3. <span class="section-title">Les systèmes de numération</span></h3> 
+<h3>3. <span class="section-title">Les systèmes de numération</span>
+</h3> 
 
 <p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Système binaire</span> (b = 2) : C’est le système utilisé par la machine, comporte deux bits : 0 et 1.</p>
 <p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Système décimal</span> (b = 10) : C’est le système que nous utilisons quotidiennement, comporte 10 chiffres : 0,1,……et 9</p>
@@ -88,7 +89,8 @@
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<h3>4. <span class="section-title">Conversion en binaire</span></h3> 
+<h3>4. <span class="section-title">Conversion en binaire</span>
+</h3> 
 <h3><span class="sous-title">a- Méthode de division consécutive par 2:</span></h3>
 
 <p>C'est la méthode la plus courante.</p>
@@ -97,7 +99,7 @@
 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 45)<sub>10</sub> = …….)<sub>2</sub></p>
-<center><img src="image/binaire1.png" ></center>
+<center><img src="image/binaire1.png" width="342" height="186" decoding="async" loading="lazy" alt="Conversion de 45 en binaire par divisions successives par 2"></center>
 
 
 <h3><span class="sous-title">b- Méthode des puissances de 2:</span></h3>
@@ -107,10 +109,11 @@
 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 45)<sub>10</sub> = …….)<sub>2</sub></p>
-<center><img src="image/binaire2.png" ></center>
+<center><img src="image/binaire2.png" width="493" height="65" decoding="async" loading="lazy" alt="Décomposition de 45 en puissances de 2 : 101101 en binaire"></center>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-<h3>5. <span class="section-title">Conversion en décimal</span></h3> 
+<h3>5. <span class="section-title">Conversion en décimal</span>
+</h3> 
 <h3><span class="sous-title">a- Méthode par Addition des Puissances:</span></h3>
 
 <p>• <span style="font-weight: bold;text-decoration: underline;">Étapes</span>: Chaque chiffre binaire (bit) est multiplié par une puissance de 2 selon sa position (en partant de la droite (poids faible 20) vers la gauche (poids fort)).</p>
@@ -118,7 +121,7 @@
 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 110101)<sub>2</sub> = …….)<sub>10</sub></p>
-<center><img src="image/decimal1.png" ></center>
+<center><img src="image/decimal1.png" width="492" height="102" decoding="async" loading="lazy" alt="Conversion de 110101 en décimal par les puissances de 2"></center>
 
 
 <h3><span class="sous-title">b- Méthode par Table de Conversion:</span></h3>
@@ -128,7 +131,7 @@
 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 110101)<sub>2</sub> = …….)<sub>10</sub></p>
-<center><img src="image/decimal2.png" ></center>
+<center><img src="image/decimal2.png" width="475" height="89" decoding="async" loading="lazy" alt="Tableau des puissances de 2 pour convertir 110101 en 53"></center>
 
 
 
@@ -141,7 +144,7 @@
 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 110101)<sub>2</sub> = …….)<sub>10</sub></p>
-<center><img src="image/decimal3.png" ></center>
+<center><img src="image/decimal3.png" width="349" height="119" decoding="async" loading="lazy" alt="Conversion de 110101 par multiplications successives"></center>
 
 
 
@@ -156,8 +159,7 @@
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

@@ -10,17 +10,32 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil éducative</title>
+    <title>Bienvenue sur notre site web — Cours d’informatique</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/print.css" media="print">
+<meta name="description" content="Bienvenue sur notre site web. Vous y trouverez des leçons, des exercices et des travaux pratiques liés au programme de tronc commun lettre, science et technologie. Apporter les connaissances de base relatives à">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bienvenue sur notre site web — Cours d’informatique">
+<meta name="twitter:description" content="Bienvenue sur notre site web. Vous y trouverez des leçons, des exercices et des travaux pratiques liés au programme de tronc commun lettre, science et technologie. Apporter les connaissances de base relatives à">
+<meta property="og:title" content="Bienvenue sur notre site web — Cours d’informatique">
+<meta property="og:description" content="Bienvenue sur notre site web. Vous y trouverez des leçons, des exercices et des travaux pratiques liés au programme de tronc commun lettre, science et technologie. Apporter les connaissances de base relatives à">
+<meta property="og:type" content="website">
+<link rel="canonical" href="index.html">
+<link rel="icon" href="favicon.svg">
+<meta property="og:url" content="http://localhost:8080/index.html">
 </head>
-<body> 
+<body data-page="home">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="js/nav.js" data-site-chrome=""></script><main id="contenu"> 
 
 <div class="container">
 
     <!-- En-tête d'introduction -->
     <div class="intro">
-        <h2><span class="b">B</span><u>ienvenue sur notre site web</u></h2>
-        <p ><span style="font-style: italic; font-family: Farmhouse;font-weight: bold; font-size: 1.25em;color: #1e90ff;">Vous y trouverez des leçons, des exercices et des travaux pratiques liés au programme de tronc commun lettre, science et technologie.</span></p>
+        <h1 class="page-title">
+<span class="b">B</span><u>ienvenue sur notre site web</u>
+</h1>
+        <p><span style="font-style: italic; font-family: Farmhouse;font-weight: bold; font-size: 1.25em;color: #1e90ff;">Vous y trouverez des leçons, des exercices et des travaux pratiques liés au programme de tronc commun lettre, science et technologie.</span></p>
     </div>
 
     <!-- Accordeon (Blocs cliquables) -->
@@ -87,10 +102,10 @@
 <p><a href="chapitre4/fenetre.html">La fenêtre de l’application</a></p>
 <p><a href="chapitre4/mise_en_forme.html">La mise en forme des textes et des paragraphes</a></p>
 <p><a href="chapitre4/tableau.html">Insertion des tableaux</a></p>
-<p><a href="chapitre4/les formes.html">Insérer des formes, des image et des objets</a></p>
+<p><a href="chapitre4/les%20formes.html">Insérer des formes, des image et des objets</a></p>
 <p><a href="chapitre4/mise_en_page.html">Insérer une lettrine, des puces, des numéros, ...</a></p>
 <p><a href="chapitre4/mise_en_page2.html">Mise en page, Arrière-plan et Entête et pied de page</a></p>
-<p><a href="chapitre4/table des matieres.html">table des matières</a></p>
+<p><a href="chapitre4/table%20des%20matieres.html">table des matières</a></p>
 <p> <a href="chapitre4/evaluations.html">évaluations</a></p>
 
 
@@ -118,15 +133,98 @@
     </div>
 
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours]<span style="color: red;">//</span>Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
     </div>
-
-</div>
 
 <!-- Script accordéon -->
 <script src="js/home.js"></script>
 
 
+<section id="toutes-les-pages"><h2>Toutes les pages du cours</h2>
+<details><summary>Chapitre 1 — Leçons, exercices et quiz</summary><ul class="resource-list">
+<li><a href="chapitre1/cartemere.html">IV- La carte mère</a></li>
+<li><a href="chapitre1/corr1.html">Correction — Correction</a></li>
+<li><a href="chapitre1/corr2.html">Correction — Correction</a></li>
+<li><a href="chapitre1/definitions.html">I- Notions et Définition</a></li>
+<li><a href="chapitre1/eval1.html">évaluations</a></li>
+<li><a href="chapitre1/eval2.html">évaluations</a></li>
+<li><a href="chapitre1/evaluations.html">évaluations</a></li>
+<li><a href="chapitre1/logiciels.html">V- Types des logiciels</a></li>
+<li><a href="chapitre1/quiz/quiz1/quizpresentation.html">Représentation</a></li>
+<li><a href="chapitre1/quiz/quiz2/quizuct.html">Quiz: UCT</a></li>
+<li><a href="chapitre1/quiz/quiz3/quizmemoire.html">Quiz: Mémoire centrale</a></li>
+<li><a href="chapitre1/quiz/quiz4/quizperipherique.html">quiz:peripherique</a></li>
+<li><a href="chapitre1/quiz/quiz5/quizcartemere.html">Quiz: La carte-mère</a></li>
+<li><a href="chapitre1/quiz/quiz6/quizlogiciels.html">Quiz: Types des logiciels</a></li>
+<li><a href="chapitre1/representation.html">II- Représentation de l'information dans un système informatique</a></li>
+<li><a href="chapitre1/structure.html">III- Structure de base d'un système informatique</a></li>
+</ul></details><details><summary>Chapitre 2 — Leçons, exercices et quiz</summary><ul class="resource-list">
+<li><a href="chapitre2/correction1.html">Correction — Correction</a></li>
+<li><a href="chapitre2/correction2.html">Correction — Correction</a></li>
+<li><a href="chapitre2/correction3.html">Correction — Correction</a></li>
+<li><a href="chapitre2/correction4.html">Correction — Correction</a></li>
+<li><a href="chapitre2/definitions.html">I. Qu’est-ce qu’un algorithme ?</a></li>
+<li><a href="chapitre2/donnees.html">II. Notions de données</a></li>
+<li><a href="chapitre2/evaluations.html">évaluations</a></li>
+<li><a href="chapitre2/instruction.html">IV. Les instructions de base</a></li>
+<li><a href="chapitre2/serie1.html">Série 1 — évaluations</a></li>
+<li><a href="chapitre2/serie2.html">Série 2 — évaluations</a></li>
+<li><a href="chapitre2/serie3.html">Série 3 — évaluations</a></li>
+<li><a href="chapitre2/serie4.html">Série 4 — évaluations</a></li>
+<li><a href="chapitre2/structurealgo.html">III. Structure d’un algorithme</a></li>
+<li><a href="chapitre2/structures.html">V. Structures de contrôle de base</a></li>
+</ul></details><details><summary>Chapitre 3 — Leçons, exercices et quiz</summary><ul class="resource-list">
+<li><a href="chapitre3/correction1.html">Correction — Correction</a></li>
+<li><a href="chapitre3/correction2.html">Correction — Correction</a></li>
+<li><a href="chapitre3/correction3.html">Correction — Correction</a></li>
+<li><a href="chapitre3/correction4.html">Correction — Correction</a></li>
+<li><a href="chapitre3/evaluations.html">évaluations</a></li>
+<li><a href="chapitre3/exceptions.html">VI. Gestions des exceptions en Python</a></li>
+<li><a href="chapitre3/fonctions.html">V. Fonctions prédéfinies (ou intégrées) en Python</a></li>
+<li><a href="chapitre3/instruction.html">III. Les instructions de base</a></li>
+<li><a href="chapitre3/introduction.html">I. Introduction</a></li>
+<li><a href="chapitre3/serie1.html">Série 1 — évaluations</a></li>
+<li><a href="chapitre3/serie2.html">Série 2 — évaluations</a></li>
+<li><a href="chapitre3/serie3.html">Série 3 — évaluations</a></li>
+<li><a href="chapitre3/serie4.html">Série 4 — évaluations</a></li>
+<li><a href="chapitre3/structures.html">V. Structures de contrôle de base</a></li>
+<li><a href="chapitre3/variables.html">II. Les variables</a></li>
+</ul></details><details><summary>Chapitre 4 — Leçons, exercices et quiz</summary><ul class="resource-list">
+<li><a href="chapitre4/evaluations.html">évaluations</a></li>
+<li><a href="chapitre4/fenetre.html">I) La fenêtre de l’application</a></li>
+<li><a href="chapitre4/les%20formes.html">IV) Insérer une forme, une image, un objet WordArt et un objet SmartArt</a></li>
+<li><a href="chapitre4/mise_en_forme.html">II) La mise en forme</a></li>
+<li><a href="chapitre4/mise_en_page.html">V) Insérer une lettrine, des puces et numéros, Symbole et équation</a></li>
+<li><a href="chapitre4/mise_en_page2.html">VI) Mise en page, Arrière-plan de la page, Entête et pied de page</a></li>
+<li><a href="chapitre4/qcm/1/qcm1.html">quiz1</a></li>
+<li><a href="chapitre4/qcm/2/qcm2.html">quiz2</a></li>
+<li><a href="chapitre4/qcm/3/qcm3.html">quiz3</a></li>
+<li><a href="chapitre4/qcm/4/qcm4.html">quiz4</a></li>
+<li><a href="chapitre4/qcm/5/qcm5.html">quiz5</a></li>
+<li><a href="chapitre4/qcm/6/qcm6.html">quiz6</a></li>
+<li><a href="chapitre4/table%20des%20matieres.html">VII) Styles et table des matières</a></li>
+<li><a href="chapitre4/tableau.html">III) Création des tableaux</a></li>
+</ul></details><details><summary>Chapitre 5 — Leçons, exercices et quiz</summary><ul class="resource-list">
+<li><a href="chapitre5/definitions.html">I) Définitions</a></li>
+<li><a href="chapitre5/evaluations.html">évaluations</a></li>
+<li><a href="chapitre5/fonction.html">VI) Les fonctions</a></li>
+<li><a href="chapitre5/format_cellule.html">IV) Mise en forme des cellules:</a></li>
+<li><a href="chapitre5/formules.html">V) Les formules et les références:</a></li>
+<li><a href="chapitre5/gestion_feuil.html">II) Gestion d’une feuille de calcul</a></li>
+<li><a href="chapitre5/gestion_lignes.html">III) Gestion des lignes et des colonnes</a></li>
+<li><a href="chapitre5/graphe.html">VII) Création de graphiques</a></li>
+<li><a href="chapitre5/qcm/1/qcm1.html">Quiz Excel</a></li>
+<li><a href="chapitre5/qcm/2/qcm2.html">Quiz Excel</a></li>
+<li><a href="chapitre5/qcm/3/qcm3.html">Quiz Excel</a></li>
+<li><a href="chapitre5/qcm/4/qcm4.html">Quiz Excel</a></li>
+<li><a href="chapitre5/qcm/5/qcm5.html">Quiz Excel</a></li>
+</ul></details></section><a href="recherche.html">Rechercher une page du cours</a><section><h2>Pour apprendre et réviser</h2>
+<ul>
+<li><a href="syllabus.html">Programme et objectifs</a></li>
+<li><a href="glossaire.html">Glossaire</a></li>
+<li><a href="fiches-de-revision.html">Fiches de révision</a></li>
+<li><a href="erreurs-courantes.html">Erreurs courantes</a></li>
+<li><a href="atelier.html">Atelier Python facultatif</a></li>
+</ul></section></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

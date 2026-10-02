@@ -1,0 +1,19 @@
+AIDE TEXTUELLE — BROUILLON
+V) Les formules et les références:
+
+Source : chapitre5/formules.html
+Vidéo : chapitre5/video/tp4.mp4
+
+Ce texte reprend la leçon qui accompagne la vidéo. Il ne transcrit pas une bande sonore vérifiée.
+La vidéo du chapitre 5 est un substitut repris du chapitre 4 ; cette aide concerne la leçon Excel, pas le contenu parlé du fichier vidéo.
+
+V) Les formules et les références:
+1. Les formules
+Les formules sont des expressions qui permettent d’effectuer des calculs, de renvoyer des informations, de manipuler le contenu des cellules, etc. Une formule commence toujours par un signe égal (=).[Exp : =E3+C4]
+2. La référence des cellules
+a- Référence relative:
+Une cellule peut être référencée par rapport à une autre cellule (Exemple =A2)
+b- Référence absolue:
+Une cellule peut être référencée par sa place par rapport à toute la feuille (Exemple =$A$2)
+Remarque :
+La référence absolue reste fixe lors de la copie, tandis qu’une référence relative s’adapte : les numéros de ligne et de colonne changent en fonction de la nouvelle position

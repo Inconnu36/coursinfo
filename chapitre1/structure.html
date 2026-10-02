@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>structure</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>III- Structure de base d'un système informatique — Chapitre 1 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre1/structure.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre1.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="III- Structure de base d'un système informatique. L’UCT appelée aussi Processeur ou Microprocesseur est le cerveau de l’ordinateur. Elle sert à : - Unité arithmétique et logique : Effectue des opérations arithmétiques (+, - , X , ">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="III- Structure de base d'un système informatique — Chapitre 1 — Cours d’informatique">
+<meta name="twitter:description" content="III- Structure de base d'un système informatique. L’UCT appelée aussi Processeur ou Microprocesseur est le cerveau de l’ordinateur. Elle sert à : - Unité arithmétique et logique : Effectue des opérations arithmétiques (+, - , X , ">
+<meta property="og:title" content="III- Structure de base d'un système informatique — Chapitre 1 — Cours d’informatique">
+<meta property="og:description" content="III- Structure de base d'un système informatique. L’UCT appelée aussi Processeur ou Microprocesseur est le cerveau de l’ordinateur. Elle sert à : - Unité arithmétique et logique : Effectue des opérations arithmétiques (+, - , X , ">
+<meta property="og:type" content="website">
+<link rel="canonical" href="structure.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre1/structure.html">
 </head>
-<body>
+<body data-style="chapitre1-structure">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 
 
-<table>
-    <tr>
-      <td><a href="representation.html"> Précédent </a></td>
-      <td><a href="../index.html"> Accueil </a></td>
-      <td><a href="cartemere.html"> Suivant </a></td>
-    </tr>
-  </table>
 <br>
 
 
-<script src="../js/nav.js"></script>
-
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Généralités sur les systèmes informatiques</option>
-  <option value="definitions.html">I. Notions et définitions</option>
-  <option value="representation.html">II. Représentation de l’information dans un système informatique</option>
-  <option value="structure.html">III. Structure de base d'un système informatique</option>
-  <option value="cartemere.html">IV. La carte mère</option>
-  <option value="logiciels.html">V. Types des logiciels</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 
@@ -43,37 +38,44 @@
 
   <div class="content">
    
-    <center><a href="docpdf/structure.pdf"><img src="image/TEL.png" ></a><a href="evaluations.html"><img src="image/eval.png" ></a></center>
+    <center>
+<a href="docpdf/structure.pdf"><img src="image/TEL.png" width="250" height="42" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval.png" width="216" height="42" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
 
-    <h2>III- <span class="highlight">Structure de base d'un système informatique</span></h2>
+    <h1 class="page-title">III- <span class="highlight">Structure de base d'un système informatique</span>
+</h1>
 
   <h3><span class="section-title">Schéma fonctionnel</span></h3>  
 
 <!-- paragraphe -->
 
-<center><img src="image/schema1.png" ><br><img src="image/schemafonctionnel.png" ></center>
+<center>
+<img src="image/schema1.png" width="380" height="239" decoding="async" loading="lazy" alt="Périphériques d’entrée, de sortie et de stockage reliés à l’unité centrale"><br><img src="image/schemafonctionnel.png" width="500" height="225" decoding="async" loading="lazy" alt="Schéma fonctionnel : mémoire centrale, traitement et périphériques">
+</center>
 
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-<h3>1. <span class="section-title">L’unité centrale de traitement (l’UCT)</span></h3> 
+<h3>1. <span class="section-title">L’unité centrale de traitement (l’UCT)</span>
+</h3> 
 <h3><span class="sous-title">a-  Qu’est-ce que l’unité centrale de traitement</span></h3>
 
 <p>L’UCT appelée aussi Processeur ou Microprocesseur est le cerveau de l’ordinateur.
 Elle sert à :
-<DIV class="retrait3">
+</p>
+<div class="retrait3">
 - Exécuter les instructions des programmes,<br>
 - Faire les calculs,<br>
 - Et diriger le travail des autres parties de l’ordinateur (mémoire, écran, clavier…)
-</DIV>
-</p>
+</div>
 
-<center><img src="image/processeur.png" ></center>
+
+<center><img src="image/processeur.png" width="234" height="169" decoding="async" loading="lazy" alt="Processeur : face supérieure et broches"></center>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <h3><span class="sous-title">b- Les composants de UCT</span></h3>
 
 
-<p>- <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Unité arithmétique et logique </span>: Effectue des opérations arithmétiques <strong>(+, - , X , ÷ )</strong> et logiques <strong>( ≠, = , < , ≤ , > , ≥ )</strong>.</p>
+<p>- <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Unité arithmétique et logique </span>: Effectue des opérations arithmétiques <strong>(+, - , X , ÷ )</strong> et logiques <strong>( ≠, = , &lt; , ≤ , &gt; , ≥ )</strong>.</p>
 
 <p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Unité de commande</span>: dirige le fonctionnement de l’ordinateur et décode les instructions du programme.</p>
 
@@ -91,10 +93,10 @@ Elle sert à :
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Exemple :</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">-</span> Un processeur de 3.5 GHz peut effectuer jusqu’à 3,5 milliards de cycles par seconde.<br>
 
-</DIV>
+</div>
 <p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Architecture </span>: C’est la conception interne du processeur <strong>(ex : x86, x64)</strong>, La taille des données que le processeur peut traiter en une seule fois.</p>
 
 <p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Mémoire cache</span>: Mémoire très rapide intégrée au processeur pour stocker les données fréquemment utilisées, ( <span style="color: red;">L1</span> <strong>(très rapide)</strong>, <span style="color: red;">L2</span> <strong>(intermédiaire)</strong>, <span style="color: red;">L3</span> <strong>(plus grande, mais plus lente)</strong>).</p>
@@ -107,29 +109,30 @@ Elle sert à :
 
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque :</p>
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">• </span>Plus un processeur a plusieurs cœurs, plus il peut exécuter plusieurs tâches en même temps<br>
 <span style="color: red;">• </span>Pour vérifier le nombre de cœurs d’un ordinateur : Ctrl <span style="color: red;">+</span> Maj <span style="color: red;">+</span> Échap <span style="color: red;">→</span> Onglet "Performances".<br>
-</DIV>
+</div>
       
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<h3>2. <span class="section-title">La mémoire centrale</span></h3> 
+<h3>2. <span class="section-title">La mémoire centrale</span>
+</h3> 
 <h3><span class="sous-title">a-  La mémoire vive ou RAM (Random Access Memory)</span></h3>
 
 <p>C’est la mémoire principale de l’ordinateur qui stocke les données et les instructions en cours de traitement, 
 Elle est accessible en lecture et en écriture. Cette mémoire est dite volatile car elle se vide lorsque l’ordinateur est éteint.</p>
 
-<center><img src="image/ram.png" ></center>
+<center><img src="image/ram.png" width="408" height="220" decoding="async" loading="lazy" alt="Barrette de mémoire vive RAM"></center>
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Format:</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;text-decoration: green wavy underline;">• DIMM</span> : Pour PC de bureau (longues barrettes).<br>
 <span style="font-weight: bold;color: red;text-decoration: green wavy underline;">• SO-DIMM</span> (Small Outline Dual In-Line Memory Module)  : Pour PC portables et mini-PC (format compact).<br>
 
-</DIV>
+</div>
 
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
@@ -140,26 +143,27 @@ Elle est accessible en lecture et en écriture. Cette mémoire est dite volatile
 Cette mémoire est dite non volatile, car elle ne s'efface pas même si l’ordinateur est éteint.
 </p>
 
-<center><img src="image/rom.png" ></center>
+<center><img src="image/rom.png" width="290" height="195" decoding="async" loading="lazy" alt="Mémoire morte ROM"></center>
 
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">A retenir</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;text-decoration: green wavy underline;">• Le BIOS</span> ou <span style="color: red;text-decoration: green wavy underline;">UEFI</span> est stocké dans la ROM.<br>
 <span style="font-weight: bold;color: red;">• </span>Elle sert aussi à stocker des programmes de base, comme : <span style="font-weight: bold;color: red;">Le firmware</span> d’un téléphone, d’une imprimante, d’une console de jeu, etc.<br>
 
-</DIV>
+</div>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<h3>3. <span class="section-title">Les organes périphériques</span></h3> 
+<h3>3. <span class="section-title">Les organes périphériques</span>
+</h3> 
 <h3><span class="sous-title">a-  Les périphériques d'entrée</span></h3>
 <p>Permettent de transmettre des données à l'ordinateur.</p>
 
 <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Exemples :</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">- Clavier </span>: saisie de texte<br>
 <span style="color: red;">- Souris </span>: pointage<br>
 <span style="color: red;">- Microphone </span>: capture audio<br>
@@ -168,7 +172,7 @@ Cette mémoire est dite non volatile, car elle ne s'efface pas même si l’ordi
 <span style="color: red;">- Manette de jeu </span>: contrôle des jeux vidéo<br>
 <span style="color: red;">- Lecteur de cd/dvd-rom </span>: lire les données enregistrées sur un CD/DVD-ROM<br>
 
-</DIV>
+</div>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 <h3><span class="sous-title">b-  Les périphériques de sortie</span></h3>
@@ -177,12 +181,12 @@ Cette mémoire est dite non volatile, car elle ne s'efface pas même si l’ordi
 <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Exemples :</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">- Écran </span>: affichage visuel<br>
 <span style="color: red;">- Imprimante </span>: sortie papier<br>
 <span style="color: red;">- Haut-parleurs </span>: sortie audio<br>
 <span style="color: red;">- Vidéo Projecteur  </span>: affichage sur grand écran<br>
-</DIV>
+</div>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 <h3><span class="sous-title">c-  Les supports de stockage</span></h3>
@@ -191,30 +195,29 @@ Cette mémoire est dite non volatile, car elle ne s'efface pas même si l’ordi
 <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Exemples :</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">- Clé USB </span><br>
 <span style="color: red;">- Disque dur </span><br>
 <span style="color: red;">- Carte mémoire </span><br>
 <span style="color: red;">- Cd-rom et dvd-rom </span><br>
 
-</DIV>
+</div>
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque :</p>
       
-<p >IL y a aussi des périphériques d’entrée/sortie comme :</p>
+<p>IL y a aussi des périphériques d’entrée/sortie comme :</p>
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">• Le modem </span>: connexion Internet<br>
 <span style="color: red;">• Le graveur de cd/dvd-rom </span>: lire et écrire des données sur un disque cd/dvd-rom<br>
 <span style="color: red;">• Lecteur de carte mémoire </span>: lire et écrire des données sur la carte mémoire<br>
 <span style="color: red;">• Écran tactile  </span>: affichage + saisie<br>
-</DIV>
+</div>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

@@ -1,0 +1,781 @@
+/* Règles communes regroupées ; variantes limitées à leur page. */
+
+:where(body[data-style="chapitre1-cartemere"]) img,
+:where(body[data-style="chapitre1-corr1"]) img,
+:where(body[data-style="chapitre1-eval2"]) img,
+:where(body[data-style="chapitre1-representation"]) img,
+:where(body[data-style="chapitre1-structure"]) img,
+:where(body[data-style="chapitre1-definitions"]) img {
+max-width: 96%;
+      height: auto;
+      display: block;
+      margin: 2px auto;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .retrait {
+background:#fff0ae;
+   border: 1px solid black;
+   text-align: justify;
+   padding: 10px;
+   margin: 10px; 
+ border: 2px dotted green;
+ font-family: verdana;
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .retrait,
+:where(body[data-style="chapitre1-corr1"]) .retrait,
+:where(body[data-style="chapitre1-eval2"]) .retrait,
+:where(body[data-style="chapitre1-representation"]) .retrait,
+:where(body[data-style="chapitre1-structure"]) .retrait,
+:where(body[data-style="chapitre1-definitions"]) .retrait {
+background:#fff0ae;
+   border: 1px solid black;
+   text-align: justify;
+   padding: 10px;
+   margin: 10px; 
+ border: 2px dotted green;
+ font-family: verdana;
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .retrait2 {
+background:#72EAFE;
+   font-weight: bold;
+   font-style: italic;
+   text-align: justify;
+   padding: 10px;
+   margin-left: 50px; 
+   margin-right: 50px; 
+ font-family: Farmhouse;
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .retrait2 {
+background:#72EAFE;
+   font-weight: bold;
+   font-style: italic;
+   text-align: justify;
+   padding: 4px;
+   margin-left: 4px; 
+   margin-right: 4px; 
+ font-family: Farmhouse;
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-corr1"]) .retrait2,
+:where(body[data-style="chapitre1-eval2"]) .retrait2 {
+background:#72EAFE;
+   font-weight: bold;
+   font-style: italic;
+   text-align: justify;
+   padding: 10px;
+   margin-left: 50px; 
+   margin-right: 50px; 
+ font-family: Farmhouse;
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .nav,
+:where(body[data-style="chapitre1-representation"]) .nav,
+:where(body[data-style="chapitre1-definitions"]) .nav {
+display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e0e0e0;
+      border: 1px solid black;
+      padding: 10px;
+      font-weight: bold;
+      position: relative;
+}
+
+:where(body[data-style="chapitre1-structure"]) .retrait2 {
+background:#72EAFE;
+   font-weight: bold;
+   font-style: italic;
+   text-align: justify;
+   padding: 4px;
+   margin-left: 14px; 
+   margin-right: 4px; 
+ font-family: Farmhouse;
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .nav,
+:where(body[data-style="chapitre1-corr1"]) .nav,
+:where(body[data-style="chapitre1-eval2"]) .nav {
+display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e0e0e0;
+      border: 1px solid black;
+      padding: 10px;
+      font-weight: bold;
+      position: relative;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .dropdown,
+:where(body[data-style="chapitre1-representation"]) .dropdown,
+:where(body[data-style="chapitre1-definitions"]) .dropdown {
+position: relative;
+      display: inline-block;
+}
+
+:where(body[data-style="chapitre1-structure"]) .retrait3 {
+text-align: justify;
+   padding: 4px;
+   margin-left: 14px; 
+   margin-right: 10px; 
+
+font-size: 1.1em;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .dropdown,
+:where(body[data-style="chapitre1-corr1"]) .dropdown,
+:where(body[data-style="chapitre1-eval2"]) .dropdown {
+position: relative;
+      display: inline-block;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .dropdown-button,
+:where(body[data-style="chapitre1-representation"]) .dropdown-button,
+:where(body[data-style="chapitre1-definitions"]) .dropdown-button {
+background: none;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+:where(body[data-style="chapitre1-structure"]) .nav {
+display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e0e0e0;
+      border: 1px solid black;
+      padding: 10px;
+      font-weight: bold;
+      position: relative;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .dropdown-button,
+:where(body[data-style="chapitre1-corr1"]) .dropdown-button,
+:where(body[data-style="chapitre1-eval2"]) .dropdown-button {
+background: none;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .dropdown-content,
+:where(body[data-style="chapitre1-representation"]) .dropdown-content,
+:where(body[data-style="chapitre1-definitions"]) .dropdown-content {
+display: none;
+      position: absolute;
+     
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      min-width: 460px;
+      border: 1px solid #ccc;
+      z-index: 1;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+:where(body[data-style="chapitre1-structure"]) .dropdown {
+position: relative;
+      display: inline-block;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .dropdown-content,
+:where(body[data-style="chapitre1-corr1"]) .dropdown-content,
+:where(body[data-style="chapitre1-eval2"]) .dropdown-content {
+display: none;
+      position: absolute;
+     
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      min-width: 460px;
+      border: 1px solid #ccc;
+      z-index: 1;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .dropdown-content a,
+:where(body[data-style="chapitre1-representation"]) .dropdown-content a,
+:where(body[data-style="chapitre1-definitions"]) .dropdown-content a {
+color: black;
+      padding: 10px 16px;
+      text-decoration: none;
+      display: block;
+}
+
+:where(body[data-style="chapitre1-structure"]) .dropdown-button {
+background: none;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .dropdown-content a,
+:where(body[data-style="chapitre1-corr1"]) .dropdown-content a,
+:where(body[data-style="chapitre1-eval2"]) .dropdown-content a {
+color: black;
+      padding: 10px 16px;
+      text-decoration: none;
+      display: block;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .dropdown-content a:hover,
+:where(body[data-style="chapitre1-representation"]) .dropdown-content a:hover,
+:where(body[data-style="chapitre1-definitions"]) .dropdown-content a:hover {
+background-color: #f1f1f1;
+}
+
+:where(body[data-style="chapitre1-structure"]) .dropdown-content {
+display: none;
+      position: absolute;
+     
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      min-width: 460px;
+      border: 1px solid #ccc;
+      z-index: 1;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .dropdown-content a:hover,
+:where(body[data-style="chapitre1-corr1"]) .dropdown-content a:hover,
+:where(body[data-style="chapitre1-eval2"]) .dropdown-content a:hover {
+background-color: #f1f1f1;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .dropdown:hover .dropdown-content,
+:where(body[data-style="chapitre1-representation"]) .dropdown:hover .dropdown-content,
+:where(body[data-style="chapitre1-definitions"]) .dropdown:hover .dropdown-content {
+display: block;
+}
+
+:where(body[data-style="chapitre1-structure"]) .dropdown-content a {
+color: black;
+      padding: 10px 16px;
+      text-decoration: none;
+      display: block;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .dropdown:hover .dropdown-content,
+:where(body[data-style="chapitre1-corr1"]) .dropdown:hover .dropdown-content,
+:where(body[data-style="chapitre1-eval2"]) .dropdown:hover .dropdown-content {
+display: block;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .content,
+:where(body[data-style="chapitre1-representation"]) .content,
+:where(body[data-style="chapitre1-definitions"]) .content {
+background-color: #C2EAFE;
+      border: 1px solid #4CAF50;
+      padding: 20px;
+      margin-top: 10px;
+      font-size: 16px;
+}
+
+:where(body[data-style="chapitre1-structure"]) .dropdown-content a:hover {
+background-color: #f1f1f1;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .content,
+:where(body[data-style="chapitre1-corr1"]) .content,
+:where(body[data-style="chapitre1-eval2"]) .content {
+background-color: #C2EAFE;
+      border: 1px solid #4CAF50;
+      padding: 20px;
+      margin-top: 10px;
+      font-size: 16px;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) h2,
+:where(body[data-style="chapitre1-representation"]) h2,
+:where(body[data-style="chapitre1-definitions"]) h2 {
+color: #d10000;
+      font-size: 18px;
+}
+
+:where(body[data-style="chapitre1-structure"]) .dropdown:hover .dropdown-content {
+display: block;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) h2,
+:where(body[data-style="chapitre1-corr1"]) h2,
+:where(body[data-style="chapitre1-eval2"]) h2 {
+color: #d10000;
+      font-size: 18px;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) h3,
+:where(body[data-style="chapitre1-representation"]) h3,
+:where(body[data-style="chapitre1-definitions"]) h3 {
+color: blue;
+      font-size: 18px;
+}
+
+:where(body[data-style="chapitre1-structure"]) .content {
+background-color: #C2EAFE;
+      border: 1px solid #4CAF50;
+      padding: 20px;
+      margin-top: 10px;
+      font-size: 16px;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) h3,
+:where(body[data-style="chapitre1-corr1"]) h3,
+:where(body[data-style="chapitre1-eval2"]) h3 {
+color: blue;
+      font-size: 18px;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .section-title,
+:where(body[data-style="chapitre1-representation"]) .section-title,
+:where(body[data-style="chapitre1-definitions"]) .section-title {
+color: blue;
+      font-weight: bold;
+      margin-top: 20px;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-structure"]) h2 {
+color: #d10000;
+      font-size: 18px;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .section-title,
+:where(body[data-style="chapitre1-corr1"]) .section-title,
+:where(body[data-style="chapitre1-eval2"]) .section-title {
+color: blue;
+      font-weight: bold;
+      margin-top: 20px;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .sous-title,
+:where(body[data-style="chapitre1-representation"]) .sous-title,
+:where(body[data-style="chapitre1-definitions"]) .sous-title {
+color: green;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-top: 20px;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-structure"]) h3 {
+color: blue;
+      font-size: 18px;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .sous-title,
+:where(body[data-style="chapitre1-corr1"]) .sous-title,
+:where(body[data-style="chapitre1-eval2"]) .sous-title {
+color: green;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-top: 20px;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .content p,
+:where(body[data-style="chapitre1-representation"]) .content p,
+:where(body[data-style="chapitre1-definitions"]) .content p {
+margin: 10px 0;
+      text-align: justify;
+}
+
+:where(body[data-style="chapitre1-structure"]) .section-title {
+color: blue;
+      font-weight: bold;
+      margin-top: 20px;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .content p,
+:where(body[data-style="chapitre1-corr1"]) .content p,
+:where(body[data-style="chapitre1-eval2"]) .content p {
+margin: 10px 0;
+      text-align: justify;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) strong,
+:where(body[data-style="chapitre1-representation"]) strong,
+:where(body[data-style="chapitre1-definitions"]) strong {
+font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-structure"]) .sous-title {
+color: green;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-top: 20px;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) strong,
+:where(body[data-style="chapitre1-eval2"]) strong {
+font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-corr1"]) p1 {
+font-family: verdana; 
+  font-size: 1.2em;
+  margin-left: 8px;
+margin-right: 8px;
+margin-top: 8px;
+margin-bottom: 8px;
+line-height: 1.6em;
+text-align: justify;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) em,
+:where(body[data-style="chapitre1-representation"]) em,
+:where(body[data-style="chapitre1-definitions"]) em {
+font-style: italic;
+}
+
+:where(body[data-style="chapitre1-structure"]) .content p {
+margin: 10px 0;
+      text-align: justify;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) em,
+:where(body[data-style="chapitre1-eval2"]) em {
+font-style: italic;
+}
+
+:where(body[data-style="chapitre1-corr1"]) strong,
+:where(body[data-style="chapitre1-structure"]) strong {
+font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) a,
+:where(body[data-style="chapitre1-representation"]) a,
+:where(body[data-style="chapitre1-definitions"]) a {
+color: green;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) a,
+:where(body[data-style="chapitre1-eval2"]) a {
+color: green;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-corr1"]) em,
+:where(body[data-style="chapitre1-structure"]) em {
+font-style: italic;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) a:hover,
+:where(body[data-style="chapitre1-representation"]) a:hover,
+:where(body[data-style="chapitre1-definitions"]) a:hover {
+text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) a:hover,
+:where(body[data-style="chapitre1-eval2"]) a:hover {
+text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-corr1"]) a,
+:where(body[data-style="chapitre1-structure"]) a {
+color: green;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .highlight,
+:where(body[data-style="chapitre1-representation"]) .highlight,
+:where(body[data-style="chapitre1-definitions"]) .highlight {
+color: #d10000;
+      font-weight: bold;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .highlight {
+color: #d10000;
+      font-weight: bold;
+      text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-corr1"]) a:hover,
+:where(body[data-style="chapitre1-structure"]) a:hover {
+text-decoration: underline;
+}
+
+:where(body[data-style="chapitre1-eval2"]) .highlight {
+color: blue;
+      font-weight: bold;
+      
+      text-align: center;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .sublist,
+:where(body[data-style="chapitre1-representation"]) .sublist,
+:where(body[data-style="chapitre1-definitions"]) .sublist {
+margin-left: 5px;
+      margin-right: 5px;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .sublist,
+:where(body[data-style="chapitre1-eval2"]) .sublist {
+margin-left: 5px;
+      margin-right: 5px;
+}
+
+:where(body[data-style="chapitre1-corr1"]) .highlight {
+color: blue;
+      font-weight: bold;
+      
+      text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+:where(body[data-style="chapitre1-evaluations"]) .nav,
+:where(body[data-style="chapitre1-representation"]) .nav,
+:where(body[data-style="chapitre1-definitions"]) .nav {
+flex-direction: column;
+        gap: 10px;
+        text-align: center;
+}
+:where(body[data-style="chapitre1-evaluations"]) .dropdown-content,
+:where(body[data-style="chapitre1-representation"]) .dropdown-content,
+:where(body[data-style="chapitre1-definitions"]) .dropdown-content {
+left: 0;
+        transform: none;
+}
+}
+
+:where(body[data-style="chapitre1-structure"]) .highlight {
+color: #d10000;
+      font-weight: bold;
+      text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+:where(body[data-style="chapitre1-cartemere"]) .nav,
+:where(body[data-style="chapitre1-eval2"]) .nav {
+flex-direction: column;
+        gap: 10px;
+        text-align: center;
+}
+:where(body[data-style="chapitre1-cartemere"]) .dropdown-content,
+:where(body[data-style="chapitre1-eval2"]) .dropdown-content {
+left: 0;
+        transform: none;
+}
+}
+
+:where(body[data-style="chapitre1-corr1"]) .sublist,
+:where(body[data-style="chapitre1-structure"]) .sublist {
+margin-left: 5px;
+      margin-right: 5px;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) select,
+:where(body[data-style="chapitre1-representation"]) select,
+:where(body[data-style="chapitre1-definitions"]) select {
+color: blue; 
+      width: 95%;
+      font-size: 1.22em
+}
+
+:where(body[data-style="chapitre1-cartemere"]) select {
+color: blue; 
+      width: 95%;
+      font-size: 1.22em
+}
+
+@media screen and (max-width: 600px) {
+:where(body[data-style="chapitre1-corr1"]) .nav,
+:where(body[data-style="chapitre1-structure"]) .nav {
+flex-direction: column;
+        gap: 10px;
+        text-align: center;
+}
+:where(body[data-style="chapitre1-corr1"]) .dropdown-content,
+:where(body[data-style="chapitre1-structure"]) .dropdown-content {
+left: 0;
+        transform: none;
+}
+}
+
+:where(body[data-style="chapitre1-eval2"]) p1 {
+font-family: verdana; 
+  font-size: 1.2em;
+  margin-left: 8px;
+margin-right: 8px;
+margin-top: 8px;
+margin-bottom: 8px;
+line-height: 1.6em;
+text-align: justify;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) option,
+:where(body[data-style="chapitre1-representation"]) option,
+:where(body[data-style="chapitre1-definitions"]) option {
+color: blue;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) option {
+color: blue;
+}
+
+:where(body[data-style="chapitre1-corr1"]) .marge,
+:where(body[data-style="chapitre1-eval2"]) .marge {
+border: 1px solid black;
+   text-align: justify;
+   padding: 8px;
+   margin: 10px; 
+ border: 2px dotted green;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) .footer,
+:where(body[data-style="chapitre1-representation"]) .footer,
+:where(body[data-style="chapitre1-definitions"]) .footer {
+background-color: #454545;
+            border: 1px dashed #333;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-style: italic;
+}
+
+:where(body[data-style="chapitre1-structure"]) select {
+color: blue; 
+      width: 95%;
+      font-size: 1.22em
+}
+
+:where(body[data-style="chapitre1-cartemere"]) .footer {
+background-color: #454545;
+            border: 1px dashed #333;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-style: italic;
+}
+
+:where(body[data-style="chapitre1-corr1"]) select,
+:where(body[data-style="chapitre1-eval2"]) select {
+color: blue; 
+      width: 95%;
+      font-size: 1.22em
+}
+
+:where(body[data-style="chapitre1-evaluations"]) table {
+width: 100%;
+      background-color: #e7f0ae; 
+      text-align: center;
+      border-collapse: collapse;
+      border: 1px solid black; 
+      
+}
+
+:where(body[data-style="chapitre1-representation"]) table,
+:where(body[data-style="chapitre1-definitions"]) table {
+width: 100%;
+      background-color: #ddd; 
+      text-align: center;
+      border-collapse: collapse;
+      border: 1px solid black; 
+      
+}
+
+:where(body[data-style="chapitre1-structure"]) option {
+color: blue;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) table {
+width: 100%;
+      background-color: #ddd; 
+      text-align: center;
+      border-collapse: collapse;
+      border: 1px solid black; 
+      
+}
+
+:where(body[data-style="chapitre1-corr1"]) option,
+:where(body[data-style="chapitre1-eval2"]) option {
+color: blue;
+}
+
+:where(body[data-style="chapitre1-evaluations"]) td,
+:where(body[data-style="chapitre1-representation"]) td,
+:where(body[data-style="chapitre1-definitions"]) td {
+padding: 10px;
+      font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-structure"]) .footer {
+background-color: #454545;
+            border: 1px dashed #333;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-style: italic;
+}
+
+:where(body[data-style="chapitre1-cartemere"]) td {
+padding: 10px;
+      font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-corr1"]) .footer,
+:where(body[data-style="chapitre1-eval2"]) .footer {
+background-color: #454545;
+            border: 1px dashed #333;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-style: italic;
+}
+
+:where(body[data-style="chapitre1-structure"]) table {
+width: 100%;
+      background-color: #ddd; 
+      text-align: center;
+      border-collapse: collapse;
+      border: 1px solid black; 
+      
+}
+
+:where(body[data-style="chapitre1-corr1"]) table,
+:where(body[data-style="chapitre1-eval2"]) table {
+width: 100%;
+      background-color: #ddd; 
+      text-align: center;
+      border-collapse: collapse;
+      border: 1px solid black; 
+      
+}
+
+:where(body[data-style="chapitre1-structure"]) td {
+padding: 10px;
+      font-weight: bold;
+}
+
+:where(body[data-style="chapitre1-corr1"]) td,
+:where(body[data-style="chapitre1-eval2"]) td {
+padding: 10px;
+      font-weight: bold;
+}

@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Structures </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V. Structures de contrôle de base — Chapitre 3 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre3/structures.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre3.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="V. Structures de contrôle de base. La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie). Exercice d’application: Écrire un Programme python qui demande à l'u">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="V. Structures de contrôle de base — Chapitre 3 — Cours d’informatique">
+<meta name="twitter:description" content="V. Structures de contrôle de base. La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie). Exercice d’application: Écrire un Programme python qui demande à l'u">
+<meta property="og:title" content="V. Structures de contrôle de base — Chapitre 3 — Cours d’informatique">
+<meta property="og:description" content="V. Structures de contrôle de base. La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie). Exercice d’application: Écrire un Programme python qui demande à l'u">
+<meta property="og:type" content="website">
+<link rel="canonical" href="structures.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="http://localhost:8080/chapitre3/structures.html">
 </head>
-<body>
+<body data-style="chapitre3-structures">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<table align="center" >
-    <tr text-decoration = "underline">
-      <td align="center" > <a href="instruction.html"><u>Précédent</u></a> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" > <a href="fonctions.html"><u>Suivant</u></a> </td>
-    </tr>
-  </table>
 </center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Langages de programmation (Python)</option>
-  <option value="introduction.html">I. Introduction</option>
-  <option value="variables.html">II. les variables</option>
-  <option value="instruction.html">III. Les instructions de base</option>
-  <option value="structures.html">IV. Structures de contrôle de base</option>
-  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
-  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-   <p> <center><a href="docpdf/structures.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+   <p> </p>
+<center>
+<a href="docpdf/structures.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
+</center>
 <hr>
 
 
@@ -51,16 +49,18 @@
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-    <h2>V. <span class="highlight">Structures de contrôle de base</span></h2>
+    <h1 class="page-title">V. <span class="highlight">Structures de contrôle de base</span>
+</h1>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
- <h3>1. <span class="section-title">Structure sélective</span></h3>
-<P>La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie).</P>
+ <h3>1. <span class="section-title">Structure sélective</span>
+</h3>
+<p>La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie).</p>
 
 
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 1</span></th>
@@ -76,12 +76,12 @@
     <td>
 
 
-    <span style="color: red;">if</span> x>0 <span style="color: red;">:</span><br>
+    <span style="color: red;">if</span> x&gt;0 <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print (<span style="color: red;">"</span> x est positif<span style="color: red;"> "</span>)</span> <br>
   </td>
   <td>
 
-    <span style="color: red;">if</span> x>y <span style="color: red;">:</span><br>
+    <span style="color: red;">if</span> x&gt;y <span style="color: red;">:</span><br>
 <span style="margin: 15px;">max = x </span><br>
 
   </td>
@@ -98,9 +98,10 @@
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
 
 
-<DIV class="retrait2">
+<div class="retrait2">
   <p>Écrire un Programme python qui demande à l'utilisateur de saisir une température. Si la température saisie est supérieure à 100, afficher <strong>« Température trop élevée ! »</strong>. Dans le cas contraire, l’algorithme ne fait rien.<br>
-</DIV> 
+</p>
+</div> 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
 
@@ -108,18 +109,19 @@
 
 T = int(input(<span style="color: red;">"</span> taper la température<span style="color: red;">"</span>)) <br>
 
-<span style="color: red;">if</span> T>100 <span style="color: red;">:</span><br>
+<span style="color: red;">if</span> T&gt;100 <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print (<span style="color: red;">"</span> Température trop élevée ! <span style="color: red;">"</span>) </span><br>
 </p>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
- <h3>2. <span class="section-title">Structure alternative</span></h3>
-<P>La structure alternative permet d’exécuter un bloc d’instructions si une condition est vraie, et un autre bloc si cette condition est fausse.</P>
+ <h3>2. <span class="section-title">Structure alternative</span>
+</h3>
+<p>La structure alternative permet d’exécuter un bloc d’instructions si une condition est vraie, et un autre bloc si cette condition est fausse.</p>
 
 
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 1</span></th>
@@ -136,7 +138,7 @@ T = int(input(<span style="color: red;">"</span> taper la température<span styl
     <td>
 
 
-    <span style="color: red;">if</span> x>0 <span style="color: red;">:</span><br>
+    <span style="color: red;">if</span> x&gt;0 <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print (<span style="color: red;">"</span> x est positif<span style="color: red;"> "</span>)</span> <br>
 
     <span style="color: red;">else :</span> <br>
@@ -145,7 +147,7 @@ T = int(input(<span style="color: red;">"</span> taper la température<span styl
   </td>
   <td>
 
-    <span style="color: red;">if</span> x>y <span style="color: red;">:</span><br>
+    <span style="color: red;">if</span> x&gt;y <span style="color: red;">:</span><br>
 <span style="margin: 15px;">max = x </span><br>
 
     <span style="color: red;">else:</span> <br>
@@ -159,9 +161,10 @@ T = int(input(<span style="color: red;">"</span> taper la température<span styl
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
 
 
-<DIV class="retrait2">
+<div class="retrait2">
   <p>Écrire un Programme python qui permet d’évaluer une note saisie au clavier. Si la note est supérieure ou égale à 10, alors il affiche <span style="color: red;">« Validé »</span>, SiNon <span style="color: red;">« Non validé »</span>. <br>(NB : la note est comprise entre 0 et 20.).<br>
-</DIV> 
+</p>
+</div> 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
 
@@ -169,7 +172,7 @@ T = int(input(<span style="color: red;">"</span> taper la température<span styl
 
 x=float(input(<span style="color: red;">"</span> taper la moyenne<span style="color: red;">"</span>)) <br>
 
-<span style="color: red;">if</span> m >= 10  <span style="color: red;">:</span><br>
+<span style="color: red;">if</span> m &gt;= 10  <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print(<span style="color: red;">"</span> Validé  <span style="color: red;">"</span>) </span><br>
 
 <span style="color: red;">else:</span> <br>
@@ -184,10 +187,11 @@ x=float(input(<span style="color: red;">"</span> taper la moyenne<span style="co
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
- <h3>3. <span class="section-title">Structure alternative imbriquée</span></h3>
+ <h3>3. <span class="section-title">Structure alternative imbriquée</span>
+</h3>
 <p>La structure alternative imbriquée est une structure dans laquelle un bloc d’instructions contient lui-même une autre structure conditionnelle.</p>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 1</span></th>
@@ -200,9 +204,9 @@ x=float(input(<span style="color: red;">"</span> taper la moyenne<span style="co
 
 <span style="color: red;">elif</span> condition 2 <span style="color: red;">:</span><br>
 <span style="margin: 15px;">bloc d'instructions 2</span><br>
-<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
-<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
-<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+<span style="margin: 15px;"><strong>.</strong></span><br>
+<span style="margin: 15px;"><strong>.</strong></span><br>
+<span style="margin: 15px;"><strong>.</strong></span><br>
 
 <span style="color: red;">elif</span> condition N <span style="color: red;">:</span><br>
 <span style="margin: 15px;">bloc d'instructions N</span><br>
@@ -213,11 +217,11 @@ x=float(input(<span style="color: red;">"</span> taper la moyenne<span style="co
     <td>
 
 
-    <span style="color: red;">if</span> m>=10 <span style="color: red;">:</span><br>
+    <span style="color: red;">if</span> m&gt;=10 <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print(<span style="color: red;">"</span> Réussi<span style="color: red;"> "</span>)</span> <br>
 
   
-    <span style="color: red;">elif</span> m>=8 <span style="color: red;">:</span><br>
+    <span style="color: red;">elif</span> m&gt;=8 <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print(<span style="color: red;">"</span> Rattrapage<span style="color: red;"> "</span>)</span> <br>
 
 
@@ -228,12 +232,12 @@ x=float(input(<span style="color: red;">"</span> taper la moyenne<span style="co
   </td>
   <td>
 
-    <span style="color: red;">if</span> mg>=10 <span style="color: red;">:</span><br>
-    <span style="margin: 15px;"><span style="color: red;">if</span> mm>=15 <span style="color: red;">:</span></span><br>
+    <span style="color: red;">if</span> mg&gt;=10 <span style="color: red;">:</span><br>
+    <span style="margin: 15px;"><span style="color: red;">if</span> mm&gt;=15 <span style="color: red;">:</span></span><br>
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> science math<span style="color: red;"> "</span>)</span></span> <br>
 
     
-    <span style="margin: 15px;"><span style="color: red;">elif</span> mm>=10 <span style="color: red;">:</span></span><br>
+    <span style="margin: 15px;"><span style="color: red;">elif</span> mm&gt;=10 <span style="color: red;">:</span></span><br>
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> science exp<span style="color: red;"> "</span>)</span></span> <br>
 <span style="margin: 15px;"><span style="color: red;">else:</span></span> <br>
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> lettre<span style="color: red;"> "</span>)</span></span> <br>
@@ -250,14 +254,14 @@ x=float(input(<span style="color: red;">"</span> taper la moyenne<span style="co
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
 
 
-<DIV class="retrait2">
-<span style="margin: 15px;">Écrire un Programme python qui permet de calculer la moyenne de deux notes saisies par l'utilisateur, puis affiche :</p>
+<div class="retrait2">
+<span style="margin: 15px;">Écrire un Programme python qui permet de calculer la moyenne de deux notes saisies par l'utilisateur, puis affiche :
 <span style="margin: 15px;">- «<span style="color: red;margin: 15px">Réussi</span>» si la moyenne est supérieure ou égale à 10,</span><br>
 <span style="margin: 15px;">- «<span style="color: red; margin: 15px">Rattrapage</span>» si la moyenne est strictement inférieure à 10 et supérieure ou égale à 8,</span></span><br>
-<span style="margin: 15px;">- «<span style="color: red; margin: 15px">Échoué</span>» dans tous les autres cas.</span></span><br>
+<span style="margin: 15px;">- «<span style="color: red; margin: 15px">Échoué</span>» dans tous les autres cas.</span><br>
 
 
-</DIV> 
+</div> 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
 
@@ -268,10 +272,10 @@ y=float(input(<span style="color: red;">"</span> taper la 2ème note<span style=
 
 m  = (x+y)/2 <br>
 print(f<span style="color: red;">"</span> La moyenne est {m:.2f} <span style="color: red;">"</span>) <br>
-<span style="color: red;">if</span> m >= 10  <span style="color: red;">:</span><br>
+<span style="color: red;">if</span> m &gt;= 10  <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print(<span style="color: red;">"</span> Réussi <span style="color: red;">"</span>) </span><br>
 
-<span style="color: red;">elif</span> m >= 8  <span style="color: red;">:</span><br>
+<span style="color: red;">elif</span> m &gt;= 8  <span style="color: red;">:</span><br>
 <span style="margin: 15px;">print(<span style="color: red;">"</span> Rattrapage <span style="color: red;">"</span>) </span><br>
 <span style="color: red;">else:</span> <br>
 <span style="margin: 15px;">print(<span style="color: red;">"</span> échoué <span style="color: red;">"</span>) </span><br>
@@ -284,10 +288,11 @@ print(f<span style="color: red;">"</span> La moyenne est {m:.2f} <span style="co
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
- <h3>4. <span class="section-title">Structure de choix multiple</span></h3>
+ <h3>4. <span class="section-title">Structure de choix multiple</span>
+</h3>
 <p>Permet d’exécuter une ou plusieurs instructions selon la valeur d’une expression ou d’une variable.</p>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
@@ -314,7 +319,8 @@ print(f<span style="color: red;">"</span> La moyenne est {m:.2f} <span style="co
 
 
 <br>
-    </td>
+    </span></span></span></span>
+</td>
     
   <td>
 
@@ -333,7 +339,8 @@ print(f<span style="color: red;">"</span> La moyenne est {m:.2f} <span style="co
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> réessayer  <span style="color: red;">"</span>)<br><br><br><br> </span>
 
 <br>
-    </td>
+    </span></span></span></span>
+</td>
 
   
   </tr>
@@ -343,14 +350,14 @@ print(f<span style="color: red;">"</span> La moyenne est {m:.2f} <span style="co
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
 
 
-<DIV class="retrait2">
-<span style="margin: 15px;">Écrire un Programme python qui lit une couleur saisie par l'utilisateur (rouge, orange, vert) et affiche le message correspondant :</p>
+<div class="retrait2">
+<span style="margin: 15px;">Écrire un Programme python qui lit une couleur saisie par l'utilisateur (rouge, orange, vert) et affiche le message correspondant :
 <span style="margin: 15px;">- <span style="color: red;margin: 15px">Rouge</span>: « Arrêt »</span><br>
 <span style="margin: 15px;">- <span style="color: #FFA500; margin: 15px">Orange</span>: « Ralentir »</span></span><br>
-<span style="margin: 15px;">- <span style="color: #008000; margin: 15px">Vert</span>: « Passer »</span></span><br>
-<span style="margin: 15px;">- <span style=" margin: 15px"><strong>Autre</strong></span>: « Couleur inconnue »</span></span><br>
+<span style="margin: 15px;">- <span style="color: #008000; margin: 15px">Vert</span>: « Passer »</span><br>
+<span style="margin: 15px;">- <span style=" margin: 15px"><strong>Autre</strong></span>: « Couleur inconnue »</span><br>
 
-</DIV> 
+</div> 
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
 
@@ -359,7 +366,7 @@ print(f<span style="color: red;">"</span> La moyenne est {m:.2f} <span style="co
 x=input(<span style="color: red;">"</span> taper la couleur du feu<span style="color: red;">"</span>) <br>
 
     <span style="color: red;">match</span> c <span style="color: red;">:</span><br>
-    <span style="margin: 15px;"><span style="color: red;">case </span> <span style="color: red;">"</span>Rouge<span style="color: red;">"</span></span> : </span><br>
+    <span style="margin: 15px;"><span style="color: red;">case </span> <span style="color: red;">"</span>Rouge<span style="color: red;">"</span></span> : <br>
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> Arrêt <span style="color: red;">"</span>)</span> <br>
     <span style="margin: 15px;"><span style="color: red;">case </span><span style="color: red;">"</span>Orange<span style="color: red;">"</span></span>: </span><br>
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> Ralentir <span style="color: red;">"</span>)</span> <br>
@@ -371,7 +378,7 @@ x=input(<span style="color: red;">"</span> taper la couleur du feu<span style="c
 
 <span style="margin: 15px;"><span style="margin: 15px;">print(<span style="color: red;">"</span> Couleur inconnue <span style="color: red;">"</span>) </span>
 
-</p>
+</span></span></p>
 
 
 
@@ -385,8 +392,7 @@ x=input(<span style="color: red;">"</span> taper la couleur du feu<span style="c
 
   
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+
