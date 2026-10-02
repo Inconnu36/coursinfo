@@ -5,3 +5,10 @@
 .DS_Store
 Thumbs.db
 node_modules/
+__pycache__/
+*.pyc
+
+# motifs d'anonymisation réels (nom, établissement, ancien hôte).
+# ils pilotent tools/identity.js et tools/identity_patterns.py ; les écrire
+# dans le dépôt les publierait, puisque le dépôt est public.
+.identity-patterns.txt

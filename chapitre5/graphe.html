@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tableur</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VII) Création de graphiques — Chapitre 5 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre5/definitions.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre5.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="VII) Création de graphiques. Excel permet de créer des graphiques à partir de données saisies au niveau d’une plage de cellules. Il suffit de sélectionner la plage souhaitée, puis de choisir une commande dans ">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="VII) Création de graphiques — Chapitre 5 — Cours d’informatique">
+<meta name="twitter:description" content="VII) Création de graphiques. Excel permet de créer des graphiques à partir de données saisies au niveau d’une plage de cellules. Il suffit de sélectionner la plage souhaitée, puis de choisir une commande dans ">
+<meta property="og:title" content="VII) Création de graphiques — Chapitre 5 — Cours d’informatique">
+<meta property="og:description" content="VII) Création de graphiques. Excel permet de créer des graphiques à partir de données saisies au niveau d’une plage de cellules. Il suffit de sélectionner la plage souhaitée, puis de choisir une commande dans ">
+<meta property="og:type" content="website">
+<link rel="canonical" href="graphe.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="https://example.com/coursinfo/chapitre5/graphe.html">
 </head>
-<body>
+<body data-style="chapitre5-definitions">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<center>
-<table align="center" >
-    <tr text-decoration = "underline" style="height: 26px">
-      <td align="center" > <a href="fonction.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="evaluations.html"> <u>Suivant</u> </a></td>
-    </tr>
-  </table>
-</center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <center><option value="sousmenu">Tableur (MS EXCEL 2016)</option></center>
-  <option value="definitions.html">Définitions</option>
-  <option value="gestion_feuil.html">Gestion d’une feuille de calcul</option>
-  <option value="gestion_lignes.html">Gestion des lignes et des colonnes</option>
-  <option value="format_cellule.html">Mise en forme des cellules</option>
-  <option value="formules.html">Formules et les références des cellules</option>
-  <option value="fonction.html">Les fontions</option>
-  <option value="graphe.html">Les graphiques</option>
-  <option value="evaluations.html">Évaluations</option>
 
-</select>
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>    </p>
+<center>
+<a href="docpdf/graphe.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
 </center>
 
-
-
-<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-
-<p>    <center><a href="docpdf/graphe.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center><a href="qcm/5/qcm5.html" target="_blank"><button onclick="showPage('page1')">quiz5: Les graphiques </button></a></center>
@@ -61,11 +53,12 @@
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
     <center>
-<video width="85%" height="50%" controls>
-      <source src="video/tp6.mp4" > 
+<video width="85%" height="50%" controls preload="metadata" poster="video/tp6.jpg">
+      <source src="video/tp6.mp4"> 
   
-    </video>
-   </center>
+    </source></video>
+   <p><a href="../transcripts/chapitre5-tp6.txt">Aide textuelle de la vidéo (brouillon)</a></p>
+</center>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->    
 <hr>
   <div class="content">
@@ -73,65 +66,68 @@
 
 
 
-<h3><strong><span style="text-decoration:underline;"><span style="color:#000080;">VII) Création de graphiques</span></span></strong></h3>
+<h1 class="page-title"><strong><span style="text-decoration:underline;"><span style="color:#000080;">VII) Création de graphiques</span></span></strong></h1>
 
 
 
-<p class="retrait4", style="text-align:justify;">
+<p class="retrait4" , style="text-align:justify;">
 Excel permet de créer des graphiques à partir de données saisies au niveau d’une plage de cellules. Il suffit de sélectionner la plage souhaitée, puis de choisir une commande dans l’onglet Insertion du ruban.<br>
 <strong><p> Utilisons cette plage de cellules ci-dessous comme exemple:</p></strong>
-<conteneur> <img src="image/tablegraphe.png" ></conteneur>
+<conteneur> <img src="image/tablegraphe.png" width="483" height="292" decoding="async" loading="lazy" alt="Tableau des prix et des quantités de fruits"></conteneur>
  </p>
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">1. Exemple de génération de graphique</span></span></strong></h3>
 
-<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Méthode 1 : Utiliser les graphiques recommandés</p><br>
+<p class="retrait200" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Méthode 1 : Utiliser les graphiques recommandés</p>
+<br>
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez les données à insérer dans le graphique (la plage A2:D7)<br>
-<conteneur> <img src="image/tablegraphe2.png" ></conteneur>
+<conteneur> <img src="image/tablegraphe2.png" width="484" height="298" decoding="async" loading="lazy" alt="Sélection du tableau à représenter graphiquement"></conteneur>
 <span style="color: red;">✔</span> sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Insérer»</span> cliquez sur le bouton <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Graphiques recommandés»</span><br>
-<conteneur> <img src="image/graphe_recommande.png" ></conteneur>
+<conteneur> <img src="image/graphe_recommande.png" width="390" height="135" decoding="async" loading="lazy" alt="Commande Graphiques recommandés"></conteneur>
 <span style="color: red;">✔</span> Excel vous propose les graphiques adaptés à vos données<br>
-<conteneur> <img src="image/graphe_recommande2.png" ></conteneur>
+<conteneur> <img src="image/graphe_recommande2.png" width="633" height="601" decoding="async" loading="lazy" alt="Sélection d’un graphique recommandé"></conteneur>
 <span style="color: red;">✔</span> Choisissez le graphique qui vous intéresse et cliquer sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span> <br>
 </p>
 
 
-<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Méthode 2 : Choisissez le type de graphique souhaité</p><br>
+<p class="retrait200" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Méthode 2 : Choisissez le type de graphique souhaité</p>
+<br>
 <p class="retrait">
 
 <span style="color: red;">✔</span> Sélectionnez la plage de cellules A2:D7<br>
 <span style="color: red;">✔</span> Cliquez sur l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">Insertion</span> du ruban<br>
 <span style="color: red;">✔</span> Cliquez sur une commande du groupe Graphiques selon le type de graphique souhaité. Soit par exemple la commande <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">Insérer un histogramme ou un graphique à barres</span><br>
 <span style="color: red;">✔</span> Choisissez un sous type du menu qui apparait.
-<conteneur> <img src="image/inserer_histogram.png" ></conteneur>
+<conteneur> <img src="image/inserer_histogram.png" width="776" height="457" decoding="async" loading="lazy" alt="Sélection de données et insertion d’un histogramme"></conteneur>
 <span style="color: red;">✔</span>Un graphique est généré selon le type choisi :
 
-<conteneur> <img src="image/histogramme.png" ></conteneur>
+<conteneur> <img src="image/histogramme.png" width="527" height="295" decoding="async" loading="lazy" alt="Histogramme comparant les prix et les quantités de fruits"></conteneur>
 </p>
 
-<p class="retrait4", style="text-align:justify; font-weight: bold;">à droite de votre graphique, vous pouvez cliquer sur l’icône:</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold;">à droite de votre graphique, vous pouvez cliquer sur l’icône:</p>
 
-<p >
+<p>
 
-  <table style="background-color: #C2EAFE; border: 0px;">
+  </p>
+<table style="background-color: #C2EAFE; border: 0px;">
     <tr border="0">
-      <td border="0"><img src="image/type.png" ></td>
+      <td border="0"><img src="image/type.png" width="90" height="77" decoding="async" loading="lazy" alt="Commande Ajouter un élément de graphique"></td>
       <td border="0">pour choisir les éléments que vous souhaitez afficher : titre du graphique, étiquettes de données (vos chiffres), légende, etc.</td>
     </tr>
     <tr>
-      <td><img src="image/couleur_graphe.png" ></td>
+      <td><img src="image/couleur_graphe.png" width="90" height="75" decoding="async" loading="lazy" alt="Commande de style et de couleur du graphique"></td>
       <td>pour modifier la couleur et le style de graphique.</td>
     </tr>
     <tr>
-      <td><img src="image/filtre_graphe.png" ></td>
+      <td><img src="image/filtre_graphe.png" width="90" height="75" decoding="async" loading="lazy" alt="Commande de filtre du graphique"></td>
       <td>pour afficher seulement certaines données sur votre graphique</td>
     </tr>
   </table>
 
-</p>
+
 <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">NB</span>: Excel modifie automatiquement le graphique, dès que vous modifiez des valeurs des données source. 
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
 Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux onglets Création et Format qui disparaissent dès que vous cliquez ailleurs. Les commandes de ces deux onglets sont bien entendu prévues pour la personnalisation d’un graphique généré. 
@@ -143,7 +139,7 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez le graphique<br>
 <span style="color: red;">✔</span>sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Sélectionner des données»</span><br>
-<conteneur> <img src="image/etiquette.png" ></conteneur>
+<conteneur> <img src="image/etiquette.png" width="605" height="327" decoding="async" loading="lazy" alt="Modification des étiquettes de l’axe horizontal"></conteneur>
 <span style="color: red;">✔</span>Dans <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«étiquettes de l’axe horizontal»</span> cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Modifier » </span><br>
 <span style="color: red;">✔</span>Sélectionnez les étiquettes à ajouter au graphique et cliquez sur  <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK» </span> <br>
 
@@ -155,7 +151,7 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez le graphique<br>
 <span style="color: red;">✔</span>sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Ajouter un élément graphique »</span><br>
-<conteneur> <img src="image/ajouter_element.png" ></conteneur>
+<conteneur> <img src="image/ajouter_element.png" width="923" height="114" decoding="async" loading="lazy" alt="Ajout d’un élément de graphique"></conteneur>
 
 <span style="color: red;">✔</span>Choisir l’élément à ajouter (Titre du graphique, Étiquettes de données, Titres des axes, Légende, etc.). <br>
 
@@ -169,7 +165,7 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez le graphique<br>
 <span style="color: red;">✔</span>sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Modifier le type de graphique»</span><br>
-<conteneur> <img src="image/modifier_type.png" ></conteneur>
+<conteneur> <img src="image/modifier_type.png" width="349" height="114" decoding="async" loading="lazy" alt="Commande Modifier le type de graphique"></conteneur>
 <span style="color: red;">✔</span>choisissez un nouveau type et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span> 
 
 </p>
@@ -181,10 +177,10 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez le graphique<br>
 <span style="color: red;">✔</span>sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Sélectionner des données»</span><br>
-<conteneur> <img src="image/ajouter_donnees.png" ></conteneur>
-<conteneur> <img src="image/ajouter_donnees2.png" ></conteneur>
+<conteneur> <img src="image/ajouter_donnees.png" width="374" height="127" decoding="async" loading="lazy" alt="Commande Sélectionner des données pour un graphique Excel"></conteneur>
+<conteneur> <img src="image/ajouter_donnees2.png" width="608" height="325" decoding="async" loading="lazy" alt="Ajout d’une série dans la source de données du graphique"></conteneur>
 <span style="color: red;">✔</span>Cliquez sur le bouton <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Ajouter», La fenêtre suivante s’ouvrira:  </span> <br>
-<conteneur> <img src="image/ajouter_donnees3.png" ></conteneur>
+<conteneur> <img src="image/ajouter_donnees3.png" width="336" height="161" decoding="async" loading="lazy" alt="Boîte de dialogue Modifier la série"></conteneur>
 <span style="color: red;">-</span> <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Nom de la série»</span>: tapez le nom de la série de données<br>
 <span style="color: red;">-</span> <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Valeurs de la série»</span>: Sélectionnez les valeurs de la série de données à ajouter<br>
 </p>
@@ -198,7 +194,7 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <span style="color: red;">✔</span>sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Sélectionner des données»</span><br>
 <span style="color: red;">✔</span>Sélectionnez la série de données à supprimer puis cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Supprimer»</span><br>
 
-<conteneur> <img src="image/supprimer donnees.png" ></conteneur>
+<conteneur> <img src="image/supprimer%20donnees.png" width="602" height="324" decoding="async" loading="lazy" alt="Suppression d’une série de données du graphique"></conteneur>
 
 <span style="color: red;">✔</span>Cliquez ensuite sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK» </span>pour mettre à jour le graphique.    <br>
 
@@ -212,7 +208,7 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <span style="color: red;">✔</span> sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Intervertir de ligne/colonne»</span><br>
 <span style="color: red;">✔</span> Les lignes passent en colonnes <br>
 
-<conteneur> <img src="image/intervertir.png" ></conteneur>
+<conteneur> <img src="image/intervertir.png" width="259" height="118" decoding="async" loading="lazy" alt="Commande Intervertir les lignes et les colonnes du graphique"></conteneur>
 
 </p>
 
@@ -224,7 +220,7 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 <span style="color: red;">✔</span> sous l’onglet <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Création»</span>, Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Déplacer le graphique»</span><br>
 <span style="color: red;">✔</span> Choisissez la feuille sur laquelle vous souhaitez le déplacer et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span> <br>
 
-<conteneur> <img src="image/deplacer_graphique.png" ></conteneur>
+<conteneur> <img src="image/deplacer_graphique.png" width="261" height="100" decoding="async" loading="lazy" alt="Commande Déplacer le graphique vers une autre feuille"></conteneur>
 
 </p>
 
@@ -239,8 +235,8 @@ Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux on
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
     </div>
+</div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+

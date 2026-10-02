@@ -1,0 +1,730 @@
+{
+  "pdf": [
+    {
+      "path": "chapitre1/docpdf/cartemere.pdf",
+      "pages": 2,
+      "bytes": 691549,
+      "sha256": "35cb20384b7f829f0434a3c276b3d69a2e0518dbae51a6815979f7ec6a874c65"
+    },
+    {
+      "path": "chapitre1/docpdf/correction1.pdf",
+      "pages": 2,
+      "bytes": 196126,
+      "sha256": "e81030af8f2e489dcadd1a1f8efa3e0927bbfb06f5fa6a8943908b0a33c41d5f"
+    },
+    {
+      "path": "chapitre1/docpdf/correction2.pdf",
+      "pages": 3,
+      "bytes": 189749,
+      "sha256": "00b48d18099e7015f5539569cd1126d4dac32c865e86a16b28fc36a46869956c"
+    },
+    {
+      "path": "chapitre1/docpdf/definitions.pdf",
+      "pages": 1,
+      "bytes": 50334,
+      "sha256": "1aad00cc0f09fef3af50226549bf63ae157b8205c39e670cd60fb735a195c060"
+    },
+    {
+      "path": "chapitre1/docpdf/eval1.pdf",
+      "pages": 1,
+      "bytes": 97337,
+      "sha256": "8382a0694d6e58c30039ede5f6c009c453dba1d1c9adf0d165df14322b1d2536"
+    },
+    {
+      "path": "chapitre1/docpdf/eval2.pdf",
+      "pages": 1,
+      "bytes": 95148,
+      "sha256": "504423c58b477365bb77f7b4c73271bf7b722d03a41d55d5d216dc472ba2e801"
+    },
+    {
+      "path": "chapitre1/docpdf/logiciels.pdf",
+      "pages": 1,
+      "bytes": 127266,
+      "sha256": "7ce462e7c7a91b9202580cd8b49fe40e9323ddf988fd8f71bc8c219f48a839fe"
+    },
+    {
+      "path": "chapitre1/docpdf/representations.pdf",
+      "pages": 2,
+      "bytes": 246984,
+      "sha256": "ad28022c4ee1c9e59056d428f2aacab64c371ef131cd9301dcb78a7216fb8b04"
+    },
+    {
+      "path": "chapitre1/docpdf/structure.pdf",
+      "pages": 3,
+      "bytes": 291110,
+      "sha256": "befbbf8273ec6e3807fb882dafc56eb590c014e766809ab330dde93bb802c7ce"
+    },
+    {
+      "path": "chapitre2/docpdf/correction1.pdf",
+      "pages": 5,
+      "bytes": 189883,
+      "sha256": "0c3a2e853c1999c0dcf371615033309dc3422cf7e84108822a3238e0428a7d3e"
+    },
+    {
+      "path": "chapitre2/docpdf/correction2.pdf",
+      "pages": 4,
+      "bytes": 176666,
+      "sha256": "2a00a647c4f7d92268d7b596b2a3e51d46efa19f43f1f0f19dbb634b5f3fe568"
+    },
+    {
+      "path": "chapitre2/docpdf/correction3.pdf",
+      "pages": 6,
+      "bytes": 288918,
+      "sha256": "147d6a70f1dbf09a0a931f1cbcb40380b4f3b8b1a5271eade95ac46b421333e0"
+    },
+    {
+      "path": "chapitre2/docpdf/correction4.pdf",
+      "pages": 5,
+      "bytes": 266417,
+      "sha256": "2c1ec4ac1ea74109ed8a51b972b514e77f5712bf0ad9c893a190f26452a84501"
+    },
+    {
+      "path": "chapitre2/docpdf/definitions.pdf",
+      "pages": 1,
+      "bytes": 186199,
+      "sha256": "e1c9fb154fe5ad10b6dc5d2cfa4f0eecee25934439e2252cbe40fd35a319c72c"
+    },
+    {
+      "path": "chapitre2/docpdf/donnees.pdf",
+      "pages": 1,
+      "bytes": 87092,
+      "sha256": "7312219c8a7b6cdc7930248f59d4d8aa0f0bda2eae657e539a0679ecea6b5854"
+    },
+    {
+      "path": "chapitre2/docpdf/instruction.pdf",
+      "pages": 2,
+      "bytes": 198303,
+      "sha256": "87e015f8b6dcf14bffa8c3126fd173bc5ce79049d14d6eed755c28a77fcab132"
+    },
+    {
+      "path": "chapitre2/docpdf/serie1.pdf",
+      "pages": 1,
+      "bytes": 124421,
+      "sha256": "36196d7a9e46ff8bbc3c86c81e9a8b402d50642d8ee3a3648203384e2a6c1bce"
+    },
+    {
+      "path": "chapitre2/docpdf/serie2.pdf",
+      "pages": 1,
+      "bytes": 187321,
+      "sha256": "61c4d0913c653f0b39c8d0c0b7c374e4d8560055d3fe0e77ccb003aacbd9f1b8"
+    },
+    {
+      "path": "chapitre2/docpdf/serie3.pdf",
+      "pages": 1,
+      "bytes": 291790,
+      "sha256": "1ed91edf940ca0f9a7d7277c81e2e5506d7861430e2b75dfcdf642a8ffa016d9"
+    },
+    {
+      "path": "chapitre2/docpdf/serie4.pdf",
+      "pages": 1,
+      "bytes": 200097,
+      "sha256": "48fc86ae2a00776c118e197253d3d22bb7d8b379c7a314de1c68703bb1601189"
+    },
+    {
+      "path": "chapitre2/docpdf/structurealgo.pdf",
+      "pages": 1,
+      "bytes": 147844,
+      "sha256": "421b18645a3f1ea41c02284735fbe3ca46b6b683e7ac83bd3e80968925fde31c"
+    },
+    {
+      "path": "chapitre2/docpdf/structures.pdf",
+      "pages": 3,
+      "bytes": 240979,
+      "sha256": "aaea7d443a3f9c4207142b7ae09eb51f2948c2d41d1a934ffbd98647566590bd"
+    },
+    {
+      "path": "chapitre3/docpdf/correction1.pdf",
+      "pages": 3,
+      "bytes": 169093,
+      "sha256": "ac96c6bee4338e83bd5ca712f488be61c3ef8b1a248b5da2602c65d4148cb90d"
+    },
+    {
+      "path": "chapitre3/docpdf/correction2.pdf",
+      "pages": 3,
+      "bytes": 164368,
+      "sha256": "a2076a8a3905e38477469540dc4e6b2eccba202fdcaa3c161dd9074b4b366580"
+    },
+    {
+      "path": "chapitre3/docpdf/correction3.pdf",
+      "pages": 4,
+      "bytes": 273914,
+      "sha256": "3f817107ee61307249cdf5bc62676675e0d1ea16992ca2cf777c75888536a98a"
+    },
+    {
+      "path": "chapitre3/docpdf/correction4.pdf",
+      "pages": 3,
+      "bytes": 266319,
+      "sha256": "b9eb7b850fb3595f312156f1116973be41748c5fcaa3f8471f55dec1f2d8dcbd"
+    },
+    {
+      "path": "chapitre3/docpdf/exceptions.pdf",
+      "pages": 2,
+      "bytes": 197479,
+      "sha256": "8892396ba8751d511e7e5cb5a023e01bd5f244cb6c06b9fee69236aeb43381d7"
+    },
+    {
+      "path": "chapitre3/docpdf/fonctions.pdf",
+      "pages": 2,
+      "bytes": 291908,
+      "sha256": "0a0ef0b2fd23bc4b17eaed0e33676097dc6eb139d0190122bfe88b0223964409"
+    },
+    {
+      "path": "chapitre3/docpdf/instruction.pdf",
+      "pages": 2,
+      "bytes": 286328,
+      "sha256": "a355937ee4909257185ccd16c7354981e766f60b655fb8cba38c0c85c3160c05"
+    },
+    {
+      "path": "chapitre3/docpdf/introduction.pdf",
+      "pages": 1,
+      "bytes": 204109,
+      "sha256": "6afec73916b0bf20baddf2fdf648350f8ece14453366c7513e1989acf0e4f7df"
+    },
+    {
+      "path": "chapitre3/docpdf/serie1.pdf",
+      "pages": 1,
+      "bytes": 150958,
+      "sha256": "c1e00889ef987299d71e9e22b05ce77c0d27250aca6ec4ced270bdbe0f8e3924"
+    },
+    {
+      "path": "chapitre3/docpdf/serie2.pdf",
+      "pages": 1,
+      "bytes": 116052,
+      "sha256": "dec7f2cf2105b261265113ead14c27ab5d99885d2c0f9d3867a1f5777b4bb374"
+    },
+    {
+      "path": "chapitre3/docpdf/serie3.pdf",
+      "pages": 1,
+      "bytes": 220926,
+      "sha256": "3c10e69240e0d3c4c7696a4c1483a3fdb101a9eaeba5e93675f43c8e80e46fd3"
+    },
+    {
+      "path": "chapitre3/docpdf/serie4.pdf",
+      "pages": 1,
+      "bytes": 200348,
+      "sha256": "f5cd37fb5776e16540c71c1d6abdc4bb02d9c4e6930e47e69d241603d25055e2"
+    },
+    {
+      "path": "chapitre3/docpdf/structures.pdf",
+      "pages": 2,
+      "bytes": 256452,
+      "sha256": "c161eff8c2d214ca5318a7c06170d09b9f57ba0c6702ef235002e1379816bd54"
+    },
+    {
+      "path": "chapitre3/docpdf/variables.pdf",
+      "pages": 1,
+      "bytes": 193053,
+      "sha256": "1a411c08f948036d67778b25b1113f303ced20067db788461d246aefef317a5e"
+    },
+    {
+      "path": "chapitre4/docpdf/fenetre.pdf",
+      "pages": 2,
+      "bytes": 292048,
+      "sha256": "41b37b8f3dc8fbbde2c48395434ee35ed1859b72fe2ac34c5c1b7b6c983d3aa9"
+    },
+    {
+      "path": "chapitre4/docpdf/lesformes.pdf",
+      "pages": 3,
+      "bytes": 465885,
+      "sha256": "9d53451457cce75132ccabfa77e5a7f34411839aa30815fdee9f49563a6bbeb4"
+    },
+    {
+      "path": "chapitre4/docpdf/mise_en_forme.pdf",
+      "pages": 1,
+      "bytes": 232268,
+      "sha256": "4c3a9fc22732e9811ba86d51a7bff50e0f5da38e148a1b8c85263a3dfb0b499c"
+    },
+    {
+      "path": "chapitre4/docpdf/mise_en_page.pdf",
+      "pages": 2,
+      "bytes": 332562,
+      "sha256": "e0090d375cd89000502a07ccbb322f854efaa1b14a2a8859d5bc4baf9be54043"
+    },
+    {
+      "path": "chapitre4/docpdf/mise_en_page2.pdf",
+      "pages": 2,
+      "bytes": 353653,
+      "sha256": "c38521c465f333c3d3726fc5758875fa810f61fdc38fbedf064233d21d8e5312"
+    },
+    {
+      "path": "chapitre4/docpdf/tableau.pdf",
+      "pages": 3,
+      "bytes": 499647,
+      "sha256": "5e558088992ce2db4582bbdbdaa25fb830988b3e92a04edf53f5d54682a16b28"
+    },
+    {
+      "path": "chapitre4/docpdf/tabledesmatieres.pdf",
+      "pages": 1,
+      "bytes": 220958,
+      "sha256": "c2225e6cadc59b1d0180f037a023853c6fed250d2eb9611e94e7ce4fb1aaba66"
+    },
+    {
+      "path": "chapitre4/tp/Texte Microsoft Word.pdf",
+      "pages": 3,
+      "bytes": 38830,
+      "sha256": "7a5fd0ab6a487db3291da5c7e6d379bd708ca15e8daf17e664499d16ad095258"
+    },
+    {
+      "path": "chapitre4/tp/tp1 résultat.pdf",
+      "pages": 1,
+      "bytes": 135851,
+      "sha256": "32185aaaa5d44c8dda9b1c90a908aea82e119fff1b7de4e1f4511b9412864185"
+    },
+    {
+      "path": "chapitre4/tp/tp1.pdf",
+      "pages": 1,
+      "bytes": 252730,
+      "sha256": "497bd2019486e3addce4125bcb4c821ddab29c5ce7a5aafebeca7c5822800138"
+    },
+    {
+      "path": "chapitre4/tp/tp2 résultat.pdf",
+      "pages": 1,
+      "bytes": 104152,
+      "sha256": "4e24e0f8bcebb6900c61b08b23e84a1707e53787e6c955e8e0350bb438c9d230"
+    },
+    {
+      "path": "chapitre4/tp/tp2.pdf",
+      "pages": 1,
+      "bytes": 170400,
+      "sha256": "b53b214e3ff4e180e1d5f570a8387afe99b183c9bbbe3f4691a8b67856566cd2"
+    },
+    {
+      "path": "chapitre4/tp/tp3.pdf",
+      "pages": 1,
+      "bytes": 196427,
+      "sha256": "8135ff129267ba94aca2a065f850385da4494c7bdf6f57bf1bb0f4858aab3351"
+    },
+    {
+      "path": "chapitre4/tp/tp4 résultat.pdf",
+      "pages": 1,
+      "bytes": 195490,
+      "sha256": "a84e8ce9480f559212f65cc6d63cb322c5d2504d26eac85bf08a609585758661"
+    },
+    {
+      "path": "chapitre4/tp/tp4.pdf",
+      "pages": 1,
+      "bytes": 195490,
+      "sha256": "69600e40fc684226799c47de1401c6bc3ed10eed4bcf51487f210776823a5f54"
+    },
+    {
+      "path": "chapitre4/tp/tp5 résultat.pdf",
+      "pages": 3,
+      "bytes": 581874,
+      "sha256": "36c672b483eed90933d9f647370667085a6d45936dd4292c347a5869e96c0d32"
+    },
+    {
+      "path": "chapitre4/tp/tp5.pdf",
+      "pages": 1,
+      "bytes": 243877,
+      "sha256": "17a6cbdf9fcc98dc6a37791dcee849ee59755b774fd4e45df2fe6033fe044149"
+    },
+    {
+      "path": "chapitre5/docpdf/definitions.pdf",
+      "pages": 1,
+      "bytes": 105318,
+      "sha256": "b6f6cc3358e460f610f27f7d4492c29c1d711dc51f48a9e488252bc9294a41f8"
+    },
+    {
+      "path": "chapitre5/docpdf/fonction.pdf",
+      "pages": 4,
+      "bytes": 200291,
+      "sha256": "16f80f1fe97240a0d34fffbb01cadcc1ac99990ecb7483a54a44b310a67548a5"
+    },
+    {
+      "path": "chapitre5/docpdf/format_cellule.pdf",
+      "pages": 2,
+      "bytes": 161890,
+      "sha256": "09a982789c11b21c182a8e2165dbc051d3122d052d6d7695b435ddeee4dfbd8f"
+    },
+    {
+      "path": "chapitre5/docpdf/formules.pdf",
+      "pages": 1,
+      "bytes": 159710,
+      "sha256": "d73138d8a029eadb8c7e488faed5f5382eac2fd1b557bc60bdbba5df32d96125"
+    },
+    {
+      "path": "chapitre5/docpdf/gestion_feuil.pdf",
+      "pages": 1,
+      "bytes": 96615,
+      "sha256": "f3b32966eb722e7bc695919a63c799dde40e571caa139c30cd348621a57453f9"
+    },
+    {
+      "path": "chapitre5/docpdf/gestion_lignes.pdf",
+      "pages": 2,
+      "bytes": 110558,
+      "sha256": "00259c434ef2e75fe0c7bdebb8f8dc863260dc1e2f7cb4dacd93bb7d32b3b2db"
+    },
+    {
+      "path": "chapitre5/docpdf/graphe.pdf",
+      "pages": 5,
+      "bytes": 503416,
+      "sha256": "fdedc9949d3af23bee7dbb585a1f56954f8c91002ad1d2675a7b6a37e1d394b3"
+    },
+    {
+      "path": "chapitre5/tp/TPE1.pdf",
+      "pages": 1,
+      "bytes": 254840,
+      "sha256": "63fa20f2d2dd0f20f0add8e0844f0cab5e1642fa75f655ec50165982969b7fbc"
+    },
+    {
+      "path": "chapitre5/tp/TPE2.pdf",
+      "pages": 1,
+      "bytes": 317058,
+      "sha256": "7b9af6636b0ae2b65fb8ce555f1d09901293e37bbb036bcd8414221af8592efd"
+    },
+    {
+      "path": "chapitre5/tp/TPE3.pdf",
+      "pages": 1,
+      "bytes": 293120,
+      "sha256": "353dc96179103d90ebcfa7fd78d650c1631fa3b78bde7054a51afe82dc103db7"
+    },
+    {
+      "path": "chapitre5/tp/TPE4.pdf",
+      "pages": 1,
+      "bytes": 260472,
+      "sha256": "6a530584e67752f2e3e4eab761844190f7ecb5621a758287c11ad52ee8f6a181"
+    },
+    {
+      "path": "chapitre5/tp/TPE5.pdf",
+      "pages": 1,
+      "bytes": 274160,
+      "sha256": "87aa210abff4aec2a12268daf8e88402acd24838cd4a40b21e5b95557b8d3754"
+    }
+  ],
+  "ooxml": [
+    {
+      "path": "chapitre4/tp/Texte Microsoft Word.docx",
+      "entries": 19,
+      "bytes": 22851
+    },
+    {
+      "path": "chapitre4/tp/tp1 résultat.docx",
+      "entries": 11,
+      "bytes": 11246
+    },
+    {
+      "path": "chapitre4/tp/tp1.docx",
+      "entries": 11,
+      "bytes": 30689
+    },
+    {
+      "path": "chapitre4/tp/tp2 résultat.docx",
+      "entries": 11,
+      "bytes": 12362
+    },
+    {
+      "path": "chapitre4/tp/tp2.docx",
+      "entries": 12,
+      "bytes": 18310
+    },
+    {
+      "path": "chapitre4/tp/tp3.docx",
+      "entries": 22,
+      "bytes": 22247
+    },
+    {
+      "path": "chapitre4/tp/tp4 résultat.docx",
+      "entries": 19,
+      "bytes": 661354
+    },
+    {
+      "path": "chapitre4/tp/tp4.docx",
+      "entries": 19,
+      "bytes": 661354
+    },
+    {
+      "path": "chapitre4/tp/tp5 résultat.docx",
+      "entries": 26,
+      "bytes": 39029
+    },
+    {
+      "path": "chapitre4/tp/tp5.docx",
+      "entries": 16,
+      "bytes": 20539
+    },
+    {
+      "path": "chapitre5/tp/TPE1.xlsx",
+      "entries": 13,
+      "bytes": 11943
+    },
+    {
+      "path": "chapitre5/tp/TPE2.xlsx",
+      "entries": 12,
+      "bytes": 9954
+    },
+    {
+      "path": "chapitre5/tp/TPE3.xlsx",
+      "entries": 12,
+      "bytes": 10208
+    },
+    {
+      "path": "chapitre5/tp/TPE4.xlsx",
+      "entries": 13,
+      "bytes": 10915
+    }
+  ],
+  "medias": [
+    "chapitre1/image/TEL.png",
+    "chapitre1/image/binaire1.png",
+    "chapitre1/image/binaire2.png",
+    "chapitre1/image/cartemere.png",
+    "chapitre1/image/correction.png",
+    "chapitre1/image/decimal1.png",
+    "chapitre1/image/decimal2.png",
+    "chapitre1/image/decimal3.png",
+    "chapitre1/image/eval.png",
+    "chapitre1/image/op1et2.png",
+    "chapitre1/image/op1et22.png",
+    "chapitre1/image/op3et4.png",
+    "chapitre1/image/op3et42.png",
+    "chapitre1/image/op5.png",
+    "chapitre1/image/op52.png",
+    "chapitre1/image/processeur.png",
+    "chapitre1/image/ram.png",
+    "chapitre1/image/ramrom.png",
+    "chapitre1/image/rom.png",
+    "chapitre1/image/schema1.png",
+    "chapitre1/image/schema_eval2.png",
+    "chapitre1/image/schemafonctionnel.png",
+    "chapitre1/image/unite.png",
+    "chapitre1/quiz/quiz1/data/apple-touch-icon.png",
+    "chapitre1/quiz/quiz1/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre1/quiz/quiz1/data/quiz1/images/quiz_bg_0.png",
+    "chapitre1/quiz/quiz1/data/thmb1.png",
+    "chapitre1/quiz/quiz2/data/apple-touch-icon.png",
+    "chapitre1/quiz/quiz2/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre1/quiz/quiz2/data/quiz1/images/quiz_bg_0.png",
+    "chapitre1/quiz/quiz2/data/thmb1.png",
+    "chapitre1/quiz/quiz3/data/apple-touch-icon.png",
+    "chapitre1/quiz/quiz3/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre1/quiz/quiz3/data/quiz1/images/quiz_bg_0.png",
+    "chapitre1/quiz/quiz3/data/thmb1.png",
+    "chapitre1/quiz/quiz4/data/apple-touch-icon.png",
+    "chapitre1/quiz/quiz4/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre1/quiz/quiz4/data/quiz1/images/quiz_bg_0.png",
+    "chapitre1/quiz/quiz4/data/thmb1.png",
+    "chapitre1/quiz/quiz5/data/apple-touch-icon.png",
+    "chapitre1/quiz/quiz5/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre1/quiz/quiz5/data/quiz1/images/quiz_bg_0.png",
+    "chapitre1/quiz/quiz5/data/thmb1.png",
+    "chapitre1/quiz/quiz6/data/apple-touch-icon.png",
+    "chapitre1/quiz/quiz6/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre1/quiz/quiz6/data/quiz1/images/quiz_bg_0.png",
+    "chapitre1/quiz/quiz6/data/thmb1.png",
+    "chapitre2/image/TEL+.png",
+    "chapitre2/image/eval+.png",
+    "chapitre2/image/ex1.png",
+    "chapitre2/image/ex8.png",
+    "chapitre2/image/structure.png",
+    "chapitre3/image/TEL+.png",
+    "chapitre3/image/eval+.png",
+    "chapitre3/image/ex8.png",
+    "chapitre4/image/TEL+.png",
+    "chapitre4/image/actualiser.png",
+    "chapitre4/image/annuler.png",
+    "chapitre4/image/bordure.png",
+    "chapitre4/image/bordure2.png",
+    "chapitre4/image/colonne.png",
+    "chapitre4/image/effet.png",
+    "chapitre4/image/enregistrer.png",
+    "chapitre4/image/entete.png",
+    "chapitre4/image/equation.png",
+    "chapitre4/image/equation1.png",
+    "chapitre4/image/eval+.png",
+    "chapitre4/image/fenetre.png",
+    "chapitre4/image/filigrane.png",
+    "chapitre4/image/forme.png",
+    "chapitre4/image/fusionner.png",
+    "chapitre4/image/insercolonne.png",
+    "chapitre4/image/inserer_tableau.png",
+    "chapitre4/image/lanceur.png",
+    "chapitre4/image/lettrine.png",
+    "chapitre4/image/miseenforme.png",
+    "chapitre4/image/numero.png",
+    "chapitre4/image/numerodepage.png",
+    "chapitre4/image/orientation.png",
+    "chapitre4/image/orienter.png",
+    "chapitre4/image/passage.png",
+    "chapitre4/image/puce.png",
+    "chapitre4/image/pucesetnumero.png",
+    "chapitre4/image/redimensionner.png",
+    "chapitre4/image/redimensionner_image.png",
+    "chapitre4/image/repeter.png",
+    "chapitre4/image/smarart.png",
+    "chapitre4/image/style.png",
+    "chapitre4/image/supprimercolonne.png",
+    "chapitre4/image/symbole.png",
+    "chapitre4/image/tablematiere.png",
+    "chapitre4/qcm/1/data/apple-touch-icon.png",
+    "chapitre4/qcm/1/data/quiz1/images/img-0cc5-7aac-99d4-e09e.png",
+    "chapitre4/qcm/1/data/quiz1/images/img-1142-39ad-0352-6c77.jpg",
+    "chapitre4/qcm/1/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+    "chapitre4/qcm/1/data/quiz1/images/img-342f-a72a-ab2e-b6bd.png",
+    "chapitre4/qcm/1/data/quiz1/images/img-8899-513b-1408-aeff.jpg",
+    "chapitre4/qcm/1/data/quiz1/images/img-8eea-940d-ae4f-0bae.png",
+    "chapitre4/qcm/1/data/quiz1/images/img-f16b-bbf4-2ad8-b62f.jpg",
+    "chapitre4/qcm/1/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre4/qcm/1/data/quiz1/images/quiz_bg_0.png",
+    "chapitre4/qcm/1/data/thmb1.png",
+    "chapitre4/qcm/2/data/apple-touch-icon.png",
+    "chapitre4/qcm/2/data/quiz1/images/img-05a9-69a1-2d6c-482a.png",
+    "chapitre4/qcm/2/data/quiz1/images/img-0601-1f71-05aa-f3fd.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-3bab-dac3-4a8c-1e1d.png",
+    "chapitre4/qcm/2/data/quiz1/images/img-3c2e-11ef-c979-4cb6.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-9f5f-9a2f-fc6b-3820.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-ae9a-a837-89b2-3a2a.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-c2e3-5305-a7c6-614d.png",
+    "chapitre4/qcm/2/data/quiz1/images/img-c46a-59e2-1c6f-7957.png",
+    "chapitre4/qcm/2/data/quiz1/images/img-d70c-9af6-4c58-388e.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-daca-66bc-3bb7-67bf.jpg",
+    "chapitre4/qcm/2/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre4/qcm/2/data/quiz1/images/quiz_bg_0.png",
+    "chapitre4/qcm/2/data/thmb1.png",
+    "chapitre4/qcm/3/data/apple-touch-icon.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-04ef-0b1e-4ca2-a4af.jpg",
+    "chapitre4/qcm/3/data/quiz1/images/img-15cd-216a-9d20-f5e5.jpg",
+    "chapitre4/qcm/3/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+    "chapitre4/qcm/3/data/quiz1/images/img-2935-dea4-e167-a760.jpg",
+    "chapitre4/qcm/3/data/quiz1/images/img-3c90-8b57-d10f-2e9f.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-42b2-431e-d87f-6b5a.jpg",
+    "chapitre4/qcm/3/data/quiz1/images/img-4d3b-68bc-1ba4-b0bf.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-502e-b672-459f-b528.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-56cf-bc55-7057-6bc9.jpg",
+    "chapitre4/qcm/3/data/quiz1/images/img-7b7e-1e44-3a41-6a84.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-9d63-995b-c922-a52b.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-b7ac-fbd0-c266-31ff.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-ba08-e7ca-cfb7-3635.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-c847-b0da-5f18-8a2a.png",
+    "chapitre4/qcm/3/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre4/qcm/3/data/quiz1/images/quiz_bg_0.png",
+    "chapitre4/qcm/3/data/thmb1.png",
+    "chapitre4/qcm/4/data/apple-touch-icon.png",
+    "chapitre4/qcm/4/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-4b67-4c51-444a-51b1.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-4e08-740d-a5e3-9382.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-858b-6efb-9be8-728d.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-9fba-4e97-eae1-0de1.png",
+    "chapitre4/qcm/4/data/quiz1/images/img-b2ee-9bd3-f67d-8835.png",
+    "chapitre4/qcm/4/data/quiz1/images/img-b4c0-b27d-4586-bd6b.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-e3c5-291b-a285-a31d.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-f5be-1ea6-2c9d-58b4.jpg",
+    "chapitre4/qcm/4/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre4/qcm/4/data/quiz1/images/quiz_bg_0.png",
+    "chapitre4/qcm/4/data/thmb1.png",
+    "chapitre4/qcm/5/data/apple-touch-icon.png",
+    "chapitre4/qcm/5/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+    "chapitre4/qcm/5/data/quiz1/images/img-5bea-d963-b494-0836.png",
+    "chapitre4/qcm/5/data/quiz1/images/img-8f5c-3d63-b029-e222.jpg",
+    "chapitre4/qcm/5/data/quiz1/images/img-cbd6-01c4-9a90-3433.png",
+    "chapitre4/qcm/5/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre4/qcm/5/data/quiz1/images/quiz_bg_0.png",
+    "chapitre4/qcm/5/data/thmb1.png",
+    "chapitre4/qcm/6/data/apple-touch-icon.png",
+    "chapitre4/qcm/6/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+    "chapitre4/qcm/6/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+    "chapitre4/qcm/6/data/quiz1/images/quiz_bg_0.png",
+    "chapitre4/qcm/6/data/thmb1.png",
+    "chapitre4/tp/pdf2.png",
+    "chapitre4/tp/word2.png",
+    "chapitre4/video/tp1.mp4",
+    "chapitre4/video/tp2.mp4",
+    "chapitre4/video/tp3.mp4",
+    "chapitre4/video/tp4.mp4",
+    "chapitre4/video/tp5.mp4",
+    "chapitre4/video/tp6.mp4",
+    "chapitre5/image/TEL+.png",
+    "chapitre5/image/ajouter_donnees.png",
+    "chapitre5/image/ajouter_donnees2.png",
+    "chapitre5/image/ajouter_donnees3.png",
+    "chapitre5/image/ajouter_element.png",
+    "chapitre5/image/choisir.png",
+    "chapitre5/image/conditionnelle.png",
+    "chapitre5/image/couleur_graphe.png",
+    "chapitre5/image/deplacer_graphique.png",
+    "chapitre5/image/etiquette.png",
+    "chapitre5/image/eval+.png",
+    "chapitre5/image/fenetre.png",
+    "chapitre5/image/feuil.png",
+    "chapitre5/image/filtre_graphe.png",
+    "chapitre5/image/fonction.png",
+    "chapitre5/image/forme.png",
+    "chapitre5/image/graphe_recommande.png",
+    "chapitre5/image/graphe_recommande2.png",
+    "chapitre5/image/histogramme.png",
+    "chapitre5/image/inserer_histogram.png",
+    "chapitre5/image/inserer_ligne.png",
+    "chapitre5/image/intervertir.png",
+    "chapitre5/image/listes.png",
+    "chapitre5/image/modifier_ligne.png",
+    "chapitre5/image/modifier_type.png",
+    "chapitre5/image/poignee.png",
+    "chapitre5/image/rang.png",
+    "chapitre5/image/resultat.png",
+    "chapitre5/image/resultatrang.png",
+    "chapitre5/image/resultatsi.png",
+    "chapitre5/image/resultatsommesi.png",
+    "chapitre5/image/si.png",
+    "chapitre5/image/sommesi.png",
+    "chapitre5/image/supprimer donnees.png",
+    "chapitre5/image/tableau.png",
+    "chapitre5/image/tablegraphe.png",
+    "chapitre5/image/tablegraphe2.png",
+    "chapitre5/image/type.png",
+    "chapitre5/qcm/1/data/apple-touch-icon.png",
+    "chapitre5/qcm/1/data/quiz1/images/img-3d253eec9e98d6e6351451d08da65811ebe57050.png",
+    "chapitre5/qcm/1/data/quiz1/images/img-cdd84352a3f88d5a04f9d27c768b6eadbfb02078.png",
+    "chapitre5/qcm/1/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+    "chapitre5/qcm/1/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+    "chapitre5/qcm/1/data/quiz1/images/quiz_bg_0.png",
+    "chapitre5/qcm/1/data/quiz_bg_0.png",
+    "chapitre5/qcm/2/data/apple-touch-icon.png",
+    "chapitre5/qcm/2/data/quiz1/images/img-269bd08f8e37f2eaf0281101ed4e009047a7c874.png",
+    "chapitre5/qcm/2/data/quiz1/images/img-5968ce91611dd433cbe99bd194a6474b3f2813f1.png",
+    "chapitre5/qcm/2/data/quiz1/images/img-9bc72496c913dd0fdc45b1a5fcc1992a3e7387e2.png",
+    "chapitre5/qcm/2/data/quiz1/images/img-bc44d152ec3f6d9fff4bbf5c2fbdbe6b5f0d2099.png",
+    "chapitre5/qcm/2/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+    "chapitre5/qcm/2/data/quiz1/images/img-d492de979a7c62cf3570e27f073e80ddc6d3b0da.png",
+    "chapitre5/qcm/2/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+    "chapitre5/qcm/2/data/quiz1/images/quiz_bg_0.png",
+    "chapitre5/qcm/2/data/quiz_bg_0.png",
+    "chapitre5/qcm/3/data/apple-touch-icon.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-2a6321c4e95b93edb9aa0a8d8b3769e7bc184410.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-2e35042be5abf51516b3020f1a64c20c375eb8dc.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-3deb615cd8cbf86856f7d56baf7eed36783749e5.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-447124a28833fba9233f3bbdb2ae2472ae89c2c7.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-5fdb1596b14cf35c1adca95086810ccc7d4f8370.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+    "chapitre5/qcm/3/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+    "chapitre5/qcm/3/data/quiz1/images/img-feabfbb3394349aebcf0e525e1962e9780d08022.png",
+    "chapitre5/qcm/3/data/quiz1/images/quiz_bg_0.png",
+    "chapitre5/qcm/3/data/quiz_bg_0.png",
+    "chapitre5/qcm/4/data/apple-touch-icon.png",
+    "chapitre5/qcm/4/data/quiz1/images/img-085b3fff994784f4b74ed946b58d7a61ac5440e8.png",
+    "chapitre5/qcm/4/data/quiz1/images/img-b2c38609172d4025b72c67e9642553ed666857a8.png",
+    "chapitre5/qcm/4/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+    "chapitre5/qcm/4/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+    "chapitre5/qcm/4/data/quiz1/images/quiz_bg_0.png",
+    "chapitre5/qcm/4/data/quiz_bg_0.png",
+    "chapitre5/qcm/5/data/apple-touch-icon.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-1d7bda974560adf99a13e15be68c9bdafad90342.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-23af70e094d7dbb6567f60869f60e07342816ebb.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-30dab2345a39b1512243f8a2a49f1f900245a66a.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-73f7f42799db9e6a21aa5b6b962e6e81c34477cf.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-bce6473c9de303c7591ed924e0cf9dc8a4f0243c.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+    "chapitre5/qcm/5/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+    "chapitre5/qcm/5/data/quiz1/images/img-ed261a847a10111b14b3207bc955b60c71bd0622.png",
+    "chapitre5/qcm/5/data/quiz1/images/quiz_bg_0.png",
+    "chapitre5/qcm/5/data/quiz_bg_0.png",
+    "chapitre5/tp/pdf2.png",
+    "chapitre5/tp/xlsx2.png",
+    "chapitre5/video/tp1.mp4",
+    "chapitre5/video/tp2.mp4",
+    "chapitre5/video/tp3.mp4",
+    "chapitre5/video/tp4.mp4",
+    "chapitre5/video/tp5.mp4",
+    "chapitre5/video/tp6.mp4"
+  ],
+  "identites": []
+}

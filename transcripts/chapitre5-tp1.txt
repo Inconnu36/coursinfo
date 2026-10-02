@@ -1,0 +1,28 @@
+AIDE TEXTUELLE — BROUILLON
+II) Gestion d’une feuille de calcul
+
+Source : chapitre5/gestion_feuil.html
+Vidéo : chapitre5/video/tp1.mp4
+
+Ce texte reprend la leçon qui accompagne la vidéo. Il ne transcrit pas une bande sonore vérifiée.
+La vidéo du chapitre 5 est un substitut repris du chapitre 4 ; cette aide concerne la leçon Excel, pas le contenu parlé du fichier vidéo.
+
+II) Gestion d’une feuille de calcul
+1. Insérer une feuille de calcul
+✔ Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur Insérer ✔ Sélectionner Feuille et cliquer sur Ok
+Remarque :
+Vous pouvez aussi cliquer sur le signe + à droite des feuilles.
+2. Supprimer une feuille de calcul
+✔ Il suffit d'effectuer un clic droit sur le nom de la feuille à supprimer et de sélectionner Supprimer.
+3. Masquer une feuil de calcul
+✔ Il suffit d'effectuer un clic droit sur le nom de la feuille à masquer et de sélectionner Masquer.
+4. Afficher une feuille de calcul
+✔ Effectuer un clic droit sur le nom de la feuille à afficher ✔ Sélectionner la feuille à afficher et cliquer sur OK.
+5. Renommer une feuille de calcul
+✔ Effectuer un clic droit sur le nom de la feuille à renommer et de sélectionner Renommer ✔ Taper un nouveau nom.
+Remarque :
+Vous pouvez aussi effectuer un double clic sur le nom de la feuille à renommer, Tapez Le nouveau nom.
+6. Gérer la couleur d'une feuille de calcul
+✔ Effectuer un clic droit sur le nom de la feuille et de sélectionner Couleur d’onglet ✔ Choisir une autre couleur
+7. Déplacer une feuille de calcul
+✔ À l’aide de la souris, on fait glisser l’onglet de la feuille à déplacer vers sa nouvelle position.

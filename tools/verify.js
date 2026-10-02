@@ -49,6 +49,7 @@ function refsOf(html) {
   return refs;
 }
 
+const chrome = require('../js/nav.js').COURSE_CHROME;
 const broken = [];
 const usedAssets = new Set();
 let totalRefs = 0;
@@ -62,7 +63,7 @@ for (const file of htmlFiles) {
   const rel = path.relative(ROOT, file);
 
   if (!/<link[^>]+stylesheet/i.test(html) && !/<style[\s>]/i.test(html)) noCss.push(rel);
-  if (!isISpring && /onchange="redirigerVersLien/.test(html) && !/nav\.js/.test(html)) noNav.push(rel);
+  if (!isISpring && !/nav\.js/.test(html)) noNav.push(rel);
 
   // iSpring presentations load everything under data/ at run time from the
   // base64 manifest embedded in the page, so HTML ref-scanning cannot see it.
@@ -74,13 +75,25 @@ for (const file of htmlFiles) {
     }
   }
 
-  for (const raw of refsOf(html)) {
+  const entry = chrome[rel.replaceAll('\\', '/')];
+  const shared = entry ? [...entry.navigation, ...entry.options].map(item => item.href).filter(Boolean) : [];
+  for (const raw of [...refsOf(html), ...shared]) {
     if (!raw) continue;
     if (/^(https?:|data:|mailto:|tel:|javascript:|#|blob:)/i.test(raw)) continue;
     const target = path.resolve(path.dirname(file), decodeURIComponent(raw.split('?')[0].split('#')[0]));
     totalRefs++;
     usedAssets.add(target);
     if (!existing.has(target)) broken.push({ page: rel, ref: raw });
+  }
+}
+
+// Les alias CSS doivent eux aussi conserver des URL valides.
+for (const file of files.filter(f => f.endsWith('.css'))) {
+  for (const raw of refsOf(fs.readFileSync(file, 'utf8'))) {
+    if (/^(https?:|data:|#)/i.test(raw)) continue;
+    const target = path.resolve(path.dirname(file), decodeURIComponent(raw));
+    totalRefs++; usedAssets.add(target);
+    if (!existing.has(target)) broken.push({page:path.relative(ROOT,file),ref:raw});
   }
 }
 
@@ -106,4 +119,4 @@ console.log('runtime dirs     :', runtimeDirs.length, '(iSpring data/ folders, l
 console.log('unused assets    :', unusedAssets.length);
 unusedAssets.forEach(f => console.log('   UNUSED   ' + f));
 
-process.exit(broken.length ? 1 : 0);
+process.exit(broken.length || noCss.length || noNav.length || orphans.length ? 1 : 0);

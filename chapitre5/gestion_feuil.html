@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tableur</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>II) Gestion d’une feuille de calcul — Chapitre 5 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre5/definitions.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre5.css">
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
+<meta name="description" content="II) Gestion d’une feuille de calcul. ✔ Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur Insérer ✔ Sélectionner Feuille et cliquer sur Ok Remarque : Vous pouvez aussi cliquer sur le signe + à ">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="II) Gestion d’une feuille de calcul — Chapitre 5 — Cours d’informatique">
+<meta name="twitter:description" content="II) Gestion d’une feuille de calcul. ✔ Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur Insérer ✔ Sélectionner Feuille et cliquer sur Ok Remarque : Vous pouvez aussi cliquer sur le signe + à ">
+<meta property="og:title" content="II) Gestion d’une feuille de calcul — Chapitre 5 — Cours d’informatique">
+<meta property="og:description" content="II) Gestion d’une feuille de calcul. ✔ Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur Insérer ✔ Sélectionner Feuille et cliquer sur Ok Remarque : Vous pouvez aussi cliquer sur le signe + à ">
+<meta property="og:type" content="website">
+<link rel="canonical" href="gestion_feuil.html">
+<link rel="icon" href="../favicon.svg">
+<meta property="og:url" content="https://example.com/coursinfo/chapitre5/gestion_feuil.html">
 </head>
-<body>
+<body data-style="chapitre5-definitions">
+<a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<center>
-<table align="center" >
-    <tr text-decoration = "underline" style="height: 26px">
-      <td align="center" > <a href="definitions.html"><u>Précédent</u> </a></td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="gestion_lignes.html"> <u>Suivant</u> </a></td>
-    </tr>
-  </table>
-</center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <center><option value="sousmenu">Tableur (MS EXCEL 2016)</option></center>
-  <option value="definitions.html">Définitions</option>
-  <option value="gestion_feuil.html">Gestion d’une feuille de calcul</option>
-  <option value="gestion_lignes.html">Gestion des lignes et des colonnes</option>
-  <option value="format_cellule.html">Mise en forme des cellules</option>
-  <option value="formules.html">Formules et les références des cellules</option>
-  <option value="fonction.html">Les fontions</option>
-  <option value="graphe.html">Les graphiques</option>
-  <option value="evaluations.html">Évaluations</option>
 
-</select>
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>    </p>
+<center>
+<a href="docpdf/gestion_feuil.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a>
 </center>
 
-
-
-
-<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
-
-<p>    <center><a href="docpdf/gestion_feuil.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center><a href="qcm/1/qcm1.html" target="_blank"><button onclick="showPage('page1')">quiz1: Notions de base </button></a></center>
@@ -62,33 +54,35 @@
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
     <center>
-<video width="85%" height="50%" controls>
-      <source src="video/tp1.mp4" > 
+<video width="85%" height="50%" controls preload="metadata" poster="video/tp1.jpg">
+      <source src="video/tp1.mp4"> 
   
-    </video>
-   </center>
+    </source></video>
+   <p><a href="../transcripts/chapitre5-tp1.txt">Aide textuelle de la vidéo (brouillon)</a></p>
+</center>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<h3><strong><span style="text-decoration:underline;"><span style="color:#000080;">II) Gestion d’une feuille de calcul</span></span></strong></h3>
+<h1 class="page-title"><strong><span style="text-decoration:underline;"><span style="color:#000080;">II) Gestion d’une feuille de calcul</span></span></strong></h1>
 
 
 
 
 
-<center> <img src="image/feuil.png" ></center>
+<center> <img src="image/feuil.png" width="301" height="30" decoding="async" loading="lazy" alt="Onglets des feuilles du classeur Excel">
+</center>
 
-</BR></p1>
+
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">1. Insérer une feuille de calcul</span></span></strong></h3>
 
 <p class="retrait">
-<span style="color: red;">✔</span> Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur <span style="font-weight: bold;text-decoration: underline;">Insérer</span> <BR>
+<span style="color: red;">✔</span> Cliquer avec le bouton droit sur le nom d'une feuille, ensuite cliquer sur <span style="font-weight: bold;text-decoration: underline;">Insérer</span> <br>
 
 <span style="color: red;">✔</span> Sélectionner <span style="font-weight: bold;text-decoration: underline;">Feuille</span> et cliquer sur <span style="font-weight: bold;text-decoration: underline;">Ok</span> 
  <br>
 
 </p>
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -133,12 +127,12 @@ Vous pouvez aussi cliquer sur le signe <span style="font-weight: bold;color: red
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">5. Renommer une feuille de calcul</span></span></strong></h3>
 
 <p class="retrait">
-<span style="color: red;">✔</span> Effectuer un clic droit sur le nom de la feuille à renommer et de sélectionner <span style="font-weight: bold;text-decoration: underline;">Renommer</span> <BR>
+<span style="color: red;">✔</span> Effectuer un clic droit sur le nom de la feuille à renommer et de sélectionner <span style="font-weight: bold;text-decoration: underline;">Renommer</span> <br>
 <span style="color: red;">✔</span> Taper <span style="font-weight: bold;text-decoration: underline;">un nouveau nom. </span> 
  <br>
 </p>
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -152,7 +146,7 @@ Vous pouvez aussi effectuer un double clic sur le nom de la feuille à renommer,
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">6. Gérer la couleur d'une feuille de calcul</span></span></strong></h3>
 
 <p class="retrait">
-<span style="color: red;">✔</span> Effectuer un clic droit sur le nom de la feuille et de sélectionner <span style="font-weight: bold;text-decoration: underline;">Couleur d’onglet</span> <BR>
+<span style="color: red;">✔</span> Effectuer un clic droit sur le nom de la feuille et de sélectionner <span style="font-weight: bold;text-decoration: underline;">Couleur d’onglet</span> <br>
 <span style="color: red;">✔</span> Choisir <span style="font-weight: bold;text-decoration: underline;">une autre couleur</span> 
  <br>
 </p>
@@ -185,8 +179,7 @@ Vous pouvez aussi effectuer un double clic sur le nom de la feuille à renommer,
 
     
     <!-- Pied de page -->
-    <div class="footer">
-        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
-    </div>
+    </div></main><footer class="footer" data-site-footer=""></footer>
 </body>
 </html>
+
