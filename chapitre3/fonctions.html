@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Les fonctions prédéfinies</title>
+  
+<link rel="stylesheet" href="../css/chapitre3/exceptions.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="structures.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><a href="exceptions.html"> <u>Suivant</u> </a></td>
+    </tr>
+  </table>
+</center>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Langages de programmation (Python)</option>
+  <option value="introduction.html">I. Introduction</option>
+  <option value="variables.html">II. les variables</option>
+  <option value="instruction.html">III. Les instructions de base</option>
+  <option value="structures.html">IV. Structures de contrôle de base</option>
+  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
+  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+  <p><center><a href="docpdf/fonctions.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+  <hr>
+
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+  
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+ <h2>V. <span class="highlight">Fonctions prédéfinies (ou intégrées) en Python</span></h2>
+  <h3>1. <span class="section-title">Fonctions utilitaires générales</span></h3>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
+     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Résultat</span></th>
+  </tr>
+  <tr>
+    <td>
+  print()
+    </td>
+      <td>
+  Affiche une valeur à l'écran
+    </td>
+      <td>
+print(" Bonjour tout le monde ")
+    </td>
+    <td>
+Bonjour tout le monde
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+  input()<br><br><br>
+    </td>
+      <td>
+  Lit une entrée <br>utilisateur (chaîne)<br><br>
+    </td>
+      <td>
+X=input() <br>
+ou <br>
+X=input(" taper un nombre ") 
+
+    </td>
+    <td>
+Attend une saisie de <br>l’utilisateur au clavier<br><br>
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  len()<br><br>
+    </td>
+      <td>
+  Renvoie la longueur d’une<br>séquence (chaîne, liste, etc.)
+    </td>
+      <td>
+len("Python")<br><br>
+    </td>
+    <td>
+6<br><br>
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  type()<br>
+    </td>
+      <td>
+  Donne le type <br>d’une variable
+    </td>
+      <td>
+tupe(3.14)<br>
+    </td>
+    <td>
+<'float'><br>
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  int()
+    </td>
+      <td>
+  Convertit en entier
+    </td>
+      <td>
+int(3.14)
+    </td>
+    <td>
+3
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  float
+    </td>
+      <td>
+  Convertit en nombre décimal
+    </td>
+      <td>
+float(3)
+    </td>
+    <td>
+3.00
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  str()<br>
+    </td>
+      <td>
+  Convertit en chaîne<br>de caractères
+    </td>
+      <td>
+str(125)<br>
+    </td>
+    <td>
+'125'<br>
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  abs()
+    </td>
+      <td>
+  Donne la valeur absolue
+    </td>
+      <td>
+abs(-2)
+    </td>
+    <td>
+2
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  round()<br><br>
+    </td>
+      <td>
+  Arrondit un nombre<br><br>
+    </td>
+      <td>
+round(12.75)<br>
+round(12.25)
+
+    </td>
+    <td>
+13 <br>12
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  max()
+    </td>
+      <td>
+  Renvoie la plus grande valeur
+    </td>
+      <td>
+max(12,14,10,8,16,11)
+    </td>
+    <td>
+16
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  min()
+    </td>
+      <td>
+    Renvoie la plus petite valeur
+    </td>
+      <td>
+max(12,14,10,8,16,11)
+    </td>
+    <td>
+8
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+  pow(a,b)
+     </td>
+      <td >
+Élève a à la puissance b
+    </td>
+      <td>
+pow(2, 3)
+    </td>
+    <td>
+8
+    </td>
+  </tr>
+
+
+
+  <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+  sum()<br><br>
+    </td>
+      <td>
+  Calcule la somme d’une <br>séquence (d’une série)
+    </td>
+      <td>
+sum([12,14,10,4])
+    </td>
+    <td>
+40
+    </td>
+  </tr>
+
+
+  <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+  rang()<br><br>
+  <br>
+    </td>
+      <td>
+  Génère une séquence<br> de nombres<br><br>
+    </td>
+      <td>
+for i in range(2):<br>
+    <span style="margin: 10px;">print(i)</span><br><br>
+
+    </td>
+    <td>
+0<br>
+1<br>
+2
+    </td>
+  </tr>
+
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+  sorted()<br>
+  <br>
+    </td>
+      <td>
+  Trie une séquence<br> sans la modifier
+    </td>
+      <td>
+sorted([3, 1, 4, 2])<br>
+sorted([3, 1, 4, 2],reverse=True)
+    </td>
+    <td>
+[1, 2, 3, 4]<br>
+[4, 3, 2, 1]
+    </td>
+  </tr>
+
+
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+  bool()<br>
+  <br>
+    </td>
+      <td>
+  Convertit une valeur<br>en booléen (True ou False)
+    </td>
+      <td>
+bool(0)<br>
+bool(5)
+
+    </td>
+    <td>
+False<br>
+True
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">NB: </span> Certaines fonctions (<span style="font-weight: bold; color:red;text-decoration: green wavy ;">sum(), range(), sorted() et bool()</span>) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les élèves à leur utilité dans la programmation en Python.
+</p>
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<h3>2. <span class="section-title">Fonctions nécessitant l'importation de modules</span></h3>
+<P>Certaines fonctions ne sont pas disponibles directement dans Python. Il faut importer un module externe pour pouvoir les utiliser.</P>
+
+<span class="sous-title">a- Module math </span>
+
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 2px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">À importer: </span> <span style="font-weight: bold; color:navy;text-decoration: green wavy ;">import math ou from math import *</span>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
+     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Résultat</span></th>
+  </tr>
+  <tr>
+    <td>
+pi    
+    </td>
+      <td>
+Constantes mathématiques
+    </td>
+      <td>
+
+    </td>
+    <td>
+3.141592653589793
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+ceil()    
+    </td>
+      <td>
+Arrondi supérieur
+    </td>
+      <td>
+ceil(8.15)
+    </td>
+    <td>
+9
+    </td>
+  </tr>
+  <tr>
+    <td>
+floor()    
+    </td>
+      <td>
+Arrondi inférieur
+    </td>
+      <td>
+floor(8.75)
+    </td>
+    <td>
+8
+    </td>
+  </tr>
+  <tr>
+    <td>
+sqrt()    
+    </td>
+      <td>
+Racine carrée
+    </td>
+      <td>
+sqrt(9)
+    </td>
+    <td>
+3.0
+    </td>
+  </tr>
+  <tr>
+    <td>
+radians()    
+    </td>
+      <td>
+Convertir en radians
+    </td>
+      <td>
+radians(180)
+    </td>
+    <td>
+3.141592653589793
+    </td>
+  </tr>
+  <tr>
+    <td>
+degrees()    
+    </td>
+      <td>
+Convertir en degrés
+    </td>
+      <td>
+degrees(pi)
+    </td>
+    <td>
+180
+    </td>
+  </tr>
+  <tr>
+    <td>
+sin(x)<br>
+cos(x)<br>tan(x)
+    
+    </td>
+      <td>
+Fonctions<br>trigonométriques
+    </td>
+      <td>
+sin(pi/6)<br>
+cos(pi/6)<br> 
+tan(pi/6
+
+    </td>
+    <td>
+0.5<br>
+0.86<br>
+0.58
+
+    </td>
+  </tr>
+  
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+factorial()
+    </td>
+      <td>
+Factorielle
+    </td>
+      <td>
+factorial(4)
+    </td>
+    <td>
+24
+    </td>
+  </tr>
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+log()
+    </td>
+      <td>
+Logarithme népérien
+    </td>
+      <td>
+log(5)
+    </td>
+    <td>
+1.6094379
+    </td>
+  </tr>
+      <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+log10()
+    </td>
+      <td>
+Logarithme base 10
+    </td>
+      <td>
+log10(5)
+    </td>
+    <td>
+0.6989700
+    </td>
+  </tr>
+</table>
+
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">NB: </span> Certaines fonctions (<span style="font-weight: bold; color:red;text-decoration: green wavy ;">factorial(), log() et log10()) </span>) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les élèves à leur utilité dans la programmation en Python.
+</p>
+<!--------------------------------------------------------------------------------------------------------------------------------->
+<span class="sous-title">b- Module random – Génération de nombres aléatoires </span>
+
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 2px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">À importer: </span> <span style="font-weight: bold; color:navy;text-decoration: green wavy ;">import random ou from random import*</span>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
+     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+random()    
+    </td>
+      <td>
+Flottant aléatoire entre 0 et 1
+    </td>
+      <td>
+random()
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+randint(a,b)    
+    </td>
+      <td>
+Entier aléatoire entre a et b
+    </td>
+      <td>
+randint(2, 5)
+    </td>
+  </tr>
+  <tr>
+    <td>
+uniform(a, b)    
+    </td>
+      <td>
+Flottant aléatoire entre a et b
+    </td>
+      <td>
+uniform(2, 10) 
+    </td>
+  </tr>
+  
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+choice(liste)
+    </td>
+      <td>
+Élément aléatoire d’une liste
+    </td>
+      <td>
+choice(liste)
+    </td>
+  </tr>
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+shuffle(liste)
+    </td>
+      <td>
+Mélange les éléments de la liste
+    </td>
+      <td>
+shuffle(liste)
+    </td>
+  </tr>
+</table>
+
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">NB: </span> Certaines fonctions (<span style="font-weight: bold; color:red;text-decoration: green wavy ;">choice(liste) et shuffle(liste) ) </span>) ne sont pas incluses dans le programme du tronc commun. je les ai intégrées dans cette leçon afin de sensibiliser les élèves à leur utilité dans la programmation en Python.
+</p>
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------>
+
+<span class="sous-title">c- Module datetime – Dates et heures </span>
+
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 2px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">À importer: </span> <span style="font-weight: bold; color:navy;text-decoration: green wavy ;">import datetime</span>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Description</span></th>
+     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+datetime.now()    
+    </td>
+      <td>
+Date et heure actuelles
+    </td>
+      <td>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+date.today()   
+    </td>
+      <td>
+Date actuelle
+    </td>
+      <td>
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+datetime.strptime() <br>  
+    </td>
+      <td>
+Convertir une chaîne <br>en date
+    </td>
+      <td>
+d = "11-06-2025"<br>
+date = datetime.strptime(d, "%d-%m-%Y")
+ 
+    </td>
+  </tr>
+  
+    
+</table>
+
+
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

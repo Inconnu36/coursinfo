@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notions de données</title>
+  
+<link rel="stylesheet" href="../css/chapitre2/donnees.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<table>
+    <tr>
+      <td> <a href="definitions.html">Précédent </td>
+      <td><a href="../index.html"> Accueil </a></td>
+      <td><a href="structurealgo.html"> Suivant </a></td>
+    </tr>
+  </table>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Algorithmique</option>
+  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
+  <option value="donnees.html">II. Notions de données</option>
+  <option value="structurealgo.html">III. Structure d’un algorithme</option>
+  <option value="instruction.html">IV. Les instructions de base</option>
+  <option value="structures.html">V. Structures de contrôle de base</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+    <p><center><a href="docpdf/donnees.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+<hr>
+
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    <h2>II. <span class="highlight">Notions de données</span></h2>
+
+<P>Les données sont des informations nécessaires au déroulement d’un algorithme. On distingue deux catégories : les constantes et les variables.</P>
+
+ <h3>1. <span class="section-title">Les variables</span></h3>
+<P>Une variable est un objet dont le contenu peut être modifié par une action durant l’exécution d’un algorithme. Une variable est caractérisée par son nom (<strong>identificateur</strong>), sa valeur (<STRONG>contenu</STRONG>) et son type.</P>
+<P>Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée.</P>
+
+<h3>2. <span class="section-title">Les constantes</span></h3>
+<p>Une constante est une donnée fixe qui ne varie pas durant l’exécution d’un algorithme.</p>
+<p>Une constante est caractérisée par son nom et sa valeur (fixe).</p>
+
+  <h3>3. <span class="section-title">Les types de données</span></h3> 
+
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Entier</span>: Ce type contient des nombres positifs ou négatifs, sans fractions ni décimales.</p>
+<span style="text-align:justify; font-weight: bold; text-decoration: green underline; margin: 16px;">Exemple:</span> 12, -2, 275<br>
+
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Réel</span>: Ce type contient des nombres à virgule flottante, représentés avec un point décimal.</p>
+<span style="text-align:justify; font-weight: bold; text-decoration: green underline; margin: 16px;">Exemple:</span> 0.225 , -12.45<br>
+
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Caractère</span>: Ce type ne peut contenir qu'un seul et unique caractère délimité soit par des apostrophes (<span style="font-weight: bold;color: red;">'</span>...<span style="font-weight: bold;color: red;">'</span >), soit par des guillemets (<span style="font-weight: bold;color: red;">"</span>...<span style="font-weight: bold;color: red;">"</span >).</p>
+<span style="text-align:justify; font-weight: bold; text-decoration: green underline; margin: 16px;">Exemple:</span> "A", " 3"<br>
+
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Chaine de caractères</span>: Ce type représente une suite de caractères délimitée soit par des guillemets (<span style="font-weight: bold;color: red;">"</span>...<span style="font-weight: bold;color: red;">"</span >).</p>
+<span style="text-align:justify; font-weight: bold; text-decoration: green underline; margin: 16px;">Exemple:</span> " Bonjour", " mars2024", " 271"<br>
+
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Booléen</span>: Les variables de type booléen ne prennent que deux valeurs : <span style="font-weight: bold;color: red;">vrai</span> ou <span style="font-weight: bold;color: red;">faux</span>.</p>
+
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

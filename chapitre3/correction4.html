@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Correction</title>
+  
+<link rel="stylesheet" href="../css/chapitre3/correction1.css">
+</head>
+<body>
+
+
+
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="serie3.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><u>Suivant</u> </td>
+    </tr>
+  </table>
+
+<br>
+
+
+<script src="../js/nav.js"></script>
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Langages de programmation (Python)</option>
+  <option value="introduction.html">I. Introduction</option>
+  <option value="variables.html">II. les variables</option>
+  <option value="instruction.html">III. Les instructions de base</option>
+  <option value="structures.html">IV. Structures de contrôle de base</option>
+  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
+  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+
+ <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<p>
+    <center><a href="docpdf/correction4.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
+</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  <p style ="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°4)</span>
+
+<hr><br>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td><span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br></div></span><br> Écrire un algorithme qui permet d’afficher le jour de la semaine correspondant à un chiffre allant de 1 à 7, saisi au clavier.
+</td>
+ </tr>
+
+ <tr bgcolor="#f9e79f" >
+    
+  <td style =" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
+
+x=int(input(" <span style="color:purple; font-weight:bold;">Entrez un chiffre entre 1 et 7 :</span>"))<br>
+match x:<br>
+    <span style="margin: 15px;">case 1 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Lundi</span>")</span><br>
+    <span style="margin: 15px;">case 2 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Mardi</span>")</span><br>
+    <span style="margin: 15px;">case 3 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Mercredi</span>")</span><br>
+    <span style="margin: 15px;">case 4 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Jeudi</span>")</span><br>
+    <span style="margin: 15px;">case 5 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Vendredi</span>")</span><br>
+    <span style="margin: 15px;">case 6 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Samedi</span>")</span><br>
+    <span style="margin: 15px;">case 7 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Dimache</span>")</span><br>
+    case _ :<br>
+        <span style="margin: 15px;">print(" <span style="color:purple; font-weight:bold;">Valeur invalide. Entrez un chiffre entre 1 et 7</span>")</span><br>
+
+  </td>
+ 
+ </tr>
+
+
+</table>
+
+<!--------------------------------------------------------------------------------------------------------------------->
+
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br></div></span> <br>Écrire un algorithme qui demande l’âge d’un enfant. Ensuite, il l’informe de sa catégorie :<br>
+
+<span style="margin: 15px;">- Moins de 6 ans : "<span style="color: blue;text-decoration: underline; font-weight: bold">Trop jeune</span>"</span><br>
+<span style="margin: 15px;">- 6 à 7 ans : "<span style="color: blue;text-decoration: underline; font-weight: bold">Poussin</span>"</span><br>
+<span style="margin: 15px;">- 8 à 9 ans : "<span style="color: blue;text-decoration: underline; font-weight: bold">Pupille</span>"</span><br>
+<span style="margin: 15px;">- 10 à 11 ans : "<span style="color: blue;text-decoration: underline; font-weight: bold">Minime</span>"</span><br>
+<span style="margin: 15px;">- 12 à 16 ans : "<span style="color: blue;text-decoration: underline; font-weight: bold">Cadet</span>"</span><br>
+<span style="margin: 15px;">- 16 ans et plus : "<span style="color: blue;text-decoration: underline; font-weight: bold">Trop âgé</span>"</span>
+ </tr>
+
+ <tr bgcolor="#f9e79f" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+
+age=int(input(" <span style="color:purple; font-weight:bold;">Taper l âge de l enfant :</span>"))<br>
+
+match age:<br>
+    <span style="margin: 15px;">case 1|2|3|4|5 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Trop jeune</span>")</span><br>
+    <span style="margin: 15px;">case 6|7 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Poussin</span>")</span><br>
+    <span style="margin: 15px;">case 8|9 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Pupille</span>")</span><br>
+    <span style="margin: 15px;">case 10|11 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Minime</span>")</span><br>
+    <span style="margin: 15px;">case 12|13|14|15|16 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Cadet</span>")</span><br>
+    case _ :<br>
+        <span style="margin: 15px;">print(" <span style="color:purple; font-weight:bold;">Trop âgé</span>")</span><br>
+
+    </td>
+</tr>
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br></div></span> <br>Écrire un algorithme qui permet de saisir deux entiers a et b, puis d’effectuer au choix une opération arithmétique parmi : addition, soustraction, multiplication ou division, et afficher le résultat.</td>
+ </tr>
+
+ <tr bgcolor="#f9e79f" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+
+a=int(input(" <span style="color:purple; font-weight:bold;">Entrez le premier entier :</span>"))<br>
+
+b=int(input(" <span style="color:purple; font-weight:bold;">Entrez le second entier :</span>"))<br>
+
+op=input(" <span style="color:purple; font-weight:bold;">Choisissez une opération :</span>")<br>
+
+match op :<br>
+    <span style="margin: 15px;">case "+" :</span><br>
+
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">La somme de ces deux nombres est:</span>",a+b)</span><br>
+            <span style="margin: 15px;">case "-" :</span><br>
+       
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">La différence entre ces deux nombres est: </span>",a-b)</span><br>
+        <span style="margin: 15px;">case "*" :</span><br>
+
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">le produit de ces deux nombres est: </span>",a*b)</span><br>
+
+                <span style="margin: 15px;">case "/" :</span><br>
+        <span style="margin: 30px;">if b==0:</span><br>
+        <span style="margin: 40px;">print(" <span style="color:purple; font-weight:bold;">la division par 0 est impossible</span>")</span><br>
+        <span style="margin: 30px;">else:</span><br>
+        <span style="margin: 40px;">print(f " <span style="color:purple; font-weight:bold;">La division de ces deux nombres est {a/b}</span>"</span><br>
+
+    case _ :<br>
+        <span style="margin: 15px;">print(" <span style="color:purple; font-weight:bold;">Opération invalide</span>")</span><br>
+   </td>
+
+</tr>
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br></div></span><br> Écrire un algorithme qui demande à l’utilisateur de saisir une couleur de feu de circulation (rouge, orange ou vert), puis affiche un message correspondant à l’action à effectuer.<br>
+
+<span style="margin: 15px;">- Rouge : "<span style="color: blue;text-decoration: underline; font-weight: bold">Arrêtez-vous</span>"</span><br>
+<span style="margin: 15px;">- Orange : "<span style="color: blue;text-decoration: underline; font-weight: bold">Ralentissez</span>"</span><br>
+<span style="margin: 15px;">- Vert : "<span style="color: blue;text-decoration: underline; font-weight: bold">Passez</span>"</span><br>
+<span style="margin: 15px;">- Autres case : "<span style="color: blue;text-decoration: underline; font-weight: bold">Couleur inconnue</span>"</span></td>
+ </tr>
+
+ <tr bgcolor="#f9e79f" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+c=input(" <span style="color:purple; font-weight:bold;">Tapez la couleur du feu (rouge, orange ou vert): </span>")<br>
+
+match c :<br>
+    <span style="margin: 15px;">case "Rouge" :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Arrêtez-vous</span>")</span><br>
+    <span style="margin: 15px;">case "Orange" :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Ralentissez</span>")</span><br>
+    <span style="margin: 15px;">case "Vert" :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Passez</span>")</span><br>
+
+    <span style="margin: 15px;">case _:</span><br>
+        <span style="margin: 15px;">print(" <span style="color:purple; font-weight:bold;">couleur inconnue</span>")</span><br>
+
+    </td>
+
+
+ </tr>
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°5<br></div></span><br> Écrire un algorithme qui permet de saisir le numéro du mois puis afficher la saison correspondante<br>
+<span style="margin: 15px;">- Mois (12,1,2) : "<span style="color: blue;text-decoration: underline; font-weight: bold">Hiver</span>"</span><br>
+<span style="margin: 15px;">- Mois (3,4,5) : "<span style="color: blue;text-decoration: underline; font-weight: bold">Printemps</span>"</span><br>
+<span style="margin: 15px;">- Mois (6,7,8) : "<span style="color: blue;text-decoration: underline; font-weight: bold">été</span>"</span><br>
+<span style="margin: 15px;">- Mois (9,10,11) : "<span style="color: blue;text-decoration: underline; font-weight: bold">Automne</span>"</span></td>
+ </tr>
+
+ <tr bgcolor="#f9e79f" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+
+N=int(input(" <span style="color:purple; font-weight:bold;">Taper le numéro du mois : </span>"))<br>
+
+match N :<br>
+    <span style="margin: 15px;">case 12|1|2 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Hiver</span>")</span><br>
+    <span style="margin: 15px;">case 3|4|5 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">printemps</span>")</span><br>
+    <span style="margin: 15px;">case 6|7|8 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">été</span>")</span><br>
+        <span style="margin: 15px;">case 9|10|11 :</span><br>
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">automne</span>")</span><br>
+
+    <span style="margin: 15px;">case _:</span><br>
+
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Valeur invalide. Entrez un chiffre entre 1 et 12</span>")</span><br>
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br></div></span><br> Écrire un algorithme qui affiche le menu suivant :<br><strong>✔ ***Calcul de la surface ***</strong><br><strong>✔ Tapez votre choix (c pour cercle, r pour rectangle, t pour triangle) : </strong><br><strong>✔</strong> L’algorithme calcule ensuite la surface de l’objet match le choix</td>
+ </tr>
+
+ <tr bgcolor="#f9e79f" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+<span style="color:purple; font-weight:bold;">from math import*</span><br>
+print(" <span style="color:purple; font-weight:bold;">***Calcul de la surface ***</span>")<br>
+x=input(" <span style="color:purple; font-weight:bold;">Tapez votre choix (c pour cercle, r pour rectangle, t pour triangle) : </span>")<br>
+
+match x :<br>
+    <span style="margin: 15px;">case "c" | "C" :</span><br>
+        <span style="margin: 30px;">R=float(input(" <span style="color:purple; font-weight:bold;">Tapez le rayon</span>"))</span><br>
+        <span style="margin: 30px;">S=pi*R*R</span><br>
+        <span style="margin: 30px;">print(f" <span style="color:purple; font-weight:bold;">La surface du cercle est</span> {S:.2f} cm² "</span>)<br>
+    <span style="margin: 15px;">case "R" | "r" :</span><br>
+        <span style="margin: 30px;">l=int(input(" <span style="color:purple; font-weight:bold;">Tapez la longueur</span>"))</span><br>
+        <span style="margin: 30px;">g=int(input(" <span style="color:purple; font-weight:bold;">Tapez la largeur</span>"))</span><br>
+        <span style="margin: 30px;">S=l*g</span><br>
+        <span style="margin: 30px;">print(f" <span style="color:purple; font-weight:bold;">La surface du rectangle  est {S} cm² "</span>)</span><br>
+    <span style="margin: 15px;">case "T" | "t" :</span><br>
+        <span style="margin: 30px;">h=int(input(" <span style="color:purple; font-weight:bold;">Tapez la hauteur</span>"))</span><br>
+        <span style="margin: 30px;">b=int(input(" <span style="color:purple; font-weight:bold;">Tapez la base</span>"))</span><br>
+        <span style="margin: 30px;">S=h*b/2</span><br>
+        <span style="margin: 30px;">print(f" <span style="color:purple; font-weight:bold;">La surface du triangle  est {S} cm² "</span>)</span><br>
+        <span style="margin: 15px;">case _:</span><br>
+
+        <span style="margin: 30px;">print(" <span style="color:purple; font-weight:bold;">Erreur de saisie</span>")</span><br>
+
+    </td>
+ 
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------------------------------------------------->
+
+<BR>
+
+<hr>
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Les instructions de base</title>
+  
+<link rel="stylesheet" href="../css/chapitre2/instruction.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="structurealgo.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><a href="structures.html"> <u>Suivant</u> </a></td>
+    </tr>
+  </table>
+</center>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Algorithmique</option>
+  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
+  <option value="donnees.html">II. Notions de données</option>
+  <option value="structurealgo.html">III. Structure d’un algorithme</option>
+  <option value="instruction.html">IV. Les instructions de base</option>
+  <option value="structures.html">V. Structures de contrôle de base</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+  <p><center><a href="docpdf/instruction.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+  <hr>
+
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+  
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    <h2>IV. <span class="highlight">Les instructions de base</span></h2>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+ <h3>1. <span class="section-title">L’affectation</span></h3>
+<p>L’affectation consiste à donner une valeur à une variable. Elle est souvent représentée par une flèche orientée vers la gauche <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">←</span> </p>
+
+
+<table align = "center" border="1" width="90%" border="2" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+  Variable <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">←</span> valeur ou expression<br>
+  <br>
+<br>
+
+    </td>
+    <td>
+a ← 20<br>
+b ← a+10<br>
+nom ← "algo”<br>
+
+
+
+    </td>
+  </tr>
+
+</table>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+  <p>Quelles seront les valeurs des variables A, B et C après exécution des instructions suivantes ?</p>
+Algorithme affectation<br>
+Variables <br>
+A, B, C : Entier<br>
+Début<br>
+A ← 5<br>
+B ← 3<br>
+C ← A + B<br>
+A ← A – B<br>
+B ← C – A<br>
+C ← B – A <br>
+Fin<br>
+
+
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+<span style="color: red;">A</span> = 2<br>
+<span style="color: red;">B</span> = 6<br>
+<span style="color: red;">C</span> = 4<br>
+
+</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+ <h3>2. <span class="section-title">Instruction d'écriture</span></h3>
+<P>L’instruction d’écriture sert à afficher un message ou la valeur d’une variable à l’écran.</P>
+
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">écrire</span> (variable)<br>
+
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">écrire</span> (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> message<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>)<br>
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">écrire</span> (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>message<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>, variable)<br>
+
+    </td>
+    <td>
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">écrire</span> (x)<br>
+
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">écrire</span> (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> Bonjour<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>)<br>
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">écrire</span> (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>La moyenne est: <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>, m)<br>
+
+
+
+    </td>
+  </tr>
+
+</table>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+  <p>Écrire un algorithme qui permet d’afficher le message <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">Bonjour</span>. </p>
+
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+<strong>Algorithme</strong> message<br>
+<strong>Début</strong><br>
+écrire (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> Bonjour<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>)<br> 
+<strong>Fin.</strong><br>
+
+
+</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+ <h3>3. <span class="section-title">Instruction de la lecture</span></h3>
+
+<p>L’instruction de lecture permet de récupérer les données saisies par l’utilisateur</p>
+
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">lire</span> (variable)<br>
+
+    </td>
+    <td>
+<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">lire</span> (x)<br>
+
+    </td>
+  </tr>
+
+</table>
+<p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">!! Attention: </span> La variable <span style="font-weight: bold; color:red;text-decoration: green wavy ;">x</span> doit être préalablement déclarée dans la partie déclaration de l’algorithme
+</p>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+  <p>Écrire un algorithme qui demande à l'utilisateur son prénom, puis affiche la phrase : « <span style="font-weight: bold; color:red;text-decoration: green wavy ;">Bonjour prénom <span style="font-weight: bold; color:red;text-decoration: green wavy ;">»
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+
+<strong>Algorithme</strong> message<br>
+<strong>Variable</strong><br>
+P : chaine de caractères<br>
+<strong>Début</strong><br>
+écrire (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> taper votre prénom<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>) <br>
+Lire (p)<br>
+écrire (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> Bonjour <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>, p) <br>
+<strong>Fin.</strong><br>
+</p>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+  <h3>4. <span class="section-title">Expressions et opérateurs</span></h3>
+<h3><span class="sous-title">a. pérateurs arithmétiques</span></h3>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Symbole</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Résultat</span></th>
+  </tr>
+<tr >
+    <th align="left" >Addition</th>
+    <th>+</th>
+    <th>9 + 2</th>
+     <th>11</th>
+</tr>
+
+<tr>
+    <th align="left" >Soustraction</th>
+    <th>-</th>
+    <th>9 - 2</th>
+    <th>7</th>
+</tr>
+
+  <tr>
+    <th align="left" >Multiplication</th>
+    <th>*</th>
+    <th>9 * 2</th>
+    <th>18</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Division</th>
+    <th>/</th>
+    <th>9 / 2</th>
+    <th>4.5</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Division entière</th>
+    <th>div</th>
+    <th>9 div 2</th>
+    <th>4</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Modulo (Reste de la division entière)</th>
+    <th>mod</th>
+    <th>9 mod 2</th>
+    <th>1</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Puissance</th>
+    <th>^</th>
+    <th>9 ^ 2</th>
+    <th>81</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Racine carrée</th>
+    <th>Racine</th>
+    <th>Racine(9)</th>
+    <th>3</th>
+  </tr>    
+
+</table>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+ 
+<h3><span class="sous-title">b.  Opérateurs de comparaison</span></h3>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Symbole</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Résultat</span></th>
+  </tr>
+<tr >
+    <th align="left" >Égal</th>
+    <th>=</th>
+    <th>9 = 2</th>
+     <th>Faux</th>
+</tr>
+
+<tr>
+    <th align="left" >Diffèrent</th>
+    <th>≠</th>
+    <th>9 ≠ 2</th>
+    <th>Vrai</th>
+</tr>
+
+  <tr>
+    <th align="left" >Inférieur</th>
+    <th><</th>
+    <th>9 < 2</th>
+    <th>Faux</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Inférieur ou égal</th>
+    <th>≤</th>
+    <th>9 ≤ 2</th>
+    <th>Faux</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Supérieur</th>
+    <th>></th>
+    <th>9 > 2</th>
+    <th>Vrai</th>
+  </tr>
+
+  <tr>
+    <th align="left" >Supérieur ou égal</th>
+    <th>≥</th>
+    <th>9 ≥ 2</th>
+    <th>Vrai</th>
+  </tr> 
+
+</table>
+
+
+    
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+ 
+<h3><span class="sous-title">c.  Opérateurs logiques </span></h3>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Symbole</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Résultat</span></th>
+  </tr>
+<tr >
+    <th align="left" >NON logique</th>
+    <th>non</th>
+    <th>non(a)</th>
+     <th>vrai si a est faux</th>
+</tr>
+
+  <tr>
+    <th align="left" >ET logique</th>
+    <th>et</th>
+    <th>a et b</th>
+    <th>vrai si a et b sont vraies</th>
+  </tr>
+
+  <tr>
+    <th align="left" >OU logique</th>
+    <th>ou</th>
+    <th>a ou b</th>
+    <th>vrai si a ou b est vrai</th>
+  </tr>
+
+  
+
+</table>
+
+
+
+
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+  <p>Écrire un algorithme qui permet de calculer la moyenne de deux entiers saisis par l'utilisateur.</p>
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+
+<strong>Algorithme</strong> moyenne<br>
+<strong>Variable</strong><br>
+a,b : entiers<br>
+m : réel<br>
+<strong>Début</strong><br>
+écrire (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> taper le 1er nombre<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>) <br>
+Lire (a)<br>
+écrire (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> taper le 2ème nombre<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>) <br>
+Lire (b)<br>
+m ← ( a + b )/2<br>
+écrire (<span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span> la moyenne est:  <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy ;">"</span>, m) <br>
+<strong>Fin.</strong><br>
+</p>
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

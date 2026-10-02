@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>représentation</title>
+  
+<link rel="stylesheet" href="../css/chapitre1/representation.css">
+</head>
+<body>
+
+
+<table>
+    <tr>
+      <td><a href="definitions.html"> Précédent </a></td>
+      <td><a href="../index.html"> Accueil </a></td>
+      <td><a href="structure.html"> Suivant </a></td>
+    </tr>
+  </table>
+<br>
+
+
+<script src="../js/nav.js"></script>
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Généralités sur les systèmes informatiques</option>
+  <option value="definitions.html">I. Notions et définitions</option>
+  <option value="representation.html">II. Représentation de l’information dans un système informatique</option>
+  <option value="structure.html">III. Structure de base d'un système informatique</option>
+  <option value="cartemere.html">IV. La carte mère</option>
+  <option value="logiciels.html">V. Types des logiciels</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+
+
+
+
+
+
+  <div class="content">
+   
+    <center><a href="docpdf/representations.pdf"><img src="image/TEL.png" ></a><a href="evaluations.html"><img src="image/eval.png" ></a></center>
+
+    <h2>II- <span class="highlight">Représentation de l'information dans un système informatique</span></h2>
+
+  <h3>1. <span class="section-title">Codage de l’information</span></h3>  
+
+<!-- paragraphe -->
+
+      <p class="retrait">
+<span style="color: red;">■</span> C’est quoi un code binaire ?<br>
+<span style="color: red;">■</span> Pourquoi coder de l'information<br>
+<span style="color: red;">■</span> Comment représenter les informations pour les mettre dans l'ordinateur<br>
+
+</p>
+
+<p>Les ordinateurs sont des machines électroniques qui reconnaissent seulement deux états :</p>
+<div class="sublist">
+<p>• <span style="font-weight: bold;color: red;">0</span> = absence de courant (<span style="font-weight: bold;color: red;">OFF</span>)</p>
+<p>• <span style="font-weight: bold;color: red;">1</span> = présence de courant (<span style="font-weight: bold;color: red;">ON</span>)</p>
+</div>
+<p>Ces deux états correspondent aux bits (Binary digits).</p>
+<div class="sublist">
+  <p>- Avec <span style="font-weight: bold;color: red;">1</span> bit on peut coder <span style="font-weight: bold;color: red;">2</span> informations (0 et 1)</p>
+<p>- Avec <span style="font-weight: bold;color: red;">2</span> bits on peut coder <span style="font-weight: bold;color: red;">4</span> informations (00,01,10 et 11)</p>
+<p>- Avec <span style="font-weight: bold;color: red;">n</span> bits on peut coder <span style="font-weight: bold;color: red;">2<sup>n</sup></span> informations </p>
+</div>
+<p>Coder l'information, c'est la transformer en une forme compréhensible par un ordinateur.</p>
+<p>Toutes les informations (texte, image, son, vidéo…) doivent donc être codées en binaire pour être traitées.</p>
+<p>L’information traitée par un système informatique ne peut donc être qu’une suite de ‘0’ et de ‘1’, dite information binaire </p>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<h3>2. <span class="section-title">Les unités de mesures</span></h3> 
+<center><img src="image/unite.png" ></center>
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<h3>3. <span class="section-title">Les systèmes de numération</span></h3> 
+
+<p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Système binaire</span> (b = 2) : C’est le système utilisé par la machine, comporte deux bits : 0 et 1.</p>
+<p>• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Système décimal</span> (b = 10) : C’est le système que nous utilisons quotidiennement, comporte 10 chiffres : 0,1,……et 9</p>
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<h3>4. <span class="section-title">Conversion en binaire</span></h3> 
+<h3><span class="sous-title">a- Méthode de division consécutive par 2:</span></h3>
+
+<p>C'est la méthode la plus courante.</p>
+<p>• <span style="font-weight: bold;text-decoration: underline;">Étapes</span>: Divisez le nombre décimal par 2 et notez le reste (0 ou 1). Continuez à diviser le quotient par 2 et à noter les restes jusqu'à ce que le quotient devienne 0.</p>
+<p>• <span style="font-weight: bold;text-decoration: underline;">Résultat</span>: Les restes, lus de bas en haut, forment le nombre binaire. </p>
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 45)<sub>10</sub> = …….)<sub>2</sub></p>
+<center><img src="image/binaire1.png" ></center>
+
+
+<h3><span class="sous-title">b- Méthode des puissances de 2:</span></h3>
+
+<p>• <span style="font-weight: bold;text-decoration: underline;">Étapes</span>: Repérer les puissances de 2 qui composent le nombre, puis écrire 1 pour les puissances utilisées, 0 pour les autres.</p>
+<p>• <span style="font-weight: bold;text-decoration: underline;">Résultat</span>: Combiner les 1 et 0 dans l'ordre des puissances décroissantes pour former le nombre binaire.</p>
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 45)<sub>10</sub> = …….)<sub>2</sub></p>
+<center><img src="image/binaire2.png" ></center>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<h3>5. <span class="section-title">Conversion en décimal</span></h3> 
+<h3><span class="sous-title">a- Méthode par Addition des Puissances:</span></h3>
+
+<p>• <span style="font-weight: bold;text-decoration: underline;">Étapes</span>: Chaque chiffre binaire (bit) est multiplié par une puissance de 2 selon sa position (en partant de la droite (poids faible 20) vers la gauche (poids fort)).</p>
+<p>• <span style="font-weight: bold;text-decoration: underline;">Résultat</span>: Faire la somme des résultats.</p>
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 110101)<sub>2</sub> = …….)<sub>10</sub></p>
+<center><img src="image/decimal1.png" ></center>
+
+
+<h3><span class="sous-title">b- Méthode par Table de Conversion:</span></h3>
+
+<p>• <span style="font-weight: bold;text-decoration: underline;">Étapes</span>: listez les puissances de 2 de droite à gauche en commençant par 20. Écrivez le nombre binaire sous les puissances de sorte que chaque chiffre binaire corresponde à sa puissance de 2</p>
+<p>• <span style="font-weight: bold;text-decoration: underline;">Résultat</span>: additionner les puissances correspondant aux chiffres 1.</p>
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 110101)<sub>2</sub> = …….)<sub>10</sub></p>
+<center><img src="image/decimal2.png" ></center>
+
+
+
+
+
+<h3><span class="sous-title">c- Méthode par Addition Progressive</span></h3>
+
+<p>• <span style="font-weight: bold;text-decoration: underline;">Étapes</span>: On parcourt les bits de gauche à droite et on multiplie le premier bit (le plus à gauche) par 2 puis on ajoute le bit suivant, on répète l’opération jusqu’au dernier bit.</p>
+
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple :</span> 110101)<sub>2</sub> = …….)<sub>10</sub></p>
+<center><img src="image/decimal3.png" ></center>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

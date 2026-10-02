@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>carte-mère</title>
+  
+<link rel="stylesheet" href="../css/chapitre1/cartemere.css">
+</head>
+<body>
+
+
+<table>
+    <tr>
+      <td><a href="structure.html"> Précédent </a></td>
+      <td><a href="../index.html"> Accueil </a></td>
+      <td><a href="logiciels.html"> Suivant </a></td>
+    </tr>
+  </table>
+<br>
+
+
+<script src="../js/nav.js"></script>
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Généralités sur les systèmes informatiques</option>
+  <option value="definitions.html">I. Notions et définitions</option>
+  <option value="representation.html">II. Représentation de l’information dans un système informatique</option>
+  <option value="structure.html">III. Structure de base d'un système informatique</option>
+  <option value="cartemere.html">IV. La carte mère</option>
+  <option value="logiciels.html">V. Types des logiciels</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+
+
+
+
+
+
+  <div class="content">
+   
+    <center><a href="docpdf/cartemere.pdf"><img src="image/TEL.png" ></a><a href="evaluations.html"><img src="image/eval.png" ></a></center>
+
+    <h2>IV- <span class="highlight">La carte mère</span></h2>
+
+ <h3>1. <span class="section-title">Qu'est-ce qu'une carte mère ?</span></h3>  
+ <p>La carte mère est une plaque électronique qui sert à connecter entre eux les composants de l’ordinateur (processeur, RAM, carte graphique, etc.) et assure leur communication ainsi que leur alimentation électrique.</p>
+
+<!-- paragraphe -->
+
+<center><img src="image/cartemere.png" ></center>
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<h3>2. <span class="section-title">Quels sont les connecteurs de la carte mère ?</span></h3> 
+<p>la carte mère possède plusieurs connecteurs :</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<p>a) <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Connecteur électrique </span>:Fournir l'alimentation à la carte mère et aux composants essentiels</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<p>b) <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Le support de processeur</span>: également appelé <strong>« socket »</strong>, permet d’accueillir le processeur (CPU)</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<p>c) <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Connecteurs de la mémoire</span>: également appelé connecteur <strong>(SDRAM, DDRAM)</strong> permet de brancher la RAM à la carte mère</p>
+<p>
+  <div style="margin-left: 12px;">
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">SIMM</span> (Single Inline Memory Module) : Ancien, obsolète (30-72 broches)<br>
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">DIMM</span> (Dual Inline Memory Module) : Utilisé dans PC de bureau (184 - 288 broches), existe en différents types DDR1, DDR2. ….. <br>
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">SO-DIMM</span> (Small Outline DIMM) : Utilisé dans Ordinateurs portables, mini-PC, (200 - 262 broches)<br>
+
+</div></p>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>d) <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Les connecteurs des cartes d’extension</span> : également appelé slots <strong>( AGP, ISA, PCI)</strong>, permet de connecter la carte son, la carte graphique, la carte réseau, ……;</p>
+
+<p>
+  <div style="margin-left: 12px;">
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">PCI</span> (Peripheral Component Interconnect): Ancien connecteur, Utilisé pour les cartes son, cartes réseau, … Remplacé par PCI Express<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">PCI Express</span>: utilisé pour toutes les cartes d’extension modernes <br>
+
+<div style="margin-left: 16px;">
+  o <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">x16</span> est utilisé pour les cartes graphiques.<br>
+o <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">x1</span> souvent pour les cartes réseau, cartes son, etc.
+</div>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">VGA</span>(Accelerated Graphics Port) (obsolète) : Ancien connecteur dédié aux cartes graphiques.<br>
+</div></p>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>e) <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Les connecteurs des disques</span>: pour connecter le disque dur, le lecteur de cd/dvd-rom</p>
+<p>
+  <div style="margin-left: 12px;">
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">SATA</span> (Serial ATA) : Le plus courant pour les HDD<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">NVMe / M.2</span> Connecteur ultra rapide utilisé pour les SSD modernes.<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">IDE</span> (Integrated Drive Electronics): obsolète, Connecteurs très larges, vitesse faible, Disparus des systèmes modernes.<br>
+
+
+</div></p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>f) <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Les connecteur externes</span>: également appelé «ports» permettent de connecter les composants externes:</p>
+<p>
+  <div style="margin-left: 12px;">
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">PS2</span> (Personal System/2): ancien, permet de connecter le clavier et la souris<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Port série</span> (obsolète): permet de connecter de vieux périphériques (modem, souris et imprimante série)<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Port parallèle</span> (ancien) : permet de connecter de vieilles imprimantes<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Port VGA</span>: permet de connecter un ancien écran<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Port USB</span> (Universal Serial Bus ) : USB 2.0, USB 3.0,USB 3.1et USB-C, permet de relier une grande variété de périphériques : (souris, le clavier, le modem …)<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Port RJ45</span> (Registered Jack 45): Permet de connecter un ordinateur à un réseau<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Prises audios</span>: permettent de connecter des haut-parleurs, microphone et des appareils audio externes<br>
+
+• <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green underline;">Port HDMI</span>(High-Definition Multimedia Interface) : permet de connecter un écran, un téléviseur ou un vidéoprojecteur …<br>
+</div></p>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque :</p>
+      
+
+      <DIV class="retrait2">
+<span style="color: red;">-</span> La disposition et les types de connecteurs varient selon le modèle de carte mère (ATX, Micro-ATX, Mini-ITX) et ses fonctionnalités.<br>
+<span style="color: red;">-</span> Certains ports sont disparus des panneaux arrière, mais on peut utiliser des <strong>Adaptateurs USB</strong> pour connecter d'anciens périphériques.<br>
+
+</DIV>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

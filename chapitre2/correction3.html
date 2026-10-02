@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Correction</title>
+  
+<link rel="stylesheet" href="../css/chapitre2/correction1.css">
+</head>
+<body>
+
+
+
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="serie2.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><a href="serie4.html"> <u>Suivant</u></a> </td>
+    </tr>
+  </table>
+
+<br>
+
+
+<script src="../js/nav.js"></script>
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Algorithmique</option>
+  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
+  <option value="donnees.html">II. Notions de données</option>
+  <option value="structurealgo.html">III. Structure d’un algorithme</option>
+  <option value="instruction.html">IV. Les instructions de base</option>
+  <option value="structures.html">V. Structures de contrôle de base</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+
+
+
+
+
+
+ <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<p>
+    <center><a href="docpdf/correction3.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
+</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  <p style ="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°3)</span>
+
+<hr><br>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td><span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet de calculer la moyenne de deux notes d’un élève et d’afficher son résultat et son appréciation :<br>
+– Réussir : si la moyenne est supérieure ou égal 10<br>
+– Rattrapage : si la moyenne est comprise entre 8 et10<br>
+– Echoué : si la moyenne est inférieure à 10
+</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    
+  <td style =" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
+
+Algorithme <span style="color:purple; font-weight:bold;">moyenne</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">x ,y</span>: réel<br>
+<span style="color:purple; font-weight:bold;">m</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la première note: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la deuxième note: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
+m←(x+y)/2<br>
+écrire (<span style="color:purple; font-weight:bold;">"la moyenne est :"</span>, m)<br>
+si m≥10 alors<br>
+     <span style="margin-left: 20px;">écrire (<span style="color:purple; font-weight:bold;">"réussir"</span>)</span><br>
+sinon<br>
+    <span style="margin-left: 20px;">si m≥8 et m<10 alors</span><br>
+          <span style="margin-left: 40px;">écrire (<span style="color:purple; font-weight:bold;">"rattrapage "</span>)</span><br>
+    <span style="margin-left: 20px;">sinon</span><br>
+          <span style="margin-left: 40px;">écrire(<span style="color:purple; font-weight:bold;">"échoué "</span>)</span><br>
+    <span style="margin-left: 20px;">finsi</span><br>
+finsi<br>
+Fin.
+
+
+
+  </td>
+ 
+ </tr>
+
+
+</table>
+
+<!--------------------------------------------------------------------------------------------------------------------->
+
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br></div></span> <br>Ecrire un <strong>Algorithme</strong> et programme Python qui donne l’état de l’eau selon sa température :<br>
+- Si T < 0 : état solide.<br>
+- Si 0 < T < 100 : état liquide.<br>
+- Si T > 100 : état gazeux.</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">temperature</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">T</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la valeur de la température: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">T</span>)<br>
+si T<0 alors<br>
+    <span style="margin-left: 20px;">écrire (<span style="color:purple; font-weight:bold;">"état solide "</span>)</span> <br>
+sinon<br>
+   <span style="margin-left: 20px;">si T≥ 0 et T≤100 alors</span><br>
+          <span style="margin-left: 40px;">écrire (<span style="color:purple; font-weight:bold;">"état liquide "</span>)</span><br>
+   <span style="margin-left: 20px;">sinon</span><br>
+          <span style="margin-left: 40px;">écrire(<span style="color:purple; font-weight:bold;">"état gazeux "</span>)</span><br>
+   <span style="margin-left: 20px;">finsi</span><br>
+finsi<br>
+Fin.<br>
+
+    </td>
+
+
+
+
+</tr>
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br></div></span> <br>Ecrire un <strong>Algorithme</strong> qui permet d’afficher le maximum de trois nombres réels</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">maximum</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">x ,y,z</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre2: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre3: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">z</span>)<br>
+si x>=y et x>=z alors<br>
+        <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le nombre maximal est: "</span>,x)</span><br>
+finsi<br>
+si y>=x et y>=z alors<br>
+        <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le nombre maximal est: "</span>,y)</span><br>
+finsi<br>
+si z>=x et z>=y alors<br>
+        <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le nombre maximal est: "</span>,z)</span><br>
+finsi<br>
+Fin.
+     </td>
+
+</tr>
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet d’afficher le minimum de trois nombres réels</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+        Algorithme <span style="color:purple; font-weight:bold;">minimum</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">x ,y,z</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre2: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre3: "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">z</span>)<br>
+si x≤y et x≤z alors<br>
+        <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le nombre minimal est: "</span>,x)</span><br>
+finsi<br>
+si y≤x et y≤z alors<br>
+        <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le nombre minimal est: "</span>,y)</span><br>
+finsi<br>
+si z≤x et z≤y alors<br>
+        <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">"le nombre minimal est: "</span>,z)</span><br>
+finsi<br>
+Fin.
+</td>
+
+
+ </tr>
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°5<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet de tester si la somme de deux nombres est positive, négative, ou nulle</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">tester_somme</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">x,y,s</span>: réels<br>
+<span style="color:purple; font-weight:bold;">s</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" tapez le nombre1: "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" tapez le nombre2: "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">y</span>)<br>
+s ← x+y<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" la somme est " </span>,s )<br>
+Si s < 0 alors<br>
+        <span style="margin-left: 20px;">Ecrire(<span style="color:purple; font-weight:bold;">" la somme est négative "</span> )</span><br>
+Sinon<br>
+        <span style="margin-left: 20px;">si s > 0 alors</span><br>
+              <span style="margin-left: 40px;">Ecrire(<span style="color:purple; font-weight:bold;">" la somme est positive "</span> )</span><br>
+        <span style="margin-left: 20px;">Sinon</span><br>
+              <span style="margin-left: 40px;">Ecrire(<span style="color:purple; font-weight:bold;">" la somme est nulle "</span> )</span><br>
+        <span style="margin-left: 20px;">Finsi</span><br>
+Finsi<br>
+Fin.
+
+
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet de résoudre l’équation 1ère degré (ax+ b= 0)</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">equation</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">a, b</span>: réels<br>
+<span style="color:purple; font-weight:bold;">x</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" donner le nombre a: "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">a</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" donner le nombre b: "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">b</span>)<br>
+si a = 0 alors<br>
+       <span style="margin-left: 20px;">si b = 0 alors</span><br>
+            <span style="margin-left: 40px;">Ecrire(<span style="color:purple; font-weight:bold;">" toutes les solutions sont possibles " </span>)</span><br>
+       <span style="margin-left: 20px;">sinon</span><br>
+<span style="margin-left: 40px;">Ecrire(<span style="color:purple; font-weight:bold;">" pas de solution "</span> )</span><br>
+      <span style="margin-left: 20px;">Finsi</span><br>
+sinon<br>
+      <span style="margin-left: 20px;">X ← – b/a</span><br>
+      <span style="margin-left: 20px;">Ecrire(<span style="color:purple; font-weight:bold;">" la solution est " </span>, x)</span><br>
+Finsi<br>
+Fin.
+
+    </td>
+ 
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+
+
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex7">exercice N°7<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet de résoudre l’équation de second degré (ax<sup>2</sup> + bx + c = 0)</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+Algorithme <span style="color:purple; font-weight:bold;">equation</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">a, b, c,x,x1,x2, delta</span>: réels<br>
+<span style="color:purple; font-weight:bold;">x,x1,x2, delta</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre a: "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">a</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre b: " </span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">b</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre c: "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">c</span>)<br>
+delta ← b*b- 4*a*c<br>
+si a==0 alors<br>
+    <span style="margin-left: 20px;">écrire(<span style="color:purple; font-weight:bold;">" Ce n'est pas une équation du second degré " </span>)</span><br>
+sinon<br>
+<span style="margin-left: 20px;">si delta > 0 alors</span><br>
+       <span style="margin-left: 40px;">x1 ← (- b-racine(delta))/(2*a)</span><br>
+      <span style="margin-left: 40px;"> x2 ← (- b+racine(delta))/(2*a)</span><br>
+       <span style="margin-left: 40px;">Ecrire(<span style="color:purple; font-weight:bold;">"deux solutions :"</span> ,x1,<span style="color:purple; font-weight:bold;">" et "</span> ,x2)</span><br>
+<span style="margin-left: 20px;">Sinon</span><br>
+       <span style="margin-left: 40px;">si delta = 0 alors</span><br>
+               <span style="margin-left: 60px;">x ← – b/(2*a)</span><br>
+               <span style="margin-left: 60px;">Ecrire(<span style="color:purple; font-weight:bold;">" une seule solution :"</span> ,x)</span><br>
+       <span style="margin-left: 40px;">Sinon</span><br>
+               <span style="margin-left: 60px;">Ecrire(<span style="color:purple; font-weight:bold;">" pas de solution dans R "</span> )</span><br>
+      <span style="margin-left: 40px;">Finsi</span><br>
+      <span style="margin-left: 20px;">Finsi</span><br>
+Finsi<br>
+Fin.
+    </td>
+
+ </tr>
+
+ 
+</table>
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex8">exercice N°8<br></div></span><br> On veut calculer le montant des impôts d’un salarie. La grille à utiliser est la suivante :<br>
+<conteneur> <img src="image/ex8.png" ></conteneur>
+<br>Ecrire un <strong>Algorithme</strong> qui lit le salaire brut et affiche le montant des impôts et le salaire net</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+Algorithme <span style="color:purple; font-weight:bold;">salaire_brut</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">sb</span>:réel<br>
+<span style="color:purple; font-weight:bold;">m,sn </span>:réels<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" donner le salaire brut "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">sb</span>)<br>
+Si(sb<1000) alors <br>
+        <span style="margin-left: 20px;"> m ← (sb*5)/100 </span><br>
+Sinon <br>
+         <span style="margin-left: 20px;">Si (sb≥1000) et (sb≤2000) alors</span><br>
+                <span style="margin-left: 40px;">m ←(sb*10)/100</span><br>
+         <span style="margin-left: 20px;">Sinon</span><br>
+                <span style="margin-left: 40px;">m ← (sb*20)/100</span><br>
+        <span style="margin-left: 20px;">Finsi</span><br>
+Finsi<br>
+sn ← sb-m<br>
+Écrire(<span style="color:purple; font-weight:bold;">" le montant des impôts est "</span> ,m)<br>
+Écrire(<span style="color:purple; font-weight:bold;">" le salaire net est "</span> ,sn)<br>
+Fin.
+     </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex9">exercice N°9<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet classer 3 nombres d’une manière croissante </td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+Algorithme <span style="color:purple; font-weight:bold;">croissante</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">x,y,z,m </span>:réels<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1 : " </span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">a</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">b</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1 : "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">c</span>)<br>
+Si (a>b) alors<br>
+<span style="margin-left: 20px;">b←a</span><br>
+<span style="margin-left: 20px;">a←m</span><br>
+<span style="margin-left: 20px;">Finsi</span><br>
+Si (b>c) alors<br>
+<span style="margin-left: 20px;">m←c</span><br>
+<span style="margin-left: 20px;">c←b</span><br>
+<span style="margin-left: 20px;">b←m</span><br>
+Finsi<br>
+Si (a>b) alors<br>
+<span style="margin-left: 20px;">m←b</span><br>
+<span style="margin-left: 20px;">b←a</span><br>
+<span style="margin-left: 20px;">a←m</span><br>
+Finsi<br>
+Écrire (a,  <span style="color:purple; font-weight:bold;">"<"</span> , b , <span style="color:purple; font-weight:bold;">"<"</span>, c)<br>
+Fin.
+
+
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex10">exercice N°10<br></div></span><br> Ecrire un <strong>Algorithme</strong> qui permet d’afficher le signe du produit de deux entiers sans faire la multiplication</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">tester_produit</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">a,b </span>:entier<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre1 "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">a</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" le nombre2 "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">b</span>)<br>
+Si(a>0) et (b > 0) alors<br>
+        <span style="margin-left: 20px;">Écrire(<span style="color:purple; font-weight:bold;">" le produit est positif "</span> )</span><br>
+Sinon<br>
+        <span style="margin-left: 20px;">Si(a<0) et (b <0) alors</span><br>
+                <span style="margin-left: 40px;">Écrire(<span style="color:purple; font-weight:bold;">"le produit est positif "</span>)</span><br>
+        <span style="margin-left: 20px;">Sinon</span><br>
+                 <span style="margin-left: 60px;">Si(a=0) ou (b =0) alors</span><br>
+                         <span style="margin-left: 80px;">Écrire(<span style="color:purple; font-weight:bold;">" le produit est nul "</span> )</span><br>
+                  <span style="margin-left: 60px;">sinon</span><br>
+                         <span style="margin-left: 80px;">Écrire(<span style="color:purple; font-weight:bold;">" le produit est négatif "</span> )</span><br>
+                 <span style="margin-left: 60px;">Finsi</span><br>
+         <span style="margin-left: 20px;">Finsi</span><br>
+Finsi<br>
+Fin.
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex11">exercice N°11<br></div></span><br> Ecrire un <strong>Algorithme</strong> et programme Python qui donne la mention selon la moyenne générale obtenue par un élève :<br>
+- Si 0 ≤ moyenne < 4    : très faible<br>
+- Si 4 ≤ moyenne < 8    : faible<br>
+- Si 8 ≤ moyenne < 10    : insuffisant<br>
+- Si 10 ≤ moyenne < 12    : Passable<br>
+- Si 12  ≤  moyenne < 14    : Assez bien<br>
+- Si 14  ≤  moyenne < 16    : Bien<br>
+- Si 16  ≤  moyenne < 18    : Très bien<br>
+- Si 18  ≤  moyenne < 20    : Excellent
+
+</td>
+ </tr>
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">moyenne</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">a,b </span>:réels<br>
+<span style="color:purple; font-weight:bold;">m</span> :réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la première note: "</span>))<br>
+Lire(<span style="color:purple; font-weight:bold;">a</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la première note: "</span>))<br>
+Lire(<span style="color:purple; font-weight:bold;">b</span>)<br>
+m←a+b<br>
+écrire(<span style="color:purple; font-weight:bold;">"votre moyenne est"</span>, m)<br>
+si m>0 et m<4 alors<br>
+    <span style="margin-left: 20px;"> écrire(<span style="color:purple; font-weight:bold;">" très faible "</span>)</span><br>
+sinon<br>
+    <span style="margin-left: 20px;"> si m>=4 et m<8 alors</span><br>
+          <span style="margin-left: 40px;"> écrire (<span style="color:purple; font-weight:bold;">"faible "</span>)</span><br>
+    <span style="margin-left: 20px;"> sinon</span><br>
+           <span style="margin-left: 40px;"> si m>=8 et m<10 alors</span><br>
+                    <span style="margin-left: 60px;"> écrire (<span style="color:purple; font-weight:bold;">"insuffisant "</span>)</span><br>
+           <span style="margin-left: 40px;"> sinon</span><br>
+                    <span style="margin-left: 60px;"> si m>=10 et m<12 alors</span><br>
+                             <span style="margin-left: 80px;"> écrire (<span style="color:purple; font-weight:bold;">"Passable "</span>)</span><br>
+                    <span style="margin-left: 60px;"> sinon</span><br>
+                             <span style="margin-left: 80px;"> si m>=12 et m<14 alors</span><br>
+                                      <span style="margin-left: 100px;"> écrire (<span style="color:purple; font-weight:bold;">"Assez bien "</span>)</span><br>
+                             <span style="margin-left: 80px;"> sinon</span><br>
+                                       <span style="margin-left: 100px;"> si m>=14 et m<16 alors</span><br>
+                                                 <span style="margin-left: 120px;">print(<span style="color:purple; font-weight:bold;">"Bien "</span>)</span><br>
+                                       <span style="margin-left: 100px;"> sinon</span><br>
+                                                 <span style="margin-left: 120px;"> si m>=16 et m<18 alors</span><br>
+                                                        <span style="margin-left: 140px;"> écrire (<span style="color:purple; font-weight:bold;">"Très bien "</span>)</span><br>
+                                                  <span style="margin-left: 120px;"> sinon</span><br>
+                                                        <span style="margin-left: 140px;"> si m>=18 et m<=20 alors</span><br>
+                                                                 <span style="margin-left: 160px;"> écrire (<span style="color:purple; font-weight:bold;">"Excellent "</span>)</span><br>
+                                                        <span style="margin-left: 140px;"> sinon</span><br>
+                                                          <span style="margin-left: 160px;"> écrire (<span style="color:purple; font-weight:bold;">"non valide "</span>)</span><br>
+                                                        <span style="margin-left: 140px;"> Finsi</span><br>
+                                                 <span style="margin-left: 120px;"> Finsi</span><br>
+                                      <span style="margin-left: 100px;"> Finsi</span><br>
+                            <span style="margin-left: 80px;"> Finsi</span><br>
+                    <span style="margin-left: 60px;"> Finsi</span><br>
+          <span style="margin-left: 40px;"> Finsi</span><br>
+    <span style="margin-left: 20px;"> Finsi</span><br>
+Finsi<br>
+Fin.
+    </td>
+
+ </tr>
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+
+<BR>
+
+<hr>
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tableur</title>
+  
+<link rel="stylesheet" href="../css/chapitre5/fonction.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<table align="center" >
+    <tr text-decoration = "underline" style="height: 26px">
+      <td align="center" > <a href="formules.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><a href="graphe.html"> <u>Suivant</u> </a></td>
+    </tr>
+  </table>
+</center>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <center><option value="sousmenu">Tableur (MS EXCEL 2016)</option></center>
+  <option value="definitions.html">Définitions</option>
+  <option value="gestion_feuil.html">Gestion d’une feuille de calcul</option>
+  <option value="gestion_lignes.html">Gestion des lignes et des colonnes</option>
+  <option value="format_cellule.html">Mise en forme des cellules</option>
+  <option value="formules.html">Formules et les références des cellules</option>
+  <option value="fonction.html">Les fontions</option>
+  <option value="graphe.html">Les graphiques</option>
+  <option value="evaluations.html">Évaluations</option>
+
+</select>
+</center>
+
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>    <center><a href="docpdf/fonction.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
+</p>
+ <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center><a href="qcm/4/qcm4.html" target="_blank"><button onclick="showPage('page1')">quiz4: Les fonctions </button></a></center>
+
+<hr>
+    
+
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    <center>
+<video width="85%" height="50%" controls>
+      <source src="video/tp5.mp4" > 
+  
+    </video>
+   </center>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->   
+<hr>
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+<h3><strong><span style="text-decoration:underline;"><span style="color:#000080;">VI) Les fonctions</span></span></strong></h3>
+
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">1. L'assistant fonction</span></span></strong></h3>
+
+
+
+
+
+<p class="retrait">
+<span style="color: red;">✔</span> Cliquez sur la cellule dans laquelle vous voulez entrer la fonction.
+<span style="color: red;">✔</span> Cliquer sur: <img src="image/fonction.png" >
+<span style="color: red;">✔</span> Entrez les arguments nécessaires puis appuyez sur Entrée.<br>
+</p>
+
+
+<!-------------------------------------------------------------------------------------------->
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">2. Catégories des fonctions</span></span></strong></h3>
+
+
+<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions Math et trigo</p><br>
+<!-------------------------------------------------------------------------------------------->
+<table align = "center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
+
+ <tr>
+    <th width="25%" > <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span></th>
+  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+
+ </tr>
+  <tr>
+    <td ><p style="font-family: Roboto; font-size: 0.9em;">SOMME</p>  </td>
+ <td ><p style="text-align:justify; font-family: Roboto; font-size: 0.9em;">Calcule la somme d'une série de valeurs.</p></td>
+  <td ><p style="font-family: Roboto; font-size: 0.9em;">=SOMME (A1:A5)</p>  </td>
+   
+
+ </tr>
+
+
+  <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">PRODUIT</p> </td>
+    <td ><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le produit d'une série de valeurs.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=PRODUIT (A1:A5)</p> </td>
+ </tr>
+   <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">SOMME.SI</p> </td>
+    <td ><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule la somme d'une série de valeurs.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=SOMME.SI (A1:A5; "<10")</p> </td>
+ </tr>
+
+</table>
+
+
+<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions statistiques</p><br>
+<!-------------------------------------------------------------------------------------------->
+<table align = "center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
+
+ <tr>
+    <th width="25%" > <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span></th>
+  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+ </tr>
+ 
+  <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">MAX</p>  </td>
+    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Renvoie la plus grande valeur.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=MAX (A1:A5)</p>  </td>
+ </tr>
+
+
+  <tr>
+    <td ><p ont-family: Roboto; font-size: 0.9em;">MIN</p> </td>
+    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Renvoie la plus petite valeur.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=MIN (A1:A5)</p> </td>
+ </tr>
+   <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">MOYENNE</p> </td>
+    <td ><center><p style="text-align:justify; ont-family: Roboto; font-size: 0.9em;">Effectue la moyenne d'une série de valeurs.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=MOYENNE (A1:A5)</p> </td>
+ </tr>
+
+   <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">NB</p> </td>
+    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le nombre de cellules contenant des nombres.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=NB(A1:A5)</p> </td>
+ </tr>
+
+    <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">NB.SI</p> </td>
+    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Calcule le nombre de cellules contenant une valeur déterminée.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=NB.SI (A1:A5; "<10")</p> </td>
+ </tr>
+
+     <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">RANG</p> </td>
+    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Attribue un classement à une valeur en fonction d'une série de valeurs.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=RANG (A1;A1: A5;0)</p> </td>
+ </tr>
+</table>
+
+
+<p class="retrait200", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">fonctions Logique</p><br>
+<!-------------------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------->
+<table align = "center" border="1" width="100%" bgcolor="#fff0ae" class="ret" style="width: 100%; table-layout: fixed; align:center;">
+
+ <tr>
+    <th width="25%" > <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
+  <th width="45%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Définition</span></th>
+  <th width="30%"> <span style="text-align:center; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+
+ </tr>
+ 
+  <tr>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">SI</p>  </td>
+    <td ><center><p style="text-align:justify;ont-family: Roboto; font-size: 0.9em;">Effectue des actions en fonction d'une condition.</p> </center></td>
+    <td ><p style="ont-family: Roboto; font-size: 0.9em;">=SI (A1>=10; "Réussi"; "échoué")</p>  </td>
+ </tr>
+
+
+  
+</table>
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------->
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">Exemple1: somme de données numériques
+ </span></span></strong></h3>
+
+
+<p class="retrait">
+   <conteneur> <img src="image/tableau.png" ></conteneur>
+  <span style="color: red;">✔</span> Cliquez sur la cellule dans laquelle vous souhaitez voir apparaître le résultat  et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+ 
+
+
+
+
+<span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«SOMME»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
+<conteneur> <img src="image/choisir.png" ></conteneur>
+
+
+
+<span style="color: red;">✔</span> Sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
+
+<conteneur> <img src="image/resultat.png" ></conteneur>
+
+</p>
+
+
+<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+
+<p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
+  
+Même étapes pour les fonctions : produit, max, min, moyenne et Nb</p>
+
+
+
+
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">Exemple2: la somme des cellules qui contiennent des valeurs inferieurs à 10
+ </span></span></strong></h3>
+
+
+<p class="retrait">
+   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le résultat et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+  
+
+
+
+
+<span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«SOMME.SI»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
+<conteneur> <img src="image/sommesi.png" ></conteneur>
+
+
+
+<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«plage»</span> sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Critère»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«<10» </span>
+
+<conteneur> <img src="image/resultatsommesi.png" ></conteneur>
+<span style="color: red;">✔</span>Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
+</p>
+<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+
+<p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
+  
+Même étapes pour la fonction NB.SI</p>
+
+
+
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">Exemple3: Le Rang
+ </span></span></strong></h3>
+
+
+<p class="retrait">
+   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le Rang et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+  
+
+
+
+
+<span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«RANG»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
+<conteneur> <img src="image/rang.png" ></conteneur>
+
+
+
+<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Nombre»</span> Sélectionnez le nombre dont vous voulez connaitre le rang, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Référence»</span> Sélectionnez la plage <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2:F2»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Ordre»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«0» </span> pour afficher le rang dans la liste triée par ordre décroissant 
+
+<conteneur> <img src="image/resultatrang.png" ></conteneur>
+<span style="color: red;">✔</span>Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
+</p>
+
+
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">Exemple4: La fonction SI
+ </span></span></strong></h3>
+
+
+<p class="retrait">
+   <span style="color: red;">✔</span> sélectionnez la cellule dans laquelle vous souhaitez voir apparaître le résultat et Cliquer sur f<sub>x</sub>: <img src="image/fonction.png" >
+  
+
+
+
+
+<span style="color: red;">✔</span> Sélectionnez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«SI»</span> et cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span><br>
+<conteneur> <img src="image/si.png" ></conteneur>
+
+
+
+<span style="color: red;">✔</span> dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Test_logique»</span> Taper (par exemple) <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«B2>=10»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">Valeur_si_vrai</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Réussi»</span>, dans la zone <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Valeur_si_faux»</span> tapez <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«échoué» </span> 
+
+<conteneur> <img src="image/resultatsi.png" ></conteneur>
+<span style="color: red;">✔</span>Cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«OK»</span>
+</p>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+<hr>
+
+
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

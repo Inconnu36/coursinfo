@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Correction</title>
+  
+<link rel="stylesheet" href="../css/chapitre2/correction1.css">
+</head>
+<body>
+
+
+
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="instruction.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><a href="serie2.html"> <u>Suivant</u></a> </td>
+    </tr>
+  </table>
+
+<br>
+
+
+<script src="../js/nav.js"></script>
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Algorithmique</option>
+  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
+  <option value="donnees.html">II. Notions de données</option>
+  <option value="structurealgo.html">III. Structure d’un algorithme</option>
+  <option value="instruction.html">IV. Les instructions de base</option>
+  <option value="structures.html">V. Structures de contrôle de base</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+
+
+
+
+
+
+ <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<p>
+    <center><a href="docpdf/correction1.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
+</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->  
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p style ="color: blue;font-family: verdana;font-size: 1.3em;text-align: center;">Correction<span style="color: red;">(Série N°1)</span>
+
+<hr><br>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td><span style="color:red;text-decoration: green wavy underline;"><div id="ex1">exercice N°1<br></div></span><br> Quelles seront les valeurs des variables A, B,C et D après exécution des instructions suivantes ?<br>
+
+<conteneur> <img src="image/ex1.png" ></conteneur>
+</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    
+  <td style =" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br> 
+
+A←5, B←11, C← 19, D← 28
+
+
+
+  </td>
+ 
+ </tr>
+
+
+</table>
+
+<!--------------------------------------------------------------------------------------------------------------------->
+
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F"><div id="ex2">exercice N°2 <br></div></span> <br>Ecrire un Algorithme qui demande à l'utilisateur de saisir son nom et de lui afficher son nom avec un message de bienvenue !</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">Bienvenue</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">nom</span>: chaine<br>
+début<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez votre nom : "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">nom</span>)<br>
+écrire(<span style="color:purple; font-weight:bold;">"bienvenue "</span>, nom)<br>
+fin.
+
+    </td>
+
+
+
+
+</tr>
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex3">exercice N°3<br></div></span> <br>Écrire un algorithme permettant de saisir le nom et l'âge de l'utilisateur et afficher "Bonjour ..., tu as ... ans." en remplaçant les ... par respectivement le nom et l'âge</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">Bonjour</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">nom</span>: chaine<br>
+<span style="color:purple; font-weight:bold;">age</span> : entier<br>
+début<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez votre nom : "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">nom</span>)<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez votre âge : "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">age</span>)<br>
+écrire(<span style="color:purple; font-weight:bold;">"bonjour "</span>, nom,<span style="color:purple; font-weight:bold;">": tu as "</span>,age ,<span style="color:purple; font-weight:bold;">" ans"</span> )<br>
+fin.
+     </td>
+
+</tr>
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex4">exercice N°4<br></div></span><br> Ecrire un algorithme qui calcule et affiche la somme et le produit de deux nombres réels</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+        Algorithme <span style="color:purple; font-weight:bold;">calcule</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">a,b</span>: réel<br>
+<span style="color:purple; font-weight:bold;">s,p</span>: réel<br>
+début<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez le nombre a : "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">a</span>)<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez le nombre b : "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">b</span>)<br>
+s←a+b<br>
+p←a*b<br>
+écrire(<span style="color:purple; font-weight:bold;">"la somme de a et b est "</span>, s)<br>
+écrire("<span style="color:purple; font-weight:bold;">le produit de a et b est "</span>, p)<br>
+fin.
+</td>
+
+
+ </tr>
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex5">exercice N°5<br></div></span><br> Ecrire un algorithme qui calcule et affiche le périmètre d’un cercle (p=2*Pi*R)</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">perimetre</span><br>
+Constante<br>
+<span style="color:purple; font-weight:bold;">pi=3.14</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">r</span>: réel<br>
+début<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez le rayon du cercle : "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">r</span>)<br>
+p←2*pi*r<br>
+écrire(<span style="color:purple; font-weight:bold;">"Le périmètre est " </span>, p)<br>
+fin.
+
+
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex6">exercice N°6<br></div></span><br> Ecrire un algorithme qui calcule et affiche la moyenne de 3 notes sachant que les coefficients de ces 3 notes sont respectivement 3 , 2 et 5</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">moyenne</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">a,b,c</span>: réel<br>
+<span style="color:purple; font-weight:bold;">m</span> :réel<br>
+début<br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez la note1: "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">a</span>) <br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez la note2: "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">b</span>) <br>
+écrire(<span style="color:purple; font-weight:bold;">"Tapez la note3: "</span>)<br>
+lire(<span style="color:purple; font-weight:bold;">c</span>) <br>
+m←(a*3+b*2+c*5)/10<br>
+écrire(<span style="color:purple; font-weight:bold;">"la moyenne est "</span>, m) <br>
+fin.
+
+    </td>
+ 
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex7">exercice N°7<br></div></span><br> Ecrire un algorithme qui lit le prix HT d’un article, le nombre d’articles et le taux de TVA, et qui fournit le prix total TTC correspondant. Faire en sorte que des libellés apparaissent clairement.</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+Algorithme <span style="color:purple; font-weight:bold;">prixtotal</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">HT,TVA,TTC</span>: réel<br>
+<span style="color:purple; font-weight:bold;">N</span>: entier<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le prix hors taxes "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">HT</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre d’articles "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">N</span>)<br>
+Ecrire("taper le taux de tva ")<br>
+Lire(<span style="color:purple; font-weight:bold;">TVA</span>)<br>
+
+TTC← HT * N + HT*N*TVA<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" Le prix total TTC est "</span> , TTC)<br>
+Fin.
+    </td>
+
+ </tr>
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex8">exercice N°8<br></div></span><br> Etant données quatre nombres A, B, C et D représentant 4 chiffres entre 0 et 9. Ecrire un algorithme qui retourne le nombre N = ABCD (exemple A=5, B=8, C=2 et D=3, N= 5823).</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span><br><br>
+Algorithme <span style="color:purple; font-weight:bold;">nombre</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">A,B,C,D</span>: entier<br>
+<span style="color:purple; font-weight:bold;">N</span>: entier<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre A "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">A</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le nombre B " </span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">B</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"taper le nombre C "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">C</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"taper le nombre D "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">D</span>)<br>
+
+N← A*1000+B*100+C*10+D<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" le nombre est: "</span> , N)<br>
+Fin.
+     </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex9">exercice N°9<br></div></span><br> Connaissant le prix d’achat d’un produit, le frais de transport et son prix de vente. Ecrire un algorithme qui affiche le bénéfice réalisé</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+Algorithme <span style="color:purple; font-weight:bold;">benifice</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">A, T, V</span>: réel<br>
+<span style="color:purple; font-weight:bold;">B</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le prix d’achat "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">A</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper le frais de transport "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">T</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"taper le prix de vente "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">V</span>)<br>
+B← V – (A+T)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" le bénifice est " </span>, B)<br>
+Fin.
+
+
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex10">exercice N°10<br></div></span><br> Écrire un algorithme qui demander à l'utilisateur de saisir les longueurs et largeurs d'un rectangle, afficher sa surface.</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+
+Algorithme <span style="color:purple; font-weight:bold;">SURFACE</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">L,F</span>: réel<br>
+<span style="color:purple; font-weight:bold;">S</span>: réel<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la valeur de la longueur "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">l</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" taper la valeur de la largeur  "</span> )<br>
+Lire(<span style="color:purple; font-weight:bold;">g</span>)<br>
+s← l * g<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" la surface est "</span>, s, <span style="color:purple; font-weight:bold;">" Mètre carré"</span>)<br>
+Fin.
+    </td>
+
+ </tr>
+
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex11">exercice N°11<br></div></span><br> Écrire un algorithme qui permet d’effectuer une permutation circulaire des valeurs de trois Variables x, y, z (la valeur de y dans x, la valeur de z dans y et la valeur de x dans z).<br>
+N B: L’affichage se fait après l’échange (Permutation)
+</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+Algorithme <span style="color:purple; font-weight:bold;">permutation</span><br>
+Variables<br>
+<span style="color:purple; font-weight:bold;">A,B,C , Z</span>: entier<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" Taper le nombre A "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">A</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" Taper le nombre B " </span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">B</span>)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"Taper le nombre C"</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">C</span>)<br>
+Z←A<br>
+A←B<br>
+B←C<br>
+C←Z<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"A= "</span>, A)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"B= "</span>, B)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"C= "</span>, C)<br>
+Fin.
+
+    </td>
+
+ 
+</table>
+<!--------------------------------------------------------------------------------------------------------------------->
+</table>
+
+<table align = "center" border="1" bgcolor="#fffffe" style="width: 98%; table-layout: fixed; align:center;">
+<tr >
+   <td ><span style="color:red;text-decoration: green wavy underline;"><div id="ex12">exercice N°12<br></div></span><br> Ecrire un algorithme qui demande un nombre entier à l’utilisateur, puis affiche la valeur absolue de ce nombre</td>
+ </tr>
+
+ <tr bgcolor="#B0F2B6" >
+    <td style =";" width="50%" ><span style="color:red;text-decoration: green wavy underline;background: #F4D03F">Correction</span> <br><br>
+Algorithme <span style="color:purple; font-weight:bold;">valeur_absolue</span><br>
+Variable<br>
+<span style="color:purple; font-weight:bold;">x,y</span>: entier<br>
+Début<br>
+Ecrire(<span style="color:purple; font-weight:bold;">" Taper un nombre  "</span>)<br>
+Lire(<span style="color:purple; font-weight:bold;">x</span>)<br>
+y←abs(x)<br>
+Ecrire(<span style="color:purple; font-weight:bold;">"la valeur absolue de  "</span>, x, <span style="color:purple; font-weight:bold;">"est"</span> , y)<br>
+Fin.
+
+    </td>
+
+ </tr>
+
+ 
+</table>
+
+
+
+<BR>
+
+<hr>
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

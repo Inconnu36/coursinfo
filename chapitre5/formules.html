@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tableur</title>
+  
+<link rel="stylesheet" href="../css/chapitre5/definitions.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<table align="center" >
+    <tr text-decoration = "underline" style="height: 26px">
+      <td align="center" > <a href="format_cellule.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" ><a href="fonction.html"> <u>Suivant</u> </a></td>
+    </tr>
+  </table>
+</center>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <center><option value="sousmenu">Tableur (MS EXCEL 2016)</option></center>
+  <option value="definitions.html">Définitions</option>
+  <option value="gestion_feuil.html">Gestion d’une feuille de calcul</option>
+  <option value="gestion_lignes.html">Gestion des lignes et des colonnes</option>
+  <option value="format_cellule.html">Mise en forme des cellules</option>
+  <option value="formules.html">Formules et les références des cellules</option>
+  <option value="fonction.html">Les fontions</option>
+  <option value="graphe.html">Les graphiques</option>
+  <option value="evaluations.html">Évaluations</option>
+
+</select>
+</center>
+
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<p>    <center><a href="docpdf/formules.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
+</p>
+ <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center><a href="qcm/3/qcm3.html" target="_blank"><button onclick="showPage('page1')">quiz3: Les formules </button></a></center>
+
+<hr>
+    
+
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    <center>
+<video width="85%" height="50%" controls>
+      <source src="video/tp4.mp4" > 
+  
+    </video>
+   </center>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->   
+<hr>
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+<h3><strong><span style="text-decoration:underline;"><span style="color:#000080;">V) Les formules et les références:</span></span></strong></h3>
+
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">1. Les formules</span></span></strong></h3>
+
+
+<p class="retrait1", style="text-align:justify;">
+  
+Les formules sont des expressions qui permettent d’effectuer des calculs, de renvoyer des informations, de manipuler le contenu des cellules, etc.
+Une formule commence toujours par un signe égal (=).[<span style="font-weight: bold;text-decoration: underline;">Exp : =E3+C4</span>]</p>
+
+
+<!-------------------------------------------------------------------------------------------->
+
+<h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">2. La référence des cellules</span></span></strong></h3>
+
+
+
+<p class="retrait4", style="text-align:justify; font-weight: bold; color:purple;text-decoration: red wavy underline;">a- Référence relative: </p>
+<p class="retrait4", style="text-align:justify;">
+Une cellule peut être référencée par rapport à une autre cellule (Exemple 
+ <span style="font-weight: bold;">=A2</span>)</p>
+
+<p class="retrait4", style="text-align:justify; font-weight: bold; color:purple;text-decoration: red wavy underline;">b- Référence absolue: </p>
+<p class="retrait4", style="text-align:justify;">
+Une cellule peut être référencée par sa place par rapport à toute la feuille (Exemple
+<span style="font-weight: bold;">=</span></span><span style="color: red;">$</span><span style="font-weight: bold;">A</span><span style="color: red;">$</span><span style="font-weight: bold;">2</span>)</p>
+
+
+
+
+<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+
+<p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
+  
+La référence absolue reste fixe lors de la copie, tandis qu’une référence relative s’adapte : les numéros de ligne et de colonne changent en fonction de la nouvelle position
+</p>
+
+<!-------------------------------------------------------------------------------------------->
+
+
+
+
+<br>
+
+
+<hr>
+
+
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

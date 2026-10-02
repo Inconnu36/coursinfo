@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Structures </title>
+  
+<link rel="stylesheet" href="../css/chapitre2/instruction.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="instruction.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" > <u>Suivant</u> </td>
+    </tr>
+  </table>
+</center>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Algorithmique</option>
+  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
+  <option value="donnees.html">II. Notions de données</option>
+  <option value="structurealgo.html">III. Structure d’un algorithme</option>
+  <option value="instruction.html">IV. Les instructions de base</option>
+  <option value="structures.html">V. Structures de contrôle de base</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+   <p> <center><a href="docpdf/structures.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+<hr>
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+    <h2>V. <span class="highlight">Structures de contrôle de base</span></h2>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+ <h3>1. <span class="section-title">Structure sélective</span></h3>
+<P>La structure sélective permet d’exécuter un bloc d’instructions seulement si la condition est vérifiée (vraie).</P>
+
+
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 1</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 2</span></th>
+  </tr>
+  <tr>
+    <td>
+<span style="color: red;">si</span> condition <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">bloc d'instructions</span><br>
+<span style="color: red;">FinSi</span>
+
+    </td>
+    <td>
+
+
+    <span style="color: red;">si</span> x>0 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> x est positif<span style="color: red;"> "</span>)</span> <br>
+<span style="color: red;">FinSi</span>
+
+  </td>
+  <td>
+
+    <span style="color: red;">si</span> x>y <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">max  ← x </span><br>
+<span style="color: red;">FinSi</span>
+  </td>
+  </tr>
+
+</table>
+
+
+
+
+
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+  <p>Écrire un algorithme qui demande à l'utilisateur de saisir une température. Si la température saisie est supérieure à 100, afficher <strong>« Température trop élevée ! »</strong>. Dans le cas contraire, l’algorithme ne fait rien.<br>
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+<strong>Algorithme</strong> temperature<br>
+<strong>Variable</strong> <br>
+T : Entier<br>
+<strong>début</strong><br>
+écrire (<span style="color: red;">"</span> taper la température<span style="color: red;">"</span>) <br>
+lire(T)<br>
+<span style="color: red;">si</span> T>100 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Température trop élevée ! <span style="color: red;">"</span>) </span><br>
+<span style="color: red;">FinSi</span><br>
+<strong>Fin</strong>.
+
+
+</p>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+ <h3>2. <span class="section-title">Structure alternative</span></h3>
+<P>La structure alternative permet d’exécuter un bloc d’instructions si une condition est vraie, et un autre bloc si cette condition est fausse.</P>
+
+
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 1</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 2</span></th>
+  </tr>
+  <tr>
+    <td>
+<span style="color: red;">si</span> condition <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">bloc d'instructions 1</span><br>
+
+<span style="color: red;">SiNon</span> <br>
+<span style="margin: 15px;">bloc d'instructions 2</span><br>
+<span style="color: red;">FinSi</span>
+
+    </td>
+    <td>
+
+
+    <span style="color: red;">si</span> x>0 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> x est positif<span style="color: red;"> "</span>)</span> <br>
+
+    <span style="color: red;">SiNon</span> <br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> x est négatif<span style="color: red;"> "</span>)</span> <br>
+
+<span style="color: red;">FinSi</span>
+
+  </td>
+  <td>
+
+    <span style="color: red;">si</span> x>y <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">max  ← x </span><br>
+
+    <span style="color: red;">SiNon</span> <br>
+<span style="margin: 15px;">max  ← y </span><br>
+<span style="color: red;">FinSi</span>
+  </td>
+  </tr>
+
+</table>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+  <p>Écrire un algorithme qui permet d’évaluer une note saisie au clavier. Si la note est supérieure ou égale à 10, alors il affiche <span style="color: red;">« Validé »</span>, SiNon <span style="color: red;">« Non validé »</span>. <br>(NB : la note est comprise entre 0 et 20.).<br>
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+<strong>Algorithme</strong> Moyenne<br>
+<strong>Variable</strong> <br>
+m : réel<br>
+<strong>début</strong><br>
+écrire (<span style="color: red;">"</span> taper la moyenne<span style="color: red;">"</span>) <br>
+lire(m)<br>
+<span style="color: red;">si</span> m ≥ 10  <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Validé  <span style="color: red;">"</span>) </span><br>
+
+<span style="color: red;">SiNON</span> <br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Non validé  <span style="color: red;">"</span>) </span><br>
+
+<span style="color: red;">FinSi</span><br>
+<strong>Fin</strong>.
+
+
+</p>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+ <h3>3. <span class="section-title">Structure alternative imbriquée</span></h3>
+<p>La structure alternative imbriquée est une structure dans laquelle un bloc d’instructions contient lui-même une autre structure conditionnelle.</p>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 1</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple 2</span></th>
+  </tr>
+  <tr>
+    <td>
+<span style="color: red;">si</span> condition 1 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">bloc d'instructions 1</span><br>
+<span style="color: red;">SiNon</span> <br>
+<span style="color: red;">si</span> condition 2 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">bloc d'instructions 2</span><br>
+<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+<span style="color: red;">SiNon</span> <br>
+<span style="margin: 15px;">bloc d'instructions N</span><br>
+<span style="color: red;">FinSi</span><br>
+
+
+<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+<span style="margin: 15px;"><STRONG>.</STRONG></span><br>
+
+<span style="color: red;">FinSi</span>
+    </td>
+    <td>
+
+
+    <span style="color: red;">si</span> m≥10 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Réussi<span style="color: red;"> "</span>)</span> <br>
+
+    <span style="color: red;">SiNon</span> <br>
+    <span style="color: red;">si</span> m≥8 <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Rattrapage<span style="color: red;"> "</span>)</span> <br>
+
+
+<span style="color: red;">SiNon</span> <br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> échoué<span style="color: red;"> "</span>)</span> <br>
+
+<span style="color: red;">FinSi</span><BR>
+<span style="color: red;">FinSi</span><br><br><br><br><br><br><br>
+
+  </td>
+  <td>
+
+    <span style="color: red;">si</span> mg≥10 <span style="color: red;">alors</span><br>
+    <span style="margin: 15px;"><span style="color: red;">si</span> mm≥15 <span style="color: red;">alors</span></span><br>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> science math<span style="color: red;"> "</span>)</span></span> <br>
+
+    <span style="margin: 15px;"><span style="color: red;">SiNon</span> </span><br>
+    <span style="margin: 15px;"><span style="margin: 15px;"><span style="color: red;">si</span> mm≥10 <span style="color: red;">alors</span></span></span><br>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> science exp<span style="color: red;"> "</span>)</span></span> <br>
+<span style="margin: 15px;"><span style="color: red;">SiNon</span></span> <br>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> lettre<span style="color: red;"> "</span>)</span></span> <br>
+
+<span style="margin: 15px;"><span style="color: red;">FinSi</span></span><BR>
+<span style="margin: 15px;"><span style="color: red;">FinSi</span></span><br>
+
+
+
+<span style="color: red;">SiNon</span> <br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> échoué<span style="color: red;"> "</span>)</span> <br>
+<span style="color: red;">FinSi</span>
+<br><br><br>
+  </td>
+  </tr>
+
+</table>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+<span style="margin: 15px;">Écrire un algorithme qui permet de calculer la moyenne de deux notes saisies par l'utilisateur, puis affiche :</p>
+<span style="margin: 15px;">- «<span style="color: red;margin: 15px">Réussi</span>» si la moyenne est supérieure ou égale à 10,</span><br>
+<span style="margin: 15px;">- «<span style="color: red; margin: 15px">Rattrapage</span>» si la moyenne est strictement inférieure à 10 et supérieure ou égale à 8,</span></span><br>
+<span style="margin: 15px;">- «<span style="color: red; margin: 15px">Échoué</span>» dans tous les autres cas.</span></span><br>
+
+
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+<strong>Algorithme</strong> Moyenne<br>
+<strong>Variables</strong> <br>
+x,y,m : réels<br>
+<strong>début</strong><br>
+écrire (<span style="color: red;">"</span> taper deux notes<span style="color: red;">"</span>) <br>
+lire(x)<br>
+lire(x)<br>
+m  ← (x+y)/2 <br>
+écrire (<span style="color: red;">"</span> La moyenne est: <span style="color: red;">"</span>, m) <br>
+<span style="color: red;">si</span> m ≥ 10  <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Réussi <span style="color: red;">"</span>) </span><br>
+
+<span style="color: red;">SiNON</span> <br>
+<span style="color: red;">si</span> m ≥ 8  <span style="color: red;">alors</span><br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> Rattrapage <span style="color: red;">"</span>) </span><br>
+<span style="color: red;">SiNON</span> <br>
+<span style="margin: 15px;">écrire (<span style="color: red;">"</span> échoué <span style="color: red;">"</span>) </span><br>
+
+<span style="color: red;">FinSi</span><br>
+<span style="color: red;">FinSi</span><br>
+<strong>Fin</strong>.
+</p>
+
+
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+ <h3>4. <span class="section-title">Structure de choix multiple</span></h3>
+<p>Permet d’exécuter une ou plusieurs instructions selon la valeur d’une expression ou d’une variable.</p>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+
+    <td>
+
+<span style="color: red;">selon</span> variable <span style="color: red;">faire</span>:<br>
+    <span style="margin: 15px;">valeur1 : </span>
+    <span style="margin: 15px;"><span style="margin: 15px;">Instruction1</span> <br>
+
+        <span style="margin: 15px;"> valeur2 : </span>
+    <span style="margin: 15px;"><span style="margin: 15px;">Instruction2</span> <br>
+    <span style="margin: 15px;"><strong>.</strong></span> <br>
+    <span style="margin: 15px;"><strong>.</strong></span> <br>
+    <span style="margin: 15px;"><strong>.</strong></span> <br>
+
+    <span style="margin: 15px;"><span style="color: red;">SiNon</span> </span><br>
+    <span style="margin: 15px;"><span style="margin: 15px;">Instruction par défaut</span> <br>
+
+
+<span style="color: red;">FinSelon</span>
+<br>
+    </td>
+    
+  <td>
+
+    <span style="color: red;">selon</span> X <span style="color: red;">faire</span>:<br>
+    <span style="margin: 15px;"> 1 : </span>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Lundi  <span style="color: red;">"</span>)</span> <br>
+    <span style="margin: 15px;"> 2 : </span>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Mardi  <span style="color: red;">"</span>)</span> <br>
+
+        <span style="margin: 15px;"> 3 : </span>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Mercredi  <span style="color: red;">"</span>) </span> <br>
+   
+    <span style="margin: 15px;"><span style="color: red;">SiNon</span> </span><br>
+   
+
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> réessayer  <span style="color: red;">"</span>) </span> <br>
+
+<span style="color: red;">FinSelon</span><br>
+<br>
+    </td>
+
+  
+  </tr>
+
+</table>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exercice d’application:</span></p>
+
+
+<DIV class="retrait2">
+<span style="margin: 15px;">Écrire un algorithme qui lit une couleur saisie par l'utilisateur (rouge, orange, vert) et affiche le message correspondant :</p>
+<span style="margin: 15px;">- <span style="color: red;margin: 15px">Rouge</span>: « Arrêt »</span><br>
+<span style="margin: 15px;">- <span style="color: #FFA500; margin: 15px">Orange</span>: « Ralentir »</span></span><br>
+<span style="margin: 15px;">- <span style="color: #008000; margin: 15px">Vert</span>: « Passer »</span></span><br>
+<span style="margin: 15px;">- <span style=" margin: 15px"><strong>Autre</strong></span>: « Couleur inconnue »</span></span><br>
+
+</DIV> 
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Corrigé</span></p>
+
+      <p class="retrait">
+<strong>Algorithme</strong> Feux_de_signalisation<br>
+<strong>Variables</strong> <br>
+c: chaine de caractères<br>
+<strong>début</strong><br>
+écrire (<span style="color: red;">"</span> taper la couleur du feu<span style="color: red;">"</span>) <br>
+lire(c)<br>
+    <span style="color: red;">selon</span> c <span style="color: red;">faire</span>:<br>
+    <span style="margin: 15px;"> <span style="color: red;">"</span>Rouge<span style="color: red;">"</span></span> : </span>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Arrêt <span style="color: red;">"</span>)</span> <br>
+    <span style="margin: 15px;"> <span style="color: red;">"</span>Orange<span style="color: red;">"</span></span>: </span>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Ralentir <span style="color: red;">"</span>)</span> <br>
+
+        <span style="margin: 15px;"> <span style="color: red;">"</span>Vert<span style="color: red;">"</span></span>: </span>
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Passer  <span style="color: red;">"</span>) </span> <br>
+    <span style="margin: 15px;"><span style="color: red;">SiNon</span> </span><br>
+   
+
+<span style="margin: 15px;"><span style="margin: 15px;">écrire (<span style="color: red;">"</span> Couleur inconnue <span style="color: red;">"</span>) </span> <br>
+<span style="color: red;">FinSelon</span><br>
+<strong>Fin.</strong>
+
+</p>
+
+
+
+
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+  
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

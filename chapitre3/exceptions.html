@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Les exceptions en Python</title>
+  
+<link rel="stylesheet" href="../css/chapitre3/exceptions.css">
+</head>
+<body>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<table align="center" >
+    <tr text-decoration = "underline">
+      <td align="center" > <a href="fonctions.html"><u>Précédent</u> </td>
+      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
+      <td align="center" > <u>Suivant</u></td>
+    </tr>
+  </table>
+</center>
+<br>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+<script src="../js/nav.js"></script>
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+<center>
+<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
+  
+  <option value="sousmenu">Langages de programmation (Python)</option>
+  <option value="introduction.html">I. Introduction</option>
+  <option value="variables.html">II. les variables</option>
+  <option value="instruction.html">III. Les instructions de base</option>
+  <option value="structures.html">IV. Structures de contrôle de base</option>
+  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
+  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
+  <option value="evaluations.html">Évaluations</option>
+</select>
+</center>
+
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+  <p><center><a href="docpdf/exceptions.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+  <hr>
+
+
+
+  <div class="content">
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+  
+<!---------------------------------------------------------- titre ----------------------------------------------------------------------->
+
+
+
+ <h2>VI. <span class="highlight">Gestions des exceptions en Python</span></h2>
+
+<p>Lors de l'écriture d'un programme, nous rencontrons très souvent des erreurs.</p>
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Erreur de syntaxe:</span> Erreur due au non-respect de la structure (<span style="font-weight: bold;color: red;">syntaxe</span>) du langage</p>
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Erreur d’exécution :</span> Appelées exceptions, elles surviennent, par exemple, lorsqu'un fichier que nous essayons d'ouvrir n'existe pas (<strong>FileNotFoundError</strong>), ou lorsqu'un nombre est divisé par zéro (<STRONG>ZeroDivisionError</STRONG>)….</p>
+
+
+  <h3>1. <span class="section-title">Gestion des exceptions</span></h3>
+  <p>Pour gérer les exceptions et appeler du code lorsqu'une exception se produit, nous pouvons utiliser une instruction <span style="font-weight: bold;color: red;">try/except.</span></p>
+
+<p style="margin-left: 15px;">✔ Le bloc <span style="font-weight: bold;color: red;">try</span> contient du code qui pourrait générer une exception.</p>
+<p style="margin-left: 15px;">✔ Si cette exception se produit, le code du bloc <span style="font-weight: bold;color: red;">try</span> s'arrête et celui du bloc <span style="font-weight: bold;color: red;">except</span> est exécuté.</p>
+<p style="margin-left: 15px;">✔ Si aucune erreur ne se produit, le code du bloc <span style="font-weight: bold;color: red;">except</span> ne s'exécute pas.</p>
+
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+<span style="font-weight: bold;color: red;">try:</span><br>
+      <span style="margin-left: 15px;"># Code qui peut provoquer une exception</span><br>
+<span style="font-weight: bold;color: red;">except</span> <strong>ExceptionType:</strong><br>
+      <span style="margin-left: 15px;"># Code exécuté en cas d'exception</span>
+
+
+    </td>
+    <td>
+<span style="font-weight: bold;color: red;">try :</span><br>
+      <span style="margin-left: 15px;">z=3/0</span><br>
+<span style="font-weight: bold;color: red;">except</span> <strong>ZeroDivisionError:</strong><br>
+      <span style="margin-left: 15px;">print("Division par zéro impossible !")</span>
+
+
+  </td>
+  </tr>
+
+</table>
+      <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque:</p>
+      
+
+      <DIV class="retrait2">
+Une instruction <span style="font-weight: bold;color: red;">try</span> peut comporter plusieurs blocs <span style="font-weight: bold;color: red;">except</span> afin de gérer différents types d'exceptions.
+</DIV>
+
+  <h3>1. <span class="section-title">Exceptions courantes :</span></h3>
+<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+  <tr>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exception </span></th>
+    <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Cause</span></th>
+     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
+  </tr>
+  <tr>
+    <td>
+  <strong>ZeroDivisionError</strong><br>
+    </td>
+      <td>
+ Tentative de division par zéro<br>
+    </td>
+      <td>
+x = 10 / 0 <br> 
+<span style="font-weight: bold;color: red;">Erreur</span> : division par zéro
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+<strong>TypeError</strong><br>
+    </td>
+      <td>
+Opération sur un objet<br> d’un type inapproprié
+    </td>
+
+    <td>
+   "5" + 3 <br>
+<span style="font-weight: bold;color: red;">Erreur</span> : on ne peut pas additionner une chaîne et un entier
+ 
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+ <strong>ValueError</strong><br>
+    </td>
+      <td>
+Valeur ayant le bon type <br>mais une valeur inappropriée
+    </td>
+      <td>
+int("abc")<br>
+<span style="font-weight: bold;color: red;">Erreur</span> : impossible de convertir "abc" en entier
+
+    </td>
+  </tr>
+
+
+  <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+ IndexError<br><br>
+    </td>
+      <td>
+Index hors limites<br>(liste, chaîne, etc.)<br>
+    </td>
+      <td>
+liste = [1, 2, 3]<br>
+print(liste[5])<br>
+<span style="font-weight: bold;color: red;">Erreur</span> : indice 5 n’existe pas
+
+    </td>
+  </tr>
+
+
+  <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+KeyError<br><br>
+  <br>
+    </td>
+      <td>
+Clé non trouvée<br>dans un dictionnaire<br>
+    </td>
+      <td>
+d = {"a": 1, "b": 2}<br>
+print(d["c"]) <br>
+<span style="font-weight: bold;color: red;">Erreur</span> : clé "c" absente
+
+
+    </td>
+
+  </tr>
+
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+AttributeError<br><br>
+  <br>
+    </td>
+      <td>
+Tentative d’accès à un<br>attribut inexistant d’un objet
+    </td>
+      <td>
+liste = [1, 2, 3]<br>
+liste.upper() <br>
+<span style="font-weight: bold;color: red;">Erreur</span> : upper()` n'existe que pour les chaînes
+
+    </td>
+  </tr>
+
+
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+FileNotFoundError<br>
+  <br>
+    </td>
+      <td>
+Fichier inexistant<br>
+    </td>
+      <td>
+open("fichier_inexistant.txt") <br> 
+<span style="font-weight: bold;color: red;">Erreur</span> : fichier non trouvé
+
+
+    </td>
+  </tr>
+
+    <tr style="background-color: #fef9e7;color: Purple;">
+    <td style="background-color: #fef9e7;">
+NameError<br><br>
+  <br>
+    </td>
+      <td>
+Variable non définie<br><br>
+    </td>
+      <td>
+nom = "Ali"<br>
+print(Nom)  <br>
+<span style="font-weight: bold;color: red;">Erreur</span> : "Nom" avec majuscule n'existe pas
+
+
+    </td>
+  </tr>
+</table>
+
+<!--------------------------------------------------------------------------------------------------------->
+
+      <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque:</p>
+      
+
+      <DIV class="retrait2">
+Lors de cette leçon, nous nous concentrerons uniquement sur les trois premières exceptions.
+
+</DIV>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple1</span></p>
+
+      <p class="retrait">
+
+<span style="color: red;">try :</span><br>
+    <span style="margin: 15px;">x = int(input("taper un nombre: "))</span><br>
+    <span style="margin: 15px;">y = int(input("taper un nombre: "))</span><br>
+    <span style="margin: 15px;">d = x/y</span><br>
+    <span style="margin: 15px;">print('resultat',d)</span><br>
+<span style="color: red;">except</span> <strong>ZeroDivisionError:</strong><br>
+    <span style="margin: 15px;">print("Désolé, la division par zéro n'est pas permise.")</span><br>
+<span style="color: red;">except</span> <strong>ValueError:</strong><br>
+    <span style="margin: 15px;">print("Désolé, les valeurs saisies ne sont pas des nombres.")</span><br>
+
+</p>
+
+<p>- Si l'utilisateur entre <strong>autres chose</strong> qu’un nombre (par exemple du texte), une erreur <strong>ValueError</strong> sera levée et le message <strong>« Désolé, les valeurs saisies ne sont pas des nombres »</strong> sera affiché</p>
+<p>- Si l’utilisateur entre <strong>zéro</strong> comme deuxième nombre, une division par zéro (<strong>ZeroDivisionError</strong>) sera levée et le message <strong>« Désolé, la division par zéro n'est pas permise »</strong> sera affiché</p>
+
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple2</span></p>
+
+      <p class="retrait">
+
+<span style="color: red;">try:</span><br>
+   <span style="margin: 15px;"> x = int(input("taper un nombre: "))</span><br>
+    <span style="margin: 15px;">y = int(input("taper un nombre: "))</span><br>
+   <span style="margin: 15px;"> s=x/y</span><br>
+    <span style="margin: 15px;">print("la somme est: ",s)</span><br>
+<span style="color: red;">except</span> (<strong>ValueError, ZeroDivisionError</strong>):<br>
+    <span style="margin: 15px;">print("Désolé, quelque chose ne s'est pas bien passé.")
+
+
+</p>
+
+<p>- Si l'utilisateur entre <strong>autre chose</strong> qu’un nombre (par exemple du texte), une erreur <strong>ValueError</strong> sera levée et le message <strong>« Désolé, quelque chose ne s'est pas bien passé »</strong> sera affiché.</p>
+<p>- Si l’utilisateur entre <strong>zéro</strong> comme deuxième nombre, une division par zéro (<strong>ZeroDivisionError</strong>) sera levée et le message « <strong>Désolé, quelque chose ne s'est pas bien passé</strong> » sera affiché.</p>
+
+
+  <h3>3. <span class="section-title">L’instruction raise</span></h3>
+  <p><span style="font-weight: bold;color: red;">raise</span> est une instruction utilisée pour forcer une <span style="font-weight: bold;color: red;">exception (erreur)</span> à se produire volontairement dans un programme.</p>
+
+<p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple3</span></p>
+
+      <p class="retrait">
+
+<span style="color: red;">try:</span><br>
+    <span style="margin: 15px;">age = int(input("Entrez un nombre : "))</span><br>
+    <span style="margin: 15px;">if age < 0 :</span><br>
+        <span style="margin: 24px;"><span style="color: red;">raise</span> <strong>ValueError</strong> ("L'âge ne peut pas être négatif.")</span><br>
+    <span style="margin: 15px;">elif age < 18:</span><br>
+        <span style="margin: 24px;">print("Vous êtes mineur.")</span><br>
+    <span style="margin: 15px;">else:</span><br>
+        <span style="margin: 24px;">print("Vous êtes majeur.")</span><br>
+<span style="color: red;">except</span> <strong>ValueError as e:</strong><br>
+    <span style="margin: 15px;">print(f"Erreur : {e}")</span>
+
+
+</p>
+
+<p>- Si age est inférieur à 0, il lance une exception <strong>ValueError</strong> avec le <strong>« message L'âge ne peut pas être négatif »</strong></p>
+
+    
+    <!-- Pied de page -->
+    <div class="footer">
+        [Auteur du cours] <span style="color: red;">//</span> Enseignant d'informatique<span style="color: red;">//</span>[Établissement]
+    </div>
+</body>
+</html>

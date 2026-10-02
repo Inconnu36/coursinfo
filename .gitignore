@@ -1,0 +1,7 @@
+# nothing to ignore: the whole site is the deliverable.
+# these only exist locally and must never be committed:
+*.tmp
+*.qpdf
+.DS_Store
+Thumbs.db
+node_modules/
