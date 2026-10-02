@@ -12,5 +12,7 @@
   "favicon.svg",
   "chapitre*/video/*.jpg",
   "sitemap.xml",
-  "robots.txt"
+  "robots.txt",
+  "js/search*",
+  "recherche.html"
 ]

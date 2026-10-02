@@ -31,3 +31,9 @@
 - 73 pages avec langue, titre H1 unique et repères ; ajout de chrome accessible autour des quiz, sans modification du lecteur ni du contenu iSpring.
 - Styles d’impression, focus clavier et réduction des mouvements. Thème clair conservé ; options de thème sombre et de progression omises.
 - Vérification : aucun lien cassé, aucun orphelin. Les tests de rendu navigateur restent à effectuer (navigateur de test indisponible dans cette session).
+
+## Phase 3
+
+- Index JSON et script local de recherche générés depuis les vrais textes HTML ; filtrage par mots et chapitre, sans CDN ni fetch (compatible file://).
+- Catalogue complet ajouté à l’accueil : les 73 pages originales y sont liées directement, y compris séries, corrections et quiz.
+- Recherche accessible au clavier, résultats annoncés avec aria-live et catalogue disponible sans JavaScript.
