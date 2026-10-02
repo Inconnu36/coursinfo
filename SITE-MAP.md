@@ -429,3 +429,27 @@ appearance is a 700×510 full-colour raster image. Its text fields were cleared,
 or a logo was not verified. Open it and delete the stamp if it identifies anyone.
 The 204 lesson screenshots were checked for EXIF and PNG text chunks — all clean —
 but text *drawn inside* those images was likewise not machine-verifiable.
+
+### Baseline-1.0 — contrôle avant modification
+
+```text
+pages            : 73
+total files      : 721
+references tested: 830
+
+broken links     : 0
+pages w/o CSS    : 0
+pages w/o nav.js : 0
+orphan pages     : 0
+runtime dirs     : 17 (iSpring data/ folders, loaded from the embedded manifest)
+unused assets    : 6
+   UNUSED   README.md
+   UNUSED   SITE-MAP.md
+   UNUSED   sitemap.xml
+   UNUSED   start.bat
+   UNUSED   start.sh
+   UNUSED   tools/pages.json
+Audit : {"imagesSansAlt":204,"imagesSansDimensions":204,"videosSansPoster":12,"videosSansPreload":12,"pagesSansH1":73,"pagesH1Multiples":0,"pagesSansLangue":17,"pagesSansDescription":73,"pagesSansReperes":73,"titresDupliques":36,"identites":0,"cssDupliques":9}
+Manifeste enregistré.
+Régressions non autorisées : 0
+```

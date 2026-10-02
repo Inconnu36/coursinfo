@@ -1,0 +1,3624 @@
+{
+  "baseline": "baseline-1.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3604,
+      "sha256": "f2d9c3568cb560f6e35a3fe36a5b467bc679a29c4166dab9ab01b38b0d3a38c4"
+    },
+    {
+      "path": "SITE-MAP.md",
+      "bytes": 25528,
+      "sha256": "f20f0a4b3193bd3291782f89acf1e8d554220829344d87ebf16465ef60bca903"
+    },
+    {
+      "path": "chapitre1/cartemere.html",
+      "bytes": 9478,
+      "sha256": "7a3701c499840c9fc045be908508c0721ded8d92c6cf75f97b7759133b1b3f3f"
+    },
+    {
+      "path": "chapitre1/corr1.html",
+      "bytes": 3998,
+      "sha256": "7395df76ca31b623a2f0114fabd8f10b1db526f2790d45f35c966a4d0addd379"
+    },
+    {
+      "path": "chapitre1/corr2.html",
+      "bytes": 4128,
+      "sha256": "1416c5c59773462e0d199bd90c5097f2f1578a2b31d80e1914f8587dcd9bbe15"
+    },
+    {
+      "path": "chapitre1/definitions.html",
+      "bytes": 4208,
+      "sha256": "3ce079c55e7cb304a297079fc0b9a222914c08a0a726d249460f86c4cc5a9c4d"
+    },
+    {
+      "path": "chapitre1/docpdf/cartemere.pdf",
+      "bytes": 691549,
+      "sha256": "35cb20384b7f829f0434a3c276b3d69a2e0518dbae51a6815979f7ec6a874c65"
+    },
+    {
+      "path": "chapitre1/docpdf/correction1.pdf",
+      "bytes": 196126,
+      "sha256": "e81030af8f2e489dcadd1a1f8efa3e0927bbfb06f5fa6a8943908b0a33c41d5f"
+    },
+    {
+      "path": "chapitre1/docpdf/correction2.pdf",
+      "bytes": 189749,
+      "sha256": "00b48d18099e7015f5539569cd1126d4dac32c865e86a16b28fc36a46869956c"
+    },
+    {
+      "path": "chapitre1/docpdf/definitions.pdf",
+      "bytes": 50334,
+      "sha256": "1aad00cc0f09fef3af50226549bf63ae157b8205c39e670cd60fb735a195c060"
+    },
+    {
+      "path": "chapitre1/docpdf/eval1.pdf",
+      "bytes": 97337,
+      "sha256": "8382a0694d6e58c30039ede5f6c009c453dba1d1c9adf0d165df14322b1d2536"
+    },
+    {
+      "path": "chapitre1/docpdf/eval2.pdf",
+      "bytes": 95148,
+      "sha256": "504423c58b477365bb77f7b4c73271bf7b722d03a41d55d5d216dc472ba2e801"
+    },
+    {
+      "path": "chapitre1/docpdf/logiciels.pdf",
+      "bytes": 127266,
+      "sha256": "7ce462e7c7a91b9202580cd8b49fe40e9323ddf988fd8f71bc8c219f48a839fe"
+    },
+    {
+      "path": "chapitre1/docpdf/representations.pdf",
+      "bytes": 246984,
+      "sha256": "ad28022c4ee1c9e59056d428f2aacab64c371ef131cd9301dcb78a7216fb8b04"
+    },
+    {
+      "path": "chapitre1/docpdf/structure.pdf",
+      "bytes": 291110,
+      "sha256": "befbbf8273ec6e3807fb882dafc56eb590c014e766809ab330dde93bb802c7ce"
+    },
+    {
+      "path": "chapitre1/eval1.html",
+      "bytes": 2844,
+      "sha256": "39a00671bf94a16e2b77926af7f4c918f058da2e016ba8fbea4e8cf7066f550e"
+    },
+    {
+      "path": "chapitre1/eval2.html",
+      "bytes": 2813,
+      "sha256": "9dfb939e191f82b4fd3261576b3f38d8db50dc98b0c59aeb590cc0d2ae119ca3"
+    },
+    {
+      "path": "chapitre1/evaluations.html",
+      "bytes": 3648,
+      "sha256": "eae56d6b469b6cd8a3538018571b7e3de7bea3b12a97357fc3eba9ba78422d15"
+    },
+    {
+      "path": "chapitre1/image/TEL.png",
+      "bytes": 13348,
+      "sha256": "7e41354bfb2d22bafda5667628c066e26efd06865837642313a9cb98e2aaec82"
+    },
+    {
+      "path": "chapitre1/image/binaire1.png",
+      "bytes": 8549,
+      "sha256": "4c1174e6a8f8a4aa96627e9310dac370c92698e4e9c6e6f387b677957c0b9174"
+    },
+    {
+      "path": "chapitre1/image/binaire2.png",
+      "bytes": 9528,
+      "sha256": "8c12151649d04bc8bc7367357cfbe166dea5290e3428e1c8d292f3c0556ff018"
+    },
+    {
+      "path": "chapitre1/image/cartemere.png",
+      "bytes": 427239,
+      "sha256": "dba982f61cdafb638bbe4ab502c9c11c80b2ac2700ff6a26f49b70cc68dafb5f"
+    },
+    {
+      "path": "chapitre1/image/correction.png",
+      "bytes": 11299,
+      "sha256": "b507b6cc35a884908de3b4a7423680785569dba1feb91a2801bfb436adb19ca8"
+    },
+    {
+      "path": "chapitre1/image/decimal1.png",
+      "bytes": 5265,
+      "sha256": "0bcdca7a72b0bce45df8d82abe6983b7a6aa726ecf6c06f9ecbd126130871594"
+    },
+    {
+      "path": "chapitre1/image/decimal2.png",
+      "bytes": 5268,
+      "sha256": "565959335370370d36981bb1ceca432df9a84b0f928a2b108ede10bdced8c78a"
+    },
+    {
+      "path": "chapitre1/image/decimal3.png",
+      "bytes": 5543,
+      "sha256": "1ec75b243a4e71edbab617ba3a5d08daf7b3f3bbd3b204dd872e82caf734a6df"
+    },
+    {
+      "path": "chapitre1/image/eval.png",
+      "bytes": 9947,
+      "sha256": "5563f76ccdbb875ee8a009569ee4ed1c22c5eb9a703ebce2e6668aa8cb5033e0"
+    },
+    {
+      "path": "chapitre1/image/op1et2.png",
+      "bytes": 20953,
+      "sha256": "c375c348231966f0aceaa91237909aa184239109e77c81a11e9f49b5727c87a2"
+    },
+    {
+      "path": "chapitre1/image/op1et22.png",
+      "bytes": 21258,
+      "sha256": "075d5580d5ad6860f464715464754d9f6984b5a62765c6007b0d8f252c95ec2a"
+    },
+    {
+      "path": "chapitre1/image/op3et4.png",
+      "bytes": 30041,
+      "sha256": "cac36633b9cf50bde0e9d4d316ca118940bf733613837dcf67dde10fb6992f92"
+    },
+    {
+      "path": "chapitre1/image/op3et42.png",
+      "bytes": 35695,
+      "sha256": "f7c18bbe8f6f4b9604b7f7266072de1febfeb34110c098097a6739555f757107"
+    },
+    {
+      "path": "chapitre1/image/op5.png",
+      "bytes": 11510,
+      "sha256": "8e01fa4495b549c21f476d365f49fecff8fdf0995dcc3c1452156cf7b04272ab"
+    },
+    {
+      "path": "chapitre1/image/op52.png",
+      "bytes": 34913,
+      "sha256": "08451126932747c3fd4ad8f4e0f94f89baf39170cf796aeb33292812083877c5"
+    },
+    {
+      "path": "chapitre1/image/processeur.png",
+      "bytes": 69057,
+      "sha256": "efa17c50f415486ab35778c9bfb3189ea7fefdbf76aad948fdee1ab7a701d0c8"
+    },
+    {
+      "path": "chapitre1/image/ram.png",
+      "bytes": 82241,
+      "sha256": "2411875401e4e834da93f61de203aee0f7d713bcde36d9db7f76bb36d3e3a44b"
+    },
+    {
+      "path": "chapitre1/image/ramrom.png",
+      "bytes": 23480,
+      "sha256": "961a45d1922d89c0d63e2a3a99670f7d989bfeaf83fc9ea018ffc49bc0154484"
+    },
+    {
+      "path": "chapitre1/image/rom.png",
+      "bytes": 34357,
+      "sha256": "15878f82159b529d70a709530069936de5eb9acf9046238b0d5c15411717f506"
+    },
+    {
+      "path": "chapitre1/image/schema1.png",
+      "bytes": 50664,
+      "sha256": "3f63bba5c6ea89dd91864f6e5ce5ccf87d5f943fbfc6ecaef57d47b10a16156c"
+    },
+    {
+      "path": "chapitre1/image/schema_eval2.png",
+      "bytes": 29697,
+      "sha256": "be62bd3c9f5fdc30cead7bf198bb274d74b2513edbd7bdfee81ba002f2c643a6"
+    },
+    {
+      "path": "chapitre1/image/schemafonctionnel.png",
+      "bytes": 70784,
+      "sha256": "7c1b1ba7014f6e3f2529a8e076f34259742badad86fa1d0b9c2c2253b05f4628"
+    },
+    {
+      "path": "chapitre1/image/unite.png",
+      "bytes": 24397,
+      "sha256": "bc5f51d3a2f3001a896fe6665c12d88315d1aedfd842a22a4a8b33ec69ff8f12"
+    },
+    {
+      "path": "chapitre1/logiciels.html",
+      "bytes": 5053,
+      "sha256": "d4dacfefce63d6d9349d62f2427f7a9e1688e6c934e0c43d38e7eb20140efc1e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/fnt0.woff",
+      "bytes": 11028,
+      "sha256": "9df9926bfb5469a1668a3e50e2f6c97c6bffb72dc2991e744ec4dc461184fd28"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/fnt1.woff",
+      "bytes": 10712,
+      "sha256": "c4b52237a5daae7afa06a16dfa723b6f2a2c7915230c906fb8f4ffbc830814b2"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "20b1da2fbf260735b7596ae187e8ece1ca06d72c6cb18a481f2f9f501639063d"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "dfd2849433caf2dce30433908ad24e6d43dda6760d81a400a8a7996e8c6fcd54"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "e10cd4e8aecf97e7c2c3cbd0a698d03fccd308078a5a996215c2c3926baebdff"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/fnt5.woff",
+      "bytes": 85896,
+      "sha256": "b063f112c275ebc02f0e9f74d8981a5d883b39623575ed2252c8ebd163a02acf"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1/fonts/fnt0.woff",
+      "bytes": 14008,
+      "sha256": "94107be4fc01fd437a4c99784e76596d134af96249bf956fcc64adac760b29d3"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9820,
+      "sha256": "be2f793871c22dfdc6d3d673a9be63f67f16a72fe880d6136441a662fc8fc5fd"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1/fonts/fnt2.woff",
+      "bytes": 8812,
+      "sha256": "8d49fc63f5a8e289dd009cb8facaeb87e8d743e399af76a9bc863e1f71113e7e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7204,
+      "sha256": "0aa78be76c7e842880e0f815835dcbf07489c2ac32f4033ef58c96d332243371"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quiz1.js",
+      "bytes": 116122,
+      "sha256": "812a456f17e2685590aed3eb79306154cd828d5e68b2210e5841ff66f566dd88"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/data/thmb1.png",
+      "bytes": 2642,
+      "sha256": "cc11875c77af4afe82d868738c1f8fbd1f9091bd9ceb616b342674b17efeb93e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz1/quizpresentation.html",
+      "bytes": 12240,
+      "sha256": "9e9592399df0499dbb176b49b59ac162fd0408ee0b4070d3b44f4a802b639985"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/fnt0.woff",
+      "bytes": 11360,
+      "sha256": "54139fc17263a0f5ccfbfb83ce1fb1fd951a5ff68c464214408ae56afe94cb0e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/fnt1.woff",
+      "bytes": 10336,
+      "sha256": "ce8783b6cdf1249fe9ce70b405255d3888059d49711f8a7e45314163c9cb7cb4"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "becdfae8a02059b1b891c1f360ca52bd989c8f313f9106abacdc9a085bfdf6b5"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "1b7cd94c87d881cd03b5fc91b5b4b5d51dc8125edbbc56719131bd3a8bf129e8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "f6f7a45bc8699cbf13758fbb39bf30f606349c2189940c376fe5bcf187d1e585"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/fnt5.woff",
+      "bytes": 85896,
+      "sha256": "cab0d21b445df86bcf1800064c47e5eab2e46a4a2dcb1255d1b70f0e1bf32390"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1/fonts/fnt0.woff",
+      "bytes": 13952,
+      "sha256": "33ae83139e51ad4b2a8dcc3db6352cf853983b020e5f29046e5e7d99b69a5b69"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9028,
+      "sha256": "4941c2341f1013fbdabce9f26fbe72120439763e39aa1100e40d2edced73e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9776,
+      "sha256": "e2b7c2678f132afbbaa8714aa12f7fc24ddd756a5c9c862afe44d6598b79e56f"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7400,
+      "sha256": "724749466164c5f6a269e6c5c4198df51b8efb302b3281bb12ac891d0c7e669e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quiz1.js",
+      "bytes": 136490,
+      "sha256": "a00d6ffb41545efdab75f367eac0ca2c0a825a6502659c07add5824ec7d67572"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/data/thmb1.png",
+      "bytes": 2623,
+      "sha256": "6c61f9a03aaf697fc51f5cc9def56b2121beab3ed80fa5f9795c5661d214c256"
+    },
+    {
+      "path": "chapitre1/quiz/quiz2/quizuct.html",
+      "bytes": 12230,
+      "sha256": "dd78f32605011a3850ef2dac62fe7543289d2e274bfb676ea387f37825008d1b"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/fnt0.woff",
+      "bytes": 10944,
+      "sha256": "458ee8eb8ad276beb1afe80e8b762fb0a1ee7db51d533b2e3fca57cf901dbed5"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/fnt1.woff",
+      "bytes": 10308,
+      "sha256": "a753bc9d7a0198a9c8c5431d02f1947aeecdfe9c9c60966fdf69be32a38861ba"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "51905ae0d8b2fb3ded0da2ae2e187aaddb4a083661b0db53ffd03cce3b812728"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "1ebe43cc35f98b7ca76e4c50ff62c9b5c44b723134eb1979df0cb2796dffd2b6"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/fnt4.woff",
+      "bytes": 79160,
+      "sha256": "1fce29ace5edfa1fa7b188664be40573548fa348022e2945df3e9f75651efbbc"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/fnt5.woff",
+      "bytes": 85900,
+      "sha256": "fa4245ae2a7b11a2a1b7bda3fd0bd758cafb2c29c64439d04028a8845c2a025a"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1/fonts/fnt0.woff",
+      "bytes": 13152,
+      "sha256": "672ea79824d8b2225bb1f440a7b4896d91664bb2f4b029941aefb8207f8589e4"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8896,
+      "sha256": "723ae9375984065bf5465dcae365a5cbfbabca5c8d72bf7f160194089daa4f03"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9592,
+      "sha256": "8f48451db5bb4385165072c2e42f7915d13f2cbb06a11b9efaebc8040a764dd3"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7204,
+      "sha256": "089f4edd6ff17ebab29dbac3010cf95def6c1487229c4877ffa06c5397e2f563"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quiz1.js",
+      "bytes": 118370,
+      "sha256": "0af79d187f62f46e8b668aab420f9acb794b33fd132b63c627876894b75e3135"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/data/thmb1.png",
+      "bytes": 2605,
+      "sha256": "e4d7fc6333009beade4709c1a6ac84f332ba3afd83189fd8103b89c7517005e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz3/quizmemoire.html",
+      "bytes": 12244,
+      "sha256": "35f3c8e4692efc5f8ae2a0318653c5c57592b589f20708e55146d3df4ef2cc8b"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/fnt0.woff",
+      "bytes": 10932,
+      "sha256": "9e7a5ee4f45884b9bdab9e7214f300f4c478bf09c42964d6a0def21c59b2b842"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/fnt1.woff",
+      "bytes": 10312,
+      "sha256": "fe901f486fc6358838c7eecdef1e7e4cfa82f946bd92a7c70e4e13cdfdc89271"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "41bab2d4917abd1c6aa6e88572975e2e17af20588082a4f186cae247e4151b74"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "04209cabf079bd464a61022897d94b0f9fa86d31a05fb7425e166dc4b532e4d9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "795708a4711492ec1793e1095e5f00ae8ff0cbf7fe22ea2c083fa126b5ca977a"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/fnt5.woff",
+      "bytes": 85900,
+      "sha256": "05c4967477b6f3bef0e92d4f160e0332881fa43b1c2bf965ae74fb258eb71b59"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/fonts/fnt0.woff",
+      "bytes": 13396,
+      "sha256": "f3477c2cfd5ba2206d92b944470636443478afc9762bf4068fa6b6c68f3a88b8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8280,
+      "sha256": "7d1cb45c99bdb994e8f49565fd328b7783952292c7182f6864d0e47a760dc86d"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/fonts/fnt2.woff",
+      "bytes": 8972,
+      "sha256": "58def5dc0355a6ddaf39214037d8ad670a881b2f9d3d51a05de7d9dc81c7dfc9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/fonts/fnt3.woff",
+      "bytes": 4484,
+      "sha256": "7bdeb3a860f2037328bc9ad20991a31f77f807cec2b841dc1e1477eff4210a37"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/fonts/fnt4.woff",
+      "bytes": 7204,
+      "sha256": "3049cd0a6dc60180a373b7bb890e43b5420a27b952f5ee027dd11b46ee086e7a"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quiz1.js",
+      "bytes": 118633,
+      "sha256": "c23b918a5847496756a902efd255a8821448c62ef28ae7b6c56b27e5192abad3"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/data/thmb1.png",
+      "bytes": 2819,
+      "sha256": "064b62bc7179d466c9233ba611806e8a254694399cb9e30ed44d33d7b4710a6d"
+    },
+    {
+      "path": "chapitre1/quiz/quiz4/quizperipherique.html",
+      "bytes": 12254,
+      "sha256": "95d8f24da2abfcd1cf12d5740fd3af2e193f05eda7442b4b5b7deb117eee38cc"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/fnt0.woff",
+      "bytes": 11096,
+      "sha256": "03cde8555a20f365fe30946c1901a1f466674bc0c89a942a128f17e2e9c124f8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/fnt1.woff",
+      "bytes": 10360,
+      "sha256": "d329f123644bbf82ea7070b9c318e2eb7725a9f731e1bf88df35051172d6c7a4"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "2a52948b8b88bd2416674407f7e277547a8f01cd6345cc035d44a8b74356b5bc"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "efe3b97c8d690a812706ac4da9653509920be9a2d7c7dca0e57f85346bfad512"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "2c7f6184f8c0603aa5e529a4ab981aafb9e22c440b1f77d6b43bf84040f8e0eb"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/fnt5.woff",
+      "bytes": 85900,
+      "sha256": "caa56ff4a26ffcbf2bbf150238939b2d3d666f8b73f083c5aa70efc75d100d65"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1/fonts/fnt0.woff",
+      "bytes": 12840,
+      "sha256": "7859c584b43cd1abcc988f475fad4e23c03e32834fe74c2c77826a3a8dc8409b"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8764,
+      "sha256": "7945a180fa5ba12723ddc6d085d3f9cdcfcc0fca820827a4965f5b5b7bb50f9e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1/fonts/fnt2.woff",
+      "bytes": 10248,
+      "sha256": "f8597f97f0e74e7004a207cfd7d3578a334adc455691cf6996300a216b75c408"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7200,
+      "sha256": "a14c7f0fde7080e21bea6efe1e6e5621ae2716f0fd9938705dce873e61181c72"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quiz1.js",
+      "bytes": 122998,
+      "sha256": "3ea1f3bbcd5dcbfa8c729e01478707a7137dbe63cfaa4163e6687cf276cd1781"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/data/thmb1.png",
+      "bytes": 2483,
+      "sha256": "fedd5a5c66bdd33db18bf882d3136a549a62695005dac77e5a3921c560599339"
+    },
+    {
+      "path": "chapitre1/quiz/quiz5/quizcartemere.html",
+      "bytes": 12241,
+      "sha256": "c5b998518c0057a063dd0abbceaf101e4828a63dee7f0544c79133c59db822bf"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/fnt0.woff",
+      "bytes": 11008,
+      "sha256": "d2310490a491e68e5c6b0ea7cfcb361de8a56ea87b48c125af22317741283a73"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/fnt1.woff",
+      "bytes": 10416,
+      "sha256": "76cb6f62335cbb86e5c8eae2c84e258b01166ea645257c49aa7f1812182ffb0d"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "bd27106f86fd203aef77c016f289857cea61a44c523cd26489500ed542802d70"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "859e1915f5de2eeb3a319934422d6dc11532eab91ad86509b6b839ac084f0f69"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "2c7f6184f8c0603aa5e529a4ab981aafb9e22c440b1f77d6b43bf84040f8e0eb"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/fnt5.woff",
+      "bytes": 85896,
+      "sha256": "ee7f46673f6b5a7063abde634c069742cedd3a003491ef436bde2df6d80c5ac7"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1/fonts/fnt0.woff",
+      "bytes": 12984,
+      "sha256": "2059839167815a27045b6e1abe900930bc7843978ed76668dcd947496ee404c5"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9212,
+      "sha256": "532692d9005add6b9d955ef44b272ac33fc37c33152adddf9cd58b2fdf67f9bc"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9400,
+      "sha256": "073f4b23bda7ce749782bf71d7c33bf6ac49c7c5d46aaa15c6849073d1b3433e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7208,
+      "sha256": "8e332149215e6b36b5d0053d55673934a3d1e06d6e52c211416472b5985d920a"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quiz1.js",
+      "bytes": 119192,
+      "sha256": "aaaf73e0f2f364ec5c5c8a3b510b99df508f0077e81c892e3751f06d95717e55"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/data/thmb1.png",
+      "bytes": 2627,
+      "sha256": "670c8009c1d89b327a281609869533eaf8242dfe96fdb1786afe5fd2ded41494"
+    },
+    {
+      "path": "chapitre1/quiz/quiz6/quizlogiciels.html",
+      "bytes": 12266,
+      "sha256": "d24174db3f637f1c1699d611cbc42bd7b9ed670063deb764aa9a890b8b291add"
+    },
+    {
+      "path": "chapitre1/representation.html",
+      "bytes": 8200,
+      "sha256": "3799a706c3ca330d0c74bb449afe0a85de0168cf80f58cba38d5dea7063709a2"
+    },
+    {
+      "path": "chapitre1/structure.html",
+      "bytes": 12007,
+      "sha256": "4eb1df806abdc06be7aca1324876efc4fe544e826e853616a2395660ed791412"
+    },
+    {
+      "path": "chapitre1/style5.css",
+      "bytes": 3632,
+      "sha256": "0541efa830c21a1e9e74f35ec9af13d16f3e7e688bf147165a270f63b8662ddf"
+    },
+    {
+      "path": "chapitre2/correction1.html",
+      "bytes": 18973,
+      "sha256": "fa943a7ae00864f774e7bd6b14c3e6a14e800cb02a349d217f219aa9e6225bee"
+    },
+    {
+      "path": "chapitre2/correction2.html",
+      "bytes": 20868,
+      "sha256": "680bf235dceedc1c7f9ed1763b1bcec7bacbc75e258aeb62a580eeb0bea1c7f1"
+    },
+    {
+      "path": "chapitre2/correction3.html",
+      "bytes": 27797,
+      "sha256": "4bab680f9a7ced6c200ec4f5ab6f2c7e7b060af30e6b668fc29db580d572eff6"
+    },
+    {
+      "path": "chapitre2/correction4.html",
+      "bytes": 19172,
+      "sha256": "5541265998f6feb64c9be805efe26ba3da566017d5fa0798ae7f49776bc4ae22"
+    },
+    {
+      "path": "chapitre2/definitions.html",
+      "bytes": 5251,
+      "sha256": "e96c4486257f8e7f2ff3f1dc2853aed5e7ebf9898984688ffff6b57d3e60e725"
+    },
+    {
+      "path": "chapitre2/docpdf/correction1.pdf",
+      "bytes": 189883,
+      "sha256": "0c3a2e853c1999c0dcf371615033309dc3422cf7e84108822a3238e0428a7d3e"
+    },
+    {
+      "path": "chapitre2/docpdf/correction2.pdf",
+      "bytes": 176666,
+      "sha256": "2a00a647c4f7d92268d7b596b2a3e51d46efa19f43f1f0f19dbb634b5f3fe568"
+    },
+    {
+      "path": "chapitre2/docpdf/correction3.pdf",
+      "bytes": 288918,
+      "sha256": "147d6a70f1dbf09a0a931f1cbcb40380b4f3b8b1a5271eade95ac46b421333e0"
+    },
+    {
+      "path": "chapitre2/docpdf/correction4.pdf",
+      "bytes": 266417,
+      "sha256": "2c1ec4ac1ea74109ed8a51b972b514e77f5712bf0ad9c893a190f26452a84501"
+    },
+    {
+      "path": "chapitre2/docpdf/definitions.pdf",
+      "bytes": 186199,
+      "sha256": "e1c9fb154fe5ad10b6dc5d2cfa4f0eecee25934439e2252cbe40fd35a319c72c"
+    },
+    {
+      "path": "chapitre2/docpdf/donnees.pdf",
+      "bytes": 87092,
+      "sha256": "7312219c8a7b6cdc7930248f59d4d8aa0f0bda2eae657e539a0679ecea6b5854"
+    },
+    {
+      "path": "chapitre2/docpdf/instruction.pdf",
+      "bytes": 198303,
+      "sha256": "87e015f8b6dcf14bffa8c3126fd173bc5ce79049d14d6eed755c28a77fcab132"
+    },
+    {
+      "path": "chapitre2/docpdf/serie1.pdf",
+      "bytes": 124421,
+      "sha256": "36196d7a9e46ff8bbc3c86c81e9a8b402d50642d8ee3a3648203384e2a6c1bce"
+    },
+    {
+      "path": "chapitre2/docpdf/serie2.pdf",
+      "bytes": 187321,
+      "sha256": "61c4d0913c653f0b39c8d0c0b7c374e4d8560055d3fe0e77ccb003aacbd9f1b8"
+    },
+    {
+      "path": "chapitre2/docpdf/serie3.pdf",
+      "bytes": 291790,
+      "sha256": "1ed91edf940ca0f9a7d7277c81e2e5506d7861430e2b75dfcdf642a8ffa016d9"
+    },
+    {
+      "path": "chapitre2/docpdf/serie4.pdf",
+      "bytes": 200097,
+      "sha256": "48fc86ae2a00776c118e197253d3d22bb7d8b379c7a314de1c68703bb1601189"
+    },
+    {
+      "path": "chapitre2/docpdf/structurealgo.pdf",
+      "bytes": 147844,
+      "sha256": "421b18645a3f1ea41c02284735fbe3ca46b6b683e7ac83bd3e80968925fde31c"
+    },
+    {
+      "path": "chapitre2/docpdf/structures.pdf",
+      "bytes": 240979,
+      "sha256": "aaea7d443a3f9c4207142b7ae09eb51f2948c2d41d1a934ffbd98647566590bd"
+    },
+    {
+      "path": "chapitre2/donnees.html",
+      "bytes": 5393,
+      "sha256": "b2919b908c0a129ed67d20590bd7a72e4c87c1c6c7fc1e49d70463927cd0ccb0"
+    },
+    {
+      "path": "chapitre2/evaluations.html",
+      "bytes": 2803,
+      "sha256": "d0d3064ea2237abdb544551ccf559cef97c47cebc910e6035624d9107fb9525c"
+    },
+    {
+      "path": "chapitre2/image/TEL+.png",
+      "bytes": 4513,
+      "sha256": "347986df2d72aa32d6944b07a33bd60fa17303309ab3f7861c71f5d1ef308702"
+    },
+    {
+      "path": "chapitre2/image/eval+.png",
+      "bytes": 3364,
+      "sha256": "6b582436d7176868ec284a00457be82bc4e6e8c6b82d1367338f6455223c278f"
+    },
+    {
+      "path": "chapitre2/image/ex1.png",
+      "bytes": 7049,
+      "sha256": "819dcf995f3af395b181a0c3a176a10708870e5ea3bb28d9ad9525064c704f80"
+    },
+    {
+      "path": "chapitre2/image/ex8.png",
+      "bytes": 5034,
+      "sha256": "69ff095b461b3811e72ea2c5c35c73945ab77b7fe7ac84d44f84cafcfd833ce0"
+    },
+    {
+      "path": "chapitre2/image/structure.png",
+      "bytes": 30473,
+      "sha256": "19797254a43ceab99ef98fbfaab6e48461a9258a08a2a305b31a5a03c3b8ce35"
+    },
+    {
+      "path": "chapitre2/instruction.html",
+      "bytes": 16035,
+      "sha256": "5d9c7d55c26a6b5cbf4d03ea62e3fb075955f564515369553fe3303deca5a034"
+    },
+    {
+      "path": "chapitre2/serie1.html",
+      "bytes": 6424,
+      "sha256": "c303c84821e5f7ab40ae621f62753051467e0d693fada0fa8e4e7f8e4b4a5b1d"
+    },
+    {
+      "path": "chapitre2/serie2.html",
+      "bytes": 5503,
+      "sha256": "e99c0ac30f65ad2cb0d3a1418af93de96e695db53ac9e8b43bace56bb4219e85"
+    },
+    {
+      "path": "chapitre2/serie3.html",
+      "bytes": 6290,
+      "sha256": "62ba0478acbab22cae6b626c45b2e8446dea4143342f5032da9735d07b3a15e5"
+    },
+    {
+      "path": "chapitre2/serie4.html",
+      "bytes": 6334,
+      "sha256": "6da1368ba4393d91a9627f64d6e3599972e52e5539eab58abbf27c5d3a93b84b"
+    },
+    {
+      "path": "chapitre2/structurealgo.html",
+      "bytes": 4931,
+      "sha256": "cb33fcc34d3b7934d65a0507ae933a6daac02789f2fefa11ae4eb0d0735cba74"
+    },
+    {
+      "path": "chapitre2/structures.html",
+      "bytes": 20241,
+      "sha256": "691d661073181eea0cd419febfb9ebfd12c1e233813cc74ea0f05d69dcf3e744"
+    },
+    {
+      "path": "chapitre3/correction1.html",
+      "bytes": 15465,
+      "sha256": "a6d6708f308ac3bbf514e2e6d2b1d2800f5c3823a7c5ba32e62e88c62b19aad8"
+    },
+    {
+      "path": "chapitre3/correction2.html",
+      "bytes": 14173,
+      "sha256": "a98820a4c300eeab281e175e7190c60cac62f503e16e6ebdc6a49ecb6a62b88f"
+    },
+    {
+      "path": "chapitre3/correction3.html",
+      "bytes": 20621,
+      "sha256": "ce2a6a10a55cf0e0a0d3ec60916b08523fe35d94edd3a498cbbc0f8e9e35e6f6"
+    },
+    {
+      "path": "chapitre3/correction4.html",
+      "bytes": 17036,
+      "sha256": "e1ea43d5350accfe90c0b6a6d1c2f1bb639b82309b47a9e6a350000624345b96"
+    },
+    {
+      "path": "chapitre3/docpdf/correction1.pdf",
+      "bytes": 169093,
+      "sha256": "ac96c6bee4338e83bd5ca712f488be61c3ef8b1a248b5da2602c65d4148cb90d"
+    },
+    {
+      "path": "chapitre3/docpdf/correction2.pdf",
+      "bytes": 164368,
+      "sha256": "a2076a8a3905e38477469540dc4e6b2eccba202fdcaa3c161dd9074b4b366580"
+    },
+    {
+      "path": "chapitre3/docpdf/correction3.pdf",
+      "bytes": 273914,
+      "sha256": "3f817107ee61307249cdf5bc62676675e0d1ea16992ca2cf777c75888536a98a"
+    },
+    {
+      "path": "chapitre3/docpdf/correction4.pdf",
+      "bytes": 266319,
+      "sha256": "b9eb7b850fb3595f312156f1116973be41748c5fcaa3f8471f55dec1f2d8dcbd"
+    },
+    {
+      "path": "chapitre3/docpdf/exceptions.pdf",
+      "bytes": 197479,
+      "sha256": "8892396ba8751d511e7e5cb5a023e01bd5f244cb6c06b9fee69236aeb43381d7"
+    },
+    {
+      "path": "chapitre3/docpdf/fonctions.pdf",
+      "bytes": 291908,
+      "sha256": "0a0ef0b2fd23bc4b17eaed0e33676097dc6eb139d0190122bfe88b0223964409"
+    },
+    {
+      "path": "chapitre3/docpdf/instruction.pdf",
+      "bytes": 286328,
+      "sha256": "a355937ee4909257185ccd16c7354981e766f60b655fb8cba38c0c85c3160c05"
+    },
+    {
+      "path": "chapitre3/docpdf/introduction.pdf",
+      "bytes": 204109,
+      "sha256": "6afec73916b0bf20baddf2fdf648350f8ece14453366c7513e1989acf0e4f7df"
+    },
+    {
+      "path": "chapitre3/docpdf/serie1.pdf",
+      "bytes": 150958,
+      "sha256": "c1e00889ef987299d71e9e22b05ce77c0d27250aca6ec4ced270bdbe0f8e3924"
+    },
+    {
+      "path": "chapitre3/docpdf/serie2.pdf",
+      "bytes": 116052,
+      "sha256": "dec7f2cf2105b261265113ead14c27ab5d99885d2c0f9d3867a1f5777b4bb374"
+    },
+    {
+      "path": "chapitre3/docpdf/serie3.pdf",
+      "bytes": 220926,
+      "sha256": "3c10e69240e0d3c4c7696a4c1483a3fdb101a9eaeba5e93675f43c8e80e46fd3"
+    },
+    {
+      "path": "chapitre3/docpdf/serie4.pdf",
+      "bytes": 200348,
+      "sha256": "f5cd37fb5776e16540c71c1d6abdc4bb02d9c4e6930e47e69d241603d25055e2"
+    },
+    {
+      "path": "chapitre3/docpdf/structures.pdf",
+      "bytes": 256452,
+      "sha256": "c161eff8c2d214ca5318a7c06170d09b9f57ba0c6702ef235002e1379816bd54"
+    },
+    {
+      "path": "chapitre3/docpdf/variables.pdf",
+      "bytes": 193053,
+      "sha256": "1a411c08f948036d67778b25b1113f303ced20067db788461d246aefef317a5e"
+    },
+    {
+      "path": "chapitre3/evaluations.html",
+      "bytes": 2803,
+      "sha256": "9bedb9baa6dd7fc08833a8e93ab52e922a5fbf94eb533c3e90bb84de8257fc32"
+    },
+    {
+      "path": "chapitre3/exceptions.html",
+      "bytes": 13132,
+      "sha256": "4db6b6f4eb8f6bef4695b1ad879054469e4da0b73887c00e9e1caffaa6549d66"
+    },
+    {
+      "path": "chapitre3/fonctions.html",
+      "bytes": 15394,
+      "sha256": "cb332136ee6389f91b4a232fd9fa2d63424a55e79dccd995e8c6313fea034113"
+    },
+    {
+      "path": "chapitre3/image/TEL+.png",
+      "bytes": 4513,
+      "sha256": "347986df2d72aa32d6944b07a33bd60fa17303309ab3f7861c71f5d1ef308702"
+    },
+    {
+      "path": "chapitre3/image/eval+.png",
+      "bytes": 3364,
+      "sha256": "6b582436d7176868ec284a00457be82bc4e6e8c6b82d1367338f6455223c278f"
+    },
+    {
+      "path": "chapitre3/image/ex8.png",
+      "bytes": 5034,
+      "sha256": "69ff095b461b3811e72ea2c5c35c73945ab77b7fe7ac84d44f84cafcfd833ce0"
+    },
+    {
+      "path": "chapitre3/instruction.html",
+      "bytes": 20554,
+      "sha256": "89b4ef8100fc5a0785793c923bfb051cef08b22043ccd4946ff32cc5682cf4d2"
+    },
+    {
+      "path": "chapitre3/introduction.html",
+      "bytes": 5231,
+      "sha256": "f04ef44086015e11ac3a358f5da21612bbd6333ae1554a65b8bf1b82269c4f27"
+    },
+    {
+      "path": "chapitre3/serie1.html",
+      "bytes": 6375,
+      "sha256": "b6389d77c5b5e7a707c1f3989f0a951d5ca0fc65836b7ca82903263dea08ab9c"
+    },
+    {
+      "path": "chapitre3/serie2.html",
+      "bytes": 5603,
+      "sha256": "3b17e15d2ce91adef8ab9807ba77d738d8b68642a7ceb0f0d0f932bc4c093452"
+    },
+    {
+      "path": "chapitre3/serie3.html",
+      "bytes": 6407,
+      "sha256": "b20b6a2cd414fc9519546e74ea05d8948c2b41c4ebbe6a2a8c76a5df2487adfb"
+    },
+    {
+      "path": "chapitre3/serie4.html",
+      "bytes": 6580,
+      "sha256": "ede481a4d9ac3a69d612ff857f4adac3e060c34c116f9788e24dd43f49fa8792"
+    },
+    {
+      "path": "chapitre3/structures.html",
+      "bytes": 19070,
+      "sha256": "58152d983f4af50bb2288085d02a42cd45ea1da2a978ea0958579f3204238696"
+    },
+    {
+      "path": "chapitre3/variables.html",
+      "bytes": 7444,
+      "sha256": "8fe5c98136681721dd0f99e072097032fe50fc00806d9b375535d5ce4191320a"
+    },
+    {
+      "path": "chapitre4/docpdf/fenetre.pdf",
+      "bytes": 292048,
+      "sha256": "41b37b8f3dc8fbbde2c48395434ee35ed1859b72fe2ac34c5c1b7b6c983d3aa9"
+    },
+    {
+      "path": "chapitre4/docpdf/lesformes.pdf",
+      "bytes": 465885,
+      "sha256": "9d53451457cce75132ccabfa77e5a7f34411839aa30815fdee9f49563a6bbeb4"
+    },
+    {
+      "path": "chapitre4/docpdf/mise_en_forme.pdf",
+      "bytes": 232268,
+      "sha256": "4c3a9fc22732e9811ba86d51a7bff50e0f5da38e148a1b8c85263a3dfb0b499c"
+    },
+    {
+      "path": "chapitre4/docpdf/mise_en_page.pdf",
+      "bytes": 332562,
+      "sha256": "e0090d375cd89000502a07ccbb322f854efaa1b14a2a8859d5bc4baf9be54043"
+    },
+    {
+      "path": "chapitre4/docpdf/mise_en_page2.pdf",
+      "bytes": 353653,
+      "sha256": "c38521c465f333c3d3726fc5758875fa810f61fdc38fbedf064233d21d8e5312"
+    },
+    {
+      "path": "chapitre4/docpdf/tableau.pdf",
+      "bytes": 499647,
+      "sha256": "5e558088992ce2db4582bbdbdaa25fb830988b3e92a04edf53f5d54682a16b28"
+    },
+    {
+      "path": "chapitre4/docpdf/tabledesmatieres.pdf",
+      "bytes": 220958,
+      "sha256": "c2225e6cadc59b1d0180f037a023853c6fed250d2eb9611e94e7ce4fb1aaba66"
+    },
+    {
+      "path": "chapitre4/evaluations.html",
+      "bytes": 6962,
+      "sha256": "4533191484939bc29dfaa6c67a90f8dcf1f126c0d5cfaf83de865b3304dffd38"
+    },
+    {
+      "path": "chapitre4/fenetre.html",
+      "bytes": 7979,
+      "sha256": "6037b92e1db711f3950ef5b2ee0e493fab8871c1174359adddf69d5395b121a4"
+    },
+    {
+      "path": "chapitre4/image/TEL+.png",
+      "bytes": 4513,
+      "sha256": "347986df2d72aa32d6944b07a33bd60fa17303309ab3f7861c71f5d1ef308702"
+    },
+    {
+      "path": "chapitre4/image/actualiser.png",
+      "bytes": 9067,
+      "sha256": "32ec8624429d7aac5366baf91245ea88ad37f400de7bfea8cc49f9f466390d55"
+    },
+    {
+      "path": "chapitre4/image/annuler.png",
+      "bytes": 403,
+      "sha256": "25b8ea86becf2df89ff1bc27e992aedd6421adbbc7741d2e091469f435dd59f8"
+    },
+    {
+      "path": "chapitre4/image/bordure.png",
+      "bytes": 33305,
+      "sha256": "94e6744f1d69440cae4b13361d951ade2b390816ff17f77275e4049e8ffd9a01"
+    },
+    {
+      "path": "chapitre4/image/bordure2.png",
+      "bytes": 61013,
+      "sha256": "a57a815d99135be848e17736d6e7204117005a280b28c12a070eb4ec65868544"
+    },
+    {
+      "path": "chapitre4/image/colonne.png",
+      "bytes": 28886,
+      "sha256": "80f6758812264fd3bc853817fd2cf245b00638a2908403831c3ca552ccdd41af"
+    },
+    {
+      "path": "chapitre4/image/effet.png",
+      "bytes": 80836,
+      "sha256": "f28c3422a197af3be4aeb75e787fe8fd61b77cc6e7a14a71c5473ed7d1696a69"
+    },
+    {
+      "path": "chapitre4/image/enregistrer.png",
+      "bytes": 4923,
+      "sha256": "1d2300b704ddf2a7a94323853804d8ca41932c770a58dfb2ed7bdbbbeed77125"
+    },
+    {
+      "path": "chapitre4/image/entete.png",
+      "bytes": 24405,
+      "sha256": "6b830354ed4843873694bc19425fbdffb04e5e1fc355975fb0cdb7c534c9c0e5"
+    },
+    {
+      "path": "chapitre4/image/equation.png",
+      "bytes": 93798,
+      "sha256": "110a293f8e245a097ab468a2d5886705c6f92cfb2285dc38e508b833b3a59407"
+    },
+    {
+      "path": "chapitre4/image/equation1.png",
+      "bytes": 2103,
+      "sha256": "132bed9c39e7d1265c4dc2644278e421e17791274874ba226b3dce9d5f7d6bcb"
+    },
+    {
+      "path": "chapitre4/image/eval+.png",
+      "bytes": 3364,
+      "sha256": "6b582436d7176868ec284a00457be82bc4e6e8c6b82d1367338f6455223c278f"
+    },
+    {
+      "path": "chapitre4/image/fenetre.png",
+      "bytes": 113930,
+      "sha256": "2ddb0d17d899eab25123d090b81dd3ec6bf8aeebce0fcebd8f15962a0ee3fb44"
+    },
+    {
+      "path": "chapitre4/image/filigrane.png",
+      "bytes": 4015,
+      "sha256": "5951a394f95014a5e89209a161f1733494faa3fe96ac39c29edce9cd0b784e96"
+    },
+    {
+      "path": "chapitre4/image/forme.png",
+      "bytes": 76731,
+      "sha256": "6a1441bf22a227738e70891f39a63da9c4aec37a55f1c5bee9781a5de7da49a2"
+    },
+    {
+      "path": "chapitre4/image/fusionner.png",
+      "bytes": 33841,
+      "sha256": "48a6f8f92c4e5372d26fefe93274e2ef22dabd47e4b873a18a1dc791358d0378"
+    },
+    {
+      "path": "chapitre4/image/insercolonne.png",
+      "bytes": 35315,
+      "sha256": "69bd4f86a95c73d1fc6f4fa81cfb01c17b7f68d168cf45d0f5d679541146ab54"
+    },
+    {
+      "path": "chapitre4/image/inserer_tableau.png",
+      "bytes": 105752,
+      "sha256": "6e8e2e76b25d1e84f64b2e1479315be2785d50aca2f7fb4cf8060d7b599b072d"
+    },
+    {
+      "path": "chapitre4/image/lanceur.png",
+      "bytes": 9702,
+      "sha256": "8b6f375becf8e8b80794e2dcffaf49c5dfbc66d477dc48d6b5c233f7dbb102d0"
+    },
+    {
+      "path": "chapitre4/image/lettrine.png",
+      "bytes": 53817,
+      "sha256": "2bbd8c19e57908f78a52320e77ee721dea7a8a452048b6dbde9fc58a2b6521fe"
+    },
+    {
+      "path": "chapitre4/image/miseenforme.png",
+      "bytes": 23890,
+      "sha256": "86b264a091fe244cf15cf1179c611e0eda635253af1ad5c7201a8bb3e4f2c91d"
+    },
+    {
+      "path": "chapitre4/image/numero.png",
+      "bytes": 389,
+      "sha256": "de6f5720dfc082314bb92247f5497226e457e02e81f5c42edd84fe4ee98a0349"
+    },
+    {
+      "path": "chapitre4/image/numerodepage.png",
+      "bytes": 23496,
+      "sha256": "6f7ef84471ae69d10a07720462b68c21d1ef44f27c6acbeea2722d6001204329"
+    },
+    {
+      "path": "chapitre4/image/orientation.png",
+      "bytes": 41831,
+      "sha256": "9dd7c7206227349b95990158aea9c79c34f405d48bd07d06200e6f7d44d961f2"
+    },
+    {
+      "path": "chapitre4/image/orienter.png",
+      "bytes": 36304,
+      "sha256": "d9eecc148cb6909114545cb18a70f523debfce8d1d50c7ba36c27eb6d751416a"
+    },
+    {
+      "path": "chapitre4/image/passage.png",
+      "bytes": 72476,
+      "sha256": "2ced87abe945c61322f855ac8edfc1ef5a17d25c34e6292cdffba5bc139098e9"
+    },
+    {
+      "path": "chapitre4/image/puce.png",
+      "bytes": 334,
+      "sha256": "ed1f4f1ab916e6c839143b0f1748b7f2e8cae818131f3d12094e4efb7faba4e0"
+    },
+    {
+      "path": "chapitre4/image/pucesetnumero.png",
+      "bytes": 31133,
+      "sha256": "f1e956504f117fd18bae69cef76c0563ae930388e8e48cfca4e985904df8fd56"
+    },
+    {
+      "path": "chapitre4/image/redimensionner.png",
+      "bytes": 35546,
+      "sha256": "f74987d05de37897bf1629b2f2177aff3b89954c8091555370c9ed53377a348b"
+    },
+    {
+      "path": "chapitre4/image/redimensionner_image.png",
+      "bytes": 54207,
+      "sha256": "7a6a117988dcb7e8ad726c3cb202c0cf46cea3ffd9bac20a4553156cd231ca73"
+    },
+    {
+      "path": "chapitre4/image/repeter.png",
+      "bytes": 368,
+      "sha256": "8a837338dd51ac1fd02d8b604b8bbc7106f74627db7e6d38ffb2ce2bb0241011"
+    },
+    {
+      "path": "chapitre4/image/smarart.png",
+      "bytes": 77477,
+      "sha256": "c713e2363ff11b2692fadcd79c4cf26d845f236149974a104964ca28778bb516"
+    },
+    {
+      "path": "chapitre4/image/style.png",
+      "bytes": 4963,
+      "sha256": "db898c1440d2e7c028f902169235475cae0da4734d928c7bb19c92fbe46b631a"
+    },
+    {
+      "path": "chapitre4/image/supprimercolonne.png",
+      "bytes": 36291,
+      "sha256": "a9770103491b3297806886382bc7d7e0c816c999d3d86d6fdd5038f566ba253e"
+    },
+    {
+      "path": "chapitre4/image/symbole.png",
+      "bytes": 87517,
+      "sha256": "49e0d6b2730e4d7d242a7cae655f4857ed0b4b2ab99bf9b6cde9bf9c1a689e2c"
+    },
+    {
+      "path": "chapitre4/image/tablematiere.png",
+      "bytes": 76271,
+      "sha256": "ce5e4af4ae9a4e1c11b1030d0e0eebd13fde658bce86c1b15677cd23b95cfc25"
+    },
+    {
+      "path": "chapitre4/les formes.html",
+      "bytes": 12558,
+      "sha256": "7c3775d22a1c57ca786ee291449f4b175bb1229e05b248b04777b351859b1d0f"
+    },
+    {
+      "path": "chapitre4/mise_en_forme.html",
+      "bytes": 6570,
+      "sha256": "74e12ac730625a1055c56b3382d600b0418dd5ee0b0e391cf85164fe36a9f785"
+    },
+    {
+      "path": "chapitre4/mise_en_page.html",
+      "bytes": 8528,
+      "sha256": "5ea89f02aa4c9c93bdea1cfaa195a5a88902414932bd3b45e95dfd2173565053"
+    },
+    {
+      "path": "chapitre4/mise_en_page2.html",
+      "bytes": 10851,
+      "sha256": "7a17ebad187ae08745ac92502427c72e52e4eb481ce66a93664c8da770d96d68"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/fnt0.woff",
+      "bytes": 11000,
+      "sha256": "b5198a97616b7501a0b09611cca41f17ed3d5acffc3f5b0f4eaf9b14dd09cf87"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/fnt1.woff",
+      "bytes": 10712,
+      "sha256": "a1a7e1cfb0954a2867a6ac45e19c94966f8f6da9ac76c04daf9e0c9e05451039"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "8ad874d98039e97a4bea3bc7497640160b45a8a5cc921cf38f877da1bee340e3"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "52a5d37dc7dd78ff8453d5131a424d2788b3410a7e7b0a5ab1c1d8997e717e8c"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/fnt4.woff",
+      "bytes": 79160,
+      "sha256": "c756ffcf0c80db0fac435a0406523f9d454e57211ac2e16a68d59063f576af45"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/fnt5.woff",
+      "bytes": 85900,
+      "sha256": "7b3b974ea92ba7f246414608e7942d99914cf6ce9652bbc2fa913ab0339cba2c"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/fonts/fnt0.woff",
+      "bytes": 13512,
+      "sha256": "881d4679b0bf5e8da11409806fae9016b5fd5f2091f50d899fb5e81d1e5132e3"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9980,
+      "sha256": "cdfc99f0414e9f76fab9185109b5ad8824f6f90d2d6d2ce9a36787f18b741f83"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9636,
+      "sha256": "6ac1e452cfcf69de6bd1dc68d77e563dad53082803ece7ab5530adea6c998964"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7272,
+      "sha256": "bfb99879565d663325ab470d796988cad23c0aa84fcc365c5aebdd91017069e1"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-0cc5-7aac-99d4-e09e.png",
+      "bytes": 511,
+      "sha256": "0898bf57ede763ac2457db14ac4cf405cc7958d246ef97260ccdd286805ecce6"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-1142-39ad-0352-6c77.jpg",
+      "bytes": 1162,
+      "sha256": "ea1cecbea4184f12ca051638017f5fd26044f7537d0f407f510208ffc8b7b393"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+      "bytes": 5832,
+      "sha256": "8658f739c8fb101ff28fc30bb7e743dda0436cc0bb8d587091c3198d5f541778"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-342f-a72a-ab2e-b6bd.png",
+      "bytes": 269,
+      "sha256": "f84e6fc43517fe36f1e0ed705e0fa3d6c4af268ee61d52cc3bd9382a852d682a"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-8899-513b-1408-aeff.jpg",
+      "bytes": 1027,
+      "sha256": "e77b3ade20f6d6766d7d0e8df238754cd676471ac1c3e2be358d132d34b14427"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-8eea-940d-ae4f-0bae.png",
+      "bytes": 648,
+      "sha256": "29b483521e5c0beea58f6dbe706fc6264fe7ef3fcbc220dbe752f5b02e8ed5c2"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-f16b-bbf4-2ad8-b62f.jpg",
+      "bytes": 1102,
+      "sha256": "802ffb44fdbbdcd71a5032228cfe609b2a3715528479896746248b8223abccef"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quiz1.js",
+      "bytes": 117298,
+      "sha256": "b259c0465e0304951e2e6ac5a4136671bfad6ad5a6e5cd4e3fbfdbd8a0b28102"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre4/qcm/1/data/thmb1.png",
+      "bytes": 3052,
+      "sha256": "63b9909d3a2433d5b82b0fa43f7765803ba515d29484d5c29bbb904d2d403a7f"
+    },
+    {
+      "path": "chapitre4/qcm/1/qcm1.html",
+      "bytes": 12228,
+      "sha256": "dc0e99d4daf207b282bf34c93435a45d0f9351f80dbba038b98ff0a7d4d8d872"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/fnt0.woff",
+      "bytes": 11000,
+      "sha256": "48078a4827403f330503016c1989ee7407001db7b9e4c0cae2e6227837266393"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/fnt1.woff",
+      "bytes": 10708,
+      "sha256": "61d6a9c405025ff04c07320e1cbfcba0a083fd59690452bb9e2db067366d9027"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "4fd608a42abd4401850ea429763b1175ea9822a66ad63bc78a1cd2829abe38c9"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "642d130b8ee2882d1ca172d70d2d9d83c9164e7e14c133985864cffc31317dd7"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "77a0f53aa596105e122294d07c1845f9e506e35dd2e1e4f40633d699152dee35"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/fnt5.woff",
+      "bytes": 85896,
+      "sha256": "b6322b771a19ef7f07c82abed9bb28c9b1fc951d8ab616cdee1d934c779b6a5a"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/fonts/fnt0.woff",
+      "bytes": 13528,
+      "sha256": "2cf5ff5e22e032f895ef955897e0c7466feaf6d05bf1aa95894854fa30037a6b"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9944,
+      "sha256": "d296b39972a65b92cefd9767ee82adbaac2a1ec7b98bfc3bb3131af40f18fa71"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9228,
+      "sha256": "008035c8a30911ee554f5fcc02d0ac09258647ea7275f3bdf52afdf61811fb06"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7348,
+      "sha256": "7b41b6cbff98b019e065a56c7651bd384d08b73d4f27dafbac7964bf4db264f9"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-05a9-69a1-2d6c-482a.png",
+      "bytes": 611,
+      "sha256": "ee6b5899c655b660c2c2e524b318e33cea38e262d0a523e21aa7f902a8680418"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-0601-1f71-05aa-f3fd.jpg",
+      "bytes": 1421,
+      "sha256": "c57dbbc006dab96760adae9e9bbf66b3a688ac2ad45f706e73d76a839cc5be7e"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+      "bytes": 5832,
+      "sha256": "8658f739c8fb101ff28fc30bb7e743dda0436cc0bb8d587091c3198d5f541778"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-3bab-dac3-4a8c-1e1d.png",
+      "bytes": 652,
+      "sha256": "7718a7f6326233cddfab8dcfaf6a203edf2edd09a267fe5510590d1e52dd5b80"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-3c2e-11ef-c979-4cb6.jpg",
+      "bytes": 11705,
+      "sha256": "d760e4636c83e0b87c607547ffd550711ec34a7980fd41339e0233e39918ac4b"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-9f5f-9a2f-fc6b-3820.jpg",
+      "bytes": 6734,
+      "sha256": "203b090ea281110ef495560aa304f83033c9c884ccf970edd0045d640c6f64f9"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-ae9a-a837-89b2-3a2a.jpg",
+      "bytes": 3736,
+      "sha256": "4461f7a683e254d5be98bd3bb9c1e4d4b23234c0d3aadd526ffa2ea741bb46cb"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-c2e3-5305-a7c6-614d.png",
+      "bytes": 246,
+      "sha256": "0e5eba8daf08b05a2bc077d07a398a1473aa868fdbf2cafdcff9fa2228645e22"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-c46a-59e2-1c6f-7957.png",
+      "bytes": 2141,
+      "sha256": "e8c749893bdf997c4a4f007925d9a567cd2462cf56666a51e02764a58d26899d"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-d70c-9af6-4c58-388e.jpg",
+      "bytes": 1106,
+      "sha256": "10c04de9b1d919303a7c62610a7ceb13ff0a980f01897b66e22a83e114410db3"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-daca-66bc-3bb7-67bf.jpg",
+      "bytes": 1189,
+      "sha256": "b030bc20331b11e1eb6583c70480e01945b10ea40d21753aff9b678226ca6077"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quiz1.js",
+      "bytes": 127558,
+      "sha256": "c99ba95aee8fa36ee94526229c0a72c7504f8ecef5a27beab659984129e31436"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre4/qcm/2/data/thmb1.png",
+      "bytes": 3047,
+      "sha256": "19a3d7dd3770da6be6b5a334f847a24fdb351e0390ff513598454e536d080242"
+    },
+    {
+      "path": "chapitre4/qcm/2/qcm2.html",
+      "bytes": 12228,
+      "sha256": "0565ecade52e422abb60a4db1ad2c11cd60cfd8ee5f5ab0f20f0297c7256ecd5"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/fnt0.woff",
+      "bytes": 11108,
+      "sha256": "91389ab4d06dc8e055127e228298becb0fe7c3ddd7765c9168e53d1d3ff18a22"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/fnt1.woff",
+      "bytes": 10712,
+      "sha256": "1661206d59b3941b9498695a2f62cf0d485a9d3743b93ca33dbf076107305b10"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "e1d44f3ba67135b60c8839b0599ff7cce0f35ca2fde62952fd5b56e23763da6b"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "eae8db2724073fcdfec15fd1396eda00cb33e97f62f2762fe60b2c165c2d2741"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/fnt4.woff",
+      "bytes": 79160,
+      "sha256": "c756ffcf0c80db0fac435a0406523f9d454e57211ac2e16a68d59063f576af45"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/fnt5.woff",
+      "bytes": 85896,
+      "sha256": "e64bca702b4e92b65b234bef652a9296207c1e6523b958728bb7a91b2c38a339"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/fonts/fnt0.woff",
+      "bytes": 14076,
+      "sha256": "af331fd626e59cfef3575a8806576a7072ad22e99d95e69c72d1681a032ac3ed"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9860,
+      "sha256": "55808651120dfea5b49d6ae7f3092b410b00e82debcceb6c023c35fad30cfff3"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9620,
+      "sha256": "ade733c6fee4d1a203053cea7c60512e456b300748f1baaf0c03d578565751b1"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7348,
+      "sha256": "b04c791c42bf3c5e85b22697898314b4984cf2ca125ad6d2a7a291a3f19a4854"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-04ef-0b1e-4ca2-a4af.jpg",
+      "bytes": 86643,
+      "sha256": "0599907d8f655993f4cc11b46d20c741f1740992adddb3340cc18e6d94cf0dd5"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-15cd-216a-9d20-f5e5.jpg",
+      "bytes": 15582,
+      "sha256": "8e18ddb3b6d617c7d819f99207b251e4acfe82582aada78ea74fa132b629e9da"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+      "bytes": 5832,
+      "sha256": "8658f739c8fb101ff28fc30bb7e743dda0436cc0bb8d587091c3198d5f541778"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-2935-dea4-e167-a760.jpg",
+      "bytes": 2630,
+      "sha256": "7d995fe5b25cd4728b96aff421ae4518238c1a12b2c40bf626186a469891c7bb"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-3c90-8b57-d10f-2e9f.png",
+      "bytes": 9168,
+      "sha256": "f7c3e864ef7dcc1acc31c4c04a03eb67d676b11153e30a0ffa519abf8bc003e2"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-42b2-431e-d87f-6b5a.jpg",
+      "bytes": 26744,
+      "sha256": "eaa2ee895be0498a34a4164931c0259386eed9097ecf4b42caad9dfe3ae4dec9"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-4d3b-68bc-1ba4-b0bf.png",
+      "bytes": 378,
+      "sha256": "ca865e853deccc67bfc30584d36c41355353ac1ea100682bd17e56cc68ab315e"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-502e-b672-459f-b528.png",
+      "bytes": 873,
+      "sha256": "e7b76aff0099655ea00b2e54337018e6f5d4fac5d23249eb1484938b50c2f1b5"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-56cf-bc55-7057-6bc9.jpg",
+      "bytes": 1140,
+      "sha256": "0f742bb440d0cbeb20873655e5dcc2c3027f87c41aedf84427ea6d06f5a3d4bf"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-7b7e-1e44-3a41-6a84.png",
+      "bytes": 21613,
+      "sha256": "f88e04491e8b5fe62d78a1a77191a51655a9726fa7d7588e5a13aa48aceff32c"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-9d63-995b-c922-a52b.png",
+      "bytes": 6731,
+      "sha256": "9b22a4e9060c51ef0122914065fc9cdadd8e7887b02eaaa8018ba5773db7df43"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-b7ac-fbd0-c266-31ff.png",
+      "bytes": 433,
+      "sha256": "5d137a3ef03d651a4281d2751c93206b6a89ca77e47e7155d5ce6a37435d7f23"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-ba08-e7ca-cfb7-3635.png",
+      "bytes": 11228,
+      "sha256": "4b3c10dedef569ff467130b210468023ca732350b5d424f4f54d455dc0d3d9ce"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-c847-b0da-5f18-8a2a.png",
+      "bytes": 6684,
+      "sha256": "e90017b06ee77e04495a760893f3b2601706d714080685cd45c0449a99208ea8"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quiz1.js",
+      "bytes": 125790,
+      "sha256": "3cf83afff4022fa35b2e7a293bf8c4ef9e201b5cc3e75120406aabd1975a399b"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre4/qcm/3/data/thmb1.png",
+      "bytes": 3176,
+      "sha256": "8577da780384da9b5a4cd5efb1f8c30b9c94fd9087467871c08eb9514dbb1aef"
+    },
+    {
+      "path": "chapitre4/qcm/3/qcm3.html",
+      "bytes": 12226,
+      "sha256": "0282f7c1556c8c42fdd078ab8eb079ba65cb1978d3b48bf729d29f630bb80e5c"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/fnt0.woff",
+      "bytes": 11000,
+      "sha256": "c9c751a37e1c54674338b51bcfab1fe4df06c769df2945f2bb859df108472f2e"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/fnt1.woff",
+      "bytes": 10708,
+      "sha256": "fa5c9c21591bb3761dfcab09d19ca67f32daeafe24e3116e0b875a5a6bf1cf6b"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "50d286e1396a3b7f8b1e4d6a6c3b13387b6efadd46e03b896641be9b7471b2e9"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "0ce951287b111023751fca84d869e37b1ae1e9864ca98358389aeb2b34292218"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "77a0f53aa596105e122294d07c1845f9e506e35dd2e1e4f40633d699152dee35"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/fnt5.woff",
+      "bytes": 85900,
+      "sha256": "3419ef0727421312612b67532448231b7fecc90c35a9fa29e5130743e39d3d50"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/fonts/fnt0.woff",
+      "bytes": 14660,
+      "sha256": "f243482f2d3c87478cb7808d9718e3d9e2aaf131ef69bbdc02bbb211455f831a"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8436,
+      "sha256": "582b87f44a8c35a6e09f56e7eacb5677dcc0fa88801483fd323f01dc60063956"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9384,
+      "sha256": "b078cfaac204cc93047cd56d861fe975fc27d4102ece9d98f2385df78ff12431"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7272,
+      "sha256": "7ae69d219c43faf6007b05b06ac91ac10a0c5df373aaee844ff6ad9808ac375d"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+      "bytes": 5832,
+      "sha256": "8658f739c8fb101ff28fc30bb7e743dda0436cc0bb8d587091c3198d5f541778"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-4b67-4c51-444a-51b1.jpg",
+      "bytes": 1393,
+      "sha256": "b7a9f93f14ae04bea2a06264d17b9f102fb7cb5880863b5b32cb035e889f5788"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-4e08-740d-a5e3-9382.jpg",
+      "bytes": 4156,
+      "sha256": "8743ea1802d010e9975ca18175158d05542f92f17ac71c78d822371850bf0930"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-858b-6efb-9be8-728d.jpg",
+      "bytes": 1066,
+      "sha256": "9c3f4fae0e9cae04d98931570a21aa7dc73afe67da65eb92c74691602cd9b4b1"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-9fba-4e97-eae1-0de1.png",
+      "bytes": 252,
+      "sha256": "b67189e2760d159303ddbd59a16d50327fe112e0792ba263c9008e358d244db6"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-b2ee-9bd3-f67d-8835.png",
+      "bytes": 272,
+      "sha256": "b9891d7aa2acdb716b20e91a3e033d70ce5bfa0cfc401a6d351fb4b98a62d592"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-b4c0-b27d-4586-bd6b.jpg",
+      "bytes": 1550,
+      "sha256": "9f1471a01e6627f7d7d245d9cb2edc2e71160d8a06ee591a249f3e6037a0cc25"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-e3c5-291b-a285-a31d.jpg",
+      "bytes": 1017,
+      "sha256": "26a8b7c84833ca1a6874619f8417276cd87eaf537aa7f826be7ae37b3936df24"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-f5be-1ea6-2c9d-58b4.jpg",
+      "bytes": 9405,
+      "sha256": "d280d7cfd01162eb3bf1d78f3248b104bec75461eff7be5ba30cb6a473c8e970"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quiz1.js",
+      "bytes": 116058,
+      "sha256": "6e09b98680d65d5e631c04a22a084e2b5c7ad907a628a07b6180f2419485859f"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre4/qcm/4/data/thmb1.png",
+      "bytes": 3271,
+      "sha256": "c2ab416e9a485482f9a83be0301ffb5298d84f148c26b9e0b4ad4681aa1a25c3"
+    },
+    {
+      "path": "chapitre4/qcm/4/qcm4.html",
+      "bytes": 12226,
+      "sha256": "27b01e65795bf64d5838cfe00c4341c765b2fa49f88d93bb67ab9c8a8c9c888e"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/fnt0.woff",
+      "bytes": 11032,
+      "sha256": "4a8110305c91ef1567ae5862b543300d52acbfe1e2c810e2755fbd23de1a2847"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/fnt1.woff",
+      "bytes": 10712,
+      "sha256": "127d789d732a33e221fbc11203e528b356ded3b1f8a1355b4913f5bd9be55695"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "29f8c0defcc68c8f821d95f4dadf04d112579a69c675ab2325f5766d2f753ab3"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "1f0cb09dcec2987afff1abc8fe56107ea97d99a9dfcb224195ebab5db77b4fe8"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/fnt4.woff",
+      "bytes": 79160,
+      "sha256": "4c3aba00e40d9c68c74c1babcbeec4ac2bf788921ed25ed0c6c97af31ca7ed00"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/fnt5.woff",
+      "bytes": 85900,
+      "sha256": "6913782b46f9719126371eb12fa368a8aa71d08e7ac3dfba571c450e6a4bc87f"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/fonts/fnt0.woff",
+      "bytes": 13660,
+      "sha256": "33ba3d4355206e48499582ffe4de97474bb032bd15d8bdb8311e62ee0cd7deb1"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8512,
+      "sha256": "55b42565747e3a43e65d72e547d8204b3bb6e503e8283d7a50341360f66893a0"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9500,
+      "sha256": "5c2628a50b2c21f83b1b2ca2d62bb93068b24adbae2bd7c07299afdf8f5fc262"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/fonts/fnt3.woff",
+      "bytes": 7348,
+      "sha256": "e44af78d6a685a4f5609f653329c71136e878316c2cf5fa839660b2829269135"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+      "bytes": 5832,
+      "sha256": "8658f739c8fb101ff28fc30bb7e743dda0436cc0bb8d587091c3198d5f541778"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/images/img-5bea-d963-b494-0836.png",
+      "bytes": 707,
+      "sha256": "3b5ed09c62b72707f45cda66563da1c9fab739b1c636491398f4a60fdf4d138c"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/images/img-8f5c-3d63-b029-e222.jpg",
+      "bytes": 4548,
+      "sha256": "a9ce12d44b3d837019ee83b76d3b7e7e88c721de362ee3f537a5e30a3dcfcdd1"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/images/img-cbd6-01c4-9a90-3433.png",
+      "bytes": 9321,
+      "sha256": "8afeb475dd4cb26f8d3412dff510a1ce6dbc41bc109b622f7137a3988a9cf4f8"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quiz1.js",
+      "bytes": 123490,
+      "sha256": "fbb93d8a9d5cda186735a44fd025dc889d3feac98ef312edc00e957d6c68469b"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre4/qcm/5/data/thmb1.png",
+      "bytes": 3092,
+      "sha256": "8cb0ce5b9b604729be6b3e0d9b374fa4ca907d79447f93e348f14a3f6813a129"
+    },
+    {
+      "path": "chapitre4/qcm/5/qcm5.html",
+      "bytes": 12230,
+      "sha256": "3a0782d8e6ae1b1ad5d0a65d8ea13aefc4c9cb2736746a2466d26a2ddd039c98"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/browsersupport.js",
+      "bytes": 11072,
+      "sha256": "ce5565bbbdccbc6360a3e988c492200a872b520e1408e5d62accbf11eee60ec9"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/fnt0.woff",
+      "bytes": 11128,
+      "sha256": "f8eccdd5e34d80e763468b83eba9b39a48dbcc0151afeb60417bef4abb43a2f8"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/fnt1.woff",
+      "bytes": 10708,
+      "sha256": "f965e8ca88e381941c766c8fe93034138836ee17742471e70233109c323387b3"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/fnt2.woff",
+      "bytes": 5948,
+      "sha256": "ee8abe158fb14484a78248e08ef45d48a7a7c0c4bb9a16bfadc1dcb53f0bd074"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/fnt3.woff",
+      "bytes": 5564,
+      "sha256": "9e0ef6a93de542dd111a176e169dec48366f115f2737c84a83b8d700cb3df410"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/fnt4.woff",
+      "bytes": 79156,
+      "sha256": "c01225e4cf09237565c087df44a53eceec5577698ddc9c8585d07aed0c69022a"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/fnt5.woff",
+      "bytes": 85892,
+      "sha256": "6624de5d89b5b92958ab07361082720f176fd33d4c007641ced46f083911e500"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/player.js",
+      "bytes": 1549973,
+      "sha256": "75120f671f9c7ad274c2e9b893908b193679334d47dfacf00586937d1c06f894"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/fonts/fnt0.woff",
+      "bytes": 14020,
+      "sha256": "4853a6a2cd1f4072cba0fe69a6f304004e469c6503b86092de040286ea783eaf"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/fonts/fnt1.woff",
+      "bytes": 9408,
+      "sha256": "705cd0255032f2b8bd89939ad5c04b7c6606ab8b7ab103455219688384f1e47a"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/fonts/fnt2.woff",
+      "bytes": 9412,
+      "sha256": "3ea6586bae187e84a0e8eb80995719e2f4b3b615a9a2eb29cab58beee654f9e8"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/fonts/fnt3.woff",
+      "bytes": 4912,
+      "sha256": "b22db1a3712d8afaf11dcc0bd7585828bd8009b6fb68ccb1ad471b1e14068446"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/fonts/fnt4.woff",
+      "bytes": 7348,
+      "sha256": "73bb9f9d921fa5ced8c3cc5f791b38792d83f7fd75a9184c6c8293405f13101e"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/images/img-1c51-4beb-b4b3-c790.jpg",
+      "bytes": 5832,
+      "sha256": "8658f739c8fb101ff28fc30bb7e743dda0436cc0bb8d587091c3198d5f541778"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/images/img-f9b3-8549-107e-8392.png",
+      "bytes": 40203,
+      "sha256": "f99db8a73ac28056e9eac2e46108ce2b5fe9fb40d2b9a6c113166f7c2fa462d8"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 179,
+      "sha256": "a424a5342f4948bd5ca56c4a7bf19b711fe44d0f8d7726979909bd51cf3e570e"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quiz1.js",
+      "bytes": 122538,
+      "sha256": "29d934dba38507a78dfa32db0f000071860216ef4e8aa151ad1f4f73896d4742"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/quizplayer.js",
+      "bytes": 1411677,
+      "sha256": "a5860f5991a1c98abaa6f347d7cfc837f13836f6f261306146b2dc7babd5032e"
+    },
+    {
+      "path": "chapitre4/qcm/6/data/thmb1.png",
+      "bytes": 3145,
+      "sha256": "c179bcc1c300bbd9035fb374a112d079e23fb1e2a3f16574f12c57503b3d3783"
+    },
+    {
+      "path": "chapitre4/qcm/6/qcm6.html",
+      "bytes": 12230,
+      "sha256": "1a0bc1b0ec9d9586c68318c6bde67f171eb49911ab21de45331f6c3ae353e56d"
+    },
+    {
+      "path": "chapitre4/table des matieres.html",
+      "bytes": 6561,
+      "sha256": "355d2866f31b02a4dacec64aea69db4bc1f5543583aca0edaf39e2fb38035a76"
+    },
+    {
+      "path": "chapitre4/tableau.html",
+      "bytes": 10250,
+      "sha256": "6374cb9f9e35c1af294655dae725b94ff9051f807f11c5621ad017bd90a20f30"
+    },
+    {
+      "path": "chapitre4/tp/Texte Microsoft Word.docx",
+      "bytes": 22851,
+      "sha256": "f3956b15da73cbccb2858ddf4929cd752616d3607cca501bde5ec258cefd0a51"
+    },
+    {
+      "path": "chapitre4/tp/Texte Microsoft Word.pdf",
+      "bytes": 38830,
+      "sha256": "7a5fd0ab6a487db3291da5c7e6d379bd708ca15e8daf17e664499d16ad095258"
+    },
+    {
+      "path": "chapitre4/tp/pdf2.png",
+      "bytes": 631,
+      "sha256": "df1a92afb53e23c22ec0f836bfea47a47e44b1a8bd949bbb696ec533ccd05d67"
+    },
+    {
+      "path": "chapitre4/tp/tp1 résultat.docx",
+      "bytes": 11246,
+      "sha256": "691950931e3772b51277042b4d0f90e96a06f76e88006966b509f910d83feb2d"
+    },
+    {
+      "path": "chapitre4/tp/tp1 résultat.pdf",
+      "bytes": 135851,
+      "sha256": "32185aaaa5d44c8dda9b1c90a908aea82e119fff1b7de4e1f4511b9412864185"
+    },
+    {
+      "path": "chapitre4/tp/tp1.docx",
+      "bytes": 30689,
+      "sha256": "984b72d2898eabc8ffab5101a7bc5e839821c9b20ab7a8147918aa16d5fd2850"
+    },
+    {
+      "path": "chapitre4/tp/tp1.pdf",
+      "bytes": 252730,
+      "sha256": "497bd2019486e3addce4125bcb4c821ddab29c5ce7a5aafebeca7c5822800138"
+    },
+    {
+      "path": "chapitre4/tp/tp2 résultat.docx",
+      "bytes": 12362,
+      "sha256": "72d51a3ae3538333cbfbb7a21dfa023e41653a1cfc73990a32f100bb47612b8e"
+    },
+    {
+      "path": "chapitre4/tp/tp2 résultat.pdf",
+      "bytes": 104152,
+      "sha256": "4e24e0f8bcebb6900c61b08b23e84a1707e53787e6c955e8e0350bb438c9d230"
+    },
+    {
+      "path": "chapitre4/tp/tp2.docx",
+      "bytes": 18310,
+      "sha256": "9ffe6c2871befff4b6422a7e1b39c81213b0dfbeb175c9e1b38a1357589e69a7"
+    },
+    {
+      "path": "chapitre4/tp/tp2.pdf",
+      "bytes": 170400,
+      "sha256": "b53b214e3ff4e180e1d5f570a8387afe99b183c9bbbe3f4691a8b67856566cd2"
+    },
+    {
+      "path": "chapitre4/tp/tp3.docx",
+      "bytes": 22247,
+      "sha256": "fc7130cc4ab04fc91b7948b5b6c68b10ccaf8b36ef2d5970fa8a3936de3927d2"
+    },
+    {
+      "path": "chapitre4/tp/tp3.pdf",
+      "bytes": 196427,
+      "sha256": "8135ff129267ba94aca2a065f850385da4494c7bdf6f57bf1bb0f4858aab3351"
+    },
+    {
+      "path": "chapitre4/tp/tp4 résultat.docx",
+      "bytes": 661354,
+      "sha256": "9416560107c77b74a294e58c44be4449b431555be5dfff0ff57b3dbd3e939f52"
+    },
+    {
+      "path": "chapitre4/tp/tp4 résultat.pdf",
+      "bytes": 195490,
+      "sha256": "a84e8ce9480f559212f65cc6d63cb322c5d2504d26eac85bf08a609585758661"
+    },
+    {
+      "path": "chapitre4/tp/tp4.docx",
+      "bytes": 661354,
+      "sha256": "9416560107c77b74a294e58c44be4449b431555be5dfff0ff57b3dbd3e939f52"
+    },
+    {
+      "path": "chapitre4/tp/tp4.pdf",
+      "bytes": 195490,
+      "sha256": "69600e40fc684226799c47de1401c6bc3ed10eed4bcf51487f210776823a5f54"
+    },
+    {
+      "path": "chapitre4/tp/tp5 résultat.docx",
+      "bytes": 39029,
+      "sha256": "fd800dbbccc1b09ff23f6036968715b29d9177758b63c210fb57c12dcf70a3ab"
+    },
+    {
+      "path": "chapitre4/tp/tp5 résultat.pdf",
+      "bytes": 581874,
+      "sha256": "36c672b483eed90933d9f647370667085a6d45936dd4292c347a5869e96c0d32"
+    },
+    {
+      "path": "chapitre4/tp/tp5.docx",
+      "bytes": 20539,
+      "sha256": "1e9a0e7a5a9919a0ffdd9767041dd378a5325318731a76c6588316074fbc39e7"
+    },
+    {
+      "path": "chapitre4/tp/tp5.pdf",
+      "bytes": 243877,
+      "sha256": "17a6cbdf9fcc98dc6a37791dcee849ee59755b774fd4e45df2fe6033fe044149"
+    },
+    {
+      "path": "chapitre4/tp/word2.png",
+      "bytes": 1071,
+      "sha256": "c807d698a0c22f73d17b050f84a632d56e2d8e3ca06248e8611ac88a705ecdf7"
+    },
+    {
+      "path": "chapitre4/video/tp1.mp4",
+      "bytes": 6857192,
+      "sha256": "effaa74d92348f19df7ef8e7e3f59a4b529da8b1201d2ee238faf05ce1c94cbb"
+    },
+    {
+      "path": "chapitre4/video/tp2.mp4",
+      "bytes": 7948177,
+      "sha256": "2e48377fa9a8918a68ac85f1a3737592abf9775767d4d34673e4404771c7f1ec"
+    },
+    {
+      "path": "chapitre4/video/tp3.mp4",
+      "bytes": 7980241,
+      "sha256": "9188b1861a5755904230e8c6941ad98410aa5986e46c446ac3161a0ff649991b"
+    },
+    {
+      "path": "chapitre4/video/tp4.mp4",
+      "bytes": 7748792,
+      "sha256": "95eff1bf85e562f5d9bb79491a1465d4ffaf80fe5c87e06ee1ae9616b7fc0bc2"
+    },
+    {
+      "path": "chapitre4/video/tp5.mp4",
+      "bytes": 9170729,
+      "sha256": "4479841747d10c853dae65974aa8f5205fd57cecb8edd53798e9c2c8f8510da3"
+    },
+    {
+      "path": "chapitre4/video/tp6.mp4",
+      "bytes": 6705116,
+      "sha256": "5d4d58036b896cc0f1c8f91b1412a3519332065fdc51b9b9ee43ba8a12d504ca"
+    },
+    {
+      "path": "chapitre5/definitions.html",
+      "bytes": 5112,
+      "sha256": "844080dbda478dcfb261615cc7e7f8bb93a8085367632284288ec7fb55abfd70"
+    },
+    {
+      "path": "chapitre5/docpdf/definitions.pdf",
+      "bytes": 105318,
+      "sha256": "b6f6cc3358e460f610f27f7d4492c29c1d711dc51f48a9e488252bc9294a41f8"
+    },
+    {
+      "path": "chapitre5/docpdf/fonction.pdf",
+      "bytes": 200291,
+      "sha256": "16f80f1fe97240a0d34fffbb01cadcc1ac99990ecb7483a54a44b310a67548a5"
+    },
+    {
+      "path": "chapitre5/docpdf/format_cellule.pdf",
+      "bytes": 161890,
+      "sha256": "09a982789c11b21c182a8e2165dbc051d3122d052d6d7695b435ddeee4dfbd8f"
+    },
+    {
+      "path": "chapitre5/docpdf/formules.pdf",
+      "bytes": 159710,
+      "sha256": "d73138d8a029eadb8c7e488faed5f5382eac2fd1b557bc60bdbba5df32d96125"
+    },
+    {
+      "path": "chapitre5/docpdf/gestion_feuil.pdf",
+      "bytes": 96615,
+      "sha256": "f3b32966eb722e7bc695919a63c799dde40e571caa139c30cd348621a57453f9"
+    },
+    {
+      "path": "chapitre5/docpdf/gestion_lignes.pdf",
+      "bytes": 110558,
+      "sha256": "00259c434ef2e75fe0c7bdebb8f8dc863260dc1e2f7cb4dacd93bb7d32b3b2db"
+    },
+    {
+      "path": "chapitre5/docpdf/graphe.pdf",
+      "bytes": 503416,
+      "sha256": "fdedc9949d3af23bee7dbb585a1f56954f8c91002ad1d2675a7b6a37e1d394b3"
+    },
+    {
+      "path": "chapitre5/evaluations.html",
+      "bytes": 5084,
+      "sha256": "be2b71042d4ebb4302d2cb1f9436288a0693b0ca60b496c5ca369e96558bdfef"
+    },
+    {
+      "path": "chapitre5/fonction.html",
+      "bytes": 16493,
+      "sha256": "3ebc57292d6939feff1f77746e64113e276f2f87edb1228e45abda2949d81616"
+    },
+    {
+      "path": "chapitre5/format_cellule.html",
+      "bytes": 8231,
+      "sha256": "1bd40004929a860440194fb19c12dea5aa8d33d288bffe1cb997244df074810b"
+    },
+    {
+      "path": "chapitre5/formules.html",
+      "bytes": 5469,
+      "sha256": "180b14f479e99f765992b5d9b319a5efa738305011300050ec975e5971734305"
+    },
+    {
+      "path": "chapitre5/gestion_feuil.html",
+      "bytes": 7894,
+      "sha256": "ce364ec187ebe5f4440ad59fdd9100f31293fff538475d75be6fc4bb353d0810"
+    },
+    {
+      "path": "chapitre5/gestion_lignes.html",
+      "bytes": 7765,
+      "sha256": "5bce29b4d64cfc2e4aeaa2a761114ab5ccdb9c126960b7192f112d134b1bce5a"
+    },
+    {
+      "path": "chapitre5/graphe.html",
+      "bytes": 14937,
+      "sha256": "b87e48a07962975e1f52c407f8decc84adf7c4affb670f6991eb786b58ced3b2"
+    },
+    {
+      "path": "chapitre5/image/TEL+.png",
+      "bytes": 4513,
+      "sha256": "347986df2d72aa32d6944b07a33bd60fa17303309ab3f7861c71f5d1ef308702"
+    },
+    {
+      "path": "chapitre5/image/ajouter_donnees.png",
+      "bytes": 32624,
+      "sha256": "2bdc5050c2cfddebc94db5eb53cc987bc47bb4ad47cbda6fc7237bd0ad760b71"
+    },
+    {
+      "path": "chapitre5/image/ajouter_donnees2.png",
+      "bytes": 22293,
+      "sha256": "7479858909c64a858ca4e26d62e1ffe944f2917bf7fdf1e2e1e0cbe9cbb96c9f"
+    },
+    {
+      "path": "chapitre5/image/ajouter_donnees3.png",
+      "bytes": 8160,
+      "sha256": "08d760fe801a14496aa99c39f648b53ac8abdbe7f4cced4382c13f77125e6186"
+    },
+    {
+      "path": "chapitre5/image/ajouter_element.png",
+      "bytes": 10936,
+      "sha256": "3ed33b3f519889f032b938cd258412cd1b06317366255b7d3dc503cbbd360f21"
+    },
+    {
+      "path": "chapitre5/image/choisir.png",
+      "bytes": 14683,
+      "sha256": "04dbc8c429eb8ea44255126766fec73321a765284ad6be3fdf6e0a351549dd0e"
+    },
+    {
+      "path": "chapitre5/image/conditionnelle.png",
+      "bytes": 27202,
+      "sha256": "7b8c953fc5657a5f9e5d693c3f4fbc733884c73c652770b2523d3c0d73528069"
+    },
+    {
+      "path": "chapitre5/image/couleur_graphe.png",
+      "bytes": 2189,
+      "sha256": "a789bb36e536e92af5d4b22ab7ec715a4e4ca230b2028b8dc9f2ee8001914bbc"
+    },
+    {
+      "path": "chapitre5/image/deplacer_graphique.png",
+      "bytes": 32985,
+      "sha256": "38d467a04ecf93371242b47e019b089b7a63ae39a9bf00c284734de3cc1a631c"
+    },
+    {
+      "path": "chapitre5/image/etiquette.png",
+      "bytes": 9792,
+      "sha256": "e5889c1f7b22f0c59731de9aaeab8f81331807713168fb66981f8e73872c8ac5"
+    },
+    {
+      "path": "chapitre5/image/eval+.png",
+      "bytes": 3364,
+      "sha256": "6b582436d7176868ec284a00457be82bc4e6e8c6b82d1367338f6455223c278f"
+    },
+    {
+      "path": "chapitre5/image/fenetre.png",
+      "bytes": 97458,
+      "sha256": "1dc5e53d4416eae05b643f7b6f5cd70031091940dc4151aa382d0f93d9d3d3a3"
+    },
+    {
+      "path": "chapitre5/image/feuil.png",
+      "bytes": 1722,
+      "sha256": "b2063886890c8931b558402236ae1a49df10688a014fec41a122b3d90872ba60"
+    },
+    {
+      "path": "chapitre5/image/filtre_graphe.png",
+      "bytes": 1118,
+      "sha256": "366756d973d32b7161d352f448b7d18757ac8e470dbd1a1d3d2373a607d819b3"
+    },
+    {
+      "path": "chapitre5/image/fonction.png",
+      "bytes": 2358,
+      "sha256": "c299a6611d52d4f87154f89070b072ca4edde155ffcde45307ee70500353a3d0"
+    },
+    {
+      "path": "chapitre5/image/forme.png",
+      "bytes": 25499,
+      "sha256": "4fe977d17f6583c5956b5ee1acd9a69b4638689831a4886f9543a031a5026258"
+    },
+    {
+      "path": "chapitre5/image/graphe_recommande.png",
+      "bytes": 9969,
+      "sha256": "e45a8a338daee5428722b7141d498ad4145a88ce5b955bd3571ed89471cdcf55"
+    },
+    {
+      "path": "chapitre5/image/graphe_recommande2.png",
+      "bytes": 33694,
+      "sha256": "40c63019507477b524cf9d4bc372e488b86fc46bc11f9f00839b4e609f1add0e"
+    },
+    {
+      "path": "chapitre5/image/histogramme.png",
+      "bytes": 14418,
+      "sha256": "10a50cb85cf34ff69c3076089b371287d5ce09dac1f01e6cb318be48917d5ff5"
+    },
+    {
+      "path": "chapitre5/image/inserer_histogram.png",
+      "bytes": 47421,
+      "sha256": "f0ac63fe9881b2cc5f87b3d12c78a183bb5814aad217f79c4af1f5c26e06f6f0"
+    },
+    {
+      "path": "chapitre5/image/inserer_ligne.png",
+      "bytes": 49210,
+      "sha256": "dc0d1c2d08e9d2de6876e07231f51d46714105765f16a803466c480bde0090cf"
+    },
+    {
+      "path": "chapitre5/image/intervertir.png",
+      "bytes": 17295,
+      "sha256": "c822666c5c279382c23cf16f5b93fa7b4cbae9798071c4a534f9d6b98a72e45d"
+    },
+    {
+      "path": "chapitre5/image/listes.png",
+      "bytes": 20534,
+      "sha256": "efe0484542e6d11385421af42e9ce3dffdb1f670b6037d76393ac01784a895f1"
+    },
+    {
+      "path": "chapitre5/image/modifier_ligne.png",
+      "bytes": 15298,
+      "sha256": "d7bcf0ce73d256b41d49f8894eff3b1826f088d2cb8140c714481dcdfc2e8de1"
+    },
+    {
+      "path": "chapitre5/image/modifier_type.png",
+      "bytes": 21902,
+      "sha256": "5cd50eebe64448a39b891ee5b31f6f52021fc4d49816f1d9b9c5041f7fdb4166"
+    },
+    {
+      "path": "chapitre5/image/poignee.png",
+      "bytes": 5704,
+      "sha256": "63e57789a0c7773827d110b0c83c014a8630f9ab2d25630d264a84b157ea3f42"
+    },
+    {
+      "path": "chapitre5/image/rang.png",
+      "bytes": 16360,
+      "sha256": "f9ab6eaa9a835290a63a72e907688101b355d0b818cd6c4d02c58387e9216cab"
+    },
+    {
+      "path": "chapitre5/image/resultat.png",
+      "bytes": 54516,
+      "sha256": "b73a6c0321ed8b567eed4ef786271e65e3bf54e8c41c1f691dee6fa61723717b"
+    },
+    {
+      "path": "chapitre5/image/resultatrang.png",
+      "bytes": 53134,
+      "sha256": "773986faa91fa58426b58bc04a517ecd8f3b28410b34a1e8b77e60d00f98d5fd"
+    },
+    {
+      "path": "chapitre5/image/resultatsi.png",
+      "bytes": 56261,
+      "sha256": "0dae5e20471c16bc782f7f9532ccaa0c50dfa114c4e628b896682ec8fbe1a63a"
+    },
+    {
+      "path": "chapitre5/image/resultatsommesi.png",
+      "bytes": 12388,
+      "sha256": "a1c31c32599a17fffd75baa478f9646f657ea453d33afaa3de8e698322f42b5c"
+    },
+    {
+      "path": "chapitre5/image/si.png",
+      "bytes": 16122,
+      "sha256": "5db3181bfe7ecf93112468534b7d4ebccfa7993963aab18735e13a4d493771f8"
+    },
+    {
+      "path": "chapitre5/image/sommesi.png",
+      "bytes": 14728,
+      "sha256": "f65439e191503599f5fd3abe53116cc7f4e4b8108c9dc2974a378487c7c731a8"
+    },
+    {
+      "path": "chapitre5/image/supprimer donnees.png",
+      "bytes": 22367,
+      "sha256": "e55db3b6ef4c9ae2f5d370f92f0686c20679a11709225e24cf41b1cb770a778f"
+    },
+    {
+      "path": "chapitre5/image/tableau.png",
+      "bytes": 3318,
+      "sha256": "a440e74270b45c03874698b0705c908eac71535bb80761c1867f376243cfb9d5"
+    },
+    {
+      "path": "chapitre5/image/tablegraphe.png",
+      "bytes": 14520,
+      "sha256": "519337fac7ba59ab7138f26e2a71406836683f39e86fbb2553e8a8d75f02a5c8"
+    },
+    {
+      "path": "chapitre5/image/tablegraphe2.png",
+      "bytes": 15222,
+      "sha256": "d309d0eb9ab7d440ffcc640ca6c85a6cbd21b7f3946753bcb47d05155238b2b3"
+    },
+    {
+      "path": "chapitre5/image/type.png",
+      "bytes": 1025,
+      "sha256": "6255726728b71bea7a177df6567f5b8386ac627cc120fe78a26aac6cfeb3a903"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/browsersupport.js",
+      "bytes": 8500,
+      "sha256": "d919480b6a087d69981501970bde2405230f5c3ec1beb5d5e37ba878b59d6502"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt0.woff",
+      "bytes": 15612,
+      "sha256": "e7dfc8be24141c9395375a52ad79464321a8cf5cd4df2ec1894a48377597fa76"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt1.woff",
+      "bytes": 15072,
+      "sha256": "9b8289b28f4af7a2b924044ceaac5ce71ee64fba091268defa9662088518dac7"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt2.woff",
+      "bytes": 9540,
+      "sha256": "44ef7ef52b80a5d9af71e31a999caa866eb4bb46225e81edb0747cf576dd180f"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt3.woff",
+      "bytes": 9552,
+      "sha256": "c74ee67fbd603249e226133a044ab34dba2a6dfb1eda3ef4d73edab79fbf6e6f"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt4.woff",
+      "bytes": 11728,
+      "sha256": "c5e693df858a0e6cda56cd5da0e29fa86fd5c8960ac631be55ed320208e79968"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt5.woff",
+      "bytes": 9516,
+      "sha256": "c587b22d071b8b7a4c9db857f37ed8cb8c6fdd255a338ffa527bcf6f5e3e5d65"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt6.woff",
+      "bytes": 79156,
+      "sha256": "4dbad571664f78f5c36eb0bd99bcb0328270ba098cb690bfd4178e0d2ec11ba9"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/fnt7.woff",
+      "bytes": 85896,
+      "sha256": "6856a18d32da313901b54e23b87fc08ce40e7eea963b210b8a445f28d3b6ba4f"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/player.js",
+      "bytes": 1673853,
+      "sha256": "d366907dcf9330dcb5792944134537116899b00cce0e3804e299ac3aee5401d9"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/fonts/fnt0.woff",
+      "bytes": 11940,
+      "sha256": "45c2ae9ad1bcbc19117a32ea7e132aa741f17803074668021ad09f9f50ca7f04"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8852,
+      "sha256": "94f6b3be3e8f75098ee4aa98b4898b02ed38918ef24b4535ecc56f1b79b86b55"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/fonts/fnt2.woff",
+      "bytes": 86840,
+      "sha256": "532294112c2569bee922c0df55ea550786740e582cc54daf06790c307216b94c"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/fonts/fnt3.woff",
+      "bytes": 104924,
+      "sha256": "0b940dd9a49ba843f33fd534892a6424fb517a0aede30ab4eb16380bac6d889a"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/images/img-3d253eec9e98d6e6351451d08da65811ebe57050.png",
+      "bytes": 4077,
+      "sha256": "1c0ac0329513a66244fc94e223d8deca808545471d0dfaf5cc7ad7a86b287140"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/images/img-cdd84352a3f88d5a04f9d27c768b6eadbfb02078.png",
+      "bytes": 4532,
+      "sha256": "89b9196a0df72ddec8cf373e24110bfeca340abe7a140ef203415903bf8540d3"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+      "bytes": 4672,
+      "sha256": "e9d3ee4d19db649534ecdb1a67e2805d1c18a75d240c2996cd5f31e652e98b65"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+      "bytes": 7673,
+      "sha256": "b3ee76366805c7826d85a672b23f90e04766546b816a335a66d1d08f7c5de098"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz1.js",
+      "bytes": 148474,
+      "sha256": "0d35da944827a35cc2684062466ea22b8e28d384ddf975cbbc4a64ae5de5d709"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/1/data/quizplayer.js",
+      "bytes": 1814710,
+      "sha256": "4235528bd21180390e3b2a5334068e1b8d9e170365f692c6330b3abcfc5cdf88"
+    },
+    {
+      "path": "chapitre5/qcm/1/qcm1.html",
+      "bytes": 13318,
+      "sha256": "e1569e786352d2ae516c5162ba2549ebb9e05bfd30725179a1990959de35f0b2"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/browsersupport.js",
+      "bytes": 8500,
+      "sha256": "d919480b6a087d69981501970bde2405230f5c3ec1beb5d5e37ba878b59d6502"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt0.woff",
+      "bytes": 15756,
+      "sha256": "c526bd37d27126262a66208c6a80c5d5a7e03738a4a09bcf4c168e6347653ff7"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt1.woff",
+      "bytes": 15072,
+      "sha256": "b5ce5d42916a36f38560e79dbdc7e6031551945b6ec63cfee68b63eea04a8418"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt2.woff",
+      "bytes": 9544,
+      "sha256": "c2ad56300409d768836b53e5819c799eff490bb977147fe3e544898aec4ab705"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt3.woff",
+      "bytes": 9556,
+      "sha256": "ae39f1457e499e4eb92361fb29b264e08a72ab74051e67df32acc771496f3ee2"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt4.woff",
+      "bytes": 11732,
+      "sha256": "f6b252a4b2ab8859dba5ae0390b64cefc8a26a28c9ff295158d27f4bde5864dd"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt5.woff",
+      "bytes": 9520,
+      "sha256": "cf65fe4a5d55cfeec4383aacb6a82460768bb553f2ad1004eec34a932e129d87"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt6.woff",
+      "bytes": 79156,
+      "sha256": "5138d62e3fe0cd41c4c7ed55760fb436eba2333a4957534106996a9bcb219363"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/fnt7.woff",
+      "bytes": 85896,
+      "sha256": "1506b7c65bb428bc12a3cadc2e813f362d7c38f927760fb88ac095a43fa13b8a"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/player.js",
+      "bytes": 1673853,
+      "sha256": "d366907dcf9330dcb5792944134537116899b00cce0e3804e299ac3aee5401d9"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/fonts/fnt0.woff",
+      "bytes": 11940,
+      "sha256": "506a758f095f46dee24ad144865de260369b6a6cb202d9aab3fd28bec353dbc1"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8852,
+      "sha256": "58e0ce95fa5738c8794b33c630975b8a4bc1a4203198177615737510d8415b26"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/fonts/fnt2.woff",
+      "bytes": 93936,
+      "sha256": "e761644667fd6b6f950a65a18bfcd535fa621c9095c94dddce37d6613ed4ac13"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/fonts/fnt3.woff",
+      "bytes": 104724,
+      "sha256": "967f47b2665f2532cdb449b50daaf10d9469f88cbf27672091bc764e23d6dc05"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-269bd08f8e37f2eaf0281101ed4e009047a7c874.png",
+      "bytes": 1299,
+      "sha256": "32c5144cd43767e5230946b99934c7f19a4140ab5a87765bcc012d4c55f04540"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-5968ce91611dd433cbe99bd194a6474b3f2813f1.png",
+      "bytes": 796,
+      "sha256": "be85ece3a0a1eda913262790651fc52ad054c7bdc56b9a073229cbec6f3303b8"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-9bc72496c913dd0fdc45b1a5fcc1992a3e7387e2.png",
+      "bytes": 7392,
+      "sha256": "83b960e268a668d909397b447768450000cd30a24f514ea01204e7a82b90e4ba"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-bc44d152ec3f6d9fff4bbf5c2fbdbe6b5f0d2099.png",
+      "bytes": 862,
+      "sha256": "9f4be96d9e6735953d109c748a3c88c733b2741531ab07106605084ef4a82796"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+      "bytes": 4672,
+      "sha256": "e9d3ee4d19db649534ecdb1a67e2805d1c18a75d240c2996cd5f31e652e98b65"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-d492de979a7c62cf3570e27f073e80ddc6d3b0da.png",
+      "bytes": 1107,
+      "sha256": "2c64547688e29317c26b08540f2f4c73b10031a4f6cbee7b5a0ed7abb0d168cd"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+      "bytes": 7673,
+      "sha256": "b3ee76366805c7826d85a672b23f90e04766546b816a335a66d1d08f7c5de098"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz1.js",
+      "bytes": 153818,
+      "sha256": "b85d0af2f1e114f08ed96a19285377310b62d50343f34a554fd4492cdc82d855"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/2/data/quizplayer.js",
+      "bytes": 1814710,
+      "sha256": "4235528bd21180390e3b2a5334068e1b8d9e170365f692c6330b3abcfc5cdf88"
+    },
+    {
+      "path": "chapitre5/qcm/2/qcm2.html",
+      "bytes": 13318,
+      "sha256": "5f483d196aec55010d87a0e481f089df9ae619276f152a2d5fb3bc6913ad423c"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/browsersupport.js",
+      "bytes": 8500,
+      "sha256": "d919480b6a087d69981501970bde2405230f5c3ec1beb5d5e37ba878b59d6502"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt0.woff",
+      "bytes": 16116,
+      "sha256": "7fb6e6bdaa9c984b9cf997b725b9635038b6333d56c55e7e2432bf39402d41e6"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt1.woff",
+      "bytes": 15072,
+      "sha256": "985014fbd1d88a077d14ea309359fb075f174071250c7bfbdfde129225c96c14"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt2.woff",
+      "bytes": 9540,
+      "sha256": "50c866ab22ddaa4a34484060428b3576c18509206a3f6e1c717eda3521666e67"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt3.woff",
+      "bytes": 9556,
+      "sha256": "2b12646d96f74d750305ce07823befc6da5b76003e0f2f3ed4f8abb347ee7dec"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt4.woff",
+      "bytes": 11732,
+      "sha256": "a293387ca2c01e5e0b021b7c841812987ce08eb9a40bc89ab1a70c8b83e617fc"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt5.woff",
+      "bytes": 9520,
+      "sha256": "d293fb39fa22ce59d6ce4ba9616b84c50308320b3f1803aa4611bb145a96a97c"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt6.woff",
+      "bytes": 79156,
+      "sha256": "5138d62e3fe0cd41c4c7ed55760fb436eba2333a4957534106996a9bcb219363"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/fnt7.woff",
+      "bytes": 85896,
+      "sha256": "52cf21c3384fc3ffbc542f21f009ed56797a2be0c47debadfaca0e983570fe23"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/player.js",
+      "bytes": 1673853,
+      "sha256": "d366907dcf9330dcb5792944134537116899b00cce0e3804e299ac3aee5401d9"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/fonts/fnt0.woff",
+      "bytes": 11940,
+      "sha256": "9b60042055d261c4114fbec0118af4084a4d33c68c6f5317ed7687aa0c4c8a53"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8852,
+      "sha256": "4c93738916396d74ecfdb4098b20a663c1eed1c71413ca6bce3770fad010a84e"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/fonts/fnt2.woff",
+      "bytes": 91612,
+      "sha256": "2d265defc121e5d12587e8d2c05f460bbeb6c1a96fd47341431dea64106cc113"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/fonts/fnt3.woff",
+      "bytes": 106008,
+      "sha256": "75f6e637dfe0e03f93d51c8cebf8b49924b0d3f523d5165d13e61c853f7083f3"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-2a6321c4e95b93edb9aa0a8d8b3769e7bc184410.png",
+      "bytes": 4870,
+      "sha256": "dc29155b8cd28692d30e6ffdce369eeb867ec3b278c833002fe3f401d131cb77"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-2e35042be5abf51516b3020f1a64c20c375eb8dc.png",
+      "bytes": 3379,
+      "sha256": "703e841e72ec8ebfae8f70f7978dc1c287488cbe42d981355d148a812b864b06"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-3deb615cd8cbf86856f7d56baf7eed36783749e5.png",
+      "bytes": 5997,
+      "sha256": "ba4ce4cb5ecb3f2c4578a530f783946c4cf823ffbda74c0374aefa521165f32e"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-447124a28833fba9233f3bbdb2ae2472ae89c2c7.png",
+      "bytes": 9766,
+      "sha256": "f76e1e9fe1a2fd6de883a7e998d60a96990a3ba364d3d99effca81541fe74db9"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-5fdb1596b14cf35c1adca95086810ccc7d4f8370.png",
+      "bytes": 5307,
+      "sha256": "d32711935a9e42102dcd1cc9f13293e7d756813c10890dfb6282d4feda3d1871"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+      "bytes": 4672,
+      "sha256": "e9d3ee4d19db649534ecdb1a67e2805d1c18a75d240c2996cd5f31e652e98b65"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+      "bytes": 7673,
+      "sha256": "b3ee76366805c7826d85a672b23f90e04766546b816a335a66d1d08f7c5de098"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/img-feabfbb3394349aebcf0e525e1962e9780d08022.png",
+      "bytes": 5942,
+      "sha256": "2ca3f1509c6afb528cd206229cc9f0871e4a8a98cc6b07a4b4b77b71ca984fb6"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz1.js",
+      "bytes": 147318,
+      "sha256": "210aeea93f9acf109ef7d36cbcf0c36df657a9041398f1c9f8539c20bd63cdd1"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/3/data/quizplayer.js",
+      "bytes": 1814710,
+      "sha256": "4235528bd21180390e3b2a5334068e1b8d9e170365f692c6330b3abcfc5cdf88"
+    },
+    {
+      "path": "chapitre5/qcm/3/qcm3.html",
+      "bytes": 13314,
+      "sha256": "0bfe4a15dd79ac1fb00abb3322fff6bc1d348b83fade9b525d8c767bed611536"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/browsersupport.js",
+      "bytes": 8500,
+      "sha256": "d919480b6a087d69981501970bde2405230f5c3ec1beb5d5e37ba878b59d6502"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt0.woff",
+      "bytes": 16320,
+      "sha256": "dce97105bd3912df7626dbe973b6ced1735ac59a371f6a1725f51f689bdf0f28"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt1.woff",
+      "bytes": 15072,
+      "sha256": "acab52d271634ffb4ea12d47e987789be51f9ad03bf348cef94536161514f730"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt2.woff",
+      "bytes": 9544,
+      "sha256": "f7b686ffa7de1f554f48333562ea6dbd4a97f92d3d23c23ec82b3c7dbc85c0a9"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt3.woff",
+      "bytes": 9552,
+      "sha256": "d0a13776c7d3e15d10bf902d44248c877e1a9afa5701331eb4e3391d5256d1d9"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt4.woff",
+      "bytes": 11732,
+      "sha256": "cf243836f867898b001f3430ab5966beee21c69deb462ccaf7108c107c7ccd31"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt5.woff",
+      "bytes": 9516,
+      "sha256": "5453401690050263790eee91ba1fccb0816e565058cc3d62249c9d9e7ab54688"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt6.woff",
+      "bytes": 79156,
+      "sha256": "950e6a4b2773af863fb92a931c0ac7015ca22ea70415d56407501ef9febccaba"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/fnt7.woff",
+      "bytes": 85896,
+      "sha256": "d282e9562bd67efcbd4a457a2a687128a8826e697846b88c135afcab99692b2c"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/player.js",
+      "bytes": 1673853,
+      "sha256": "d366907dcf9330dcb5792944134537116899b00cce0e3804e299ac3aee5401d9"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/fonts/fnt0.woff",
+      "bytes": 11936,
+      "sha256": "9c0be5e223eebd6adb99b39d2956660950e1205e605b79ab2e3f675f84f0c1af"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8852,
+      "sha256": "38f222d4f3f26dc0c96ca2c95966d7fb55aac53a78fc5acca5583e7d4e244111"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/fonts/fnt2.woff",
+      "bytes": 90428,
+      "sha256": "fc89f69683110284ebb557844c545df2c9a0cfe6ddd900d6fab96361f44315c9"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/fonts/fnt3.woff",
+      "bytes": 105288,
+      "sha256": "c4704b818b498c2019c2e50ea14f1d8acc8c04b24078c208159af21b0dc85021"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/images/img-085b3fff994784f4b74ed946b58d7a61ac5440e8.png",
+      "bytes": 6115,
+      "sha256": "4c72f2e805be40f20d277db9948ffd12d70f8797c02383f30330444782b8da62"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/images/img-b2c38609172d4025b72c67e9642553ed666857a8.png",
+      "bytes": 31277,
+      "sha256": "265957e2131734e2a9bed7f608e55001f7c02695b1b60d1600ed3c6333c3ea28"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+      "bytes": 4672,
+      "sha256": "e9d3ee4d19db649534ecdb1a67e2805d1c18a75d240c2996cd5f31e652e98b65"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+      "bytes": 7673,
+      "sha256": "b3ee76366805c7826d85a672b23f90e04766546b816a335a66d1d08f7c5de098"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz1.js",
+      "bytes": 152014,
+      "sha256": "0abeeb2d80b83581bddcb34fc4bb12744ed715467173536b005bfbc37d559834"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/4/data/quizplayer.js",
+      "bytes": 1814710,
+      "sha256": "4235528bd21180390e3b2a5334068e1b8d9e170365f692c6330b3abcfc5cdf88"
+    },
+    {
+      "path": "chapitre5/qcm/4/qcm4.html",
+      "bytes": 13316,
+      "sha256": "97a5d90dddeb09429314e6956eaad8ac41cfc5f085972d53df62750407b7e7b2"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/apple-touch-icon.png",
+      "bytes": 6901,
+      "sha256": "63b9cb4e6c579ec5b45a01f1c44e47da70e7f15a3661ecfe77f6a9d991a6e2e1"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/browsersupport.js",
+      "bytes": 8500,
+      "sha256": "d919480b6a087d69981501970bde2405230f5c3ec1beb5d5e37ba878b59d6502"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/favicon.ico",
+      "bytes": 1406,
+      "sha256": "344fc14af6588b3d2ed57a772851e1d87378f6129837b5a29d5666a68da21485"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt0.woff",
+      "bytes": 15680,
+      "sha256": "6f65d0528425178392561fa74752f784428c0d56421eac2c220a5041d124f742"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt1.woff",
+      "bytes": 15068,
+      "sha256": "a8236e1a61aa2a00218b904a10d5fa0a40908bdebe74b04d6c6aeed511901836"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt2.woff",
+      "bytes": 9540,
+      "sha256": "f72cade212c92b582d805aca1783fa53b2ab201a9677555430bc741dca87aadf"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt3.woff",
+      "bytes": 9552,
+      "sha256": "fc0fa52c092fa5d64b1b296ff7c3fbd7aaa3ebd95f2b9f3e7899fcb555411c56"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt4.woff",
+      "bytes": 11728,
+      "sha256": "402f4c54a5e1fccf690dcca7ef045062e50d0c1ee49fb69f29367cdaa15d8323"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt5.woff",
+      "bytes": 9516,
+      "sha256": "f3a50ec95547de9bbed8ceaa9bd7de7f58b74d94cd2cfaf9b469e7c53baa6158"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt6.woff",
+      "bytes": 79156,
+      "sha256": "028018a6231a07046c4c345e52e0303f268ea0169c7a127667f57bcb14dea87e"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/fnt7.woff",
+      "bytes": 85892,
+      "sha256": "e4989784faf1f2687fd9c8bc90b875a0cc6e0a0607a53d3a29e15348dece6cff"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/player.js",
+      "bytes": 1673853,
+      "sha256": "d366907dcf9330dcb5792944134537116899b00cce0e3804e299ac3aee5401d9"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/fonts/fnt0.woff",
+      "bytes": 11940,
+      "sha256": "5e64e3b4325e96eee1da79dbf195ca9d7c388969a1760c92f48cf9c78f75cc14"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/fonts/fnt1.woff",
+      "bytes": 8852,
+      "sha256": "f0b3a397f6a5bc6d8e563d8d25b7b478a30ca19f9ac7e4d67365f2ba23c6942f"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/fonts/fnt2.woff",
+      "bytes": 85528,
+      "sha256": "dbc4c9e92ee923a5d3e45ed815e0589ec60b3b7c41f03d86c48efa2c5ef82d68"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/fonts/fnt3.woff",
+      "bytes": 104660,
+      "sha256": "897608fdb3969316967bcce2c4015689b30ce5e93261d01e013ec8c54830ffe0"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-1d7bda974560adf99a13e15be68c9bdafad90342.png",
+      "bytes": 1111,
+      "sha256": "9a6236712700105965cdf4a2f35c4bcacef515a0553f4e7540ecff9dc9358349"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-23af70e094d7dbb6567f60869f60e07342816ebb.png",
+      "bytes": 23785,
+      "sha256": "1249c2420feba0849ad44e59e6cbcaecfb2f1698c531a9974e001c03ed0d7a87"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-30dab2345a39b1512243f8a2a49f1f900245a66a.png",
+      "bytes": 2143,
+      "sha256": "c62529ba5d88a9c3b01bffb5c6bc74d565e14a10be28734c9da15195f8bce62f"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-73f7f42799db9e6a21aa5b6b962e6e81c34477cf.png",
+      "bytes": 7503,
+      "sha256": "fa0e592f65fd27cdb34406f6741ce7b7c6cd267b13bd84f289fdc878a337cf80"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-bce6473c9de303c7591ed924e0cf9dc8a4f0243c.png",
+      "bytes": 12772,
+      "sha256": "91742b06a85f29d7fcc8c8e0450f8738bcea867fef33c22e5d1d68d4db6c0dcc"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-ceaf0fe40ac87cf74397205ccffa7bd862b1c124.jpg",
+      "bytes": 4672,
+      "sha256": "e9d3ee4d19db649534ecdb1a67e2805d1c18a75d240c2996cd5f31e652e98b65"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-d5d9fc68da62ac6206075e6b5d2c9297e935c1b0.png",
+      "bytes": 7673,
+      "sha256": "b3ee76366805c7826d85a672b23f90e04766546b816a335a66d1d08f7c5de098"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/img-ed261a847a10111b14b3207bc955b60c71bd0622.png",
+      "bytes": 2595,
+      "sha256": "6519e85054e691bc843c75c704fd48ad4ff44c3cd7833269e2951f5e31353cbe"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1/images/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz1.js",
+      "bytes": 152586,
+      "sha256": "3198f4010f3aa92f2120cfc232f2d36f4d37c5a19c983f7431f3785127b2ae5b"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quiz_bg_0.png",
+      "bytes": 760,
+      "sha256": "bee93580602c8528b5222b92c03c63e9f7e09fe4d727e3e26a6daf409663c84e"
+    },
+    {
+      "path": "chapitre5/qcm/5/data/quizplayer.js",
+      "bytes": 1814710,
+      "sha256": "4235528bd21180390e3b2a5334068e1b8d9e170365f692c6330b3abcfc5cdf88"
+    },
+    {
+      "path": "chapitre5/qcm/5/qcm5.html",
+      "bytes": 13316,
+      "sha256": "1b0355b236375ad5a8755aeed2d37de1d21573d164a45b0a1b47c9a670301d70"
+    },
+    {
+      "path": "chapitre5/tp/TPE1.pdf",
+      "bytes": 254840,
+      "sha256": "63fa20f2d2dd0f20f0add8e0844f0cab5e1642fa75f655ec50165982969b7fbc"
+    },
+    {
+      "path": "chapitre5/tp/TPE1.xlsx",
+      "bytes": 11943,
+      "sha256": "658bd72681d73afb4506886f5ad06ab884fa4428d43348991ce917b1a0bbe7d7"
+    },
+    {
+      "path": "chapitre5/tp/TPE2.pdf",
+      "bytes": 317058,
+      "sha256": "7b9af6636b0ae2b65fb8ce555f1d09901293e37bbb036bcd8414221af8592efd"
+    },
+    {
+      "path": "chapitre5/tp/TPE2.xlsx",
+      "bytes": 9954,
+      "sha256": "f4226512ba821822c7e05d10b0005252d5ec0312865052c83dfba900c05aec8b"
+    },
+    {
+      "path": "chapitre5/tp/TPE3.pdf",
+      "bytes": 293120,
+      "sha256": "353dc96179103d90ebcfa7fd78d650c1631fa3b78bde7054a51afe82dc103db7"
+    },
+    {
+      "path": "chapitre5/tp/TPE3.xlsx",
+      "bytes": 10208,
+      "sha256": "b134dfe7c4ab8925693f1ac0381517acf44e300f60bfce08d473b7ebe8d7b380"
+    },
+    {
+      "path": "chapitre5/tp/TPE4.pdf",
+      "bytes": 260472,
+      "sha256": "6a530584e67752f2e3e4eab761844190f7ecb5621a758287c11ad52ee8f6a181"
+    },
+    {
+      "path": "chapitre5/tp/TPE4.xlsx",
+      "bytes": 10915,
+      "sha256": "b109abde0b752eb43192c284f328d7d15393f3cba59e93f2c1512600bd72846f"
+    },
+    {
+      "path": "chapitre5/tp/TPE5.pdf",
+      "bytes": 274160,
+      "sha256": "87aa210abff4aec2a12268daf8e88402acd24838cd4a40b21e5b95557b8d3754"
+    },
+    {
+      "path": "chapitre5/tp/pdf2.png",
+      "bytes": 631,
+      "sha256": "df1a92afb53e23c22ec0f836bfea47a47e44b1a8bd949bbb696ec533ccd05d67"
+    },
+    {
+      "path": "chapitre5/tp/xlsx2.png",
+      "bytes": 994,
+      "sha256": "a362b9ad3d46bcf447e0ef59c8ddcc231eeeabcbdb4e0f3d0b6abd7b18cad202"
+    },
+    {
+      "path": "chapitre5/video/tp1.mp4",
+      "bytes": 6857192,
+      "sha256": "effaa74d92348f19df7ef8e7e3f59a4b529da8b1201d2ee238faf05ce1c94cbb"
+    },
+    {
+      "path": "chapitre5/video/tp2.mp4",
+      "bytes": 7948177,
+      "sha256": "2e48377fa9a8918a68ac85f1a3737592abf9775767d4d34673e4404771c7f1ec"
+    },
+    {
+      "path": "chapitre5/video/tp3.mp4",
+      "bytes": 7980241,
+      "sha256": "9188b1861a5755904230e8c6941ad98410aa5986e46c446ac3161a0ff649991b"
+    },
+    {
+      "path": "chapitre5/video/tp4.mp4",
+      "bytes": 7748792,
+      "sha256": "95eff1bf85e562f5d9bb79491a1465d4ffaf80fe5c87e06ee1ae9616b7fc0bc2"
+    },
+    {
+      "path": "chapitre5/video/tp5.mp4",
+      "bytes": 9170729,
+      "sha256": "4479841747d10c853dae65974aa8f5205fd57cecb8edd53798e9c2c8f8510da3"
+    },
+    {
+      "path": "chapitre5/video/tp6.mp4",
+      "bytes": 6705116,
+      "sha256": "5d4d58036b896cc0f1c8f91b1412a3519332065fdc51b9b9ee43ba8a12d504ca"
+    },
+    {
+      "path": "css/chapitre1/cartemere.css",
+      "bytes": 3845,
+      "sha256": "c1b1d28b11fbf412669ebf87909f4a657625cda0ee4d4a0e3268acdd42ef335e"
+    },
+    {
+      "path": "css/chapitre1/corr1.css",
+      "bytes": 4169,
+      "sha256": "95032c71a44572108c4c1856ebe9b33f194a45cc9392a8f8de8c3d951b033053"
+    },
+    {
+      "path": "css/chapitre1/eval2.css",
+      "bytes": 4175,
+      "sha256": "e65f9bcf3d80b792ece452d47bf96841670929833de30c96ec46aac595d5203f"
+    },
+    {
+      "path": "css/chapitre1/evaluations.css",
+      "bytes": 3703,
+      "sha256": "6fce890f806efdcec713609f71afbe8ff40b33cbf401c5cfc02770e9cc30c117"
+    },
+    {
+      "path": "css/chapitre1/representation.css",
+      "bytes": 3633,
+      "sha256": "04fa189b08da4a736d3477a11ca7d24253c43d58e9bae813a8ba393c6dc916cc"
+    },
+    {
+      "path": "css/chapitre1/structure.css",
+      "bytes": 3976,
+      "sha256": "6e843d2bd44e08fe6de2ba809f61ee2a8462f34509feb99fd0c49809d9c1ac78"
+    },
+    {
+      "path": "css/chapitre2/correction1.css",
+      "bytes": 3588,
+      "sha256": "8dc8f231741e2f92ba80618f83a5f398f090a9af64984de38418a32ae6f9ea74"
+    },
+    {
+      "path": "css/chapitre2/definitions.css",
+      "bytes": 3707,
+      "sha256": "6ebb6399f293315275abab9110af3960972c9af51d076d8468c78e923f3cbb45"
+    },
+    {
+      "path": "css/chapitre2/donnees.css",
+      "bytes": 3710,
+      "sha256": "e10b37b0f6e6761b1d22e9bca9e47e5929c989993e6c8cbe29f1d46a2e69d7a9"
+    },
+    {
+      "path": "css/chapitre2/evaluations.css",
+      "bytes": 3703,
+      "sha256": "6fce890f806efdcec713609f71afbe8ff40b33cbf401c5cfc02770e9cc30c117"
+    },
+    {
+      "path": "css/chapitre2/instruction.css",
+      "bytes": 3633,
+      "sha256": "eb908549b8f91a28f9427c90fd64418e292bf16cb44459cf0c1db0ce505988aa"
+    },
+    {
+      "path": "css/chapitre2/structurealgo.css",
+      "bytes": 3781,
+      "sha256": "1fb40e0c62609065f0c4acc652f0d3f2ac9edd56a168105e856d57664ac7c985"
+    },
+    {
+      "path": "css/chapitre3/correction1.css",
+      "bytes": 3588,
+      "sha256": "8dc8f231741e2f92ba80618f83a5f398f090a9af64984de38418a32ae6f9ea74"
+    },
+    {
+      "path": "css/chapitre3/evaluations.css",
+      "bytes": 3703,
+      "sha256": "6fce890f806efdcec713609f71afbe8ff40b33cbf401c5cfc02770e9cc30c117"
+    },
+    {
+      "path": "css/chapitre3/exceptions.css",
+      "bytes": 3803,
+      "sha256": "7d988960f2665f5f33b5f9df099081889d94d4003317d7293e741b67d5bb3cc5"
+    },
+    {
+      "path": "css/chapitre3/introduction.css",
+      "bytes": 3710,
+      "sha256": "e10b37b0f6e6761b1d22e9bca9e47e5929c989993e6c8cbe29f1d46a2e69d7a9"
+    },
+    {
+      "path": "css/chapitre3/structures.css",
+      "bytes": 3633,
+      "sha256": "eb908549b8f91a28f9427c90fd64418e292bf16cb44459cf0c1db0ce505988aa"
+    },
+    {
+      "path": "css/chapitre3/variables.css",
+      "bytes": 3643,
+      "sha256": "cd19c6614e4ec1aed16acc07204171986168d249d82a6cefe494e8703e2583e4"
+    },
+    {
+      "path": "css/chapitre4/evaluations.css",
+      "bytes": 3702,
+      "sha256": "d898781ee98b2f8bc697abb2a2193262f8cf93c7583916ef1331dcb6b5a8ff9a"
+    },
+    {
+      "path": "css/chapitre4/fenetre.css",
+      "bytes": 3751,
+      "sha256": "7c8357ae6e501826596113655aa153b89d50eefc18ff6f8990486b382af13916"
+    },
+    {
+      "path": "css/chapitre4/mise_en_page.css",
+      "bytes": 3654,
+      "sha256": "c1174f1e543425e544ed7651bb6a7f65067914ed5a5b57d7f32c5ebdc2f5cc6b"
+    },
+    {
+      "path": "css/chapitre4/mise_en_page2.css",
+      "bytes": 3755,
+      "sha256": "5a8cf38273ae2dfd2ea0bee12d3ab0f9cca893e5531e43c8d45905d2c07c9d29"
+    },
+    {
+      "path": "css/chapitre5/definitions.css",
+      "bytes": 3751,
+      "sha256": "7c8357ae6e501826596113655aa153b89d50eefc18ff6f8990486b382af13916"
+    },
+    {
+      "path": "css/chapitre5/evaluations.css",
+      "bytes": 3702,
+      "sha256": "d898781ee98b2f8bc697abb2a2193262f8cf93c7583916ef1331dcb6b5a8ff9a"
+    },
+    {
+      "path": "css/chapitre5/fonction.css",
+      "bytes": 3813,
+      "sha256": "79f14e77c5431af345df7d01f0801696d476f46b59e5465ca68b928eb3830170"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5358,
+      "sha256": "a68056559fec2807b3ff0106b6fa47978404756e1a9f430c159a6c3ea245f342"
+    },
+    {
+      "path": "js/home.js",
+      "bytes": 448,
+      "sha256": "6003c6bda781af15ba34bbab73870ec65d763f1b5cdba9764ca98cc905f5938a"
+    },
+    {
+      "path": "js/nav.js",
+      "bytes": 1166,
+      "sha256": "01dc6cb8bcb7ba8f8c8b7953eeada1171b3179692c309e524f59c520c8dd1c06"
+    },
+    {
+      "path": "server.js",
+      "bytes": 3083,
+      "sha256": "a37ead6d9deaaaf5b267bed17449378b34b9b459b0a87b32bca8292dc1043804"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 11256,
+      "sha256": "11e4b84863ba55b961aee4f4600b484500f73478bb2159d6876703e115f1f874"
+    },
+    {
+      "path": "start.bat",
+      "bytes": 270,
+      "sha256": "94410bebc078e8bcc26262502633940b6dd46a80ec567df65d0799b232eadddc"
+    },
+    {
+      "path": "start.sh",
+      "bytes": 402,
+      "sha256": "a218ca2205791e04a800b5a5f786abdd5b7d8ab27a5f911445e9655061c2a659"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2906,
+      "sha256": "ac96c14a8c08f752f195fc00c220a11b2252e958e72c6ad15ae9b0fef8e3177f"
+    },
+    {
+      "path": "style2.css",
+      "bytes": 2906,
+      "sha256": "ac96c14a8c08f752f195fc00c220a11b2252e958e72c6ad15ae9b0fef8e3177f"
+    },
+    {
+      "path": "style4.css",
+      "bytes": 3632,
+      "sha256": "0541efa830c21a1e9e74f35ec9af13d16f3e7e688bf147165a270f63b8662ddf"
+    },
+    {
+      "path": "tools/check.js",
+      "bytes": 4462,
+      "sha256": "9572bed632000719983366ae00b77fc4983449678eb2cbf612801de7611f77d9"
+    },
+    {
+      "path": "tools/pages.js",
+      "bytes": 743,
+      "sha256": "cdc0665a63a2ecf5a4bef06e77870490636e3801179eb9fb8673ad1a1783037e"
+    },
+    {
+      "path": "tools/pages.json",
+      "bytes": 2166,
+      "sha256": "551f281f51dfc43c3d1affe6a917e2ce04bb3aa2a21f5697db5033e8707009b8"
+    },
+    {
+      "path": "tools/verify.js",
+      "bytes": 4079,
+      "sha256": "77d14dcc99143f4cf270e1360d148c7576592d1e3ef19a8ff0e99db7c13a94f7"
+    }
+  ],
+  "audit": {
+    "imagesSansAlt": 204,
+    "imagesSansDimensions": 204,
+    "videosSansPoster": 12,
+    "videosSansPreload": 12,
+    "pagesSansH1": 73,
+    "pagesH1Multiples": 0,
+    "pagesSansLangue": 17,
+    "pagesSansDescription": 73,
+    "pagesSansReperes": 73,
+    "titresDupliques": 36,
+    "identites": 0,
+    "cssDupliques": 9
+  }
+}
