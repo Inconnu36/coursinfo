@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://localhost:8080/atelier.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/chapitre1/cartemere.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/chapitre1/corr1.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/chapitre1/corr2.html</loc><lastmod>2026-10-02</lastmod></url>
@@ -72,6 +73,10 @@
   <url><loc>http://localhost:8080/chapitre5/qcm/3/qcm3.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/chapitre5/qcm/4/qcm4.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/chapitre5/qcm/5/qcm5.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>http://localhost:8080/erreurs-courantes.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>http://localhost:8080/fiches-de-revision.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>http://localhost:8080/glossaire.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/index.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>http://localhost:8080/recherche.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>http://localhost:8080/syllabus.html</loc><lastmod>2026-10-02</lastmod></url>
 </urlset>

@@ -37,3 +37,13 @@
 - Index JSON et script local de recherche générés depuis les vrais textes HTML ; filtrage par mots et chapitre, sans CDN ni fetch (compatible file://).
 - Catalogue complet ajouté à l’accueil : les 73 pages originales y sont liées directement, y compris séries, corrections et quiz.
 - Recherche accessible au clavier, résultats annoncés avec aria-live et catalogue disponible sans JavaScript.
+
+## Phase 4
+
+- Programme : objectifs reliés aux leçons, exercices et quiz des cinq chapitres.
+- Glossaire : 27 notions reformulées, chacune avec sa page source.
+- Fiches de révision : synthèses par chapitre depuis les leçons existantes.
+- Erreurs courantes : points de vigilance depuis les règles et exemples. Les codes d’erreur Excel absents des leçons n’ont pas été ajoutés comme contenu du cours.
+- 12 aides textuelles de vidéos, explicitement marquées brouillons issus de la leçon et non transcription audio vérifiée. Les aides du chapitre 5 signalent les vidéos de substitution.
+- Atelier Python facultatif : moteur Pyodide 0.27.3 chargé sur clic, dans un worker arrêtable, délai d’exécution de 10 secondes et sortie limitée. Explication statique, exemple du cours et liens restent accessibles hors ligne. Le chargement CDN n’a pas pu être exécuté dans le navigateur de cette session.
+- Toutes les additions accessibles depuis l’accueil, le programme et la navigation partagée.

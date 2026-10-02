@@ -43,6 +43,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -89,6 +109,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -135,6 +175,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -181,6 +241,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -227,6 +307,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -273,6 +373,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -306,6 +426,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -352,6 +492,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -398,6 +558,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -444,6 +624,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -490,6 +690,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -536,6 +756,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -582,6 +822,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -628,6 +888,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -674,6 +954,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -720,6 +1020,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -766,6 +1086,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -812,6 +1152,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -858,6 +1218,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -904,6 +1284,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -950,6 +1350,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -996,6 +1416,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1042,6 +1482,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1088,6 +1548,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1138,6 +1618,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1188,6 +1688,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1238,6 +1758,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1288,6 +1828,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1338,6 +1898,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1388,6 +1968,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1438,6 +2038,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1488,6 +2108,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1538,6 +2178,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1588,6 +2248,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1638,6 +2318,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1688,6 +2388,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1738,6 +2458,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1788,6 +2528,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1838,6 +2598,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1875,6 +2655,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1925,6 +2725,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -1975,6 +2795,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2025,6 +2865,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2075,6 +2935,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2125,6 +3005,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2175,6 +3075,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2225,6 +3145,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2275,6 +3215,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2312,6 +3272,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2362,6 +3342,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2412,6 +3412,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2462,6 +3482,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2512,6 +3552,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2562,6 +3622,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2612,6 +3692,26 @@ const COURSE_CHROME = {
       {
         "label": "Évaluations",
         "href": "evaluations.html"
+      },
+      {
+        "label": "Programme et objectifs",
+        "href": "../syllabus.html"
+      },
+      {
+        "label": "Glossaire",
+        "href": "../glossaire.html"
+      },
+      {
+        "label": "Fiches de révision",
+        "href": "../fiches-de-revision.html"
+      },
+      {
+        "label": "Erreurs courantes",
+        "href": "../erreurs-courantes.html"
+      },
+      {
+        "label": "Atelier Python facultatif",
+        "href": "../atelier.html"
       }
     ]
   },
@@ -2646,11 +3746,9 @@ if (typeof document !== 'undefined') {
     if (config && config.options.length) {
         markup += '<label class="visually-hidden" for="menu1">Choisir une leçon</label><select id="menu1" name="menu1" onchange="redirigerVersLien(this)">' + config.options.map(option => '<option ' + (option.href ? 'value="' + escapeChrome(option.href) + '"' : 'value="" disabled selected') + '>' + escapeChrome(option.label) + '</option>').join('') + '</select>';
     }
-    /* PHASE4
     markup += '<div class="site-tools"><a href="'+url('index.html')+'">Accueil</a><a href="'+url('syllabus.html')+'">Programme</a><a href="'+url('glossaire.html')+'">Glossaire</a><a href="'+url('fiches-de-revision.html')+'">Révision</a><a href="'+url('erreurs-courantes.html')+'">Erreurs courantes</a><a href="'+url('atelier.html')+'">Atelier Python</a></div>';
     markup += '<form class="site-search" action="'+url('recherche.html')+'" method="get"><label for="recherche-site">Rechercher dans le cours</label><input id="recherche-site" type="search" name="q"><button type="submit">Rechercher</button></form>';
-    PHASE4 */
-    markup += '<a href="'+url('recherche.html')+'">Rechercher dans le cours</a></nav>';
+    markup += '</nav>';
     // Le script placé au début du corps rend la navigation avant les leçons.
     if (script.hasAttribute('data-site-chrome') && document.readyState === 'loading') document.write(markup);
     else {

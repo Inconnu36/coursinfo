@@ -14,5 +14,13 @@
   "sitemap.xml",
   "robots.txt",
   "js/search*",
-  "recherche.html"
+  "recherche.html",
+  "js/atelier.js",
+  "js/python-worker.js",
+  "transcripts/*",
+  "atelier.html",
+  "syllabus.html",
+  "glossaire.html",
+  "fiches-de-revision.html",
+  "erreurs-courantes.html"
 ]

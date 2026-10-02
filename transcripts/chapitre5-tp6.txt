@@ -1,0 +1,37 @@
+AIDE TEXTUELLE — BROUILLON
+VII) Création de graphiques
+
+Source : chapitre5/graphe.html
+Vidéo : chapitre5/video/tp6.mp4
+
+Ce texte reprend la leçon qui accompagne la vidéo. Il ne transcrit pas une bande sonore vérifiée.
+La vidéo du chapitre 5 est un substitut repris du chapitre 4 ; cette aide concerne la leçon Excel, pas le contenu parlé du fichier vidéo.
+
+VII) Création de graphiques
+Excel permet de créer des graphiques à partir de données saisies au niveau d’une plage de cellules. Il suffit de sélectionner la plage souhaitée, puis de choisir une commande dans l’onglet Insertion du ruban. Utilisons cette plage de cellules ci-dessous comme exemple:
+Utilisons cette plage de cellules ci-dessous comme exemple:
+1. Exemple de génération de graphique
+Méthode 1 : Utiliser les graphiques recommandés
+✔ Sélectionnez les données à insérer dans le graphique (la plage A2:D7) ✔ sous l’onglet «Insérer» cliquez sur le bouton «Graphiques recommandés» ✔ Excel vous propose les graphiques adaptés à vos données ✔ Choisissez le graphique qui vous intéresse et cliquer sur «OK»
+Méthode 2 : Choisissez le type de graphique souhaité
+✔ Sélectionnez la plage de cellules A2:D7 ✔ Cliquez sur l’onglet Insertion du ruban ✔ Cliquez sur une commande du groupe Graphiques selon le type de graphique souhaité. Soit par exemple la commande Insérer un histogramme ou un graphique à barres ✔ Choisissez un sous type du menu qui apparait. ✔Un graphique est généré selon le type choisi :
+à droite de votre graphique, vous pouvez cliquer sur l’icône:
+pour choisir les éléments que vous souhaitez afficher : titre du graphique, étiquettes de données (vos chiffres), légende, etc.
+pour modifier la couleur et le style de graphique.
+pour afficher seulement certaines données sur votre graphique
+Remarque :
+Lorsque vous sélectionnez un graphique généré, Excel ajoute au ruban deux onglets Création et Format qui disparaissent dès que vous cliquez ailleurs. Les commandes de ces deux onglets sont bien entendu prévues pour la personnalisation d’un graphique généré.
+2. Ajouter des étiquettes de l’axe horizontal
+✔ Sélectionnez le graphique ✔sous l’onglet «Création», Cliquez sur «Sélectionner des données» ✔Dans «étiquettes de l’axe horizontal» cliquez sur «Modifier » ✔Sélectionnez les étiquettes à ajouter au graphique et cliquez sur «OK»
+3. Ajouter un élément à un graphique:
+✔ Sélectionnez le graphique ✔sous l’onglet «Création», Cliquez sur «Ajouter un élément graphique » ✔Choisir l’élément à ajouter (Titre du graphique, Étiquettes de données, Titres des axes, Légende, etc.).
+4. Modifier le type de graphique
+✔ Sélectionnez le graphique ✔sous l’onglet «Création», Cliquez sur «Modifier le type de graphique» ✔choisissez un nouveau type et cliquez sur «OK»
+5. Ajouter des données à un graphique existant
+✔ Sélectionnez le graphique ✔sous l’onglet «Création», Cliquez sur «Sélectionner des données» ✔Cliquez sur le bouton «Ajouter», La fenêtre suivante s’ouvrira: - «Nom de la série»: tapez le nom de la série de données - «Valeurs de la série»: Sélectionnez les valeurs de la série de données à ajouter
+6. Supprimer des données d’un graphique
+✔ Sélectionnez le graphique ✔sous l’onglet «Création», Cliquez sur «Sélectionner des données» ✔Sélectionnez la série de données à supprimer puis cliquez sur «Supprimer» ✔Cliquez ensuite sur «OK» pour mettre à jour le graphique.
+7. Basculer entre les lignes et les colonnes
+✔ Sélectionnez le graphique ✔ sous l’onglet «Création», Cliquez sur «Intervertir de ligne/colonne» ✔ Les lignes passent en colonnes
+8. Déplacer le graphique sur une autre feuille de classeur
+✔ Sélectionnez le graphique ✔ sous l’onglet «Création», Cliquez sur «Déplacer le graphique» ✔ Choisissez la feuille sur laquelle vous souhaitez le déplacer et cliquez sur «OK»
