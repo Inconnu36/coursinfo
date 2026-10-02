@@ -32,3 +32,8 @@ pre { overflow-x: auto; max-width: 100%; white-space: pre-wrap; }
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* L’accueil garde sa colonne de 600 px après l’ajout des repères. */
+body[data-page="home"] { display: block; }
+body[data-page="home"] > main, body[data-page="home"] > nav, body[data-page="home"] > footer { max-width: 600px; margin-inline: auto; }
+.intro .page-title { color: #1e90ff; font-style: italic; margin-top: 0; font-size: 1.5em; }

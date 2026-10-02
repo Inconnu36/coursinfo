@@ -332,7 +332,7 @@ and listed here.
 > File 7 is a genuine conversion of a file that exists upstream, so its content
 > is correct.
 
-### Upstream bugs that were kept on purpose
+### Anomalies de la version initiale (état historique ; voir le contrôle actuel)
 
 | where | bug |
 |---|---|
@@ -346,7 +346,7 @@ a reconstruction step, so they are preserved exactly.
 
 ---
 
-## 10. Verification
+## Annexe historique — vérification de la reconstruction initiale
 
 Everything below was measured, not assumed.
 
@@ -453,3 +453,123 @@ Audit : {"imagesSansAlt":204,"imagesSansDimensions":204,"videosSansPoster":12,"v
 Manifeste enregistré.
 Régressions non autorisées : 0
 ```
+
+## 10. Vérification de la version améliorée
+
+Les mesures suivantes concernent la branche locale `feat/course-upgrade`, pas les assertions historiques ci-dessus.
+
+| Contrôle | Résultat |
+|---|---|
+| Pages HTML | 79 : 73 originales et 6 additions |
+| Fichiers livrés, hors `.git` | 782 |
+| Références locales testées, HTML + navigation partagée + CSS | 2223 |
+| Liens cassés / pages sans CSS / pages sans navigation / pages orphelines | 0 / 0 / 0 / 0 |
+| Images avec alt et dimensions intrinsèques | 204 / 204 |
+| Vidéos avec poster et preload metadata | 12 / 12 |
+| Pages avec un seul H1, langue fr, description et repères | 79 / 79 |
+| Titres dupliqués / fichiers CSS dupliqués | 0 / 0 |
+| Audit des identifiants recherchés | 0 occurrence ; images avec texte visible à revoir dans CHANGELOG |
+| Régressions non autorisées | 0 |
+| Fichiers protégés comparés au manifeste | 607 identiques, 0 manquant, 0 modifié |
+| Ensembles de scripts inline iSpring comparés à baseline-1.0 | 17 identiques |
+| Pages originales hors accueil liées directement depuis l’accueil | 72 / 72 |
+| HTTP, contenu et longueur vérifiés | 782 réponses 200 conformes, 0 échec |
+| Range vidéo / accès aux chemins cachés | 206 et 100 octets attendus / 403 |
+| JavaScript auteur, syntaxe Node | valide |
+| Console, requêtes du navigateur et débordements à 360/768/1280 px | non mesurés : Chromium indisponible, installation échouée |
+| Démarrage interactif et score des 17 quiz | non vérifiés ; données et scripts préservés |
+| Atelier Pyodide en navigateur | non exécuté ; dépendance CDN facultative, chargement sur clic |
+
+### Pages et données ajoutées
+
+- `recherche.html` : recherche locale, JSON plus script d’index pour éviter fetch sous file://.
+- `syllabus.html` : objectifs et pages source par chapitre.
+- `glossaire.html` : 27 notions avec leurs sources.
+- `fiches-de-revision.html` : synthèses des cinq chapitres.
+- `erreurs-courantes.html` : points de vigilance déduits des leçons.
+- `atelier.html` : exemple de moyenne et Pyodide facultatif.
+- `transcripts/chapitre4-tp1.txt` à `chapitre5-tp6.txt` : 12 aides textuelles, brouillons issus des leçons.
+
+### CSS consolidés
+
+| Destination | Usage |
+|---|---|
+| `css/base.css` | base commune |
+| `css/chapitre1.css` à `css/chapitre5.css` | règles regroupées, variantes sélectionnées avec data-style |
+| `style.css` | accueil |
+| `css/theme.css` | lisibilité, focus, affichage adaptatif et réduction des mouvements |
+| `css/print.css` | impression |
+| `css/quiz-chrome.css` | repères ajoutés autour des quiz ; aucun style interne remplacé |
+
+Les 25 anciens fichiers sous `css/chapitreN/` et `chapitre1/style5.css` sont des alias de compatibilité. `style2.css` et `style4.css` restent également accessibles comme alias. Aucun ancien chemin n’est supprimé.
+
+### Corrections intentionnelles et limites conservées
+
+- Chapitre 2 : option Instructions de base corrigée et intitulés du menu série 3 rétablis.
+- Chapitre 3 : menu Algorithmique copié dans les évaluations remplacé par le menu Python.
+- TP3 Word : les fichiers de résultat sont absents de la version reçue. Le lien TP1 porte maintenant la mention explicite « Exemple TP1 (correction TP3 non fournie) » ; aucun faux corrigé créé.
+- Sous-lignement des tableaux de contenu supprimé ; liens de navigation toujours soulignés.
+- Les six MP4 du chapitre 5 restent des substitutions du chapitre 4 ; les aides textuelles le signalent.
+- Les résultats TP4 restent les reconstructions documentées dans la section 9, sans prétendre être les corrigés réels.
+- Les ressources internes des quiz et tous les documents restent identiques. La certification du rendu et des scores reste à effectuer.
+- Sitemap et URL sociales sont livrés pour `http://localhost:8080/`. L’origine du déploiement est à renseigner avec `tools/build-seo.js --origin=https://votre-domaine/`.
+
+### Carte des styles actifs
+
+| Page | Variante de chapitre |
+|---|---|
+| `chapitre1/cartemere.html` | `chapitre1-cartemere` |
+| `chapitre1/corr1.html` | `chapitre1-corr1` |
+| `chapitre1/corr2.html` | `chapitre1-corr1` |
+| `chapitre1/definitions.html` | `chapitre1-definitions` |
+| `chapitre1/eval1.html` | `chapitre1-corr1` |
+| `chapitre1/eval2.html` | `chapitre1-eval2` |
+| `chapitre1/evaluations.html` | `chapitre1-evaluations` |
+| `chapitre1/logiciels.html` | `chapitre1-cartemere` |
+| `chapitre1/representation.html` | `chapitre1-representation` |
+| `chapitre1/structure.html` | `chapitre1-structure` |
+| `chapitre2/correction1.html` | `chapitre2-correction1` |
+| `chapitre2/correction2.html` | `chapitre2-correction1` |
+| `chapitre2/correction3.html` | `chapitre2-correction1` |
+| `chapitre2/correction4.html` | `chapitre2-correction1` |
+| `chapitre2/definitions.html` | `chapitre2-definitions` |
+| `chapitre2/donnees.html` | `chapitre2-donnees` |
+| `chapitre2/evaluations.html` | `chapitre2-evaluations` |
+| `chapitre2/instruction.html` | `chapitre2-instruction` |
+| `chapitre2/serie1.html` | `chapitre2-correction1` |
+| `chapitre2/serie2.html` | `chapitre2-correction1` |
+| `chapitre2/serie3.html` | `chapitre2-correction1` |
+| `chapitre2/serie4.html` | `chapitre2-correction1` |
+| `chapitre2/structurealgo.html` | `chapitre2-structurealgo` |
+| `chapitre2/structures.html` | `chapitre2-instruction` |
+| `chapitre3/correction1.html` | `chapitre3-correction1` |
+| `chapitre3/correction2.html` | `chapitre3-correction1` |
+| `chapitre3/correction3.html` | `chapitre3-correction1` |
+| `chapitre3/correction4.html` | `chapitre3-correction1` |
+| `chapitre3/evaluations.html` | `chapitre3-evaluations` |
+| `chapitre3/exceptions.html` | `chapitre3-exceptions` |
+| `chapitre3/fonctions.html` | `chapitre3-exceptions` |
+| `chapitre3/instruction.html` | `chapitre3-exceptions` |
+| `chapitre3/introduction.html` | `chapitre3-introduction` |
+| `chapitre3/serie1.html` | `chapitre3-correction1` |
+| `chapitre3/serie2.html` | `chapitre3-correction1` |
+| `chapitre3/serie3.html` | `chapitre3-correction1` |
+| `chapitre3/serie4.html` | `chapitre3-correction1` |
+| `chapitre3/structures.html` | `chapitre3-structures` |
+| `chapitre3/variables.html` | `chapitre3-variables` |
+| `chapitre4/evaluations.html` | `chapitre4-evaluations` |
+| `chapitre4/fenetre.html` | `chapitre4-fenetre` |
+| `chapitre4/les formes.html` | `chapitre4-fenetre` |
+| `chapitre4/mise_en_forme.html` | `chapitre4-fenetre` |
+| `chapitre4/mise_en_page.html` | `chapitre4-mise_en_page` |
+| `chapitre4/mise_en_page2.html` | `chapitre4-mise_en_page2` |
+| `chapitre4/table des matieres.html` | `chapitre4-mise_en_page2` |
+| `chapitre4/tableau.html` | `chapitre4-fenetre` |
+| `chapitre5/definitions.html` | `chapitre5-definitions` |
+| `chapitre5/evaluations.html` | `chapitre5-evaluations` |
+| `chapitre5/fonction.html` | `chapitre5-fonction` |
+| `chapitre5/format_cellule.html` | `chapitre5-definitions` |
+| `chapitre5/formules.html` | `chapitre5-definitions` |
+| `chapitre5/gestion_feuil.html` | `chapitre5-definitions` |
+| `chapitre5/gestion_lignes.html` | `chapitre5-definitions` |
+| `chapitre5/graphe.html` | `chapitre5-definitions` |

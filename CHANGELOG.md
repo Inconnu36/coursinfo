@@ -16,7 +16,18 @@
 
 - `chapitre5/image/deplacer_graphique.png` : compte affiché « Michel M… » dans le ruban Excel ; conservé pour examen manuel.
 - `chapitre5/image/tableau.png` : prénoms SAMIR, HIND, KAMAL, AMIN et SAIDA dans le tableau de notes ; exemples pédagogiques, identité réelle non établie.
-- Les 17 fichiers `…/data/thmb1.png` : vignettes de quiz avec de petits textes, à examiner en taille native ; contenus internes conservés.
+- `chapitre1/quiz/quiz1/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre1/quiz/quiz2/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre1/quiz/quiz3/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre1/quiz/quiz4/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre1/quiz/quiz5/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre1/quiz/quiz6/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre4/qcm/1/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre4/qcm/2/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre4/qcm/3/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre4/qcm/4/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre4/qcm/5/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
+- `chapitre4/qcm/6/data/thmb1.png` : vignette de quiz ; les petits textes ne permettent pas de certifier l’absence d’identité.
 
 ## Phase 2
 
@@ -47,3 +58,25 @@
 - 12 aides textuelles de vidéos, explicitement marquées brouillons issus de la leçon et non transcription audio vérifiée. Les aides du chapitre 5 signalent les vidéos de substitution.
 - Atelier Python facultatif : moteur Pyodide 0.27.3 chargé sur clic, dans un worker arrêtable, délai d’exécution de 10 secondes et sortie limitée. Explication statique, exemple du cours et liens restent accessibles hors ligne. Le chargement CDN n’a pas pu être exécuté dans le navigateur de cette session.
 - Toutes les additions accessibles depuis l’accueil, le programme et la navigation partagée.
+
+## Phase 5
+
+- Protection des 607 fichiers binaires et ressources iSpring : aucun changement, aucun original supprimé ; les 72 pages originales hors accueil sont dans le catalogue.
+- Les 17 ensembles de scripts et de données des quiz restent identiques ; cela ne constitue pas un test interactif de leur score.
+- Syntaxe JavaScript vérifiée ; contrôles d’intégrité et d’audit sans dépendances ajoutés, avec seuils de régression fixés à zéro.
+- Serveur statique : chemins cachés refusés, plages HTTP prises en charge pour les médias.
+- Réponses HTTP vérifiées avec taille et SHA-256 pour tous les fichiers livrés.
+- Balayage navigateur à 360, 768 et 1280 px : non exécuté, Chromium indisponible et téléchargement échoué. Le script facultatif `tools/browser-sweep.js` est fourni ; erreurs console, requêtes échouées, débordements et scores interactifs ne sont pas certifiés.
+- L’atelier Python n’a pas été exécuté avec son moteur CDN dans cette session.
+- Publication GitHub bloquée par la revue automatique : pas de modification de la branche principale ni de publication des changements.
+- Archive sans `.git`, extraite dans un dossier temporaire et vérifiée avant livraison.
+
+### Historique de la branche
+
+```text
+a8ba3d4 chore: freeze verified baseline and add regression audit
+be09ee0 refactor: centralise neutral identity and verify document anonymity
+08cafe8 refactor: consolidate chrome and styles with accessible lesson metadata
+b254e73 feat: add offline course search and complete home-page catalogue
+36efe8f feat: add sourced study resources and optional Python workshop
+```

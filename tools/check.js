@@ -16,11 +16,13 @@ function walk(dir) {
 }
 const files = walk(root);
 const snapshot = files.map(p => ({path:path.relative(root,p).replaceAll('\\','/'), bytes:fs.statSync(p).size, sha256:crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')}));
+const {auditFile}=require('./audit-binary.js');
 const counters = {imagesSansAlt:0, imagesSansDimensions:0, videosSansPoster:0, videosSansPreload:0, pagesSansH1:0, pagesH1Multiples:0, pagesSansLangue:0, pagesSansDescription:0, pagesSansReperes:0, titresDupliques:0, identites:0, cssDupliques:0};
 const titles = new Map(), css = new Map();
 const identity = /nfissi|abdesslam|inssaf|1lmr|22web|infinityfree/gi;
 for (const file of files) {
   const rel = path.relative(root,file);
+  if(/\.(pdf|docx|xlsx|mp4|png|jpe?g|gif|bmp)$/i.test(file)) counters.identites += auditFile(file);
   if (/\.(html|css|js|md|xml|json|txt)$/i.test(file) && !rel.startsWith('tools/')) {
     const text=fs.readFileSync(file,'utf8');
     counters.identites += (text.match(identity)||[]).length;
@@ -80,5 +82,7 @@ if(process.argv.includes('--update')) {
   console.log('Manifeste enregistré.');
   regressions=verify.status ? 1 : 0;
 }
+const limitsPath=path.join(__dirname,'audit-limits.json');
+if(fs.existsSync(limitsPath)) for(const [key,max] of Object.entries(JSON.parse(fs.readFileSync(limitsPath)))) if(counters[key]>max) {console.error('Limite dépassée :',key,counters[key]);regressions++;}
 console.log('Régressions non autorisées :',regressions);
 process.exit(regressions?1:0);

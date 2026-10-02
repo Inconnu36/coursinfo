@@ -22,5 +22,8 @@
   "syllabus.html",
   "glossaire.html",
   "fiches-de-revision.html",
-  "erreurs-courantes.html"
+  "erreurs-courantes.html",
+  "js/home.js",
+  "server.js",
+  "README.md"
 ]

@@ -63,7 +63,7 @@ for (const file of htmlFiles) {
   const rel = path.relative(ROOT, file);
 
   if (!/<link[^>]+stylesheet/i.test(html) && !/<style[\s>]/i.test(html)) noCss.push(rel);
-  if (!isISpring && /onchange="redirigerVersLien/.test(html) && !/nav\.js/.test(html)) noNav.push(rel);
+  if (!isISpring && !/nav\.js/.test(html)) noNav.push(rel);
 
   // iSpring presentations load everything under data/ at run time from the
   // base64 manifest embedded in the page, so HTML ref-scanning cannot see it.
@@ -84,6 +84,16 @@ for (const file of htmlFiles) {
     totalRefs++;
     usedAssets.add(target);
     if (!existing.has(target)) broken.push({ page: rel, ref: raw });
+  }
+}
+
+// Les alias CSS doivent eux aussi conserver des URL valides.
+for (const file of files.filter(f => f.endsWith('.css'))) {
+  for (const raw of refsOf(fs.readFileSync(file, 'utf8'))) {
+    if (/^(https?:|data:|#)/i.test(raw)) continue;
+    const target = path.resolve(path.dirname(file), decodeURIComponent(raw));
+    totalRefs++; usedAssets.add(target);
+    if (!existing.has(target)) broken.push({page:path.relative(ROOT,file),ref:raw});
   }
 }
 

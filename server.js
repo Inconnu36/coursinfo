@@ -67,31 +67,56 @@ const server = http.createServer((req, res) => {
   try {
     pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
   } catch (e) {
-    return send(res, 400, 'Bad request');
+    return send(res, 400, 'Requête invalide');
   }
   if (pathname.endsWith('/')) pathname += 'index.html';
 
-  const filePath = path.join(ROOT, path.normalize(pathname));
-  if (!filePath.startsWith(ROOT)) return send(res, 403, 'Forbidden');
+  const filePath = path.resolve(ROOT, '.' + pathname);
+  const relative = path.relative(ROOT, filePath);
+  if (relative.startsWith('..') || path.isAbsolute(relative) || relative.split(path.sep).some(part => part.startsWith('.'))) return send(res, 403, 'Accès refusé');
 
   fs.stat(filePath, (err, stat) => {
     if (err || !stat.isFile()) {
-      return send(res, 404, '404 Not Found\n' + pathname);
+      return send(res, 404, 'Fichier introuvable\n' + pathname);
     }
     const type = MIME[path.extname(filePath).toLowerCase()] || 'application/octet-stream';
-    res.writeHead(200, {
+    let start = 0;
+    let end = stat.size - 1;
+    let status = 200;
+    const headers = {
       'Content-Type': type,
       'Content-Length': stat.size,
       'Cache-Control': 'no-cache',
       'Accept-Ranges': 'bytes',
       'Access-Control-Allow-Origin': '*',
-    });
+    };
+    if (req.headers.range) {
+      const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range);
+      if (range) {
+        if (range[1]) {
+          start = Number(range[1]);
+          if (range[2]) end = Math.min(end, Number(range[2]));
+        } else if (range[2]) {
+          start = Math.max(0, stat.size - Number(range[2]));
+        }
+      }
+      if (!range || (!range[1] && !range[2]) || start > end || start >= stat.size) {
+        res.writeHead(416, {'Content-Range': 'bytes */' + stat.size});
+        return res.end();
+      }
+      status = 206;
+      headers['Content-Range'] = 'bytes ' + start + '-' + end + '/' + stat.size;
+      headers['Content-Length'] = end - start + 1;
+    }
+    res.writeHead(status, headers);
     if (req.method === 'HEAD') return res.end();
-    fs.createReadStream(filePath).pipe(res);
+    const stream = fs.createReadStream(filePath, {start, end});
+    stream.on('error', () => res.destroy());
+    stream.pipe(res);
   });
 });
 
 server.listen(PORT, () => {
-  console.log('coursinfo reconstruction running at:');
+  console.log('Cours d’informatique disponible à :');
   console.log('  http://localhost:' + PORT + '/');
 });
