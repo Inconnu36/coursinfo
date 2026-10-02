@@ -1,0 +1,7 @@
+[
+  "*.html",
+  "js/nav.js",
+  "SITE-MAP.md",
+  "CHANGELOG.md",
+  "tools/*"
+]
