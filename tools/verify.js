@@ -49,6 +49,7 @@ function refsOf(html) {
   return refs;
 }
 
+const chrome = require('../js/nav.js').COURSE_CHROME;
 const broken = [];
 const usedAssets = new Set();
 let totalRefs = 0;
@@ -74,7 +75,9 @@ for (const file of htmlFiles) {
     }
   }
 
-  for (const raw of refsOf(html)) {
+  const entry = chrome[rel.replaceAll('\\', '/')];
+  const shared = entry ? [...entry.navigation, ...entry.options].map(item => item.href).filter(Boolean) : [];
+  for (const raw of [...refsOf(html), ...shared]) {
     if (!raw) continue;
     if (/^(https?:|data:|mailto:|tel:|javascript:|#|blob:)/i.test(raw)) continue;
     const target = path.resolve(path.dirname(file), decodeURIComponent(raw.split('?')[0].split('#')[0]));
@@ -106,4 +109,4 @@ console.log('runtime dirs     :', runtimeDirs.length, '(iSpring data/ folders, l
 console.log('unused assets    :', unusedAssets.length);
 unusedAssets.forEach(f => console.log('   UNUSED   ' + f));
 
-process.exit(broken.length ? 1 : 0);
+process.exit(broken.length || noCss.length || noNav.length || orphans.length ? 1 : 0);

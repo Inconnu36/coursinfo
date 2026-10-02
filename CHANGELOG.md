@@ -14,6 +14,20 @@
 
 ### À revoir manuellement
 
-- `chapitre5/image/deplacer_graphiq.png` : compte affiché « Michel M… » dans le ruban Excel ; conservé pour examen manuel.
+- `chapitre5/image/deplacer_graphique.png` : compte affiché « Michel M… » dans le ruban Excel ; conservé pour examen manuel.
 - `chapitre5/image/tableau.png` : prénoms SAMIR, HIND, KAMAL, AMIN et SAIDA dans le tableau de notes ; exemples pédagogiques, identité réelle non établie.
 - Les 17 fichiers `…/data/thmb1.png` : vignettes de quiz avec de petits textes, à examiner en taille native ; contenus internes conservés.
+
+## Phase 2
+
+- Navigation et menus extraits dans `COURSE_CHROME` ; rendu par `js/nav.js`, sans changer les liens valides et leur ordre.
+- Lien Instructions de base du chapitre 2 corrigé ; menu tronqué de la série 3 corrigé ; menu Algorithmique copié par erreur dans les évaluations Python remplacé par le menu Python.
+- Les résultats TP3 demandés sont absents de la version reçue : l’ancien lien vers TP1 reste disponible avec un intitulé explicite, sans fabriquer une correction.
+- CSS regroupés dans `css/base.css` et cinq fichiers de chapitre ; variantes limitées à leur page sans augmenter la spécificité. Les anciens chemins CSS restent des alias de compatibilité. Suppression des neuf duplications de fichiers CSS.
+- Soulignement des tableaux de contenu corrigé ; liens de navigation toujours soulignés.
+- Titres distincts, descriptions, canonical relatif, métadonnées sociales, favicon local ; sitemap régénérable pour le domaine de déploiement.
+- 204 images avec dimensions intrinsèques, descriptions françaises et décodage asynchrone ; lazy loading sauf les deux premières de chaque page.
+- 12 vidéos avec posters du premier frame et preload metadata ; MP4 inchangés.
+- 73 pages avec langue, titre H1 unique et repères ; ajout de chrome accessible autour des quiz, sans modification du lecteur ni du contenu iSpring.
+- Styles d’impression, focus clavier et réduction des mouvements. Thème clair conservé ; options de thème sombre et de progression omises.
+- Vérification : aucun lien cassé, aucun orphelin. Les tests de rendu navigateur restent à effectuer (navigateur de test indisponible dans cette session).

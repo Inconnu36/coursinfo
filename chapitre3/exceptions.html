@@ -1,49 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Les exceptions en Python</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VI. Gestions des exceptions en Python — Chapitre 3 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre3/exceptions.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre3.css"><link rel="stylesheet" href="../css/theme.css"><link rel="stylesheet" href="../css/print.css" media="print"><meta name="description" content="VI. Gestions des exceptions en Python. Lors de l'écriture d'un programme, nous rencontrons très souvent des erreurs. ✔ Erreur de syntaxe: Erreur due au non-respect de la structure ( syntaxe ) du langage ✔ Erreur d’exécu"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="VI. Gestions des exceptions en Python — Chapitre 3 — Cours d’informatique"><meta name="twitter:description" content="VI. Gestions des exceptions en Python. Lors de l'écriture d'un programme, nous rencontrons très souvent des erreurs. ✔ Erreur de syntaxe: Erreur due au non-respect de la structure ( syntaxe ) du langage ✔ Erreur d’exécu"><meta property="og:title" content="VI. Gestions des exceptions en Python — Chapitre 3 — Cours d’informatique"><meta property="og:description" content="VI. Gestions des exceptions en Python. Lors de l'écriture d'un programme, nous rencontrons très souvent des erreurs. ✔ Erreur de syntaxe: Erreur due au non-respect de la structure ( syntaxe ) du langage ✔ Erreur d’exécu"><meta property="og:type" content="website"><link rel="canonical" href="exceptions.html"><link rel="icon" href="../favicon.svg"><meta property="og:url" content="http://localhost:8080/chapitre3/exceptions.html">
 </head>
-<body>
+<body data-style="chapitre3-exceptions"><a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<table align="center" >
-    <tr text-decoration = "underline">
-      <td align="center" > <a href="fonctions.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" > <u>Suivant</u></td>
-    </tr>
-  </table>
 </center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Langages de programmation (Python)</option>
-  <option value="introduction.html">I. Introduction</option>
-  <option value="variables.html">II. les variables</option>
-  <option value="instruction.html">III. Les instructions de base</option>
-  <option value="structures.html">IV. Structures de contrôle de base</option>
-  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
-  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-  <p><center><a href="docpdf/exceptions.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+  <p></p><center><a href="docpdf/exceptions.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a></center>
   <hr>
 
 
@@ -56,11 +38,11 @@
 
 
 
- <h2>VI. <span class="highlight">Gestions des exceptions en Python</span></h2>
+ <h1 class="page-title">VI. <span class="highlight">Gestions des exceptions en Python</span></h1>
 
 <p>Lors de l'écriture d'un programme, nous rencontrons très souvent des erreurs.</p>
 <p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Erreur de syntaxe:</span> Erreur due au non-respect de la structure (<span style="font-weight: bold;color: red;">syntaxe</span>) du langage</p>
-<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Erreur d’exécution :</span> Appelées exceptions, elles surviennent, par exemple, lorsqu'un fichier que nous essayons d'ouvrir n'existe pas (<strong>FileNotFoundError</strong>), ou lorsqu'un nombre est divisé par zéro (<STRONG>ZeroDivisionError</STRONG>)….</p>
+<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Erreur d’exécution :</span> Appelées exceptions, elles surviennent, par exemple, lorsqu'un fichier que nous essayons d'ouvrir n'existe pas (<strong>FileNotFoundError</strong>), ou lorsqu'un nombre est divisé par zéro (<strong>ZeroDivisionError</strong>)….</p>
 
 
   <h3>1. <span class="section-title">Gestion des exceptions</span></h3>
@@ -70,7 +52,7 @@
 <p style="margin-left: 15px;">✔ Si cette exception se produit, le code du bloc <span style="font-weight: bold;color: red;">try</span> s'arrête et celui du bloc <span style="font-weight: bold;color: red;">except</span> est exécuté.</p>
 <p style="margin-left: 15px;">✔ Si aucune erreur ne se produit, le code du bloc <span style="font-weight: bold;color: red;">except</span> ne s'exécute pas.</p>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" class="ret" style="width: 90%; table-layout: fixed; align:center;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Syntaxe</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple</span></th>
@@ -98,12 +80,12 @@
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque:</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 Une instruction <span style="font-weight: bold;color: red;">try</span> peut comporter plusieurs blocs <span style="font-weight: bold;color: red;">except</span> afin de gérer différents types d'exceptions.
-</DIV>
+</div>
 
   <h3>1. <span class="section-title">Exceptions courantes :</span></h3>
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" style="width: 98%; table-layout: fixed;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exception </span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Cause</span></th>
@@ -242,10 +224,10 @@ print(Nom)  <br>
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque:</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 Lors de cette leçon, nous nous concentrerons uniquement sur les trois premières exceptions.
 
-</DIV>
+</div>
 
 <p><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Exemple1</span></p>
 
@@ -280,7 +262,7 @@ Lors de cette leçon, nous nous concentrerons uniquement sur les trois première
     <span style="margin: 15px;">print("Désolé, quelque chose ne s'est pas bien passé.")
 
 
-</p>
+</span></p>
 
 <p>- Si l'utilisateur entre <strong>autre chose</strong> qu’un nombre (par exemple du texte), une erreur <strong>ValueError</strong> sera levée et le message <strong>« Désolé, quelque chose ne s'est pas bien passé »</strong> sera affiché.</p>
 <p>- Si l’utilisateur entre <strong>zéro</strong> comme deuxième nombre, une division par zéro (<strong>ZeroDivisionError</strong>) sera levée et le message « <strong>Désolé, quelque chose ne s'est pas bien passé</strong> » sera affiché.</p>
@@ -295,9 +277,9 @@ Lors de cette leçon, nous nous concentrerons uniquement sur les trois première
 
 <span style="color: red;">try:</span><br>
     <span style="margin: 15px;">age = int(input("Entrez un nombre : "))</span><br>
-    <span style="margin: 15px;">if age < 0 :</span><br>
+    <span style="margin: 15px;">if age &lt; 0 :</span><br>
         <span style="margin: 24px;"><span style="color: red;">raise</span> <strong>ValueError</strong> ("L'âge ne peut pas être négatif.")</span><br>
-    <span style="margin: 15px;">elif age < 18:</span><br>
+    <span style="margin: 15px;">elif age &lt; 18:</span><br>
         <span style="margin: 24px;">print("Vous êtes mineur.")</span><br>
     <span style="margin: 15px;">else:</span><br>
         <span style="margin: 24px;">print("Vous êtes majeur.")</span><br>
@@ -311,6 +293,5 @@ Lors de cette leçon, nous nous concentrerons uniquement sur les trois première
 
     
     <!-- Pied de page -->
-    <div class="footer" data-site-footer></div>
-</body>
+    </div></main><footer class="footer" data-site-footer=""></footer></body>
 </html>

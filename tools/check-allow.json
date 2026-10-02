@@ -3,5 +3,14 @@
   "js/nav.js",
   "SITE-MAP.md",
   "CHANGELOG.md",
-  "tools/*"
+  "tools/*",
+  "css/*",
+  "chapitre1/style5.css",
+  "style2.css",
+  "style4.css",
+  "data/*",
+  "favicon.svg",
+  "chapitre*/video/*.jpg",
+  "sitemap.xml",
+  "robots.txt"
 ]

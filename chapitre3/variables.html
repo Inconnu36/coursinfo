@@ -1,48 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>variables</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>II. Les variables — Chapitre 3 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre3/variables.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre3.css"><link rel="stylesheet" href="../css/theme.css"><link rel="stylesheet" href="../css/print.css" media="print"><meta name="description" content="II. Les variables. Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée. - En python, pas de déclaration de variables : une variable est créée lors de son init"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="II. Les variables — Chapitre 3 — Cours d’informatique"><meta name="twitter:description" content="II. Les variables. Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée. - En python, pas de déclaration de variables : une variable est créée lors de son init"><meta property="og:title" content="II. Les variables — Chapitre 3 — Cours d’informatique"><meta property="og:description" content="II. Les variables. Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée. - En python, pas de déclaration de variables : une variable est créée lors de son init"><meta property="og:type" content="website"><link rel="canonical" href="variables.html"><link rel="icon" href="../favicon.svg"><meta property="og:url" content="http://localhost:8080/chapitre3/variables.html">
 </head>
-<body>
+<body data-style="chapitre3-variables"><a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<table>
-    <tr>
-      <td> <a href="introduction.html"><center>Précédent</center></a> </td>
-      <td><a href="../index.html"> <center>Accueil</center> </a></td>
-      <td><a href="instruction.html"> <center>Suivant</center> </a></td>
-    </tr>
-  </table>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Langages de programmation (Python)</option>
-  <option value="introduction.html">I. Introduction</option>
-  <option value="variables.html">II. les variables</option>
-  <option value="instruction.html">III. Les instructions de base</option>
-  <option value="structures.html">IV. Structures de contrôle de base</option>
-  <option value="fonctions.html">V. Les fonctions prédéfinies en Python</option>
-  <option value="exceptions.html">VI. Gestions des exceptions en Python</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-    <p><center><a href="docpdf/variables.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center></p>
+    <p></p><center><a href="docpdf/variables.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a></center>
 <hr>
 
 
@@ -52,14 +34,14 @@
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-    <h2>II. <span class="highlight">Les variables</span></h2>
+    <h1 class="page-title">II. <span class="highlight">Les variables</span></h1>
 
-<P>Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée.</P>
+<p>Une variable est une zone de la mémoire de l’ordinateur dans laquelle une valeur est stockée.</p>
 
  <h3>1. <span class="section-title">Déclaration de variables</span></h3>
-<P>-  En python, pas de déclaration de variables : une variable est créée lors de son initialisations</P>
+<p>-  En python, pas de déclaration de variables : une variable est créée lors de son initialisations</p>
 <p>- L’identificateur (nom de la variable) est sensible à la casse : (par exemple : somme, Somme et SOMME ne sont pas identiques)
-</P>
+</p>
 <h3>2. <span class="section-title">Types de variables</span></h3>
 <p>Le type d'une variable correspond à la nature de celle-ci. Les quatre types principaux dont nous aurons besoin sont :</p>
 
@@ -72,20 +54,20 @@
 <p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">str</span>: Chaîne de caractères délimitée par des guillemets simples (<span style="font-weight: bold;color: red;">'</span>) ou doubles (<span style="font-weight: bold;color: red;">"</span>)  
 <span style="text-align:justify; font-weight: bold; text-decoration: green underline; margin: 16px;">Exemple:</span> "Bonjour", " mars2025, "271" <br>
 
-<p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">bool</span>: True ou False <br>
+</p><p>✔ <span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">bool</span>: True ou False <br>
 
-      <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque:</p>
+      </p><p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">Remarque:</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 - Vous remarquez aussi que Python reconnaît certains types de variable automatiquement (entier, réel). <br> 
 - La même variable peut avoir différents types au cours de programme
-</DIV>
+</div>
 
  <h3>1. <span class="section-title">Conversion de types</span></h3>
-<P>La conversion de types permet de transformer une valeur d’un type vers un autre</P>
+<p>La conversion de types permet de transformer une valeur d’un type vers un autre</p>
 
-<table align = "center" border="1" width="90%" bgcolor="#fff0ae" style="width: 90%; table-layout: fixed;">
+<table align="center" border="1" width="90%" bgcolor="#fff0ae" style="width: 90%; table-layout: fixed;">
   <tr>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Fonction</span></th>
     <th><span style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">But</span></th>
@@ -172,6 +154,5 @@ str(12.4)
 </table>
     
     <!-- Pied de page -->
-    <div class="footer" data-site-footer></div>
-</body>
+    </div></main><footer class="footer" data-site-footer=""></footer></body>
 </html>

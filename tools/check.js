@@ -44,7 +44,7 @@ for (const file of files) {
   if(h1>1)counters.pagesH1Multiples++;
   if(!/<html[^>]*\blang=["']fr["']/i.test(html))counters.pagesSansLangue++;
   if(!/<meta[^>]*name=["']description["']/i.test(html))counters.pagesSansDescription++;
-  if(!/<main\b/i.test(html)||!/<nav\b/i.test(html)||!/<footer\b/i.test(html))counters.pagesSansReperes++;
+  if(!/<main\b/i.test(html)||!(/<nav\b/i.test(html)||/data-site-chrome/i.test(html))||!/<footer\b/i.test(html))counters.pagesSansReperes++;
   const title=(html.match(/<title>([\s\S]*?)<\/title>/i)||[])[1];
   if(titles.has(title))counters.titresDupliques++;
   titles.set(title,rel);

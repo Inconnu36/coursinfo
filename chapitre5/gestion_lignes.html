@@ -1,45 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tableur</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>III) Gestion des lignes et des colonnes — Chapitre 5 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre5/definitions.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre5.css"><link rel="stylesheet" href="../css/theme.css"><link rel="stylesheet" href="../css/print.css" media="print"><meta name="description" content="III) Gestion des lignes et des colonnes. Insérer une ligne entière : ✔ Sélectionnez une cellule à l’endroit où la ligne entière doit être insérée. ✔ Dans le groupe «Cellules» de l’onglet «Accuil» , cliquez sur «Insérer» p"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="III) Gestion des lignes et des colonnes — Chapitre 5 — Cours d’informatique"><meta name="twitter:description" content="III) Gestion des lignes et des colonnes. Insérer une ligne entière : ✔ Sélectionnez une cellule à l’endroit où la ligne entière doit être insérée. ✔ Dans le groupe «Cellules» de l’onglet «Accuil» , cliquez sur «Insérer» p"><meta property="og:title" content="III) Gestion des lignes et des colonnes — Chapitre 5 — Cours d’informatique"><meta property="og:description" content="III) Gestion des lignes et des colonnes. Insérer une ligne entière : ✔ Sélectionnez une cellule à l’endroit où la ligne entière doit être insérée. ✔ Dans le groupe «Cellules» de l’onglet «Accuil» , cliquez sur «Insérer» p"><meta property="og:type" content="website"><link rel="canonical" href="gestion_lignes.html"><link rel="icon" href="../favicon.svg"><meta property="og:url" content="http://localhost:8080/chapitre5/gestion_lignes.html">
 </head>
-<body>
+<body data-style="chapitre5-definitions"><a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<table align="center" >
-    <tr text-decoration = "underline" style="height: 26px">
-      <td align="center" > <a href="gestion_feuil.html"><u>Précédent</u> </td>
-      <td align="center" ><a href="../index.html"> <u>Accueil</u> </a></td>
-      <td align="center" ><a href="format_cellule.html"> <u>Suivant</u> </a></td>
-    </tr>
-  </table>
 </center>
 <br>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 
-<script src="../js/nav.js"></script>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <center><option value="sousmenu">Tableur (MS EXCEL 2016)</option></center>
-  <option value="definitions.html">Définitions</option>
-  <option value="gestion_feuil.html">Gestion d’une feuille de calcul</option>
-  <option value="gestion_lignes.html">Gestion des lignes et des colonnes</option>
-  <option value="format_cellule.html">Mise en forme des cellules</option>
-  <option value="formules.html">Formules et les références des cellules</option>
-  <option value="fonction.html">Les fontions</option>
-  <option value="graphe.html">Les graphiques</option>
-  <option value="evaluations.html">Évaluations</option>
-
-</select>
 </center>
 
 
@@ -47,8 +27,8 @@
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
-<p>    <center><a href="docpdf/gestion_lignes.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
+<p>    </p><center><a href="docpdf/gestion_lignes.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a></center>
+
 
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
@@ -63,10 +43,10 @@
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
     <center>
-<video width="85%" height="50%" controls>
-      <source src="video/tp2.mp4" > 
+<video width="85%" height="50%" controls preload="metadata" poster="video/tp2.jpg">
+      <source src="video/tp2.mp4"> 
   
-    </video>
+    </source></video>
    </center>
 <!---------------------------------------------------------- titre ----------------------------------------------------------------------->
 
@@ -77,23 +57,23 @@
 
 
 
-<h3><strong><span style="text-decoration:underline;"><span style="color:#000080;">III) Gestion des lignes et des colonnes</span></span></strong></h3>
+<h1 class="page-title"><strong><span style="text-decoration:underline;"><span style="color:#000080;">III) Gestion des lignes et des colonnes</span></span></strong></h1>
 
 
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">1. Insérer une ligne entière ou une colonne entière</span></span></strong></h3>
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Insérer une ligne entière :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Insérer une ligne entière :</p>
 
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez une cellule à l’endroit où la ligne entière doit être insérée.<br>
 <span style="color: red;">✔</span> Dans le groupe <span style="font-weight: bold;text-decoration: underline;">«Cellules»</span> de l’onglet <span style="font-weight: bold;text-decoration: underline;">«Accuil»</span>, cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Insérer»</span> puis cliquez sur l’option <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">« Insérer des lignes dans la feuille »</span> .<br>
 </p>
-<conteneur> <img src="image/inserer_ligne.png" ></conteneur>
+<conteneur> <img src="image/inserer_ligne.png" width="227" height="134" decoding="async" loading="lazy" alt="Commande Insérer des lignes dans la feuille"></conteneur>
 
 
 
 
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -105,17 +85,17 @@ de la même manière vous pouvez insérer une colonne entière
 
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">2. Modifier la hauteur des lignes et la largeur des colonnes</span></span></strong></h3>
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Modifier la hauteur des lignes :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Modifier la hauteur des lignes :</p>
 
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez la (ou des) ligne(s) à modifier <br>
 <span style="color: red;">✔</span> Dans le groupe <span style="font-weight: bold;text-decoration: underline;">«Cellules»</span> de l’onglet <span style="font-weight: bold;text-decoration: underline;">«Accuil»</span>, cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Format»</span> <br>
 <span style="color: red;">✔</span> cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Hauteur de ligne»</span> puis tapez la valeur souhaitée et cliquez sur <span style="font-weight: bold;text-decoration: underline;">OK</span><br>
 </p>
-<conteneur> <img src="image/modifier_ligne.png" ></conteneur>
+<conteneur> <img src="image/modifier_ligne.png" width="261" height="221" decoding="async" loading="lazy" alt="Réglage de la hauteur des lignes et de la largeur des colonnes"></conteneur>
 
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -127,17 +107,17 @@ de la même manière vous pouvez modifier la largeur des colonnes
 
 <h3><strong><span style="text-decoration:underline; margin-left: 20px;"><span style="color:blue;">3. Supprimer des lignes et des colonnes</span></span></strong></h3>
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Supprimer des lignes</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:red;text-decoration: green wavy underline;">Supprimer des lignes</p>
 
 <p class="retrait">
 <span style="color: red;">✔</span> Sélectionnez la (ou des) ligne(s) à supprimer <br>
 <span style="color: red;">✔</span> Dans le groupe <span style="font-weight: bold;text-decoration: underline;">«Cellules»</span> de l’onglet <span style="font-weight: bold;text-decoration: underline;">«Accuil»</span>, cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Supprimer»</span> <br>
 <span style="color: red;">✔</span> cliquez sur <span style="font-weight: bold;text-decoration: underline; color: mediumvioletred;">«Supprimer des lignes dans la feuille»</span><br>
 </p>
-<conteneur> <img src="image/modifier_ligne.png" ></conteneur>
+<conteneur> <img src="image/modifier_ligne.png" width="261" height="221" decoding="async" loading="lazy" alt="Réglage de la hauteur des lignes et de la largeur des colonnes"></conteneur>
 
 
-<p class="retrait4", style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
+<p class="retrait4" , style="text-align:justify; font-weight: bold; color:mediumvioletred;text-decoration: green wavy underline;">Remarque :</p>
 
 <p class="retrait2" style="margin-left: 20px; margin-right: 20px; font-size: 1em; font-family: verdana;">
   
@@ -158,6 +138,5 @@ de la même manière vous pouvez supprimer des colonnes
 
     
     <!-- Pied de page -->
-    <div class="footer" data-site-footer></div>
-</body>
+    </div></div></main><footer class="footer" data-site-footer=""></footer></body>
 </html>

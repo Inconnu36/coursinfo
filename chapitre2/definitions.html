@@ -1,53 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Définition</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I. Qu’est-ce qu’un algorithme ? — Chapitre 2 — Cours d’informatique</title>
   
-<link rel="stylesheet" href="../css/chapitre2/definitions.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/chapitre2.css"><link rel="stylesheet" href="../css/theme.css"><link rel="stylesheet" href="../css/print.css" media="print"><meta name="description" content="I. Qu’est-ce qu’un algorithme ?. ■ Choisis un nombre entre 1 et 10. ■ Multiplie ce nombre par 2. ■ Ajoute 4 au résultat. ■ Multiplie le résultat par 3. ■ Soustrais 6. a. Donne-moi le résultat final. b. Trouve le n"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="I. Qu’est-ce qu’un algorithme ? — Chapitre 2 — Cours d’informatique"><meta name="twitter:description" content="I. Qu’est-ce qu’un algorithme ?. ■ Choisis un nombre entre 1 et 10. ■ Multiplie ce nombre par 2. ■ Ajoute 4 au résultat. ■ Multiplie le résultat par 3. ■ Soustrais 6. a. Donne-moi le résultat final. b. Trouve le n"><meta property="og:title" content="I. Qu’est-ce qu’un algorithme ? — Chapitre 2 — Cours d’informatique"><meta property="og:description" content="I. Qu’est-ce qu’un algorithme ?. ■ Choisis un nombre entre 1 et 10. ■ Multiplie ce nombre par 2. ■ Ajoute 4 au résultat. ■ Multiplie le résultat par 3. ■ Soustrais 6. a. Donne-moi le résultat final. b. Trouve le n"><meta property="og:type" content="website"><link rel="canonical" href="definitions.html"><link rel="icon" href="../favicon.svg"><meta property="og:url" content="http://localhost:8080/chapitre2/definitions.html">
 </head>
-<body>
+<body data-style="chapitre2-definitions"><a class="skip-link" href="#contenu">Aller au contenu</a><script src="../js/nav.js" data-site-chrome=""></script><main id="contenu">
 
 
-<table>
-    <tr>
-      <td> Précédent </td>
-      <td><a href="../index.html"> Accueil </a></td>
-      <td><a href="donnees.html"> Suivant </a></td>
-    </tr>
-  </table>
 <br>
 
 
-<script src="../js/nav.js"></script>
-
 <center>
-<select id="menu1" name="menu1" onchange="redirigerVersLien(this)">
-  
-  <option value="sousmenu">Algorithmique</option>
-  <option value="definitions.html">I. Qu’est-ce qu’un algorithme ?</option>
-  <option value="donnees.html">II. Notions de données</option>
-  <option value="structurealgo.html">III. Structure d’un algorithme</option>
-  <option value="cartemere.html">IV. Les instructions de base</option>
-  <option value="structures.html">V. Structures de contrôle de base</option>
-  <option value="evaluations.html">Évaluations</option>
-</select>
 </center>
 
 
 
 
 <p>
-    <center><a href="docpdf/definitions.pdf"><img src="image/TEL+.png" ></a><a href="evaluations.html"><img src="image/eval+.png" ></a></center>
-</p>
+    </p><center><a href="docpdf/definitions.pdf"><img src="image/TEL+.png" width="250" height="44" decoding="async" alt="Télécharger la leçon au format PDF"></a><a href="evaluations.html"><img src="image/eval+.png" width="215" height="43" decoding="async" alt="Accéder aux évaluations"></a></center>
+
     <hr>
 
   <div class="content">
    
 
 
-    <h2>I. <span class="highlight">Qu’est-ce qu’un algorithme ?</span></h2>
+    <h1 class="page-title">I. <span class="highlight">Qu’est-ce qu’un algorithme ?</span></h1>
 
   <h3>1. <span class="section-title">Activité</span></h3>  
 
@@ -73,10 +55,10 @@
 <p><span style="font-weight: bold;color: red;">a.</span> Le résultat dépend du nombre choisi par l’utilisateur (si l’utilisateur a choisi le nombre 3, le résultat est 24). </p>
 <p><span style="font-weight: bold;color: red;">b.</span> Pour retrouver le nombre de départ il faut suivre la méthode inverse : </p>
 
-<p style='margin: 10px;'><span style="font-weight: bold;color: red;">-</span> Ajoute 6 au résultat obtenu. </p>
-<p style='margin: 10px;'><span style="font-weight: bold;color: red;">-</span> Divise le résultat par 3 </p>
-<p style='margin: 10px;'><span style="font-weight: bold;color: red;">-</span> Soustrais 4. </p>
-<p style='margin: 10px;'><span style="font-weight: bold;color: red;">-</span> Divise le résultat par 2 </p>
+<p style="margin: 10px;"><span style="font-weight: bold;color: red;">-</span> Ajoute 6 au résultat obtenu. </p>
+<p style="margin: 10px;"><span style="font-weight: bold;color: red;">-</span> Divise le résultat par 3 </p>
+<p style="margin: 10px;"><span style="font-weight: bold;color: red;">-</span> Soustrais 4. </p>
+<p style="margin: 10px;"><span style="font-weight: bold;color: red;">-</span> Divise le résultat par 2 </p>
 
 <p><span style="font-weight: bold;color: red;">c.</span> Oui, pour obtenir le bon résultat, il faut respecter l’ordre des étapes </p>
 <p><span style="font-weight: bold;color: red;">d.</span> Oui, on peut donner ce problème à un robot, il suffit d’introduire au robot la formule mathématique ou les étapes à exécuter pour obtenir le résultat. </p>
@@ -85,7 +67,7 @@
       <p , style="text-align:justify; font-weight: bold; color:blue;text-decoration: green wavy underline;margin-left: 4px;">A retenir.</p>
       
 
-      <DIV class="retrait2">
+      <div class="retrait2">
 <span style="color: red;">•</span> Les étapes précédentes sont appelées un algorithme.<br>
 <span style="color: red;">•</span> Chaque algorithme est caractérisé par trois phases :<br>
 <span style="color: red; margin: 12px;">✔</span> Les données d’entrée (le nombre choisi par l’utilisateur)  <br>
@@ -95,7 +77,7 @@
 
 
 
-</DIV> 
+</div> 
 
 
 
@@ -110,7 +92,7 @@
 
 
 <p style="font-size: 1.1em;font-size: 1.1em; margin: 4px; padding: 6px;"><span style="font-style: italic; font-family: Farmhouse; background-color : #DFFF15;"> <span style="font-weight: bold; color:red;text-decoration: green wavy ;">!!</span> Le terme <span style="font-weight: bold; color:red;text-decoration: green wavy ;">algorithme</span> provient du nom du mathématicien arabe <span style="font-weight: bold; color:red;text-decoration: green wavy ;">Al-Khawarizmi</span>, dont les travaux ont fortement influencé les mathématiques et l’informatique. 
-</p>
+</span></p>
 
 
 
@@ -127,6 +109,5 @@
 
     
     <!-- Pied de page -->
-    <div class="footer" data-site-footer></div>
-</body>
+    </div></main><footer class="footer" data-site-footer=""></footer></body>
 </html>
